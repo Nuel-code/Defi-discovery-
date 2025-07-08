@@ -2,9 +2,10 @@ name: DeFi Repo Monitor
 
 on:
   schedule:
-    # Runs daily at 00:00 UTC (adjust if needed, e.g., '30 5 * * *' for 5:30 AM UTC)
+    # Runs daily at 00:00 UTC (which is 01:00 AM WAT)
+    # Adjust this cron schedule to your preferred time (GitHub Actions schedules are in UTC)
     - cron: '0 0 * * *'
-  # Allows manual triggering from GitHub Actions tab
+  # Allows you to manually trigger the workflow from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -12,24 +13,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository code
-        uses: actions/checkout@v4 # Use a recent version
+        uses: actions/checkout@v4 # Use a recent version of checkout action
 
-      - name: Set up Python environment
-        uses: actions/setup-python@v5 # Use a recent version
+      - name: Set up Python
+        uses: actions/setup-python@v5 # Use a recent version of setup-python
         with:
           python-version: '3.x' # Or a specific version like '3.9', '3.10', etc.
 
       - name: Install Python dependencies
-        # Your script uses 'requests', which is usually pre-installed on GitHub Actions runners,
-        # but it's good practice to explicitly install it.
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests # Ensure 'requests' library is installed
 
       - name: Run DeFi Repo Bot
-        run: python defi_bot.py # Make sure 'defi_bot.py' is the correct name of your script file
+        run: python defi_bot.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Pass the GitHub PAT securely
+          GH_PAT: ${{ secrets.GH_PAT }} 
           
