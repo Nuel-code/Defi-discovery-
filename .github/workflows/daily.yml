@@ -29,6 +29,6 @@ jobs:
         run: python defi_bot.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID: ${{ secrets.GH_HACK }}
           GH_PAT: ${{ secrets.GH_PAT }} 
           
