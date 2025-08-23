@@ -162,5 +162,4 @@ def systematic_search_and_alert():
 
 if __name__ == "__main__":
     systematic_search_and_alert()
- 
-This video provides a great walkthrough on how to set up and use GitHub Actions Secrets with a Python script.
+
