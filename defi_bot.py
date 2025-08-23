@@ -7,13 +7,14 @@ import time
 # --- Configuration from Environment Variables (GitHub Secrets) ---
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-GH_HACK = os.getenv("GH_HACK") # Changed variable name to GH_HACK
+DEFI_GHACK = os.getenv("DEFI_GHACK") # Changed variable name to DEFI_GHACK
 
 # --- Bot-Specific Configuration ---
 SENT_REPOS_FILE = "sent_repo_ids.json"
 # Dynamic start date: only look back 60 days
 GITHUB_SEARCH_START_DATE = (datetime.now() - timedelta(days=60)).strftime('%Y-%m-%d')
 PER_KEYWORD_LIMIT_PER_RUN = 15
+
 
 # Keywords to search for in GitHub repos
 KEYWORDS = [
@@ -24,7 +25,7 @@ KEYWORDS = [
     "layer 2 solution", "zk-rollup", "optimistic rollup",
     "crypto wallet", "multisig wallet", "governance system",
     "token standard", "dex aggregator", "GameFi platform",
-    "blockchain explorer", "defi",
+    "blockchain explorer", "oracle network", "hardhat project",
     "liquid staking", "real world assets", "tokenized assets"
 ]
 
@@ -71,13 +72,13 @@ def systematic_search_and_alert():
     
     headers = {
         "Accept": "application/vnd.github.v3+json",
-        "Authorization": f"token {GH_HACK}", # Changed to GH_HACK
+        "Authorization": f"token {DEFI_GHACK}", # Changed to DEFI_GHACK
         "User-Agent": "SmarterDiscoveryBot/1.0"
     }
 
-    if not GH_HACK: # Changed to GH_HACK
-        send("🚨 Bot Error: GitHub Personal Access Token (GH_HACK) not found.")
-        print("Error: GH_HACK environment variable is not set. Cannot proceed.")
+    if not DEFI_GHACK: # Changed to DEFI_GHACK
+        send("🚨 Bot Error: GitHub Personal Access Token (DEFI_GHACK) not found.")
+        print("Error: DEFI_GHACK environment variable is not set. Cannot proceed.")
         return
 
     print(f"Starting search. Loaded {initial_sent_repo_count} previously sent repo IDs.")
@@ -161,4 +162,5 @@ def systematic_search_and_alert():
 
 if __name__ == "__main__":
     systematic_search_and_alert()
-
+ 
+This video provides a great walkthrough on how to set up and use GitHub Actions Secrets with a Python script.
