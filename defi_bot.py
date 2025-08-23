@@ -7,43 +7,25 @@ import time
 # --- Configuration from Environment Variables (GitHub Secrets) ---
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-GH_PAT = os.getenv("SCRAPPING")
+GH_HACK = os.getenv("GH_HACK") # Changed variable name to GH_HACK
 
 # --- Bot-Specific Configuration ---
 SENT_REPOS_FILE = "sent_repo_ids.json"
 # Dynamic start date: only look back 60 days
 GITHUB_SEARCH_START_DATE = (datetime.now() - timedelta(days=60)).strftime('%Y-%m-%d')
-PER_KEYWORD_LIMIT_PER_RUN = 10
+PER_KEYWORD_LIMIT_PER_RUN = 15
 
 # Keywords to search for in GitHub repos
 KEYWORDS = [
-    "defi protocol",
-    "decentralized exchange",
-    "automated market maker",
-    "yield farming",
-    "lending protocol",
-    "borrowing protocol",
-    "liquidity pool",
-    "staking platform",
-    "perpetual futures",
-    "dapp",
-    "web3 application",
-    "cross-chain bridge",
-    "layer 2 solution",
-    "zk-rollup",
-    "optimistic rollup",
-    "crypto wallet",
-    "multisig wallet",
-    "governance system",
-    "token standard",
-    "dex aggregator",
-    "GameFi platform",
-    "blockchain explorer",
-    "oracle network",
-    "hardhat project",
-    "liquid staking",
-    "real world assets",
-    "tokenized assets"
+    "defi protocol", "decentralized exchange", "automated market maker",
+    "yield farming", "lending protocol", "borrowing protocol",
+    "liquidity pool", "staking platform", "perpetual futures",
+    "dapp", "web3 application", "cross-chain bridge",
+    "layer 2 solution", "zk-rollup", "optimistic rollup",
+    "crypto wallet", "multisig wallet", "governance system",
+    "token standard", "dex aggregator", "GameFi platform",
+    "blockchain explorer", "defi",
+    "liquid staking", "real world assets", "tokenized assets"
 ]
 
 # Obvious junk/personal keywords to exclude
@@ -89,43 +71,42 @@ def systematic_search_and_alert():
     
     headers = {
         "Accept": "application/vnd.github.v3+json",
-        "Authorization": f"token {GH_PAT}",
+        "Authorization": f"token {GH_HACK}", # Changed to GH_HACK
         "User-Agent": "SmarterDiscoveryBot/1.0"
     }
 
-    if not GH_PAT:
-        send("🚨 Bot Error: GitHub Personal Access Token (SCRAPPING) not found.")
-        print("Error: SCRAPPING environment variable is not set. Cannot proceed.")
+    if not GH_HACK: # Changed to GH_HACK
+        send("🚨 Bot Error: GitHub Personal Access Token (GH_HACK) not found.")
+        print("Error: GH_HACK environment variable is not set. Cannot proceed.")
         return
 
     print(f"Starting search. Loaded {initial_sent_repo_count} previously sent repo IDs.")
     print(f"Searching for repos created since: {GITHUB_SEARCH_START_DATE}")
 
     pushed_date_filter = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
-
     repos_found_this_run = set()
     total_new_repos_sent = 0
 
-    for kw in KEYWORDS:
-        repos_sent_for_keyword_this_run = 0
-        # Two popularity queries: stars>=1 and forks>=1
-        popularity_filters = ["stars:>=1", "forks:>=1"]
-
-        for pop_filter in popularity_filters:
+    try:
+        for kw in KEYWORDS:
+            repos_sent_for_keyword_this_run = 0
             page = 1
+            
             while repos_sent_for_keyword_this_run < PER_KEYWORD_LIMIT_PER_RUN:
-                # Add negative filters
+                # Add negative keywords to the query
                 neg_str = "".join([f"+NOT+{w}" for w in NEGATIVE_KEYWORDS])
-
+                
+                # Use a combined popularity filter to reduce API calls
+                # Stars are a better indicator of early interest than forks
                 github_api_url = (
                     f"https://api.github.com/search/repositories?"
-                    f"q={kw}+created:>{GITHUB_SEARCH_START_DATE}+{pop_filter}+pushed:>{pushed_date_filter}{neg_str}&"
+                    f"q={kw}+created:>{GITHUB_SEARCH_START_DATE}+stars:>=1+pushed:>{pushed_date_filter}{neg_str}&"
                     f"sort=updated&order=desc&"
                     f"per_page=100&"
                     f"page={page}"
                 )
 
-                print(f"Searching for '{kw}' ({pop_filter}, Page {page}). URL: {github_api_url}")
+                print(f"Searching for '{kw}' (Page {page}). URL: {github_api_url}")
 
                 try:
                     res = requests.get(github_api_url, headers=headers)
@@ -134,7 +115,7 @@ def systematic_search_and_alert():
 
                     repos_on_page = data.get('items', [])
                     if not repos_on_page:
-                        print(f"No more results on page {page} for '{kw}' [{pop_filter}].")
+                        print(f"No more results on page {page} for '{kw}'.")
                         break
 
                     for repo in repos_on_page:
@@ -143,13 +124,9 @@ def systematic_search_and_alert():
                             name = repo['full_name']
                             link = repo['html_url']
                             description = repo.get('description', 'No description provided.')
-
-                            # Optional extra filter: seriousness check
-                            # Uncomment below if you want to weed out barebones repos
-                            # if not repo.get('license') or not repo.get('topics'):
-                            #     continue
-
+                            
                             send(f"🔥 New {kw} repo:\n{name}\n{link}\nDescription: {description}")
+                            
                             sent_repo_ids.add(repo_id)
                             repos_found_this_run.add(repo_id)
                             repos_sent_for_keyword_this_run += 1
@@ -157,28 +134,31 @@ def systematic_search_and_alert():
                             found_any_new_repo_this_run = True
 
                     page += 1
-                    time.sleep(0.1)
+                    time.sleep(0.1) # Respectful delay between API calls
 
                 except requests.exceptions.RequestException as e:
                     print(f"Error fetching GitHub data for '{kw}' (Page {page}): {e}")
                     if e.response is not None:
                         print(f"GitHub API Status: {e.response.status_code}")
                         print(f"Body: {e.response.text}")
-                    break
+                    break # Break out of the inner while loop
+            
+            if repos_sent_for_keyword_this_run > 0:
+                print(f"Sent {repos_sent_for_keyword_this_run} NEW repos for '{kw}'.")
+            else:
+                print(f"No new repos sent for '{kw}' this run.")
 
-        if repos_sent_for_keyword_this_run > 0:
-            print(f"Sent {repos_sent_for_keyword_this_run} NEW repos for '{kw}'.")
+    finally:
+        # This block will always execute, regardless of whether an error occurred.
+        if total_new_repos_sent > 0:
+            save_sent_repos(sent_repo_ids)
+            print(f"Saved {total_new_repos_sent} new repo IDs. Total sent repos tracked: {len(sent_repo_ids)}")
         else:
-            print(f"No new repos sent for '{kw}' this run.")
+            print("No new repo IDs added this run.")
 
-    if total_new_repos_sent > 0:
-        save_sent_repos(sent_repo_ids)
-        print(f"Saved {total_new_repos_sent} new repo IDs. Total sent repos tracked: {len(sent_repo_ids)}")
-    else:
-        print("No new repo IDs added this run.")
-
-    if not found_any_new_repo_this_run:
-        send("😴 No fresh repos worth alerting today. Market’s quiet.")
+        if not found_any_new_repo_this_run:
+            send("😴 No fresh repos worth alerting today. Market’s quiet.")
 
 if __name__ == "__main__":
     systematic_search_and_alert()
+
