@@ -7,7 +7,7 @@ import time
 # --- Configuration from Environment Variables (GitHub Secrets) ---
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-DEFI_GHACK = os.getenv("DEFI_GHACK") # Changed variable name to DEFI_GHACK
+PAT = os.getenv("PAT")  # Changed variable name to PAT
 
 # --- Bot-Specific Configuration ---
 SENT_REPOS_FILE = "sent_repo_ids.json"
@@ -72,13 +72,13 @@ def systematic_search_and_alert():
     
     headers = {
         "Accept": "application/vnd.github.v3+json",
-        "Authorization": f"token {DEFI_GHACK}", # Changed to DEFI_GHACK
+        "Authorization": f"token {PAT}",  # Using PAT here
         "User-Agent": "SmarterDiscoveryBot/1.0"
     }
 
-    if not DEFI_GHACK: # Changed to DEFI_GHACK
-        send("🚨 Bot Error: GitHub Personal Access Token (DEFI_GHACK) not found.")
-        print("Error: DEFI_GHACK environment variable is not set. Cannot proceed.")
+    if not PAT:
+        send("🚨 Bot Error: GitHub Personal Access Token (PAT) not found.")
+        print("Error: PAT environment variable is not set. Cannot proceed.")
         return
 
     print(f"Starting search. Loaded {initial_sent_repo_count} previously sent repo IDs.")
@@ -97,8 +97,6 @@ def systematic_search_and_alert():
                 # Add negative keywords to the query
                 neg_str = "".join([f"+NOT+{w}" for w in NEGATIVE_KEYWORDS])
                 
-                # Use a combined popularity filter to reduce API calls
-                # Stars are a better indicator of early interest than forks
                 github_api_url = (
                     f"https://api.github.com/search/repositories?"
                     f"q={kw}+created:>{GITHUB_SEARCH_START_DATE}+stars:>=1+pushed:>{pushed_date_filter}{neg_str}&"
@@ -142,7 +140,7 @@ def systematic_search_and_alert():
                     if e.response is not None:
                         print(f"GitHub API Status: {e.response.status_code}")
                         print(f"Body: {e.response.text}")
-                    break # Break out of the inner while loop
+                    break
             
             if repos_sent_for_keyword_this_run > 0:
                 print(f"Sent {repos_sent_for_keyword_this_run} NEW repos for '{kw}'.")
@@ -150,7 +148,6 @@ def systematic_search_and_alert():
                 print(f"No new repos sent for '{kw}' this run.")
 
     finally:
-        # This block will always execute, regardless of whether an error occurred.
         if total_new_repos_sent > 0:
             save_sent_repos(sent_repo_ids)
             print(f"Saved {total_new_repos_sent} new repo IDs. Total sent repos tracked: {len(sent_repo_ids)}")
@@ -162,4 +159,3 @@ def systematic_search_and_alert():
 
 if __name__ == "__main__":
     systematic_search_and_alert()
-
