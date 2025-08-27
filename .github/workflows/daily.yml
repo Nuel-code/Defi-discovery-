@@ -2,7 +2,7 @@ name: Daily Web3 Scout
 
 on:
   schedule:
-    # Run once a day at 03:00 UTC (adjust as you like)
+    # Run once a day at 03:00 UTC (adjust if you want a different time)
     - cron: '0 3 * * *'
   workflow_dispatch: {}
 
@@ -32,21 +32,19 @@ jobs:
 
       - name: Run web3 scout bot
         run: |
-          python bot.py
+          # Run the updated script that is present in the repo
+          python defi_bot.py
 
       - name: Commit updated sent_repo_ids (if changed)
         if: always()
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          # If the bot updated data/sent_repo_ids.json, push it back to main to persist state.
-          # The bot also attempts this; this step provides a fallback using git.
           git config --global user.name "web3-scout-bot"
           git config --global user.email "web3-scout-bot@users.noreply.github.com"
           git add data/sent_repo_ids.json || true
           if ! git diff --cached --quiet; then
             git commit -m "web3-scout-bot: persist sent_repo_ids (CI)" || true
-            # push using token
             git push "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main || true
           else
             echo "No changes to commit."
