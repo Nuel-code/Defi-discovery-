@@ -1,31 +1,53 @@
-name: DeFi Repo Monitor
+name: Daily Web3 Scout
 
 on:
   schedule:
-    # Runs daily at 22:00 UTC (which is 11:00 PM WAT, not 1:00 AM btw—check your math)
-    - cron: '0 22 * * *'
-  workflow_dispatch: # allows manual run
+    # Run once a day at 03:00 UTC (adjust as you like)
+    - cron: '0 3 * * *'
+  workflow_dispatch: {}
 
 jobs:
-  monitor:
+  scan:
     runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+      GH_PAT:              ${{ secrets.GH_PAT }}
     steps:
-      - name: Checkout repository code
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.11"
 
-      - name: Install Python dependencies
+      - name: Install requirements
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run DeFi Repo Bot
-        run: python defi_bot.py
+      - name: Run web3 scout bot
+        run: |
+          python bot.py
+
+      - name: Commit updated sent_repo_ids (if changed)
+        if: always()
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PAT: ${{ secrets.PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          # If the bot updated data/sent_repo_ids.json, push it back to main to persist state.
+          # The bot also attempts this; this step provides a fallback using git.
+          git config --global user.name "web3-scout-bot"
+          git config --global user.email "web3-scout-bot@users.noreply.github.com"
+          git add data/sent_repo_ids.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "web3-scout-bot: persist sent_repo_ids (CI)" || true
+            # push using token
+            git push "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main || true
+          else
+            echo "No changes to commit."
+          fi
