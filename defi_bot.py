@@ -50,8 +50,8 @@ KEYWORDS = [
     "yield farming", "yield aggregator", "vault", "lending protocol",
     "borrowing protocol", "liquidity pool", "staking", "perpetual futures",
     "options", "stablecoin", "rollup", "zk-rollup", "optimistic rollup",
-    "bridge cross-chain", "cross-chain bridge", "oracle", "governance",
-    "token", "dex", "dex aggregator", "wallet", "multisig", "smart contract",
+    "bridge cross-chain", "cross-chain bridge",
+    "token", "dex", "dex aggregator", "wallet", "smart contract",
     "rust blockchain", "substrate", "evm rollup", "layer 2", "zk", "zk proof"
 ]
 
@@ -110,8 +110,8 @@ def is_personal_junk(repo: Dict) -> bool:
         return True
 
     # Owner is user + zero traction + tiny repo -> likely personal
-    if owner_type == "user" and stars == 0 and forks == 0 and size < 100 and open_issues < 3:
-        return True
+    if owner_type == "user" and stars == 0 and forks == 0 and size < 50 and open_issues < 1:
+        return Tru1
 
     return False
 
