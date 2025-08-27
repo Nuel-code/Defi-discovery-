@@ -2,11 +2,13 @@
 """
 web3_scout_bot (updated)
 
-Improved debugging + clearer filtering behavior so you can see why repos are accepted or rejected.
-- Writes sent repo ids to data/sent_repo_ids.json
-- Logs GitHub query, totals, and reasons for skips (negative keywords, personal junk, already sent).
-- Includes created_at and pushed_at in Telegram messages for visibility.
-- Uses UTC times consistently.
+Changes in this version:
+- Removed the repo "size" check entirely from is_personal_junk().
+- Fixed the typo/bug (Tru1 -> True).
+- Ensure searches only return repos created in the last 6 months (180 days).
+- Keep sorting by "updated" (so recently updated repos appear first).
+- Maintains negative keyword filtering, personal-junk heuristics (without size),
+  Telegram sending, and persistent sent_repo_ids state.
 """
 from __future__ import annotations
 import os
@@ -35,8 +37,8 @@ SEARCH_PAGE_SIZE = 100
 GITHUB_API_BASE = "https://api.github.com"
 USER_AGENT = "web3-scout-bot/1.0"
 
-# Progressive widening of created window (days). None means no created: qualifier.
-WIDEN_STEPS = [90, 180, 365, None]
+# Force created:> to last 6 months
+CREATED_DAYS = 180
 
 # Negative/trash keywords (case-insensitive)
 NEGATIVE_KEYWORDS = [
@@ -97,21 +99,30 @@ def save_sent_repo_ids_local(sent: Set[int], path: str = SENT_REPOS_PATH) -> Non
 
 
 def is_personal_junk(repo: Dict) -> bool:
-    """Heuristics for likely personal/junk repos to reduce noise."""
+    """
+    Heuristics for likely personal/junk repos to reduce noise.
+
+    NOTE: size checks removed entirely per request.
+    Keeps:
+      - skip forks
+      - skip very low-signals personal repos (owner.type == 'User' and zero stars & forks & very few issues)
+    """
     owner = repo.get("owner", {}) or {}
     owner_type = (owner.get("type") or "").lower()
-    stars = repo.get("stargazers_count") or 0
-    forks = repo.get("forks_count") or 0
-    size = repo.get("size") or 0
-    open_issues = repo.get("open_issues_count") or 0
+    stars = int(repo.get("stargazers_count") or 0)
+    forks = int(repo.get("forks_count") or 0)
+    open_issues = int(repo.get("open_issues_count") or 0)
 
     # Skip forks
     if repo.get("fork", False):
+        print(f"[skip-reason] fork: {repo.get('full_name')}")
         return True
 
-    # Owner is user + zero traction + tiny repo -> likely personal
-    if owner_type == "user" and stars == 0 and forks == 0 and size < 50 and open_issues < 1:
-        return Tru1
+    # Owner is user + zero traction + almost no issues -> likely personal toy repo
+    # No size check here by design.
+    if owner_type == "user" and stars == 0 and forks == 0 and open_issues <= 1:
+        print(f"[skip-reason] personal low-signal repo: {repo.get('full_name')} stars={stars} forks={forks} issues={open_issues}")
+        return True
 
     return False
 
@@ -150,7 +161,8 @@ def github_search_repos(q_encoded: str, page: int = 1, per_page: int = SEARCH_PA
     }
     if token:
         headers["Authorization"] = f"token {token}"
-    url = f"{GITHUB_API_BASE}/search/repositories?q={q_encoded}&sort=created&order=desc&per_page={per_page}&page={page}"
+    # Keep sorting by updated as you requested
+    url = f"{GITHUB_API_BASE}/search/repositories?q={q_encoded}&sort=updated&order=desc&per_page={per_page}&page={page}"
     r = requests.get(url, headers=headers, timeout=20)
     r.raise_for_status()
     return r.json()
@@ -168,93 +180,90 @@ def scan_and_alert():
     new_repo_items: List[Dict] = []
     per_keyword_sent_count = {}
 
-    # prefer repos with activity within the last 90 days
+    # created filter = last 6 months
+    created_after = (datetime.utcnow() - timedelta(days=CREATED_DAYS)).strftime("%Y-%m-%d")
+    # prefer repos with activity within the last 90 days (keeps them relevant)
     pushed_after = (datetime.utcnow() - timedelta(days=90)).strftime("%Y-%m-%d")
 
     for kw in KEYWORDS:
         per_keyword_sent_count[kw] = 0
         collected_for_kw: List[Dict] = []
 
-        for days in WIDEN_STEPS:
-            if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
-                break
+        # try first without language bias, then with priority languages if needed
+        language_options = [None] + PRIORITY_LANGUAGES
 
-            created_after = None if days is None else (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        for lang in language_options:
+            page = 1
+            while True:
+                q_enc = build_search_q(kw, created_after=created_after, pushed_after=pushed_after, language=lang)
+                print(f"[search] kw='{kw}' lang='{lang}' created_after='{created_after}' page={page} q={urllib.parse.unquote_plus(q_enc)}")
+                try:
+                    data = github_search_repos(q_enc, page=page, per_page=SEARCH_PAGE_SIZE, token=GH_PAT)
+                except requests.HTTPError as e:
+                    print(f"[search] HTTPError for q={q_enc}: {e} - resp: {getattr(e, 'response', None)}")
+                    break
+                except Exception as e:
+                    print(f"[search] Error for q={q_enc}: {e}")
+                    break
 
-            language_options = [None] + PRIORITY_LANGUAGES if days is not None else [None]
+                items = data.get("items", [])
+                total_count = data.get("total_count", 0)
+                print(f"[search] total_count={total_count}, items_on_page={len(items)}")
 
-            for lang in language_options:
-                page = 1
-                while True:
-                    q_enc = build_search_q(kw, created_after=created_after, pushed_after=pushed_after, language=lang)
-                    print(f"[search] kw='{kw}' lang='{lang}' created_after='{created_after}' page={page} q={urllib.parse.unquote_plus(q_enc)}")
-                    try:
-                        data = github_search_repos(q_enc, page=page, per_page=SEARCH_PAGE_SIZE, token=GH_PAT)
-                    except requests.HTTPError as e:
-                        print(f"[search] HTTPError for q={q_enc}: {e} - resp: {getattr(e, 'response', None)}")
-                        break
-                    except Exception as e:
-                        print(f"[search] Error for q={q_enc}: {e}")
-                        break
+                if not items:
+                    break
 
-                    items = data.get("items", [])
-                    total_count = data.get("total_count", 0)
-                    print(f"[search] total_count={total_count}, items_on_page={len(items)}")
+                for repo in items:
+                    repo_id = repo.get("id")
+                    if not repo_id:
+                        continue
 
-                    if not items:
-                        break
+                    if repo_id in sent_repo_ids:
+                        # show which repo was skipped due to prior send
+                        print(f"[skip] already sent id={repo_id} full_name={repo.get('full_name')}")
+                        continue
 
-                    for repo in items:
-                        repo_id = repo.get("id")
-                        if not repo_id:
-                            continue
+                    if negative_keyword_in(repo):
+                        print(f"[skip] negative keyword matched id={repo_id} name={repo.get('full_name')}")
+                        continue
 
-                        if repo_id in sent_repo_ids:
-                            # show which repo was skipped due to prior send
-                            print(f"[skip] already sent id={repo_id} full_name={repo.get('full_name')}")
-                            continue
+                    if is_personal_junk(repo):
+                        print(f"[skip] personal junk heuristics id={repo_id} name={repo.get('full_name')}")
+                        continue
 
-                        if negative_keyword_in(repo):
-                            print(f"[skip] negative keyword matched id={repo_id} name={repo.get('full_name')}")
-                            continue
+                    # candidate accepted
+                    created_at = repo.get("created_at", "unknown")
+                    pushed_at = repo.get("pushed_at", "unknown")
+                    collected_for_kw.append(repo)
 
-                        if is_personal_junk(repo):
-                            print(f"[skip] personal junk heuristics id={repo_id} name={repo.get('full_name')}")
-                            continue
-
-                        # candidate accepted
-                        created_at = repo.get("created_at", "unknown")
-                        pushed_at = repo.get("pushed_at", "unknown")
-                        collected_for_kw.append(repo)
-
-                        # attempt to send; if send succeeds mark as sent
-                        message = (f"🔥 [{repo.get('full_name')}]({repo.get('html_url')})\n"
-                                   f"Keyword: {kw}\n"
-                                   f"Lang: {repo.get('language') or 'unknown'} ⭐ {repo.get('stargazers_count',0)}\n"
-                                   f"Created: {created_at} — Last push: {pushed_at}\n"
-                                   f"{(repo.get('description') or '').strip()}\n")
-                        sent_ok = send_telegram(message)
-                        if sent_ok:
-                            sent_repo_ids.add(repo_id)
-                            per_keyword_sent_count[kw] += 1
-                            new_repo_items.append((kw, repo))
-                            print(f"[new] sent id={repo_id} name={repo.get('full_name')} created={created_at} pushed={pushed_at}")
-                        else:
-                            print(f"[warn] Failed to send Telegram for id={repo_id}; not marking as sent so it can be retried.")
-
-                        if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
-                            break
+                    # attempt to send; if send succeeds mark as sent
+                    message = (f"🔥 [{repo.get('full_name')}]({repo.get('html_url')})\n"
+                               f"Keyword: {kw}\n"
+                               f"Lang: {repo.get('language') or 'unknown'} ⭐ {repo.get('stargazers_count',0)}\n"
+                               f"Created: {created_at} — Last push: {pushed_at}\n"
+                               f"{(repo.get('description') or '').strip()}\n")
+                    sent_ok = send_telegram(message)
+                    if sent_ok:
+                        sent_repo_ids.add(repo_id)
+                        per_keyword_sent_count[kw] += 1
+                        new_repo_items.append((kw, repo))
+                        print(f"[new] sent id={repo_id} name={repo.get('full_name')} created={created_at} pushed={pushed_at}")
+                    else:
+                        print(f"[warn] Failed to send Telegram for id={repo_id}; not marking as sent so it can be retried.")
 
                     if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
                         break
 
-                    if len(items) < SEARCH_PAGE_SIZE:
-                        break
-                    page += 1
-                    time.sleep(0.2)
-
                 if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
                     break
+
+                if len(items) < SEARCH_PAGE_SIZE:
+                    break
+                page += 1
+                time.sleep(0.2)
+
+            if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
+                break
 
         print(f"[summary] keyword='{kw}' found_new={per_keyword_sent_count[kw]}")
 
