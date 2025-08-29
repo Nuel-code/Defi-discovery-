@@ -43,15 +43,15 @@ CREATED_DAYS = 180
 # Negative/trash keywords (case-insensitive)
 NEGATIVE_KEYWORDS = [
     "tutorial", "demo", "example", "test", "playground", "sample",
-    "hackathon", "learning", "course", "homework", "exercise", "template"
+    "hackathon", "learning", "course", "homework", "exercise", "template", "bot"
 ]
 
 # Keyword list - web3 / defi oriented
 KEYWORDS = [
-    "defi", "decentralized exchange", "automated market maker", "amm",
+    "defi", "decentralized exchange", "automated market maker", "btc",
     "yield farming", "yield aggregator", "vault", "lending protocol",
     "borrowing protocol", "liquidity pool", "staking", "perpetual futures",
-    "options", "stablecoin", "rollup", "zk-rollup", "optimistic rollup",
+    "stablecoin", "rollup", "zk-rollup", "optimistic rollup",
     "bridge cross-chain", "cross-chain bridge",
     "token", "dex", "dex aggregator", "wallet", "smart contract",
     "rust blockchain", "substrate", "evm rollup", "layer 2", "zk", "zk proof"
