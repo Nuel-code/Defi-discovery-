@@ -31,7 +31,7 @@ GH_PAT = os.getenv("GH_PAT")  # used for authenticated GitHub queries
 # Data / runtime config
 DATA_DIR = "data"
 SENT_REPOS_PATH = f"{DATA_DIR}/sent_repo_ids.json"
-PER_KEYWORD_MIN_RESULTS = 15
+PER_KEYWORD_MIN_RESULTS = 20
 PER_KEYWORD_LIMIT_PER_RUN = 30    # cap per keyword to avoid spamming
 SEARCH_PAGE_SIZE = 100
 GITHUB_API_BASE = "https://api.github.com"
@@ -49,12 +49,12 @@ NEGATIVE_KEYWORDS = [
 # Keyword list - web3 / defi oriented
 KEYWORDS = [
     "defi", "decentralized exchange", "automated market maker", "btc",
-    "yield farming", "yield aggregator", "vault", "lending protocol",
+    "yield farming", "yield aggregator","lending protocol",
     "borrowing protocol", "liquidity pool", "staking", "perpetual futures",
-    "stablecoin", "rollup", "zk-rollup", "optimistic rollup",
+    "stablecoin", "rollup", "optimistic rollup",
     "bridge cross-chain", "cross-chain bridge",
-    "token", "dex", "dex aggregator", "wallet", "smart contract",
-    "rust blockchain", "substrate", "evm rollup", "layer 2", "zk", "zk proof"
+    "token", "dex", "dex aggregator", "wallet",
+    "rust blockchain", "layer 2",
 ]
 
 PRIORITY_LANGUAGES = ["Solidity", "Rust", "TypeScript", "JavaScript", "Go", "Python"]
