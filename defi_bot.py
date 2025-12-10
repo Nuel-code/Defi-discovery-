@@ -1,292 +1,358 @@
 #!/usr/bin/env python3
 """
-web3_scout_bot (updated)
+web3_scout_bot (Ultimate Edition)
 
-Changes in this version:
-- Removed the repo "size" check entirely from is_personal_junk().
-- Fixed the typo/bug (Tru1 -> True).
-- Ensure searches only return repos created in the last 6 months (180 days).
-- Keep sorting by "updated" (so recently updated repos appear first).
-- Maintains negative keyword filtering, personal-junk heuristics (without size),
-  Telegram sending, and persistent sent_repo_ids state.
+Merged Features:
+1. Persistent Listener: Runs forever, scanning every 4 hours.
+2. Smart Cleanup: Reply with /cleanup to delete all duplicate messages.
+3. Quality Filters: 
+   - Ignores repos < 150KB (stops "Hello World" spam).
+   - Ignores repos with short/missing descriptions.
+   - Ignores "clones" and "tutorials".
+4. Optimized Search: Splits logic into specific queries to reduce API noise.
 """
-from __future__ import annotations
 import os
 import sys
-import time
 import json
+import logging
+import asyncio
+import hashlib
 import requests
+import urllib.parse
 from datetime import datetime, timedelta
 from typing import List, Dict, Set, Optional
-from pathlib import Path
-import urllib.parse
+
+# Telegram Bot Library
+from telegram import Update
+from telegram.constants import ParseMode
+from telegram.ext import (
+    ApplicationBuilder,
+    ContextTypes,
+    CommandHandler,
+    JobQueue,
+)
 
 # --------------------------
-# Configuration (env secrets)
+# Configuration
 # --------------------------
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-GH_PAT = os.getenv("GH_PAT")  # used for authenticated GitHub queries
+GH_PAT = os.getenv("GH_PAT")
 
-# Data / runtime config
+# Run every 4 hours (14400 seconds)
+SCAN_INTERVAL_SECONDS = 14400 
+
+# Paths
 DATA_DIR = "data"
 SENT_REPOS_PATH = f"{DATA_DIR}/sent_repo_ids.json"
-PER_KEYWORD_MIN_RESULTS = 20
-PER_KEYWORD_LIMIT_PER_RUN = 30    # cap per keyword to avoid spamming
-SEARCH_PAGE_SIZE = 100
+MESSAGE_DB_PATH = f"{DATA_DIR}/sent_messages_db.json"
+
+# GitHub Constants
 GITHUB_API_BASE = "https://api.github.com"
-USER_AGENT = "web3-scout-bot/1.0"
+USER_AGENT = "web3-scout-bot/3.0"
+SEARCH_PAGE_SIZE = 50 # Reduced to 50 to focus on top results
 
-# Force created:> to last 6 months
-CREATED_DAYS = 180
+# --------------------------
+# QUALITY FILTERING CONSTANTS
+# --------------------------
+MIN_REPO_SIZE_KB = 150  # Filter out tiny "fodder" repos
+MIN_DESC_LENGTH = 15    # Filter out "test" descriptions
 
-# Negative/trash keywords (case-insensitive)
 NEGATIVE_KEYWORDS = [
-    "tutorial", "demo", "example", "test", "playground", "sample",
-    "hackathon", "learning", "course", "homework", "exercise", "template", "bot"
+    # Educational / Test
+    "tutorial", "demo", "example", "test", "playground", "sample", 
+    "hackathon", "learning", "course", "homework", "exercise", 
+    "bootcamp", "assignment", "university", "syllabus", "lesson",
+    
+    # Low Value / Boilerplate
+    "template", "boilerplate", "starter", "skeleton", "scaffold",
+    "minimal", "setup", "quickstart", "vanilla",
+    
+    # Clones / Copies
+    "clone", "copy", "mirror", "fork", "uniswap-v2", "sushiswap-clone",
+    "pancakeswap-clone", "safemoon", "floki", "shiba",
+    
+    # Non-Code / Lists
+    "awesome", "list", "curated", "collection", "resources", "roadmap",
+    "interview", "questions", "bot", "telegram" 
 ]
 
-# Keyword list - web3 / defi oriented
-KEYWORDS = [
-    "defi", "decentralized exchange", "automated market maker", "btc",
-    "yield farming", "yield aggregator","lending protocol",
-    "borrowing protocol", "liquidity pool", "staking", "perpetual futures",
-    "stablecoin", "rollup", "optimistic rollup",
-    "bridge cross-chain", "cross-chain bridge",
-    "token", "dex", "dex aggregator", "wallet",
-    "rust blockchain", "layer 2",
+# Lane 1: Highly specific terms (Any Language OK)
+SPECIFIC_KEYWORDS = [
+    "automated market maker", "yield aggregator", 
+    "mev bot", "arbitrage bot", "liquidator", "perpetual protocol",
+    "optimistic rollup", "zk-rollup", "zero knowledge proof",
+    "cross-chain bridge", "layer zero", "erc-4337", "account abstraction"
 ]
 
-PRIORITY_LANGUAGES = ["Solidity", "Rust", "TypeScript", "JavaScript", "Go", "Python"]
+# Lane 2: Broader terms (Must be in specific languages to count)
+BROAD_KEYWORDS = [
+    "defi", "dex", "wallet", "staking", "governance", "blockchain",
+    "token", "smart contract", "dao"
+]
+
+STRICT_LANGUAGES = ["Solidity", "Rust", "Go", "TypeScript", "Huff", "Vyper", "Cairo"]
 
 # --------------------------
-# Utilities
+# Logging & State Management
 # --------------------------
-def send_telegram(message: str) -> bool:
-    """Send a message to Telegram. Returns True on success."""
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        print("[telegram] missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID. Skipping send.")
-        return False
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown"}
-    try:
-        r = requests.post(url, json=payload, timeout=15)
-        r.raise_for_status()
-        return True
-    except Exception as e:
-        print(f"[telegram] send error: {e} - resp: {getattr(e, 'response', None)}")
-        return False
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
+logger = logging.getLogger(__name__)
 
-
-def load_sent_repo_ids(path: str = SENT_REPOS_PATH) -> Set[int]:
+def load_json_set(path: str) -> Set[int]:
+    if not os.path.exists(path): return set()
     try:
         with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            return set(int(x) for x in data)
-    except FileNotFoundError:
-        print(f"[state] No sent repo file at {path}. Starting fresh.")
-        return set()
-    except Exception as e:
-        print(f"[state] Failed to load sent repo ids ({e}), starting fresh.")
+            return set(json.load(f))
+    except Exception:
         return set()
 
-
-def save_sent_repo_ids_local(sent: Set[int], path: str = SENT_REPOS_PATH) -> None:
+def save_json_set(data: Set[int], path: str):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(sorted(list(sent)), f, indent=2)
-    print(f"[state] Saved {len(sent)} sent repo ids to {path}.")
+        json.dump(list(data), f)
 
+def load_message_db() -> Dict[str, List[int]]:
+    if not os.path.exists(MESSAGE_DB_PATH): return {}
+    try:
+        with open(MESSAGE_DB_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
 
-def is_personal_junk(repo: Dict) -> bool:
+def save_message_db(db: Dict[str, List[int]]):
+    os.makedirs(os.path.dirname(MESSAGE_DB_PATH), exist_ok=True)
+    with open(MESSAGE_DB_PATH, "w", encoding="utf-8") as f:
+        json.dump(db, f)
+
+def hash_text(text: str) -> str:
+    return hashlib.md5(text.strip().encode('utf-8')).hexdigest()
+
+def track_message(text: str, message_id: int):
+    db = load_message_db()
+    h = hash_text(text)
+    if h not in db: db[h] = []
+    if message_id not in db[h]:
+        db[h].append(message_id)
+        save_message_db(db)
+
+# --------------------------
+# Core Logic: Quality Filtering
+# --------------------------
+def is_quality_repo(repo: Dict) -> bool:
     """
-    Heuristics for likely personal/junk repos to reduce noise.
-
-    NOTE: size checks removed entirely per request.
-    Keeps:
-      - skip forks
-      - skip very low-signals personal repos (owner.type == 'User' and zero stars & forks & very few issues)
+    Returns TRUE if the repo passes the 'Real Project' test.
+    Returns FALSE if it looks like fodder.
     """
-    owner = repo.get("owner", {}) or {}
-    owner_type = (owner.get("type") or "").lower()
+    # 1. Fetch Stats
     stars = int(repo.get("stargazers_count") or 0)
     forks = int(repo.get("forks_count") or 0)
-    open_issues = int(repo.get("open_issues_count") or 0)
-
-    # Skip forks
-    if repo.get("fork", False):
-        print(f"[skip-reason] fork: {repo.get('full_name')}")
-        return True
-
-    # Owner is user + zero traction + almost no issues -> likely personal toy repo
-    # No size check here by design.
-    if owner_type == "user" and stars == 0 and forks == 0 and open_issues <= 1:
-        print(f"[skip-reason] personal low-signal repo: {repo.get('full_name')} stars={stars} forks={forks} issues={open_issues}")
-        return True
-
-    return False
-
-
-def negative_keyword_in(repo: Dict) -> bool:
-    """Return True if any negative keyword exists in name or description."""
+    size_kb = int(repo.get("size") or 0)
+    desc = (repo.get("description") or "").strip()
     name = (repo.get("name") or "").lower()
-    desc = (repo.get("description") or "").lower()
+    owner = repo.get("owner", {}) or {}
+    owner_type = (owner.get("type") or "").lower()
+    topics = repo.get("topics", [])
+
+    # 2. Immediate Rejections
+    if repo.get("fork", False): return False
+    
+    # 3. Negative Keyword Check (Name & Description)
+    full_text = (name + " " + desc).lower()
     for bad in NEGATIVE_KEYWORDS:
-        if bad in name or bad in desc:
-            return True
-    return False
+        if bad in full_text:
+            return False
 
+    # 4. The "Weight" Check
+    # Most real DApps/Protocols are > 150KB.
+    # Exception: It has > 10 stars (might be a tiny brilliant tool).
+    if size_kb < MIN_REPO_SIZE_KB and stars < 10:
+        return False
 
-def build_search_q(keyword: str,
-                   created_after: Optional[str] = None,
-                   pushed_after: Optional[str] = None,
-                   language: Optional[str] = None) -> str:
-    parts = [keyword]
-    if created_after:
-        parts.append(f"created:>{created_after}")
-    if pushed_after:
-        parts.append(f"pushed:>{pushed_after}")
-    parts.append("fork:false")
-    if language:
-        parts.append(f"language:{language}")
-    # Join with spaces then URL-encode
-    q = " ".join(parts)
-    return urllib.parse.quote_plus(q)
+    # 5. The "Effort" Check (Description)
+    if len(desc) < MIN_DESC_LENGTH:
+        # Allow if it has significant stars (community validation)
+        if stars < 5:
+            return False
 
+    # 6. The "Generic" Check
+    # If a user (not org) has 0 stars/forks and no topics, it's likely noise.
+    if owner_type == "user" and stars == 0 and forks == 0:
+        if not topics:
+            return False
 
-def github_search_repos(q_encoded: str, page: int = 1, per_page: int = SEARCH_PAGE_SIZE, token: Optional[str] = None) -> Dict:
-    headers = {
-        "Accept": "application/vnd.github.v3+json",
-        "User-Agent": USER_AGENT
-    }
-    if token:
-        headers["Authorization"] = f"token {token}"
-    # Keep sorting by updated as you requested
-    url = f"{GITHUB_API_BASE}/search/repositories?q={q_encoded}&sort=updated&order=desc&per_page={per_page}&page={page}"
-    r = requests.get(url, headers=headers, timeout=20)
-    r.raise_for_status()
-    return r.json()
-
+    return True
 
 # --------------------------
-# Main scanning logic
+# Search Execution
 # --------------------------
-def scan_and_alert():
-    print(f"[start] UTC now: {datetime.utcnow().isoformat()} | GH_PAT set: {bool(GH_PAT)}")
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        print("[start] Telegram secrets are missing; messages will not be sent (but script will run).")
-
-    sent_repo_ids = load_sent_repo_ids()
-    new_repo_items: List[Dict] = []
-    per_keyword_sent_count = {}
-
-    # created filter = last 6 months
-    created_after = (datetime.utcnow() - timedelta(days=CREATED_DAYS)).strftime("%Y-%m-%d")
-    # prefer repos with activity within the last 90 days (keeps them relevant)
-    pushed_after = (datetime.utcnow() - timedelta(days=90)).strftime("%Y-%m-%d")
-
-    for kw in KEYWORDS:
-        per_keyword_sent_count[kw] = 0
-        collected_for_kw: List[Dict] = []
-
-        # try first without language bias, then with priority languages if needed
-        language_options = [None] + PRIORITY_LANGUAGES
-
-        for lang in language_options:
-            page = 1
-            while True:
-                q_enc = build_search_q(kw, created_after=created_after, pushed_after=pushed_after, language=lang)
-                print(f"[search] kw='{kw}' lang='{lang}' created_after='{created_after}' page={page} q={urllib.parse.unquote_plus(q_enc)}")
-                try:
-                    data = github_search_repos(q_enc, page=page, per_page=SEARCH_PAGE_SIZE, token=GH_PAT)
-                except requests.HTTPError as e:
-                    print(f"[search] HTTPError for q={q_enc}: {e} - resp: {getattr(e, 'response', None)}")
-                    break
-                except Exception as e:
-                    print(f"[search] Error for q={q_enc}: {e}")
-                    break
-
-                items = data.get("items", [])
-                total_count = data.get("total_count", 0)
-                print(f"[search] total_count={total_count}, items_on_page={len(items)}")
-
-                if not items:
-                    break
-
-                for repo in items:
-                    repo_id = repo.get("id")
-                    if not repo_id:
-                        continue
-
-                    if repo_id in sent_repo_ids:
-                        # show which repo was skipped due to prior send
-                        print(f"[skip] already sent id={repo_id} full_name={repo.get('full_name')}")
-                        continue
-
-                    if negative_keyword_in(repo):
-                        print(f"[skip] negative keyword matched id={repo_id} name={repo.get('full_name')}")
-                        continue
-
-                    if is_personal_junk(repo):
-                        print(f"[skip] personal junk heuristics id={repo_id} name={repo.get('full_name')}")
-                        continue
-
-                    # candidate accepted
-                    created_at = repo.get("created_at", "unknown")
-                    pushed_at = repo.get("pushed_at", "unknown")
-                    collected_for_kw.append(repo)
-
-                    # attempt to send; if send succeeds mark as sent
-                    message = (f"🔥 [{repo.get('full_name')}]({repo.get('html_url')})\n"
-                               f"Keyword: {kw}\n"
-                               f"Lang: {repo.get('language') or 'unknown'} ⭐ {repo.get('stargazers_count',0)}\n"
-                               f"Created: {created_at} — Last push: {pushed_at}\n"
-                               f"{(repo.get('description') or '').strip()}\n")
-                    sent_ok = send_telegram(message)
-                    if sent_ok:
-                        sent_repo_ids.add(repo_id)
-                        per_keyword_sent_count[kw] += 1
-                        new_repo_items.append((kw, repo))
-                        print(f"[new] sent id={repo_id} name={repo.get('full_name')} created={created_at} pushed={pushed_at}")
-                    else:
-                        print(f"[warn] Failed to send Telegram for id={repo_id}; not marking as sent so it can be retried.")
-
-                    if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
-                        break
-
-                if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
-                    break
-
-                if len(items) < SEARCH_PAGE_SIZE:
-                    break
-                page += 1
-                time.sleep(0.2)
-
-            if per_keyword_sent_count[kw] >= PER_KEYWORD_MIN_RESULTS or len(collected_for_kw) >= PER_KEYWORD_LIMIT_PER_RUN:
-                break
-
-        print(f"[summary] keyword='{kw}' found_new={per_keyword_sent_count[kw]}")
-
-    if not new_repo_items:
-        msg = "😴 No truly new and unsent repos found for today's run."
-        print(msg)
-        send_telegram(msg)
-    else:
-        print(f"[done] Total new repos sent this run: {len(new_repo_items)}")
-
-    # Save state locally
-    save_sent_repo_ids_local(set(sent_repo_ids), SENT_REPOS_PATH)
-
-
-if __name__ == "__main__":
+def github_search(query: str) -> List[Dict]:
+    """Sync helper to perform the request."""
+    # We sort by 'updated' to catch active projects
+    url = f"{GITHUB_API_BASE}/search/repositories?q={query}&sort=updated&order=desc&per_page={SEARCH_PAGE_SIZE}"
+    headers = {"Accept": "application/vnd.github.v3+json", "User-Agent": USER_AGENT}
+    if GH_PAT: headers["Authorization"] = f"token {GH_PAT}"
+    
     try:
-        scan_and_alert()
-    except KeyboardInterrupt:
-        print("Interrupted")
+        r = requests.get(url, headers=headers, timeout=20)
+        if r.status_code == 403 or r.status_code == 429:
+            logger.warning("GitHub Rate Limit hit.")
+            return []
+        r.raise_for_status()
+        return r.json().get("items", [])
     except Exception as e:
-        print(f"Fatal error: {e}")
+        logger.error(f"GitHub Search Error: {e}")
+        return []
+
+async def run_scan_job(context: ContextTypes.DEFAULT_TYPE):
+    logger.info("Starting optimized scan...")
+    sent_repo_ids = load_json_set(SENT_REPOS_PATH)
+    
+    # Time Filters
+    created_after = (datetime.utcnow() - timedelta(days=180)).strftime("%Y-%m-%d") # Fresh projects (6 months)
+    pushed_after = (datetime.utcnow() - timedelta(days=60)).strftime("%Y-%m-%d")   # Active recently (2 months)
+
+    search_queries = []
+
+    # Strategy 1: Specific Terms (Any Language)
+    # Good for finding niche things like "mev bot" regardless of language
+    for kw in SPECIFIC_KEYWORDS:
+        q = f'"{kw}" created:>{created_after} pushed:>{pushed_after} fork:false'
+        search_queries.append((kw, urllib.parse.quote_plus(q)))
+
+    # Strategy 2: Broad Terms (Strict Languages Only)
+    # Good for "defi" but only if it's in Rust/Solidity (ignores Python homework)
+    for kw in BROAD_KEYWORDS:
+        for lang in STRICT_LANGUAGES:
+            q = f'{kw} language:{lang} created:>{created_after} pushed:>{pushed_after} fork:false'
+            search_queries.append((f"{kw} ({lang})", urllib.parse.quote_plus(q)))
+
+    new_count = 0
+    
+    for label, query_url in search_queries:
+        # Pause briefly to be nice to API
+        await asyncio.sleep(2) 
+        
+        items = await asyncio.get_running_loop().run_in_executor(None, github_search, query_url)
+        
+        for repo in items:
+            repo_id = repo.get("id")
+            
+            # Dupe Check
+            if not repo_id or repo_id in sent_repo_ids: continue
+            
+            # Quality Check
+            if not is_quality_repo(repo): continue
+
+            # If we get here, it's a winner.
+            full_name = repo.get('full_name')
+            url = repo.get('html_url')
+            stars = repo.get('stargazers_count', 0)
+            lang = repo.get('language') or 'unknown'
+            desc = (repo.get('description') or '').strip()
+            size = repo.get('size', 0)
+            
+            msg_text = (
+                f"💎 *{full_name}*\n"
+                f"🔗 [View on GitHub]({url})\n"
+                f"🏷 {label}\n"
+                f"🛠 {lang} | ⭐ {stars} | 📦 {size}KB\n"
+                f"_{desc}_"
+            )
+
+            try:
+                sent_msg = await context.bot.send_message(
+                    chat_id=TELEGRAM_CHAT_ID,
+                    text=msg_text,
+                    parse_mode=ParseMode.MARKDOWN,
+                    disable_web_page_preview=True
+                )
+                
+                # Update State
+                sent_repo_ids.add(repo_id)
+                track_message(msg_text, sent_msg.message_id) # Save for cleanup
+                new_count += 1
+                
+                # Soft Cap per run to avoid flood
+                if new_count >= 20: 
+                    save_json_set(sent_repo_ids, SENT_REPOS_PATH)
+                    logger.info("Hit soft limit (20 items). Stopping scan for now.")
+                    return 
+
+            except Exception as e:
+                logger.error(f"Send failed: {e}")
+
+    save_json_set(sent_repo_ids, SENT_REPOS_PATH)
+    logger.info(f"Scan complete. Found {new_count} high-quality repos.")
+
+# --------------------------
+# Cleanup Command
+# --------------------------
+async def cleanup_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Replies to a message with /cleanup to delete all its duplicates."""
+    if not update.message or not update.message.reply_to_message:
+        await update.message.reply_text("⚠ Reply to a message to clean up its duplicates.")
+        return
+
+    target_msg = update.message.reply_to_message
+    
+    # Try to grab text from caption (if image) or body
+    text = target_msg.text_markdown or target_msg.caption_markdown or target_msg.text or target_msg.caption
+    
+    if not text:
+        await update.message.reply_text("Could not read message text.")
+        return
+
+    h = hash_text(text)
+    db = load_message_db()
+    
+    if h not in db or not db[h]:
+        await update.message.reply_text("No duplicates found in database.")
+        return
+
+    ids = db[h]
+    deleted = 0
+    target_id = target_msg.message_id
+    
+    for mid in ids:
+        if mid == target_id: continue
         try:
-            send_telegram(f"🚨 web3-scout-bot error: {e}")
+            await context.bot.delete_message(chat_id=TELEGRAM_CHAT_ID, message_id=mid)
+            deleted += 1
         except Exception:
-            pass
+            pass # Message might already be deleted
+
+    # Reset DB to only contain the one we kept
+    db[h] = [target_id]
+    save_message_db(db)
+
+    # Cleanup the command itself
+    try: await update.message.delete()
+    except: pass
+
+    # Temp confirmation
+    conf = await context.bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=f"🧹 Deleted {deleted} duplicates.")
+    await asyncio.sleep(3)
+    try: await conf.delete() 
+    except: pass
+
+# --------------------------
+# Entry Point
+# --------------------------
+if __name__ == "__main__":
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("Error: Missing secrets (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID).")
         sys.exit(1)
+
+    app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
+    
+    app.job_queue.run_once(run_scan_job, 5) # First run after 5s
+    app.job_queue.run_repeating(run_scan_job, interval=SCAN_INTERVAL_SECONDS, first=SCAN_INTERVAL_SECONDS)
+    
+    app.add_handler(CommandHandler("cleanup", cleanup_command))
+
+    print(f"Bot 3.0 (Smart Filter Edition) is running...")
+    app.run_polling()
