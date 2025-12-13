@@ -2,19 +2,22 @@ name: Daily Web3 Scout
 
 on:
   schedule:
-    # Runs at 03:00 UTC every day
     - cron: '0 3 * * *'
   workflow_dispatch: {}
+
+# 1. THIS BLOCK PREVENTS "DOUBLE JOBS"
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   scan:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Explicitly allow writing to the repo
+      contents: write
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-      # We use the same PAT for scraping AND pushing changes
       GH_PAT:             ${{ secrets.GH_PAT }}
 
     steps:
@@ -22,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false 
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -38,6 +41,7 @@ jobs:
         run: |
           python defi_bot.py
 
+      # 2. THIS STEP IS NOW CRASH-PROOF
       - name: Save State (Commit & Push)
         if: always()
         env:
@@ -46,10 +50,9 @@ jobs:
           git config --global user.name "web3-scout-bot"
           git config --global user.email "web3-scout-bot@users.noreply.github.com"
           
-          # Stage the file. If the file is new, this adds it.
           git add data/sent_repo_ids.json || true
           
-          # Check if there are changes to commit
+          # If no changes, exit quietly
           if git diff --cached --quiet; then
             echo "No new repos found. Nothing to commit."
             exit 0
@@ -57,9 +60,8 @@ jobs:
           
           git commit -m "🤖 Update sent_repo_ids [skip ci]"
           
-          # SAFETY STEP: Pull latest changes before pushing to prevent conflicts
+          # SAFETY: Pull any changes (from other jobs/edits) before pushing
           git pull --rebase "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main
           
-          # Push changes
           git push "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main
           
