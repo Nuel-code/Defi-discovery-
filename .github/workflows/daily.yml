@@ -2,23 +2,27 @@ name: Daily Web3 Scout
 
 on:
   schedule:
-    # Run once a day at 03:00 UTC (adjust if you want a different time)
+    # Runs at 03:00 UTC every day
     - cron: '0 3 * * *'
   workflow_dispatch: {}
 
 jobs:
   scan:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly allow writing to the repo
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-      GH_PAT:              ${{ secrets.GH_PAT }}
+      # We use the same PAT for scraping AND pushing changes
+      GH_PAT:             ${{ secrets.GH_PAT }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false
+          persist-credentials: false 
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,20 +36,30 @@ jobs:
 
       - name: Run web3 scout bot
         run: |
-          # Run the updated script that is present in the repo
           python defi_bot.py
 
-      - name: Commit updated sent_repo_ids (if changed)
+      - name: Save State (Commit & Push)
         if: always()
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "web3-scout-bot"
           git config --global user.email "web3-scout-bot@users.noreply.github.com"
+          
+          # Stage the file. If the file is new, this adds it.
           git add data/sent_repo_ids.json || true
-          if ! git diff --cached --quiet; then
-            git commit -m "web3-scout-bot: persist sent_repo_ids (CI)" || true
-            git push "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main || true
-          else
-            echo "No changes to commit."
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No new repos found. Nothing to commit."
+            exit 0
           fi
+          
+          git commit -m "🤖 Update sent_repo_ids [skip ci]"
+          
+          # SAFETY STEP: Pull latest changes before pushing to prevent conflicts
+          git pull --rebase "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main
+          
+          # Push changes
+          git push "https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git" HEAD:main
+          
