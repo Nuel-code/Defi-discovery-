@@ -1,4 +1,4 @@
-from __future__ import annotations
+From __future__ import annotations
 import os
 import sys
 import time
@@ -8,7 +8,7 @@ import requests
 import re
 import urllib.parse
 from datetime import datetime, timedelta
-from typing import List, Dict, Set
+from typing import List, Dict, Set, Optional
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -33,21 +33,18 @@ DATA_DIR = "data"
 SENT_REPOS_PATH = f"{DATA_DIR}/sent_repo_ids.json"
 
 # Tuning
-# We search for recent creations to find new startups
 CREATED_DAYS = 90 
 SEARCH_PAGE_SIZE = 100
 GITHUB_API_BASE = "https://api.github.com"
-USER_AGENT = "web3-scout-bot/3.0"
+USER_AGENT = "web3-scout-bot/3.1"
 
 # Limits
-PER_KEYWORD_LIMIT_PER_RUN = 10  # Kept low to prioritize quality over quantity
+PER_KEYWORD_LIMIT_PER_RUN = 10 
 
 # --------------------------
 # Smart Filters (The "Bouncer")
 # --------------------------
 
-# 1. Trash Keywords (Immediate Rejection)
-# If these appear in description or topics, we assume it's fodder.
 TRASH_KEYWORDS = [
     "tutorial", "demo", "example", "test", "playground", "sample",
     "starter", "boilerplate", "course", "assignment", "homework",
@@ -56,15 +53,12 @@ TRASH_KEYWORDS = [
     "interview", "challenge", "bot"
 ]
 
-# 2. Pro Identity Keywords (Bonus Points)
-# If a username contains these, we trust it more.
 PRO_IDENTITY_TERMS = [
     "fi", "finance", "dex", "swap", "protocol", "labs", "dao", 
     "chain", "network", "foundation", "capital", "ventures", "tech",
     "system", "solutions", "market", "exchange", "defi", "web3"
 ]
 
-# 3. Search Keywords (Your Inputs)
 KEYWORDS = [
     "defi", "decentralized exchange", "automated market maker", "btc",
     "yield farming", "yield aggregator", "lending protocol",
@@ -93,24 +87,59 @@ def get_github_session():
     return session
 
 def load_sent_repo_ids() -> Set[int]:
+    """
+    Robust loading of history. 
+    Fixes the 'silent failure' issue where corruption caused it to return empty set.
+    """
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
+        
     if not os.path.exists(SENT_REPOS_PATH):
+        logger.info("⚠️ History file not found. Starting fresh.")
         return set()
+        
     try:
         with open(SENT_REPOS_PATH, "r", encoding="utf-8") as f:
-            return set(json.load(f))
-    except Exception:
+            data = json.load(f)
+            # Ensure it's a list/set, not a dict
+            if isinstance(data, list):
+                ids = set(data)
+                logger.info(f"📚 Loaded {len(ids)} past repositories from history.")
+                return ids
+            else:
+                logger.warning("⚠️ History file format invalid (not a list). Starting fresh.")
+                return set()
+    except json.JSONDecodeError:
+        logger.error("❌ History file is corrupted! Renaming it to .bak and starting fresh.")
+        try:
+            os.rename(SENT_REPOS_PATH, SENT_REPOS_PATH + ".bak")
+        except OSError:
+            pass
+        return set()
+    except Exception as e:
+        logger.error(f"❌ Error loading history: {e}")
         return set()
 
 def save_sent_repo_ids_local(sent: Set[int]) -> None:
-    os.makedirs(os.path.dirname(SENT_REPOS_PATH), exist_ok=True)
-    with open(SENT_REPOS_PATH, "w", encoding="utf-8") as f:
-        json.dump(sorted(list(sent)), f, indent=2)
+    try:
+        os.makedirs(os.path.dirname(SENT_REPOS_PATH), exist_ok=True)
+        with open(SENT_REPOS_PATH, "w", encoding="utf-8") as f:
+            json.dump(sorted(list(sent)), f, indent=2)
+    except Exception as e:
+        logger.error(f"❌ Failed to save history: {e}")
 
-def send_telegram(session: requests.Session, message: str) -> bool:
+def send_telegram(session: requests.Session, message: str, disable_preview: bool = False) -> bool:
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         return False
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "Markdown", "disable_web_page_preview": True}
+    
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID, 
+        "text": message, 
+        "parse_mode": "Markdown", 
+        "disable_web_page_preview": disable_preview # Control preview here
+    }
+    
     try:
         r = session.post(url, json=payload, timeout=10)
         r.raise_for_status()
@@ -123,31 +152,20 @@ def send_telegram(session: requests.Session, message: str) -> bool:
 # Core Filtering Logic
 # --------------------------
 def is_likely_project_account(owner_data: Dict) -> bool:
-    """
-    Determines if the account looks like a Project/Org or a random User.
-    """
     account_type = owner_data.get("type", "User")
     username = owner_data.get("login", "").lower()
 
-    # RULE 1: Organizations are preferred
     if account_type == "Organization":
         return True
 
-    # RULE 2: Filter out "Personal/Spam" usernames
-    # Reject usernames ending in 3+ digits (e.g., ayush6671, user992)
+    # Reject usernames ending in 3+ digits
     if re.search(r'[a-z]+[0-9]{3,}$', username):
         logger.info(f"    [Filter] Rejecting personal pattern: {username}")
         return False
 
-    # RULE 3: Check for "Pro" keywords in username
-    # e.g., "rendexfi" contains "fi", "swapxyz" contains "swap"
     if any(term in username for term in PRO_IDENTITY_TERMS):
         return True
 
-    # If it's a User, has no numbers, but no pro keywords (e.g. "johnsmith"), 
-    # we treat it neutrally (let other filters decide), or strict fail?
-    # Based on your request for "Organization feel", we lean towards False unless content is amazing.
-    # For now, we allow it but rely on content filters.
     return True
 
 def is_high_quality_repo(repo: Dict) -> bool:
@@ -156,22 +174,15 @@ def is_high_quality_repo(repo: Dict) -> bool:
     topics = [t.lower() for t in repo.get("topics", [])]
     size_kb = repo.get("size", 0)
 
-    # 1. IMMEDIATE TRASH CHECKS
-    # Check for homework/tutorial keywords
     text_corpus = f"{full_name} {desc} {' '.join(topics)}"
     if any(bad in text_corpus for bad in TRASH_KEYWORDS):
         logger.info(f"    [Filter] Trash keyword found in {full_name}")
         return False
 
-    # 2. SIZE CHECK (The "Fodder" Filter)
-    # A real startup repo usually has some weight. 
-    # Empty or README-only repos are usually < 5KB.
-    # We set a bar at 30KB to filter out pure "init" commits.
     if size_kb < 30:
         logger.info(f"    [Filter] Repo too small ({size_kb}KB): {full_name}")
         return False
 
-    # 3. IDENTITY CHECK (The "Ayush" vs "Rendex" Filter)
     owner = repo.get("owner", {})
     if not is_likely_project_account(owner):
         return False
@@ -192,6 +203,8 @@ def check_rate_limit(headers: Dict):
 def scan_and_alert():
     logger.info("--- Starting Web3 Scout ---")
     session = get_github_session()
+    
+    # LOAD HISTORY
     sent_ids = load_sent_repo_ids()
     
     # Time window
@@ -204,7 +217,6 @@ def scan_and_alert():
         logger.info(f"🔎 Scanning: {kw}")
         count_for_kw = 0
         
-        # We loop languages to dig deeper than just the "default" search sort
         for lang in [None] + PRIORITY_LANGUAGES:
             if count_for_kw >= PER_KEYWORD_LIMIT_PER_RUN:
                 break
@@ -212,7 +224,6 @@ def scan_and_alert():
             page = 1
             while True:
                 # Query Construction
-                # We do NOT combine keywords. We use the single kw provided.
                 query_parts = [kw, f"created:>{created_since}", f"pushed:>{pushed_since}", "fork:false"]
                 if lang:
                     query_parts.append(f"language:{lang}")
@@ -245,19 +256,25 @@ def scan_and_alert():
                         continue
 
                     # If we passed all filters, it's a match!
+                    owner_data = repo.get("owner", {})
+                    avatar_url = owner_data.get("avatar_url", "")
+                    
                     stars = repo.get('stargazers_count', 0)
                     lang_tag = repo.get('language') or 'Unknown'
                     desc = (repo.get('description') or 'No description').strip()
                     if len(desc) > 200: desc = desc[:197] + "..."
 
+                    # Invisible link [\u200b](url) forces Telegram to render the preview
                     msg = (
+                        f"[\u200b]({avatar_url})"
                         f"🚀 *{repo.get('full_name')}*\n"
                         f"🔗 [GitHub Link]({repo.get('html_url')})\n"
                         f"🏷️ `{kw}` | 🛠 {lang_tag} | 📦 {repo.get('size',0)}KB\n"
                         f"📝 {desc}"
                     )
 
-                    if send_telegram(session, msg):
+                    # Send with disable_preview=False to allow image
+                    if send_telegram(session, msg, disable_preview=False):
                         # CRITICAL: Save immediately to disk
                         sent_ids.add(rid)
                         save_sent_repo_ids_local(sent_ids)
@@ -265,7 +282,7 @@ def scan_and_alert():
                         logger.info(f"✅ Sent: {repo.get('full_name')}")
                         count_for_kw += 1
                         new_alerts += 1
-                        time.sleep(0.5) # Polite delay
+                        time.sleep(0.5) 
                     
                     if count_for_kw >= PER_KEYWORD_LIMIT_PER_RUN:
                         break
