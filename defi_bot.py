@@ -140,7 +140,7 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
         score -= 50
         reasons.append("Contains 'trash' keywords")
     
-    if size < 50: # Increased from 30KB
+    if size < 30: # Increased from 30KB
         score -= 20
         reasons.append("Too small (<50KB)")
         
@@ -162,7 +162,7 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
         reasons.append("📜 Licensed")
     
     if stars > 5:
-        score += 5
+        score += 4
         reasons.append(f"⭐ {stars} Stars")
 
     # --- 3. Keyword Relevance ---
