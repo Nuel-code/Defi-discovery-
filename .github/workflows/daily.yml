@@ -1,1 +1,50 @@
+name: Web3 Scout
 
+on:
+  workflow_dispatch:
+  schedule:
+    # 9:05 AM Africa/Lagos ≈ 8:05 AM UTC (adjust if you want)
+    - cron: "5 8 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: web3-scout
+  cancel-in-progress: true
+
+jobs:
+  run-scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ✅ Persistence: restore previous "sent ids" and save updated ones
+      - name: Cache scout data
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: web3-scout-data-${{ github.run_id }}
+          restore-keys: |
+            web3-scout-data-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests urllib3
+
+      - name: Run scout
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python web3_scout.py
