@@ -3,11 +3,10 @@ name: Web3 Scout
 on:
   workflow_dispatch:
   schedule:
-    # 9:05 AM Africa/Lagos ≈ 8:05 AM UTC (adjust if you want)
     - cron: "5 8 * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: web3-scout
@@ -21,13 +20,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # ✅ Persistence: restore previous "sent ids" and save updated ones
       - name: Cache scout data
         uses: actions/cache@v4
         with:
@@ -48,3 +48,18 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python defi_bot.py
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/latest_run.json data/sent_repo_ids.json data/runs/*.json || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update scout data [skip ci]"
+          git push
