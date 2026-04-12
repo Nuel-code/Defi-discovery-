@@ -31,14 +31,13 @@ GH_PAT = os.getenv("GH_PAT")
 
 # Paths
 DATA_DIR = "data"
+RUN_HISTORY_DIR = f"{DATA_DIR}/runs"
 SENT_REPOS_PATH = f"{DATA_DIR}/sent_repo_ids.json"
+LATEST_RUN_PATH = f"{DATA_DIR}/latest_run.json"
 
 # Tuning
 CREATED_DAYS_AGO = 90
-
-# The bar is now real (your old 1 was basically "anything goes")
 MIN_SCORE_THRESHOLD = 10
-
 SEARCH_PAGE_SIZE = 100
 PER_KEYWORD_LIMIT = 15
 PAGES_PER_KEYWORD = 2
@@ -46,15 +45,15 @@ PAGES_PER_KEYWORD = 2
 # “Unknown gems” constraints
 MAX_STARS = 80
 MAX_FORKS = 40
-MIN_SIZE_KB = 200          # GitHub "size" is KB
-MAX_INACTIVE_DAYS = 21     # must be pushed within last N days
+MIN_SIZE_KB = 200
+MAX_INACTIVE_DAYS = 21
 REQUIRE_LICENSE = True
 REQUIRE_DESCRIPTION = True
 
 USER_AGENT = "web3-scout-v5"
 
 # --------------------------
-# The "Brain" (Keywords & Scoring)
+# Keywords & Scoring
 # --------------------------
 TRASH_TERMS = [
     "tutorial", "demo", "example", "test", "playground", "sample",
@@ -98,7 +97,6 @@ def get_github_session() -> requests.Session:
     s.mount("https://", HTTPAdapter(max_retries=retries))
 
     headers = {
-        # Topics in search results can be flaky; mercy-preview historically helped.
         "Accept": "application/vnd.github.mercy-preview+json",
         "User-Agent": USER_AGENT,
     }
@@ -109,8 +107,13 @@ def get_github_session() -> requests.Session:
     return s
 
 
-def load_history() -> Set[int]:
+def ensure_data_dirs() -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(RUN_HISTORY_DIR, exist_ok=True)
+
+
+def load_history() -> Set[int]:
+    ensure_data_dirs()
 
     if not os.path.exists(SENT_REPOS_PATH):
         return set()
@@ -120,7 +123,6 @@ def load_history() -> Set[int]:
             data = json.load(f)
             return set(data) if isinstance(data, list) else set()
     except Exception:
-        # backup corrupt file
         try:
             os.rename(SENT_REPOS_PATH, f"{SENT_REPOS_PATH}.bak")
         except Exception:
@@ -129,6 +131,7 @@ def load_history() -> Set[int]:
 
 
 def save_history(history: Set[int]) -> None:
+    ensure_data_dirs()
     try:
         with open(SENT_REPOS_PATH, "w", encoding="utf-8") as f:
             json.dump(sorted(history), f, indent=2)
@@ -146,9 +149,6 @@ def parse_utc(dt_str: Optional[str]) -> Optional[datetime]:
 
 
 def handle_rate_limit(resp: requests.Response) -> bool:
-    """
-    Returns True if we slept due to rate limit and should retry.
-    """
     if resp.status_code not in (403, 429):
         return False
 
@@ -156,7 +156,6 @@ def handle_rate_limit(resp: requests.Response) -> bool:
     reset = resp.headers.get("X-RateLimit-Reset")
     msg = resp.text[:200].replace("\n", " ")
 
-    # If it looks like rate limiting, sleep until reset (+3s)
     if remaining == "0" and reset:
         try:
             reset_ts = int(reset)
@@ -168,14 +167,13 @@ def handle_rate_limit(resp: requests.Response) -> bool:
         except Exception:
             pass
 
-    # fallback short sleep
     logger.warning(f"Rate/abuse limit hit. Cooling down 20s. ({msg})")
     time.sleep(20)
     return True
 
 
 # --------------------------
-# Hard Filters (stop junk early)
+# Hard Filters
 # --------------------------
 def passes_hard_filters(repo: Dict) -> Tuple[bool, str]:
     if repo.get("fork") or repo.get("archived"):
@@ -192,15 +190,12 @@ def passes_hard_filters(repo: Dict) -> Tuple[bool, str]:
     forks = int(repo.get("forks_count", 0) or 0)
     size_kb = int(repo.get("size", 0) or 0)
 
-    # Keep it unknown
     if stars > MAX_STARS or forks > MAX_FORKS:
         return False, "too_popular"
 
-    # Avoid tiny throwaways
     if size_kb < MIN_SIZE_KB:
         return False, "too_small"
 
-    # Must be recently active
     pushed = parse_utc(repo.get("pushed_at"))
     if not pushed:
         return False, "no_pushed_at"
@@ -212,7 +207,7 @@ def passes_hard_filters(repo: Dict) -> Tuple[bool, str]:
 
 
 # --------------------------
-# Scoring (refined)
+# Scoring
 # --------------------------
 def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
     score = 0
@@ -230,12 +225,10 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
 
     text_corpus = f"{name} {desc} {' '.join(topics)}"
 
-    # Trash deductions
     if any(bad in text_corpus for bad in TRASH_TERMS):
         score -= 50
         reasons.append("Contains trash terms")
 
-    # "Professional-ish" signals
     if owner_type == "Organization":
         score += 12
         reasons.append("🏛️ Organization")
@@ -252,7 +245,6 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
         score += 6
         reasons.append(f"🧠 {lang}")
 
-    # Relevance signals
     pro_hits = sum(1 for pro in PRO_TERMS if pro in text_corpus)
     if pro_hits >= 2:
         score += 8
@@ -260,17 +252,14 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
     elif pro_hits == 1:
         score += 3
 
-    # Avoid “random personal repo” patterns
     if owner_type == "User" and stars < 3:
         score -= 8
         reasons.append("Likely personal repo")
 
-    # Size bonus for seriousness (we already hard-filter small stuff)
     if size_kb >= 800:
         score += 4
         reasons.append("📦 Substantial codebase")
 
-    # Slight bonus for some traction (but still unknown)
     if stars >= 10:
         score += 2
         reasons.append("⭐ Some traction")
@@ -279,7 +268,76 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
 
 
 # --------------------------
-# Telegram (HTML, safe)
+# JSON Export
+# --------------------------
+def build_repo_record(
+    repo: Dict,
+    score: int,
+    reasons: List[str],
+    keyword: str,
+    telegram_sent: bool,
+) -> Dict:
+    return {
+        "repo_id": repo.get("id"),
+        "name": repo.get("name"),
+        "full_name": repo.get("full_name"),
+        "html_url": repo.get("html_url"),
+        "description": repo.get("description"),
+        "language": repo.get("language"),
+        "stars": int(repo.get("stargazers_count", 0) or 0),
+        "forks": int(repo.get("forks_count", 0) or 0),
+        "size_kb": int(repo.get("size", 0) or 0),
+        "score": score,
+        "reasons": reasons,
+        "found_via": keyword,
+        "homepage": repo.get("homepage"),
+        "topics": repo.get("topics") or [],
+        "created_at": repo.get("created_at"),
+        "updated_at": repo.get("updated_at"),
+        "pushed_at": repo.get("pushed_at"),
+        "telegram_sent": telegram_sent,
+        "owner": {
+            "login": repo.get("owner", {}).get("login"),
+            "type": repo.get("owner", {}).get("type"),
+        },
+        "license": (repo.get("license") or {}).get("spdx_id"),
+    }
+
+
+def save_run_json(results: List[Dict]) -> None:
+    ensure_data_dirs()
+
+    generated_at = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    timestamp_for_file = datetime.utcnow().strftime("%Y-%m-%dT%H-%M-%SZ")
+
+    sent_count = sum(1 for r in results if r.get("telegram_sent"))
+
+    payload = {
+        "generated_at": generated_at,
+        "summary": {
+            "match_count": len(results),
+            "telegram_sent_count": sent_count,
+            "keywords_scanned": len(KEYWORDS),
+        },
+        "startups": results,
+    }
+
+    try:
+        with open(LATEST_RUN_PATH, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+
+        history_path = f"{RUN_HISTORY_DIR}/run_{timestamp_for_file}.json"
+        with open(history_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+
+        logger.info(f"Saved latest run JSON to {LATEST_RUN_PATH}")
+        logger.info(f"Saved history run JSON to {history_path}")
+    except Exception as e:
+        logger.error(f"Failed to save run JSON: {e}")
+
+
+# --------------------------
+# Telegram
 # --------------------------
 def send_telegram_card(repo: Dict, score: int, reasons: List[str], keyword: str) -> bool:
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
@@ -299,11 +357,9 @@ def send_telegram_card(repo: Dict, score: int, reasons: List[str], keyword: str)
     pushed_at = parse_utc(repo.get("pushed_at"))
     freshness = pushed_at.strftime("%d %b") if pushed_at else "Unknown"
 
-    # show only positive-ish reasons
     display_tags = [r for r in reasons if not any(x in r.lower() for x in ["trash", "personal"])]
     tags_str = " • ".join(display_tags[:3]) if display_tags else "New discovery"
 
-    # HTML escape everything except our tags
     msg = (
         f"💎 <b>{html_escape(name)}</b> <code>{html_escape(lang)}</code>\n"
         f"<i>{html_escape(desc)}</i>\n\n"
@@ -335,13 +391,15 @@ def send_telegram_card(repo: Dict, score: int, reasons: List[str], keyword: str)
 # Main
 # --------------------------
 def run_scout() -> None:
-    logger.info("--- Starting Web3 Scout v5 (Hard Filters + Persistent Cache) ---")
+    logger.info("--- Starting Web3 Scout v5 (Hard Filters + Persistent Cache + JSON Export) ---")
 
+    ensure_data_dirs()
     session = get_github_session()
     sent_ids = load_history()
 
     created_since = (datetime.utcnow() - timedelta(days=CREATED_DAYS_AGO)).strftime("%Y-%m-%d")
     new_count = 0
+    matched_results: List[Dict] = []
 
     for kw in KEYWORDS:
         logger.info(f"Scanning: {kw}")
@@ -378,16 +436,13 @@ def run_scout() -> None:
                     if not rid:
                         continue
 
-                    # 1) History
                     if rid in sent_ids:
                         continue
 
-                    # 2) Hard filters
                     ok, why = passes_hard_filters(repo)
                     if not ok:
                         continue
 
-                    # 3) Score
                     score, reasons = calculate_quality_score(repo)
                     if score < MIN_SCORE_THRESHOLD:
                         continue
@@ -395,14 +450,23 @@ def run_scout() -> None:
                     full_name = repo.get("full_name") or repo.get("name") or "unknown"
                     logger.info(f"   [MATCH] {full_name} | score={score} | reasons={reasons}")
 
-                    # 4) Send
                     success = send_telegram_card(repo, score, reasons, kw)
+
+                    record = build_repo_record(
+                        repo=repo,
+                        score=score,
+                        reasons=reasons,
+                        keyword=kw,
+                        telegram_sent=success,
+                    )
+                    matched_results.append(record)
+
                     if success:
                         sent_ids.add(rid)
                         save_history(sent_ids)
                         kw_hits += 1
                         new_count += 1
-                        time.sleep(0.6)  # polite delay
+                        time.sleep(0.6)
 
                 time.sleep(1.5)
 
@@ -410,7 +474,8 @@ def run_scout() -> None:
                 logger.error(f"Error on keyword '{kw}': {e}")
                 time.sleep(6)
 
-    logger.info(f"🏁 Scout finished. Found {new_count} new gems.")
+    save_run_json(matched_results)
+    logger.info(f"🏁 Scout finished. Found {new_count} new gems. Total matched: {len(matched_results)}")
 
 
 if __name__ == "__main__":
