@@ -34,6 +34,7 @@ DATA_DIR = "data"
 RUN_HISTORY_DIR = f"{DATA_DIR}/runs"
 SENT_REPOS_PATH = f"{DATA_DIR}/sent_repo_ids.json"
 LATEST_RUN_PATH = f"{DATA_DIR}/latest_run.json"
+ALL_STARTUPS_PATH = f"{DATA_DIR}/all_startups.json"
 
 # Tuning
 CREATED_DAYS_AGO = 90
@@ -50,10 +51,10 @@ MAX_INACTIVE_DAYS = 21
 REQUIRE_LICENSE = True
 REQUIRE_DESCRIPTION = True
 
-USER_AGENT = "web3-scout-v5"
+USER_AGENT = "web3-scout-v6"
 
 # --------------------------
-# Keywords & Scoring
+# The "Brain" (Keywords & Scoring)
 # --------------------------
 TRASH_TERMS = [
     "tutorial", "demo", "example", "test", "playground", "sample",
@@ -149,6 +150,9 @@ def parse_utc(dt_str: Optional[str]) -> Optional[datetime]:
 
 
 def handle_rate_limit(resp: requests.Response) -> bool:
+    """
+    Returns True if we slept due to rate limit and should retry.
+    """
     if resp.status_code not in (403, 429):
         return False
 
@@ -173,7 +177,7 @@ def handle_rate_limit(resp: requests.Response) -> bool:
 
 
 # --------------------------
-# Hard Filters
+# Hard Filters (stop junk early)
 # --------------------------
 def passes_hard_filters(repo: Dict) -> Tuple[bool, str]:
     if repo.get("fork") or repo.get("archived"):
@@ -207,7 +211,7 @@ def passes_hard_filters(repo: Dict) -> Tuple[bool, str]:
 
 
 # --------------------------
-# Scoring
+# Scoring (refined)
 # --------------------------
 def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
     score = 0
@@ -296,6 +300,10 @@ def build_repo_record(
         "updated_at": repo.get("updated_at"),
         "pushed_at": repo.get("pushed_at"),
         "telegram_sent": telegram_sent,
+        "links": {
+            "github": repo.get("html_url"),
+            "website": repo.get("homepage") or None,
+        },
         "owner": {
             "login": repo.get("owner", {}).get("login"),
             "type": repo.get("owner", {}).get("type"),
@@ -336,8 +344,72 @@ def save_run_json(results: List[Dict]) -> None:
         logger.error(f"Failed to save run JSON: {e}")
 
 
+def load_all_startups() -> List[Dict]:
+    ensure_data_dirs()
+
+    if not os.path.exists(ALL_STARTUPS_PATH):
+        return []
+
+    try:
+        with open(ALL_STARTUPS_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, dict) and isinstance(data.get("startups"), list):
+                return data["startups"]
+            return []
+    except Exception as e:
+        logger.error(f"Failed to load all startups: {e}")
+        return []
+
+
+def save_all_startups(startups: List[Dict]) -> None:
+    ensure_data_dirs()
+
+    payload = {
+        "generated_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "summary": {
+            "total_count": len(startups),
+        },
+        "startups": startups,
+    }
+
+    try:
+        with open(ALL_STARTUPS_PATH, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        logger.info(f"Saved cumulative startup history to {ALL_STARTUPS_PATH}")
+    except Exception as e:
+        logger.error(f"Failed to save all startups: {e}")
+
+
+def merge_startups(existing: List[Dict], new_results: List[Dict]) -> List[Dict]:
+    now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    merged = {item["repo_id"]: item for item in existing if item.get("repo_id") is not None}
+
+    for item in new_results:
+        repo_id = item.get("repo_id")
+        if repo_id is None:
+            continue
+
+        if repo_id in merged:
+            old = merged[repo_id]
+            item["first_seen_at"] = old.get("first_seen_at", now)
+            item["last_seen_at"] = now
+            item["seen_count"] = int(old.get("seen_count", 1)) + 1
+        else:
+            item["first_seen_at"] = now
+            item["last_seen_at"] = now
+            item["seen_count"] = 1
+
+        merged[repo_id] = item
+
+    return sorted(
+        merged.values(),
+        key=lambda x: x.get("last_seen_at") or "",
+        reverse=True,
+    )
+
+
 # --------------------------
-# Telegram
+# Telegram (HTML, safe)
 # --------------------------
 def send_telegram_card(repo: Dict, score: int, reasons: List[str], keyword: str) -> bool:
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
@@ -391,7 +463,7 @@ def send_telegram_card(repo: Dict, score: int, reasons: List[str], keyword: str)
 # Main
 # --------------------------
 def run_scout() -> None:
-    logger.info("--- Starting Web3 Scout v5 (Hard Filters + Persistent Cache + JSON Export) ---")
+    logger.info("--- Starting Web3 Scout v6 (Hard Filters + Persistent Cache + JSON Export + History) ---")
 
     ensure_data_dirs()
     session = get_github_session()
@@ -439,7 +511,7 @@ def run_scout() -> None:
                     if rid in sent_ids:
                         continue
 
-                    ok, why = passes_hard_filters(repo)
+                    ok, _why = passes_hard_filters(repo)
                     if not ok:
                         continue
 
@@ -475,6 +547,11 @@ def run_scout() -> None:
                 time.sleep(6)
 
     save_run_json(matched_results)
+
+    existing = load_all_startups()
+    merged = merge_startups(existing, matched_results)
+    save_all_startups(merged)
+
     logger.info(f"🏁 Scout finished. Found {new_count} new gems. Total matched: {len(matched_results)}")
 
 
