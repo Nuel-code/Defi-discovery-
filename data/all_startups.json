@@ -1,9 +1,892 @@
 {
-  "generated_at": "2026-04-13T06:44:47Z",
+  "generated_at": "2026-04-13T10:07:37Z",
   "summary": {
-    "total_count": 27
+    "total_count": 48
   },
   "startups": [
+    {
+      "repo_id": 1209197842,
+      "name": "wallet-sdk",
+      "full_name": "satuchain/wallet-sdk",
+      "html_url": "https://github.com/satuchain/wallet-sdk",
+      "description": "Multi-chain wallet SDK for EVM Solana and TON DApps",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 205,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://wallet.satuchain.com",
+      "topics": [
+        "bnb-chain",
+        "crypto",
+        "dapp",
+        "defi",
+        "ethereum",
+        "evm",
+        "satuchain",
+        "sdk",
+        "solana",
+        "ton",
+        "wallet",
+        "web3"
+      ],
+      "created_at": "2026-04-13T07:30:31Z",
+      "updated_at": "2026-04-13T08:03:12Z",
+      "pushed_at": "2026-04-13T08:04:06Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/satuchain/wallet-sdk",
+        "website": "https://wallet.satuchain.com"
+      },
+      "owner": {
+        "login": "satuchain",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209202075,
+      "name": "sentinel",
+      "full_name": "davidakpele/sentinel",
+      "html_url": "https://github.com/davidakpele/sentinel",
+      "description": "Multi-Chain Security Scanner | Rust + Go + Python + React | Real-Time Threat Detection | EVM Bytecode Decompiler | Smart Contract Monitoring | Vulnerability Scanner | DeFi Security Dashboard",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 563,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "",
+      "topics": [
+        "audit",
+        "blockchain",
+        "bytecode",
+        "decompiler",
+        "defi",
+        "ethereum",
+        "golang",
+        "monitoring",
+        "multi-chain",
+        "python",
+        "react",
+        "rust",
+        "scanner",
+        "security",
+        "smart-contract",
+        "solidity",
+        "threat-detection",
+        "vulnerability-detection",
+        "web3"
+      ],
+      "created_at": "2026-04-13T07:36:17Z",
+      "updated_at": "2026-04-13T07:43:15Z",
+      "pushed_at": "2026-04-13T07:43:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/davidakpele/sentinel",
+        "website": null
+      },
+      "owner": {
+        "login": "davidakpele",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209174480,
+      "name": "mev-engineering-stack",
+      "full_name": "davidakpele/mev-engineering-stack",
+      "html_url": "https://github.com/davidakpele/mev-engineering-stack",
+      "description": "MEV Engineering Stack | Rust + Go + C + Solidity | Flashbots Integration | Low-Latency Mempool Analysis | DEX Arbitrage | High-Performance EVM Trading Infrastructure",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 373,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "",
+      "topics": [
+        "arbitrage",
+        "blockchain",
+        "c",
+        "defi",
+        "dex",
+        "ethereum",
+        "evm",
+        "flashbot",
+        "golang",
+        "high-performance",
+        "low-latency",
+        "mempool",
+        "mev",
+        "rust",
+        "solidity",
+        "tokio-rs",
+        "trading",
+        "uniswap"
+      ],
+      "created_at": "2026-04-13T06:59:50Z",
+      "updated_at": "2026-04-13T07:48:07Z",
+      "pushed_at": "2026-04-13T07:19:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/davidakpele/mev-engineering-stack",
+        "website": null
+      },
+      "owner": {
+        "login": "davidakpele",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1180878905,
+      "name": "inanna-0.2",
+      "full_name": "outcast2020/inanna-0.2",
+      "html_url": "https://github.com/outcast2020/inanna-0.2",
+      "description": "Inanna é um mini-app web educativo que simula uma “Proto-IA” para ensinar previsão de próxima palavra (token) com transparência. Gera versos e fecha quadras, usando contextos que visibilizam o território.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6201,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-13T14:06:34Z",
+      "updated_at": "2026-04-13T10:03:58Z",
+      "pushed_at": "2026-04-13T10:04:29Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/outcast2020/inanna-0.2",
+        "website": null
+      },
+      "owner": {
+        "login": "outcast2020",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1188638612,
+      "name": "cbdc-tokenization-sandbox",
+      "full_name": "Norges-Bank-CBDC-Lab/cbdc-tokenization-sandbox",
+      "html_url": "https://github.com/Norges-Bank-CBDC-Lab/cbdc-tokenization-sandbox",
+      "description": "Experimental local sandbox for CBDC-related tokenization and lifecycle workflows, with Solidity contracts, off-chain services, and Besu-based infrastructure.",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 884,
+      "score": 33,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Solidity",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "besu",
+        "blockchain",
+        "blockscout",
+        "cbdc",
+        "experimental",
+        "foundry",
+        "solidity",
+        "tokenization"
+      ],
+      "created_at": "2026-03-22T11:27:07Z",
+      "updated_at": "2026-04-13T09:59:47Z",
+      "pushed_at": "2026-04-13T10:01:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Norges-Bank-CBDC-Lab/cbdc-tokenization-sandbox",
+        "website": null
+      },
+      "owner": {
+        "login": "Norges-Bank-CBDC-Lab",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1158412736,
+      "name": "rimuru",
+      "full_name": "rohitg00/rimuru",
+      "html_url": "https://github.com/rohitg00/rimuru",
+      "description": "Datadog for AI Agents.",
+      "language": "Rust",
+      "stars": 44,
+      "forks": 6,
+      "size_kb": 16891,
+      "score": 20,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "agent",
+        "ai-agents",
+        "cost",
+        "cost-control",
+        "cost-optimization",
+        "datadog",
+        "observability",
+        "token"
+      ],
+      "created_at": "2026-02-15T10:29:17Z",
+      "updated_at": "2026-04-13T09:56:48Z",
+      "pushed_at": "2026-04-13T09:56:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rohitg00/rimuru",
+        "website": null
+      },
+      "owner": {
+        "login": "rohitg00",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207473599,
+      "name": "Claude-Token-Saver",
+      "full_name": "awesomo913/Claude-Token-Saver",
+      "html_url": "https://github.com/awesomo913/Claude-Token-Saver",
+      "description": "A claude prompting tool designed to cut down token usage. Open Source please fork it! So far 80 percent or better reduction in token usage!!! Stop wasting money and get more usage every day!",
+      "language": "Python",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 201,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-11T01:38:26Z",
+      "updated_at": "2026-04-13T09:47:15Z",
+      "pushed_at": "2026-04-13T09:47:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/awesomo913/Claude-Token-Saver",
+        "website": null
+      },
+      "owner": {
+        "login": "awesomo913",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1148266954,
+      "name": "denshokan-sdk",
+      "full_name": "Provable-Games/denshokan-sdk",
+      "html_url": "https://github.com/Provable-Games/denshokan-sdk",
+      "description": "TypeScript SDK for Denshokan — query game tokens via REST API and Starknet RPC with automatic fallback",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 339,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-02-02T19:12:31Z",
+      "updated_at": "2026-04-13T09:31:49Z",
+      "pushed_at": "2026-04-13T09:31:44Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Provable-Games/denshokan-sdk",
+        "website": null
+      },
+      "owner": {
+        "login": "Provable-Games",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202880777,
+      "name": "TS2068-Disk-Explorer",
+      "full_name": "factus10/TS2068-Disk-Explorer",
+      "html_url": "https://github.com/factus10/TS2068-Disk-Explorer",
+      "description": "Browse and extract files from vintage Timex Sinclair 2068 and ZX Spectrum disk images (.img/.dsk) and TAP tape files. Features BASIC listing with syntax highlighting, inline editing, SCREEN$ viewer, TS2068 token support, TAP package bundling, and state capture extraction.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1090,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-06T13:53:35Z",
+      "updated_at": "2026-04-13T09:27:08Z",
+      "pushed_at": "2026-04-13T09:27:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/factus10/TS2068-Disk-Explorer",
+        "website": null
+      },
+      "owner": {
+        "login": "factus10",
+        "type": "User"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209041747,
+      "name": "prism",
+      "full_name": "jakeefr/prism",
+      "html_url": "https://github.com/jakeefr/prism",
+      "description": "Session intelligence for Claude Code - find extra token usage, why your sessions fail, and how to fix it.",
+      "language": "Python",
+      "stars": 5,
+      "forks": 0,
+      "size_kb": 2126,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli",
+        "developer-tools",
+        "python",
+        "terminal",
+        "textual",
+        "token-optimization",
+        "token-optimizer",
+        "token-usage",
+        "tui"
+      ],
+      "created_at": "2026-04-13T03:18:58Z",
+      "updated_at": "2026-04-13T09:18:52Z",
+      "pushed_at": "2026-04-13T09:18:34Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jakeefr/prism",
+        "website": null
+      },
+      "owner": {
+        "login": "jakeefr",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208279040,
+      "name": "token-world",
+      "full_name": "reubenjohn/token-world",
+      "html_url": "https://github.com/reubenjohn/token-world",
+      "description": "Universe simulator where LLM-powered agents inhabit a text-based world with procedurally generated mechanics",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 898,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://reubenjohn.github.io/token-world/",
+      "topics": [
+        "agents",
+        "ai",
+        "anthropic",
+        "knowledge-graph",
+        "llm",
+        "procedural-generation",
+        "python",
+        "simulation",
+        "text-based"
+      ],
+      "created_at": "2026-04-12T04:02:24Z",
+      "updated_at": "2026-04-13T09:17:39Z",
+      "pushed_at": "2026-04-13T09:17:40Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/reubenjohn/token-world",
+        "website": "https://reubenjohn.github.io/token-world/"
+      },
+      "owner": {
+        "login": "reubenjohn",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1203913465,
+      "name": "saw",
+      "full_name": "trizist/saw",
+      "html_url": "https://github.com/trizist/saw",
+      "description": "Secure Atomic Wave Protocol: A Cryptographically Deterministic Token Launch Framework with Multi-Source Time Anchoring",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 401,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "token",
+      "homepage": "https://saw-pdp.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-07T14:03:30Z",
+      "updated_at": "2026-04-13T09:16:23Z",
+      "pushed_at": "2026-04-13T09:16:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/trizist/saw",
+        "website": "https://saw-pdp.vercel.app"
+      },
+      "owner": {
+        "login": "trizist",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208852634,
+      "name": "crystal-rouge",
+      "full_name": "aloli-crystal/crystal-rouge",
+      "html_url": "https://github.com/aloli-crystal/crystal-rouge",
+      "description": "Pure Crystal syntax highlighter, port of the Rouge Ruby gem. Tokenization engine with RegexLexer, HTML formatter, and CSS themes.",
+      "language": "Crystal",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 216,
+      "score": 20,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-12T20:33:12Z",
+      "updated_at": "2026-04-13T09:15:12Z",
+      "pushed_at": "2026-04-13T09:15:08Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/aloli-crystal/crystal-rouge",
+        "website": null
+      },
+      "owner": {
+        "login": "aloli-crystal",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208153240,
+      "name": "nyxcode",
+      "full_name": "fabudde/nyxcode",
+      "html_url": "https://github.com/fabudde/nyxcode",
+      "description": "NyxCode — The AI-native programming language for the web. Designed for AI, optimized for tokens, built for humans.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 281,
+      "score": 12,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "token",
+      "homepage": "https://nyxcode.io",
+      "topics": [],
+      "created_at": "2026-04-11T22:23:14Z",
+      "updated_at": "2026-04-13T09:07:58Z",
+      "pushed_at": "2026-04-13T09:07:53Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/fabudde/nyxcode",
+        "website": "https://nyxcode.io"
+      },
+      "owner": {
+        "login": "fabudde",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1199052202,
+      "name": "openpa",
+      "full_name": "openpa/openpa",
+      "html_url": "https://github.com/openpa/openpa",
+      "description": "A new approach for Personal AI Assistants to reduce and optimize LLM token costs by separating and breaking down the main model’s tasks into smaller sub-models.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 356,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-02T02:27:14Z",
+      "updated_at": "2026-04-13T09:01:16Z",
+      "pushed_at": "2026-04-13T09:01:12Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/openpa/openpa",
+        "website": null
+      },
+      "owner": {
+        "login": "openpa",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1180679960,
+      "name": "core",
+      "full_name": "TideSurf/core",
+      "html_url": "https://github.com/TideSurf/core",
+      "description": "Connect Chromium to LLM agents via token-efficient DOM compression. 50-200 tokens per page.",
+      "language": "TypeScript",
+      "stars": 15,
+      "forks": 1,
+      "size_kb": 1286,
+      "score": 38,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "https://tidesurf.org",
+      "topics": [
+        "ai-agents",
+        "browser",
+        "browser-automation",
+        "browser-use",
+        "browser-use-agent",
+        "cdp",
+        "chromium",
+        "dom",
+        "dom-compression",
+        "function-calling",
+        "llm",
+        "mcp",
+        "typescript",
+        "web-scraping"
+      ],
+      "created_at": "2026-03-13T09:45:44Z",
+      "updated_at": "2026-04-13T08:58:46Z",
+      "pushed_at": "2026-04-13T08:58:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/TideSurf/core",
+        "website": "https://tidesurf.org"
+      },
+      "owner": {
+        "login": "TideSurf",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1178954460,
+      "name": "Serial-Agent",
+      "full_name": "Rance-OwO/Serial-Agent",
+      "html_url": "https://github.com/Rance-OwO/Serial-Agent",
+      "description": "Serial Agent 是一个面向嵌入式开发的 AI 串口调试平台，由 VS Code 扩展与 MCP Server 组成：在编辑器内提供高性能串口监视（自动扫描连接、HEX 收发、时间戳、日志缓冲与自动重连），并通过本地 Bridge API 将串口能力暴露给 AI，实现“编译/烧录（Keil + JLink/DAP-Link/ST-Link等）→ 读取串口日志 → 自动分析问题 →   辅助修复”的闭环工作流。项目采用 TypeScript Monorepo 架构，聚焦 嵌入式MCU开发 场景，兼顾本地安全（127.0.0.1 + Token）与可扩展性，目标是把传统串口调试升级为可自动化、可协作的智能调试体验。",
+      "language": "TypeScript",
+      "stars": 4,
+      "forks": 0,
+      "size_kb": 2798,
+      "score": 21,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-11T14:38:04Z",
+      "updated_at": "2026-04-13T08:53:01Z",
+      "pushed_at": "2026-04-13T08:52:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Rance-OwO/Serial-Agent",
+        "website": null
+      },
+      "owner": {
+        "login": "Rance-OwO",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209187416,
+      "name": "walletguard-audit",
+      "full_name": "CryptoKupo/walletguard-audit",
+      "html_url": "https://github.com/CryptoKupo/walletguard-audit",
+      "description": "GitHub Action for WalletGuard AI smart contract security audits",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1342,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-13T07:16:50Z",
+      "updated_at": "2026-04-13T08:59:36Z",
+      "pushed_at": "2026-04-13T08:45:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/CryptoKupo/walletguard-audit",
+        "website": null
+      },
+      "owner": {
+        "login": "CryptoKupo",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209220631,
+      "name": "ZercWalletV2",
+      "full_name": "zeroclassic/ZercWalletV2",
+      "html_url": "https://github.com/zeroclassic/ZercWalletV2",
+      "description": "New Full Wallet for ZeroClassic",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 576,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-13T08:00:14Z",
+      "updated_at": "2026-04-13T08:08:16Z",
+      "pushed_at": "2026-04-13T08:08:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/zeroclassic/ZercWalletV2",
+        "website": null
+      },
+      "owner": {
+        "login": "zeroclassic",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1205202759,
+      "name": "sdp-mazepocket",
+      "full_name": "fasqua/sdp-mazepocket",
+      "html_url": "https://github.com/fasqua/sdp-mazepocket",
+      "description": "Privacy-first wallet funding on Solana. Route SOL through dynamically generated maze topology using golden ratio splits & Fibonacci timing patterns. Military-grade encryption (Argon2id + AES-256-GCM). Create stealth wallets, fund privately, use anywhere.",
+      "language": "Rust",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 209,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://www.kausalayer.com/pocket",
+      "topics": [
+        "privacy",
+        "solana"
+      ],
+      "created_at": "2026-04-08T18:28:33Z",
+      "updated_at": "2026-04-13T07:57:41Z",
+      "pushed_at": "2026-04-13T07:41:08Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/fasqua/sdp-mazepocket",
+        "website": "https://www.kausalayer.com/pocket"
+      },
+      "owner": {
+        "login": "fasqua",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209233990,
+      "name": "stage269",
+      "full_name": "mokkunsuzuki-code/stage269",
+      "html_url": "https://github.com/mokkunsuzuki-code/stage269",
+      "description": "QSP Stage269: VEP Gate — deterministic trust decision layer (accept / pending / reject) on top of verifiable evidence.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3887,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-13T08:16:07Z",
+      "updated_at": "2026-04-13T09:17:06Z",
+      "pushed_at": "2026-04-13T09:17:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mokkunsuzuki-code/stage269",
+        "website": null
+      },
+      "owner": {
+        "login": "mokkunsuzuki-code",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-13T10:07:37Z",
+      "last_seen_at": "2026-04-13T10:07:37Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1208421720,
       "name": "ceeline",
