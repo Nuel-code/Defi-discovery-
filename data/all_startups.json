@@ -1,9 +1,1321 @@
 {
-  "generated_at": "2026-04-13T10:07:37Z",
+  "generated_at": "2026-04-14T09:47:40Z",
   "summary": {
-    "total_count": 48
+    "total_count": 78
   },
   "startups": [
+    {
+      "repo_id": 1209576845,
+      "name": "Yield-Ticker",
+      "full_name": "Teewa56/Yield-Ticker",
+      "html_url": "https://github.com/Teewa56/Yield-Ticker",
+      "description": "\"Real-time Bloomberg-style terminal for DeFi yield. Track live vault flows, APY momentum, and whale movements across 60+ chains powered by LI.FI Earn — with one-click deposits built in.\"",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 229,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://yield-ticker.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-13T15:08:21Z",
+      "updated_at": "2026-04-14T09:43:00Z",
+      "pushed_at": "2026-04-14T09:42:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Teewa56/Yield-Ticker",
+        "website": "https://yield-ticker.vercel.app"
+      },
+      "owner": {
+        "login": "Teewa56",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208534454,
+      "name": "vaultpilot-mcp",
+      "full_name": "szhygulin/vaultpilot-mcp",
+      "html_url": "https://github.com/szhygulin/vaultpilot-mcp",
+      "description": "MCP server for AI agents (Claude, Cursor) to manage a self-custodial crypto portfolio on Ethereum/Arbitrum/Polygon via Ledger + WalletConnect. Integrated with LiFi",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 584,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://www.npmjs.com/package/recon-crypto-mcp",
+      "topics": [
+        "aave",
+        "ai-agent",
+        "arbitrum",
+        "claude",
+        "claude-code",
+        "compound",
+        "crypto",
+        "cursor",
+        "defi",
+        "ethereum",
+        "ledger",
+        "lifi",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "polygon",
+        "solana",
+        "uniswap",
+        "walletconnect"
+      ],
+      "created_at": "2026-04-12T12:20:18Z",
+      "updated_at": "2026-04-14T09:36:44Z",
+      "pushed_at": "2026-04-14T09:37:12Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/szhygulin/vaultpilot-mcp",
+        "website": "https://www.npmjs.com/package/recon-crypto-mcp"
+      },
+      "owner": {
+        "login": "szhygulin",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1206902102,
+      "name": "stablepay",
+      "full_name": "Mosss-OS/stablepay",
+      "html_url": "https://github.com/Mosss-OS/stablepay",
+      "description": "STEALTH (StablePay) - Unified P2P Remittance + Merchant POS on Algorand. USDC-powered cross-border payments with escrow smart contracts, fraud detection, and GST compliance for India.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 801,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "algobharat",
+        "algorand",
+        "blockchain",
+        "defi",
+        "fintech",
+        "hackathon",
+        "india",
+        "payments",
+        "python",
+        "react",
+        "remittance",
+        "smart-contracts",
+        "typescript",
+        "usdc"
+      ],
+      "created_at": "2026-04-10T11:18:36Z",
+      "updated_at": "2026-04-14T08:04:17Z",
+      "pushed_at": "2026-04-14T08:04:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Mosss-OS/stablepay",
+        "website": null
+      },
+      "owner": {
+        "login": "Mosss-OS",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202889893,
+      "name": "ABB",
+      "full_name": "Mosss-OS/ABB",
+      "html_url": "https://github.com/Mosss-OS/ABB",
+      "description": "A permissionless gig economy for AI agents on Faraster. Agents post bounties, bid via @mentions, execute tasks, and get paid in USDC on Base via x402 protocol.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 1,
+      "size_kb": 3332,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "",
+      "topics": [
+        "agent-economics",
+        "ai-agent",
+        "autonomous-agents",
+        "base",
+        "blockchain",
+        "bounty-board",
+        "decentralized",
+        "defi",
+        "farcaster",
+        "gig-economy",
+        "hackathon",
+        "miniapp",
+        "nextjs",
+        "privy",
+        "smart-contracts",
+        "typescript",
+        "usdc",
+        "web3",
+        "web3-social",
+        "x402"
+      ],
+      "created_at": "2026-04-06T14:03:58Z",
+      "updated_at": "2026-04-14T08:04:15Z",
+      "pushed_at": "2026-04-14T08:04:12Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Mosss-OS/ABB",
+        "website": null
+      },
+      "owner": {
+        "login": "Mosss-OS",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202382519,
+      "name": "vtt",
+      "full_name": "vettor-chain/vtt",
+      "html_url": "https://github.com/vettor-chain/vtt",
+      "description": "Layer 1 blockchain for tokenizing real-world assets. DPoS consensus, WASM smart contracts, built-in DEX, cross-chain bridge.",
+      "language": "Solidity",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 684,
+      "score": 40,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": "https://testnet.vettor.org",
+      "topics": [
+        "blockchain",
+        "cryptocurrency",
+        "defi",
+        "dpos",
+        "layer1",
+        "rust",
+        "rwa",
+        "smart-contracts",
+        "wasm"
+      ],
+      "created_at": "2026-04-06T00:53:24Z",
+      "updated_at": "2026-04-14T09:25:58Z",
+      "pushed_at": "2026-04-14T01:06:09Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/vettor-chain/vtt",
+        "website": "https://testnet.vettor.org"
+      },
+      "owner": {
+        "login": "vettor-chain",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202348233,
+      "name": "merkl-intelligence",
+      "full_name": "ua0532/merkl-intelligence",
+      "html_url": "https://github.com/ua0532/merkl-intelligence",
+      "description": "Merkl Protocol Intelligence Dataset - scored unclaimed DeFi rewards",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 981,
+      "score": 12,
+      "reasons": [
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-05T23:27:00Z",
+      "updated_at": "2026-04-13T23:45:36Z",
+      "pushed_at": "2026-04-13T23:45:31Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ua0532/merkl-intelligence",
+        "website": null
+      },
+      "owner": {
+        "login": "ua0532",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209814562,
+      "name": "definitelytyped-raycast-extension",
+      "full_name": "tcelestino/definitelytyped-raycast-extension",
+      "html_url": "https://github.com/tcelestino/definitelytyped-raycast-extension",
+      "description": "Raycast extension to search @types packages from DefinitelyTyped",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 17827,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "",
+      "topics": [
+        "raycast",
+        "raycast-extension",
+        "reactjs",
+        "types",
+        "typescript"
+      ],
+      "created_at": "2026-04-13T20:07:01Z",
+      "updated_at": "2026-04-13T23:40:55Z",
+      "pushed_at": "2026-04-13T23:40:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tcelestino/definitelytyped-raycast-extension",
+        "website": null
+      },
+      "owner": {
+        "login": "tcelestino",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1181609100,
+      "name": "stellar-intel",
+      "full_name": "ezedike-evan/stellar-intel",
+      "html_url": "https://github.com/ezedike-evan/stellar-intel",
+      "description": "Real-time rate aggregator for the Stellar network. Compare and execute off-ramp, on-ramp, yield, and swap routes across Stellar anchors and protocols.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 390,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://stellar-intel.vercel.app",
+      "topics": [
+        "blockchain",
+        "blockchain-tool",
+        "defi",
+        "freighter",
+        "horizon",
+        "off-ramp",
+        "on-ramp",
+        "rate-aggregator",
+        "sep-10",
+        "sep-24",
+        "soroban",
+        "stellar",
+        "stellar-network",
+        "swap",
+        "web3",
+        "web3-dapp",
+        "xlm",
+        "yield"
+      ],
+      "created_at": "2026-03-14T11:30:14Z",
+      "updated_at": "2026-04-13T23:39:15Z",
+      "pushed_at": "2026-04-13T23:39:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ezedike-evan/stellar-intel",
+        "website": "https://stellar-intel.vercel.app"
+      },
+      "owner": {
+        "login": "ezedike-evan",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209591207,
+      "name": "polymarket-market-maker",
+      "full_name": "NRacic/polymarket-market-maker",
+      "html_url": "https://github.com/NRacic/polymarket-market-maker",
+      "description": "Automated market making system for Polymarket prediction markets. Implements liquidity provisioning, spread optimization, inventory risk management, and real-time order book interaction for efficient market operations.",
+      "language": "Python",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 266,
+      "score": 17,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "automated market maker",
+      "homepage": "",
+      "topics": [
+        "liquidity-provider",
+        "maker",
+        "market",
+        "order-book",
+        "polymarket"
+      ],
+      "created_at": "2026-04-13T15:24:37Z",
+      "updated_at": "2026-04-14T06:24:39Z",
+      "pushed_at": "2026-04-13T15:39:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/NRacic/polymarket-market-maker",
+        "website": null
+      },
+      "owner": {
+        "login": "NRacic",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1198847623,
+      "name": "polymarket-agents",
+      "full_name": "ryan-yuuu/polymarket-agents",
+      "html_url": "https://github.com/ryan-yuuu/polymarket-agents",
+      "description": "AI agents trading on Polymarket BTC up/down markets",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 432,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "btc",
+      "homepage": "",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "bot-trade",
+        "openai",
+        "polymarket",
+        "prediction-markets"
+      ],
+      "created_at": "2026-04-01T20:19:12Z",
+      "updated_at": "2026-04-14T05:48:08Z",
+      "pushed_at": "2026-04-14T05:48:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ryan-yuuu/polymarket-agents",
+        "website": null
+      },
+      "owner": {
+        "login": "ryan-yuuu",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209523926,
+      "name": "polymarket-trading-bot",
+      "full_name": "mezzalabot/polymarket-trading-bot",
+      "html_url": "https://github.com/mezzalabot/polymarket-trading-bot",
+      "description": "Polymarket auto trading bot - BTC 15m strategy",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1484,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-13T14:10:48Z",
+      "updated_at": "2026-04-14T05:46:54Z",
+      "pushed_at": "2026-04-14T05:46:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mezzalabot/polymarket-trading-bot",
+        "website": null
+      },
+      "owner": {
+        "login": "mezzalabot",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209512067,
+      "name": "Pyramid",
+      "full_name": "gamween/Pyramid",
+      "html_url": "https://github.com/gamween/Pyramid",
+      "description": "The first DeFi protocol built entirely on XRPL's native lending primitives (XLS-65/66): combining Vaults, Loans, advanced trading orders, and ZK-private transactions with zero smart contracts.",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 743,
+      "score": 14,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "lending protocol",
+      "homepage": "https://pyramid-web.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-13T13:57:32Z",
+      "updated_at": "2026-04-13T13:58:07Z",
+      "pushed_at": "2026-04-12T11:00:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/gamween/Pyramid",
+        "website": "https://pyramid-web.vercel.app"
+      },
+      "owner": {
+        "login": "gamween",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1144718857,
+      "name": "stablecoin-dashboard",
+      "full_name": "TokenBrice/stablecoin-dashboard",
+      "html_url": "https://github.com/TokenBrice/stablecoin-dashboard",
+      "description": "Pharos Watch stablecoin dashboard repository",
+      "language": "TypeScript",
+      "stars": 12,
+      "forks": 4,
+      "size_kb": 39363,
+      "score": 29,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://pharos.watch",
+      "topics": [
+        "analytics",
+        "depeg",
+        "liquidity-pool",
+        "stablecoin",
+        "stablecoins"
+      ],
+      "created_at": "2026-01-29T01:12:48Z",
+      "updated_at": "2026-04-14T08:47:54Z",
+      "pushed_at": "2026-04-14T08:47:49Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/TokenBrice/stablecoin-dashboard",
+        "website": "https://pharos.watch"
+      },
+      "owner": {
+        "login": "TokenBrice",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1193509355,
+      "name": "MoneyOS",
+      "full_name": "1231CheGites/MoneyOS",
+      "html_url": "https://github.com/1231CheGites/MoneyOS",
+      "description": "MoneyOS, the operating system for money. Programmable money primitives for developers and AI agents.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 1,
+      "size_kb": 427,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://www.npmjs.com/package/moneyos",
+      "topics": [
+        "ai-agents",
+        "arbitrum",
+        "blockchain",
+        "cli",
+        "defi",
+        "ethereum",
+        "finance",
+        "infra",
+        "sdk",
+        "stablecoin",
+        "typescript",
+        "wallet",
+        "web3"
+      ],
+      "created_at": "2026-03-27T09:54:31Z",
+      "updated_at": "2026-04-13T19:20:31Z",
+      "pushed_at": "2026-04-13T19:20:25Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/1231CheGites/MoneyOS",
+        "website": "https://www.npmjs.com/package/moneyos"
+      },
+      "owner": {
+        "login": "1231CheGites",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207374281,
+      "name": "ollamatokenizer",
+      "full_name": "chadsr/ollamatokenizer",
+      "html_url": "https://github.com/chadsr/ollamatokenizer",
+      "description": "Ollama's internal tokenization as API endpoints.",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 879,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Go",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "llm-tokenizer",
+        "ollama",
+        "ollama-api",
+        "tokenization",
+        "tokenizer"
+      ],
+      "created_at": "2026-04-10T21:47:39Z",
+      "updated_at": "2026-04-14T09:45:55Z",
+      "pushed_at": "2026-04-14T09:45:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/chadsr/ollamatokenizer",
+        "website": null
+      },
+      "owner": {
+        "login": "chadsr",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208584099,
+      "name": "ingentive-agent-dashboard",
+      "full_name": "Ingentive-Limited/ingentive-agent-dashboard",
+      "html_url": "https://github.com/Ingentive-Limited/ingentive-agent-dashboard",
+      "description": "A local dashboard for monitoring and managing active Claude Code sessions, projects, token usage, and scheduled tasks. Reads directly from ~/.claude/ filesystem.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 790,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-12T13:39:09Z",
+      "updated_at": "2026-04-14T09:28:33Z",
+      "pushed_at": "2026-04-14T09:28:28Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Ingentive-Limited/ingentive-agent-dashboard",
+        "website": null
+      },
+      "owner": {
+        "login": "Ingentive-Limited",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1164135481,
+      "name": "agenticore",
+      "full_name": "The-Cloud-Clock-Work/agenticore",
+      "html_url": "https://github.com/The-Cloud-Clock-Work/agenticore",
+      "description": "Two modes, one binary — a fleet orchestrator that clones repos and ships PRs via Claude Code, OR a drop-in OpenAI-compatible chat completion endpoint for customized Claude agents with real-time token-by-token thinking + tool-call streaming. LibreChat/OpenWebUI/LiteLLM-ready. Helm + KEDA + OTEL.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6417,
+      "score": 39,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://the-cloud-clock-work.github.io/agenticore/",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "chat-completions",
+        "claude",
+        "claude-code",
+        "docker",
+        "helm",
+        "kubernetes",
+        "librechat",
+        "litellm",
+        "llm",
+        "llm-orchestration",
+        "mcp",
+        "model-context-protocol",
+        "openai-compatible",
+        "openwebui",
+        "orchestration",
+        "python",
+        "sse-streaming",
+        "streaming-completions"
+      ],
+      "created_at": "2026-02-22T17:36:18Z",
+      "updated_at": "2026-04-14T09:17:00Z",
+      "pushed_at": "2026-04-14T09:16:49Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/The-Cloud-Clock-Work/agenticore",
+        "website": "https://the-cloud-clock-work.github.io/agenticore/"
+      },
+      "owner": {
+        "login": "The-Cloud-Clock-Work",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209618049,
+      "name": "DinoSecurities",
+      "full_name": "DinoSecurities/DinoSecurities",
+      "html_url": "https://github.com/DinoSecurities/DinoSecurities",
+      "description": "Solana-native tokenized securities platform with on-chain compliance, atomic DvP settlement, and DAO governance. Built with React, tRPC, Anchor, and Token-2022.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3058,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-13T15:55:53Z",
+      "updated_at": "2026-04-14T09:15:44Z",
+      "pushed_at": "2026-04-14T09:15:40Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DinoSecurities/DinoSecurities",
+        "website": null
+      },
+      "owner": {
+        "login": "DinoSecurities",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1203689438,
+      "name": "smartsplit",
+      "full_name": "dsteinberger/smartsplit",
+      "html_url": "https://github.com/dsteinberger/smartsplit",
+      "description": "Smart routing to the best model for each task. Picks the right model tier automatically. Free by default, optimizes paid tokens when available.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4950,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai-agent",
+        "coding-assistant",
+        "deepseek",
+        "developer-tools",
+        "free-tier",
+        "gemini",
+        "groq",
+        "llm",
+        "mistral",
+        "multi-llm",
+        "openai-api",
+        "python",
+        "routing",
+        "self-hosted",
+        "web-search"
+      ],
+      "created_at": "2026-04-07T09:21:57Z",
+      "updated_at": "2026-04-14T09:10:03Z",
+      "pushed_at": "2026-04-14T09:16:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dsteinberger/smartsplit",
+        "website": null
+      },
+      "owner": {
+        "login": "dsteinberger",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1177914439,
+      "name": "wtmcp",
+      "full_name": "LeGambiArt/wtmcp",
+      "html_url": "https://github.com/LeGambiArt/wtmcp",
+      "description": "MCP server with a language-agnostic plugin system. Plugins communicate over JSON-lines on stdin/stdout. Core handles auth, HTTP proxying, caching, and TOON output encoding for token savings",
+      "language": "Go",
+      "stars": 9,
+      "forks": 8,
+      "size_kb": 746,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Go"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-10T13:57:18Z",
+      "updated_at": "2026-04-14T08:52:20Z",
+      "pushed_at": "2026-04-14T08:52:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LeGambiArt/wtmcp",
+        "website": null
+      },
+      "owner": {
+        "login": "LeGambiArt",
+        "type": "Organization"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209212634,
+      "name": "canopy",
+      "full_name": "juliensimon/canopy",
+      "html_url": "https://github.com/juliensimon/canopy",
+      "description": "Ship faster with parallel Claude Code sessions — one native macOS window, git worktrees, auto-resume, merge & finish, token dashboard.",
+      "language": "Swift",
+      "stars": 11,
+      "forks": 0,
+      "size_kb": 12903,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-13T07:49:44Z",
+      "updated_at": "2026-04-14T08:15:34Z",
+      "pushed_at": "2026-04-14T08:15:28Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/juliensimon/canopy",
+        "website": null
+      },
+      "owner": {
+        "login": "juliensimon",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210051317,
+      "name": "copilot-api-meter",
+      "full_name": "Zchary1106/copilot-api-meter",
+      "html_url": "https://github.com/Zchary1106/copilot-api-meter",
+      "description": "Open-source usage dashboard for copilot-api-proxy. Track requests, tokens, costs, and latency across Claude, GPT, Gemini.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 400,
+      "score": 12,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "token",
+      "homepage": "https://ai-meter-eight.vercel.app",
+      "topics": [
+        "claude",
+        "copilot-api",
+        "cost-analysis",
+        "gemini",
+        "github-copilot",
+        "gpt",
+        "llm-monitoring",
+        "nextjs",
+        "open-source",
+        "token-tracking",
+        "usage-dashboard",
+        "vercel"
+      ],
+      "created_at": "2026-04-14T03:24:04Z",
+      "updated_at": "2026-04-14T08:11:16Z",
+      "pushed_at": "2026-04-14T08:08:49Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Zchary1106/copilot-api-meter",
+        "website": "https://ai-meter-eight.vercel.app"
+      },
+      "owner": {
+        "login": "Zchary1106",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207316600,
+      "name": "dexlab",
+      "full_name": "leonardoferreiradg/dexlab",
+      "html_url": "https://github.com/leonardoferreiradg/dexlab",
+      "description": "DexLab is a modular design framework, built to systematize how modern products are designed, following each design phase. It combines design ops, research, UX strategy, interaction, UI, prototyping, and design systems into a unified, extensible toolkit of skills, commands, and workflows.",
+      "language": "JavaScript",
+      "stars": 4,
+      "forks": 0,
+      "size_kb": 364,
+      "score": 17,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-10T20:07:01Z",
+      "updated_at": "2026-04-14T09:33:37Z",
+      "pushed_at": "2026-04-14T09:33:32Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/leonardoferreiradg/dexlab",
+        "website": null
+      },
+      "owner": {
+        "login": "leonardoferreiradg",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1162371072,
+      "name": "dexplorer",
+      "full_name": "AG-Boerries/dexplorer",
+      "html_url": "https://github.com/AG-Boerries/dexplorer",
+      "description": "Visualize and explore bulk RNA-seq data",
+      "language": "R",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 124868,
+      "score": 27,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-02-20T07:13:46Z",
+      "updated_at": "2026-04-14T08:18:54Z",
+      "pushed_at": "2026-04-14T08:18:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/AG-Boerries/dexplorer",
+        "website": null
+      },
+      "owner": {
+        "login": "AG-Boerries",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1203611493,
+      "name": "QuotaDEX",
+      "full_name": "EIP-Playground/QuotaDEX",
+      "html_url": "https://github.com/EIP-Playground/QuotaDEX",
+      "description": "QuotaDEX is an Agent-to-Agent (A2A) secondary market for AI compute. QuotaDEX enables AI agents to autonomously buy and sell idle LLM quotas via HTTP 402 interception and Web3 micro-payments on the Kite AI network. | QuotaDEX 是一个纯粹的 Agent-to-Agent (A2A) AI 算力二级市场。通过 HTTP 402网关拦截与 Kite AI 链上微支付，让 AI Agent 能够全自动地买卖闲置大模型调用额度。",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 205,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "dex",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-07T07:43:39Z",
+      "updated_at": "2026-04-14T05:07:23Z",
+      "pushed_at": "2026-04-14T05:07:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/EIP-Playground/QuotaDEX",
+        "website": null
+      },
+      "owner": {
+        "login": "EIP-Playground",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207721176,
+      "name": "HTTYD-Dex-DiscordBot",
+      "full_name": "Shadow-077/HTTYD-Dex-DiscordBot",
+      "html_url": "https://github.com/Shadow-077/HTTYD-Dex-DiscordBot",
+      "description": "Collect and exchange HTTYD cards on Discord",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 11798,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://github.com/Shadow-077/HTTYD-Dex-DiscordBot",
+      "topics": [],
+      "created_at": "2026-04-11T10:02:56Z",
+      "updated_at": "2026-04-13T16:28:41Z",
+      "pushed_at": "2026-04-13T14:47:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Shadow-077/HTTYD-Dex-DiscordBot",
+        "website": "https://github.com/Shadow-077/HTTYD-Dex-DiscordBot"
+      },
+      "owner": {
+        "login": "Shadow-077",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210066397,
+      "name": "vtc-wallet",
+      "full_name": "HuciferX/vtc-wallet",
+      "html_url": "https://github.com/HuciferX/vtc-wallet",
+      "description": "⛏️ VTC Ordinals Wallet — Multi-chain Chrome extension for Vertcoin, Bitcoin, Litecoin & Dogecoin with rarity badges that glow",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6261,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://github.com/HuciferX/vtc-wallet/releases/latest",
+      "topics": [
+        "bitcoin",
+        "chrome-extension",
+        "dogecoin",
+        "litecoin",
+        "ordinals",
+        "rarity",
+        "vertcoin",
+        "wallet"
+      ],
+      "created_at": "2026-04-14T03:51:04Z",
+      "updated_at": "2026-04-14T09:04:34Z",
+      "pushed_at": "2026-04-14T09:04:30Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/HuciferX/vtc-wallet",
+        "website": "https://github.com/HuciferX/vtc-wallet/releases/latest"
+      },
+      "owner": {
+        "login": "HuciferX",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208561950,
+      "name": "wallet-program",
+      "full_name": "lazor-kit/wallet-program",
+      "html_url": "https://github.com/lazor-kit/wallet-program",
+      "description": "LazorKit Smart Wallet Program — Solana on-chain program with composable RBAC permissions, Guardian emergency controls, and precompile-verified authentication (Ed25519 + Secp256r1/passkey)",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 5191,
+      "score": 38,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-12T13:04:50Z",
+      "updated_at": "2026-04-14T07:55:29Z",
+      "pushed_at": "2026-04-14T07:55:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/lazor-kit/wallet-program",
+        "website": null
+      },
+      "owner": {
+        "login": "lazor-kit",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207367591,
+      "name": "tos",
+      "full_name": "tosnetwork/tos",
+      "html_url": "https://github.com/tosnetwork/tos",
+      "description": "TOS blockchain node implementation in C++ & Rust.",
+      "language": "C++",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 213919,
+      "score": 33,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": "https://tos.network",
+      "topics": [],
+      "created_at": "2026-04-10T21:34:38Z",
+      "updated_at": "2026-04-14T09:47:05Z",
+      "pushed_at": "2026-04-14T09:47:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tosnetwork/tos",
+        "website": "https://tos.network"
+      },
+      "owner": {
+        "login": "tosnetwork",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1192619985,
+      "name": "ARGOS-2",
+      "full_name": "AlexThunder01/ARGOS-2",
+      "html_url": "https://github.com/AlexThunder01/ARGOS-2",
+      "description": "Autonomous agentic hub: n8n orchestrates I/O workflows, FastAPI runs the LLM reasoning engine. Features RAG memory, 4-layer cognitive security, and Human-in-the-Loop via Telegram.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 872,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "",
+      "topics": [
+        "ai-agents",
+        "fastapi",
+        "human-in-the-loop",
+        "n8n",
+        "rag"
+      ],
+      "created_at": "2026-03-26T11:54:25Z",
+      "updated_at": "2026-04-13T18:08:05Z",
+      "pushed_at": "2026-04-14T01:35:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/AlexThunder01/ARGOS-2",
+        "website": null
+      },
+      "owner": {
+        "login": "AlexThunder01",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-14T09:47:40Z",
+      "last_seen_at": "2026-04-14T09:47:40Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1209197842,
       "name": "wallet-sdk",
