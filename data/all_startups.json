@@ -1,9 +1,1322 @@
 {
-  "generated_at": "2026-04-15T09:48:19Z",
+  "generated_at": "2026-04-16T09:46:52Z",
   "summary": {
-    "total_count": 109
+    "total_count": 142
   },
   "startups": [
+    {
+      "repo_id": 1185006099,
+      "name": "pydefi",
+      "full_name": "yihuang/pydefi",
+      "html_url": "https://github.com/yihuang/pydefi",
+      "description": "Modern python library for DeFi",
+      "language": "Python",
+      "stars": 1,
+      "forks": 2,
+      "size_kb": 968,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-18T06:26:24Z",
+      "updated_at": "2026-04-16T09:36:25Z",
+      "pushed_at": "2026-04-16T09:41:09Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/yihuang/pydefi",
+        "website": null
+      },
+      "owner": {
+        "login": "yihuang",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211702409,
+      "name": "InfraWatch",
+      "full_name": "RunTimeAdmin/InfraWatch",
+      "html_url": "https://github.com/RunTimeAdmin/InfraWatch",
+      "description": " Real-time Solana infrastructure health monitor for the Bags ecosystem — RPC latency, validator health, network congestion, MEV tracking, and live Bags token/pool correlation",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 8136,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://app.infrastructureintel.io/",
+      "topics": [
+        "bags-fm",
+        "defi",
+        "infrastructure-monitoring",
+        "rpc-health",
+        "solana",
+        "solana-rpc",
+        "valvalidator-monitoring",
+        "web3"
+      ],
+      "created_at": "2026-04-15T16:58:04Z",
+      "updated_at": "2026-04-16T02:46:30Z",
+      "pushed_at": "2026-04-16T02:46:26Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/RunTimeAdmin/InfraWatch",
+        "website": "https://app.infrastructureintel.io/"
+      },
+      "owner": {
+        "login": "RunTimeAdmin",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212043950,
+      "name": "dexquote",
+      "full_name": "KaiserSnipes/dexquote",
+      "html_url": "https://github.com/KaiserSnipes/dexquote",
+      "description": "Compare swap quotes across 25 DEX backends on 4 chains from your terminal. Read-only, no wallet, no API keys.",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 223,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "arbitrum",
+        "cli",
+        "defi",
+        "dex",
+        "ethereum",
+        "rust",
+        "solana",
+        "terminal",
+        "tui",
+        "uniswap"
+      ],
+      "created_at": "2026-04-16T02:21:12Z",
+      "updated_at": "2026-04-16T02:29:41Z",
+      "pushed_at": "2026-04-16T02:29:38Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/KaiserSnipes/dexquote",
+        "website": null
+      },
+      "owner": {
+        "login": "KaiserSnipes",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207480488,
+      "name": "paciport",
+      "full_name": "edycutjong/paciport",
+      "html_url": "https://github.com/edycutjong/paciport",
+      "description": "Delta-neutral position migration engine enabling traders to teleport open perpetual positions between exchanges with atomic execution.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2068,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://paciport.edycu.dev",
+      "topics": [
+        "atomic-swap",
+        "ccxt",
+        "defi",
+        "hackathon",
+        "migration",
+        "nextjs",
+        "perp-dex",
+        "react",
+        "supabase",
+        "trading"
+      ],
+      "created_at": "2026-04-11T01:54:59Z",
+      "updated_at": "2026-04-15T23:48:28Z",
+      "pushed_at": "2026-04-15T23:48:24Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/edycutjong/paciport",
+        "website": "https://paciport.edycu.dev"
+      },
+      "owner": {
+        "login": "edycutjong",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210392110,
+      "name": "silver-almond",
+      "full_name": "SilverAlmondRiskSyS/silver-almond",
+      "html_url": "https://github.com/SilverAlmondRiskSyS/silver-almond",
+      "description": "Regime-switching Heston credit risk engine for DeFi lending, validated against 17,367 real Aave V2+V3 positions",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1593,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-14T11:21:59Z",
+      "updated_at": "2026-04-15T21:21:49Z",
+      "pushed_at": "2026-04-15T21:40:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/SilverAlmondRiskSyS/silver-almond",
+        "website": null
+      },
+      "owner": {
+        "login": "SilverAlmondRiskSyS",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211849292,
+      "name": "btc-price-real-chart",
+      "full_name": "bensaru/btc-price-real-chart",
+      "html_url": "https://github.com/bensaru/btc-price-real-chart",
+      "description": "This is to show real chart of btc price per every second",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 12477,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": "https://btc-livechart.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-15T20:10:53Z",
+      "updated_at": "2026-04-16T08:16:16Z",
+      "pushed_at": "2026-04-16T08:16:12Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bensaru/btc-price-real-chart",
+        "website": "https://btc-livechart.vercel.app"
+      },
+      "owner": {
+        "login": "bensaru",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212051859,
+      "name": "Thales",
+      "full_name": "Thalesrun/Thales",
+      "html_url": "https://github.com/Thalesrun/Thales",
+      "description": "I'm Thales, an AI agent running on a Dublin VPS.   Trading 5-min BTC on Polymarket. $150 → $100k. Public. On-chain.",
+      "language": "HTML",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1912,
+      "score": 18,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": "https://thales.run/",
+      "topics": [
+        "agent",
+        "ai",
+        "btc",
+        "polymarket",
+        "prediction-model"
+      ],
+      "created_at": "2026-04-16T02:35:33Z",
+      "updated_at": "2026-04-16T06:56:39Z",
+      "pushed_at": "2026-04-16T06:46:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Thalesrun/Thales",
+        "website": "https://thales.run/"
+      },
+      "owner": {
+        "login": "Thalesrun",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210533376,
+      "name": "defi-governance-audit",
+      "full_name": "NickRHill/defi-governance-audit",
+      "html_url": "https://github.com/NickRHill/defi-governance-audit",
+      "description": "Cross-chain governance maturity audit of six DeFi lending protocols ",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2377,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "lending protocol",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-14T14:06:09Z",
+      "updated_at": "2026-04-15T14:10:34Z",
+      "pushed_at": "2026-04-15T14:10:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/NickRHill/defi-governance-audit",
+        "website": null
+      },
+      "owner": {
+        "login": "NickRHill",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1206123442,
+      "name": "Poolser",
+      "full_name": "GoranStoyanov/Poolser",
+      "html_url": "https://github.com/GoranStoyanov/Poolser",
+      "description": "A macOS menu bar app for monitoring your Uniswap v3 and Uniswap v4 liquidity positions.",
+      "language": "Swift",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 7502,
+      "score": 15,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "liquidity pool",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-09T15:45:36Z",
+      "updated_at": "2026-04-15T11:05:17Z",
+      "pushed_at": "2026-04-15T10:15:28Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/GoranStoyanov/Poolser",
+        "website": null
+      },
+      "owner": {
+        "login": "GoranStoyanov",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211161261,
+      "name": "ETH-Treasury-Staking-Automation",
+      "full_name": "SmartplatformTeam/ETH-Treasury-Staking-Automation",
+      "html_url": "https://github.com/SmartplatformTeam/ETH-Treasury-Staking-Automation",
+      "description": "obol network 를 사용한 ETH 스테이킹 자동화",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 1,
+      "size_kb": 16374,
+      "score": 33,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-15T06:00:31Z",
+      "updated_at": "2026-04-16T01:50:36Z",
+      "pushed_at": "2026-04-16T00:44:54Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/SmartplatformTeam/ETH-Treasury-Staking-Automation",
+        "website": null
+      },
+      "owner": {
+        "login": "SmartplatformTeam",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212247839,
+      "name": "phantom-trader",
+      "full_name": "loremipsum0116/phantom-trader",
+      "html_url": "https://github.com/loremipsum0116/phantom-trader",
+      "description": "Async Python paper trading bot for Binance perpetual futures with 10 strategies, SQLite persistence, Telegram alerts, and a FastAPI dashboard.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6042,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "perpetual futures",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-16T07:44:30Z",
+      "updated_at": "2026-04-16T08:19:20Z",
+      "pushed_at": "2026-04-16T08:19:16Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/loremipsum0116/phantom-trader",
+        "website": null
+      },
+      "owner": {
+        "login": "loremipsum0116",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1198234242,
+      "name": "perpshield-pacifica-hackathon",
+      "full_name": "Outlier1217/perpshield-pacifica-hackathon",
+      "html_url": "https://github.com/Outlier1217/perpshield-pacifica-hackathon",
+      "description": "PerpShield is a DeFi yield vault built for the Pacifica Hackathon that generates passive income using delta-neutral strategies on perpetual futures.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 619,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "perpetual futures",
+      "homepage": "https://perpshield-pacifica-hackathon.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-01T08:30:19Z",
+      "updated_at": "2026-04-15T16:38:45Z",
+      "pushed_at": "2026-04-15T16:38:41Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Outlier1217/perpshield-pacifica-hackathon",
+        "website": "https://perpshield-pacifica-hackathon.vercel.app"
+      },
+      "owner": {
+        "login": "Outlier1217",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211509255,
+      "name": "gbpk-contract",
+      "full_name": "GBPk-Core/gbpk-contract",
+      "html_url": "https://github.com/GBPk-Core/gbpk-contract",
+      "description": "GBPk Stablecoin smart contract code - Regulated Decentralised Finance Ltd",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2813,
+      "score": 38,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-15T13:14:44Z",
+      "updated_at": "2026-04-15T16:54:06Z",
+      "pushed_at": "2026-04-15T16:52:17Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/GBPk-Core/gbpk-contract",
+        "website": null
+      },
+      "owner": {
+        "login": "GBPk-Core",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209419544,
+      "name": "SplitSettl",
+      "full_name": "flip18731/SplitSettl",
+      "html_url": "https://github.com/flip18731/SplitSettl",
+      "description": "SplitSettl uses AI to analyze GitHub contributions, generate evidence-based invoices, and split stablecoin payments on HashKey Chain, PayFi track with HSP (on-chain lifecycle + HashKey Merchant checkout). Next.js · Solidity · Claude.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 455,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://split-settl.vercel.app/",
+      "topics": [
+        "hashkey-chain",
+        "hsp",
+        "nextjs",
+        "payfi",
+        "solidity",
+        "typescript",
+        "web3"
+      ],
+      "created_at": "2026-04-13T12:10:46Z",
+      "updated_at": "2026-04-15T15:37:34Z",
+      "pushed_at": "2026-04-15T15:37:30Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/flip18731/SplitSettl",
+        "website": "https://split-settl.vercel.app/"
+      },
+      "owner": {
+        "login": "flip18731",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1186330083,
+      "name": "stablecoin-xlm",
+      "full_name": "circlefin/stablecoin-xlm",
+      "html_url": "https://github.com/circlefin/stablecoin-xlm",
+      "description": "Source repository for smart contracts used by Circle's stablecoins on the Stellar blockchain",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 268,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-03-19T14:10:34Z",
+      "updated_at": "2026-04-15T14:34:57Z",
+      "pushed_at": "2026-04-15T14:35:54Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/circlefin/stablecoin-xlm",
+        "website": null
+      },
+      "owner": {
+        "login": "circlefin",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1206103436,
+      "name": "PayFi-Box",
+      "full_name": "wjy3452801181-a11y/PayFi-Box",
+      "html_url": "https://github.com/wjy3452801181-a11y/PayFi-Box",
+      "description": "Enterprise payment orchestration platform for fiat-to-stablecoin settlement, audit visibility, and AI-native workflows.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1986,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "cross-border-payments",
+        "enterprise-software",
+        "fintech",
+        "mcp",
+        "payment-orchestration",
+        "payments",
+        "settlement",
+        "stablecoin"
+      ],
+      "created_at": "2026-04-09T15:23:01Z",
+      "updated_at": "2026-04-15T12:59:57Z",
+      "pushed_at": "2026-04-15T12:59:53Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/wjy3452801181-a11y/PayFi-Box",
+        "website": null
+      },
+      "owner": {
+        "login": "wjy3452801181-a11y",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1205424520,
+      "name": "sentrix",
+      "full_name": "satyakwok/sentrix",
+      "html_url": "https://github.com/satyakwok/sentrix",
+      "description": "Fast, deterministic Layer-1 blockchain for payments, tokens, and decentralized apps.",
+      "language": "Rust",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 937,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "bitcoin",
+        "blockchain",
+        "cryptocurrency",
+        "cryptography",
+        "dpos-bft",
+        "ethereum",
+        "evm",
+        "rust"
+      ],
+      "created_at": "2026-04-09T00:32:59Z",
+      "updated_at": "2026-04-16T09:35:55Z",
+      "pushed_at": "2026-04-16T09:35:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/satyakwok/sentrix",
+        "website": null
+      },
+      "owner": {
+        "login": "satyakwok",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209813940,
+      "name": "ml-videoflextok",
+      "full_name": "apple/ml-videoflextok",
+      "html_url": "https://github.com/apple/ml-videoflextok",
+      "description": "VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization",
+      "language": "Jupyter Notebook",
+      "stars": 14,
+      "forks": 0,
+      "size_kb": 11497,
+      "score": 32,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "https://videoflextok.epfl.ch/",
+      "topics": [],
+      "created_at": "2026-04-13T20:06:08Z",
+      "updated_at": "2026-04-16T09:31:48Z",
+      "pushed_at": "2026-04-16T09:31:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/apple/ml-videoflextok",
+        "website": "https://videoflextok.epfl.ch/"
+      },
+      "owner": {
+        "login": "apple",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1180917169,
+      "name": "figma-variables-tokens-generator",
+      "full_name": "Shanmus4/figma-variables-tokens-generator",
+      "html_url": "https://github.com/Shanmus4/figma-variables-tokens-generator",
+      "description": "Figma Design Tokens Creator Skill for Claude",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 2522,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-13T14:51:12Z",
+      "updated_at": "2026-04-16T09:26:35Z",
+      "pushed_at": "2026-04-16T09:26:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Shanmus4/figma-variables-tokens-generator",
+        "website": null
+      },
+      "owner": {
+        "login": "Shanmus4",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211281822,
+      "name": "shipfast",
+      "full_name": "shipfast-ai/shipfast",
+      "html_url": "https://github.com/shipfast-ai/shipfast",
+      "description": "Autonomous context-engineered development system. 5 agents, 17 commands, SQLite brain. 70-90% fewer tokens. Works with Claude Code, Cursor, Codex, Gemini, Windsurf + 9 more.",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 251,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 JavaScript"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai-agents",
+        "ai-coding-assistant",
+        "autonomous-agents",
+        "claude-code",
+        "codex",
+        "context-engineering",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "llm",
+        "mcp",
+        "sqlite",
+        "windsurf"
+      ],
+      "created_at": "2026-04-15T08:32:05Z",
+      "updated_at": "2026-04-16T09:26:07Z",
+      "pushed_at": "2026-04-16T09:26:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/shipfast-ai/shipfast",
+        "website": null
+      },
+      "owner": {
+        "login": "shipfast-ai",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1172152722,
+      "name": "SEPatch3D",
+      "full_name": "Mingqj/SEPatch3D",
+      "html_url": "https://github.com/Mingqj/SEPatch3D",
+      "description": "[CVPR 2026] Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 12041,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-03-04T01:56:44Z",
+      "updated_at": "2026-04-16T09:06:22Z",
+      "pushed_at": "2026-04-16T09:06:18Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Mingqj/SEPatch3D",
+        "website": null
+      },
+      "owner": {
+        "login": "Mingqj",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212147973,
+      "name": "tokenmon",
+      "full_name": "aroido/tokenmon",
+      "html_url": "https://github.com/aroido/tokenmon",
+      "description": "Public source-and-release mirror for Tokenmon",
+      "language": "Swift",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 13109,
+      "score": 30,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://github.com/aroido/tokenmon",
+      "topics": [],
+      "created_at": "2026-04-16T05:29:15Z",
+      "updated_at": "2026-04-16T08:56:32Z",
+      "pushed_at": "2026-04-16T08:56:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/aroido/tokenmon",
+        "website": "https://github.com/aroido/tokenmon"
+      },
+      "owner": {
+        "login": "aroido",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1178249672,
+      "name": "semantic-browser",
+      "full_name": "visser23/semantic-browser",
+      "html_url": "https://github.com/visser23/semantic-browser",
+      "description": "A easy-to-use token-efficient way for LLMs to navigate any website whilst looking like a human",
+      "language": "Python",
+      "stars": 16,
+      "forks": 3,
+      "size_kb": 428,
+      "score": 16,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-10T20:58:41Z",
+      "updated_at": "2026-04-16T08:34:28Z",
+      "pushed_at": "2026-04-16T08:37:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/visser23/semantic-browser",
+        "website": null
+      },
+      "owner": {
+        "login": "visser23",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1203420974,
+      "name": "tokenization",
+      "full_name": "CUBOPLUS-BTC/tokenization",
+      "html_url": "https://github.com/CUBOPLUS-BTC/tokenization",
+      "description": "Tokenization in Bitcoin",
+      "language": "Python",
+      "stars": 2,
+      "forks": 3,
+      "size_kb": 545,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-07T02:56:00Z",
+      "updated_at": "2026-04-16T08:15:49Z",
+      "pushed_at": "2026-04-16T08:15:44Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/CUBOPLUS-BTC/tokenization",
+        "website": null
+      },
+      "owner": {
+        "login": "CUBOPLUS-BTC",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210076590,
+      "name": "bitcoin-wallet",
+      "full_name": "CUBOPLUS-BTC/bitcoin-wallet",
+      "html_url": "https://github.com/CUBOPLUS-BTC/bitcoin-wallet",
+      "description": "The Bitcoin Wallet for tokenization. ",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 361,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-14T04:10:06Z",
+      "updated_at": "2026-04-16T08:13:50Z",
+      "pushed_at": "2026-04-16T08:13:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/CUBOPLUS-BTC/bitcoin-wallet",
+        "website": null
+      },
+      "owner": {
+        "login": "CUBOPLUS-BTC",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211122249,
+      "name": "stratix",
+      "full_name": "alycz/stratix",
+      "html_url": "https://github.com/alycz/stratix",
+      "description": "Algorithm hosting platform for prediction markets and DEXs built on Solana",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 496,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "dex",
+      "homepage": "https://stratix-phi.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-15T04:56:42Z",
+      "updated_at": "2026-04-16T07:50:01Z",
+      "pushed_at": "2026-04-16T07:49:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/alycz/stratix",
+        "website": "https://stratix-phi.vercel.app"
+      },
+      "owner": {
+        "login": "alycz",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210885079,
+      "name": "vela",
+      "full_name": "arpjw/vela",
+      "html_url": "https://github.com/arpjw/vela",
+      "description": "A high-performance verifiable spot DEX",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 5067,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-14T21:20:28Z",
+      "updated_at": "2026-04-16T06:49:26Z",
+      "pushed_at": "2026-04-16T05:32:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/arpjw/vela",
+        "website": null
+      },
+      "owner": {
+        "login": "arpjw",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211356760,
+      "name": "trench-archaeologist",
+      "full_name": "anubarakk/trench-archaeologist",
+      "html_url": "https://github.com/anubarakk/trench-archaeologist",
+      "description": "Trench Archaeologist is a reusable forensic reporting skill built specifically for DEX tokens. It analyzes tokens using Onchain OS market, security, token, and trench-style evidence, then generates forensic reports that both humans and agents can understand.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1641,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-15T10:05:55Z",
+      "updated_at": "2026-04-16T00:20:39Z",
+      "pushed_at": "2026-04-16T00:20:35Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/anubarakk/trench-archaeologist",
+        "website": null
+      },
+      "owner": {
+        "login": "anubarakk",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212225786,
+      "name": "auto-wallet",
+      "full_name": "Auto-Wallet/auto-wallet",
+      "html_url": "https://github.com/Auto-Wallet/auto-wallet",
+      "description": "Minimal auto-signing Chrome extension wallet for EVM chains",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 536,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-16T07:17:39Z",
+      "updated_at": "2026-04-16T09:44:28Z",
+      "pushed_at": "2026-04-16T09:44:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Auto-Wallet/auto-wallet",
+        "website": null
+      },
+      "owner": {
+        "login": "Auto-Wallet",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1171972036,
+      "name": "Pixa",
+      "full_name": "soumyacodes007/Pixa",
+      "html_url": "https://github.com/soumyacodes007/Pixa",
+      "description": "building the first agentic wallet for algorand",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1431,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-03T20:11:44Z",
+      "updated_at": "2026-04-16T08:37:51Z",
+      "pushed_at": "2026-04-16T08:36:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/soumyacodes007/Pixa",
+        "website": null
+      },
+      "owner": {
+        "login": "soumyacodes007",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1172858486,
+      "name": "ElectrumVT",
+      "full_name": "LunaticSage218/ElectrumVT",
+      "html_url": "https://github.com/LunaticSage218/ElectrumVT",
+      "description": "Electrum clone that uses a virtual token to protect the seed phrase for a wallet. ",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 7930,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-04T19:02:19Z",
+      "updated_at": "2026-04-16T06:50:39Z",
+      "pushed_at": "2026-04-16T06:45:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LunaticSage218/ElectrumVT",
+        "website": null
+      },
+      "owner": {
+        "login": "LunaticSage218",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209351713,
+      "name": "organism",
+      "full_name": "Reflective-Lab/organism",
+      "html_url": "https://github.com/Reflective-Lab/organism",
+      "description": "Organizational intelligence runtime — Layer 2 in the Reflective Labs stack",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 691,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Rust"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-13T10:42:40Z",
+      "updated_at": "2026-04-15T20:31:44Z",
+      "pushed_at": "2026-04-15T20:31:40Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Reflective-Lab/organism",
+        "website": null
+      },
+      "owner": {
+        "login": "Reflective-Lab",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211589739,
+      "name": "when_models_lie_to_please",
+      "full_name": "ashioyajotham/when_models_lie_to_please",
+      "html_url": "https://github.com/ashioyajotham/when_models_lie_to_please",
+      "description": "Tracing the shared \"override circuit\" behind CoT unfaithfulness and sycophancy in Gemma 3, using Gemma Scope 2 SAEs and cross-layer transcoders.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 282,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://ashioyajotham.github.io/research.html",
+      "topics": [
+        "chain-of-thought",
+        "circuit-tracing",
+        "gemma",
+        "interpretability",
+        "mechanistic-interpretability",
+        "sparse-autoencoders",
+        "transcoders"
+      ],
+      "created_at": "2026-04-15T14:42:21Z",
+      "updated_at": "2026-04-15T17:32:44Z",
+      "pushed_at": "2026-04-15T17:36:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ashioyajotham/when_models_lie_to_please",
+        "website": "https://ashioyajotham.github.io/research.html"
+      },
+      "owner": {
+        "login": "ashioyajotham",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-16T09:46:52Z",
+      "last_seen_at": "2026-04-16T09:46:52Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1194804671,
       "name": "enclave",
