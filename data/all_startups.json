@@ -1,9 +1,834 @@
 {
-  "generated_at": "2026-04-18T09:04:36Z",
+  "generated_at": "2026-04-19T09:05:58Z",
   "summary": {
-    "total_count": 206
+    "total_count": 226
   },
   "startups": [
+    {
+      "repo_id": 1185229447,
+      "name": "rengine-wasm",
+      "full_name": "Louis-Amas/rengine-wasm",
+      "html_url": "https://github.com/Louis-Amas/rengine-wasm",
+      "description": "CeFi and DeFi trading engine with wasm plugins",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 32474,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-18T11:18:29Z",
+      "updated_at": "2026-04-19T08:53:51Z",
+      "pushed_at": "2026-04-19T08:53:47Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Louis-Amas/rengine-wasm",
+        "website": null
+      },
+      "owner": {
+        "login": "Louis-Amas",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202758339,
+      "name": "itransformer_5min",
+      "full_name": "wiwihaun/itransformer_5min",
+      "html_url": "https://github.com/wiwihaun/itransformer_5min",
+      "description": "iTransformer for 5-min BTC price direction prediction",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 80433,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-06T11:18:19Z",
+      "updated_at": "2026-04-19T07:15:33Z",
+      "pushed_at": "2026-04-19T08:41:32Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/wiwihaun/itransformer_5min",
+        "website": null
+      },
+      "owner": {
+        "login": "wiwihaun",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214048958,
+      "name": "Stakka",
+      "full_name": "stvlynn/Stakka",
+      "html_url": "https://github.com/stvlynn/Stakka",
+      "description": "Stakka = stargaze + stake. Open-source iOS astrophoyography app.",
+      "language": "Swift",
+      "stars": 5,
+      "forks": 0,
+      "size_kb": 10122,
+      "score": 12,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-18T04:00:16Z",
+      "updated_at": "2026-04-19T06:32:32Z",
+      "pushed_at": "2026-04-18T17:34:44Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/stvlynn/Stakka",
+        "website": null
+      },
+      "owner": {
+        "login": "stvlynn",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214431609,
+      "name": "mantle-agentic-treasury",
+      "full_name": "benpaymaster/mantle-agentic-treasury",
+      "html_url": "https://github.com/benpaymaster/mantle-agentic-treasury",
+      "description": "Autonomous AI agent for optimized $MNT staking and treasury management on Mantle Network.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 23005,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-18T15:12:12Z",
+      "updated_at": "2026-04-18T15:22:08Z",
+      "pushed_at": "2026-04-18T15:22:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/benpaymaster/mantle-agentic-treasury",
+        "website": null
+      },
+      "owner": {
+        "login": "benpaymaster",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214373148,
+      "name": "gemini-code-context-mcp",
+      "full_name": "qmediat/gemini-code-context-mcp",
+      "html_url": "https://github.com/qmediat/gemini-code-context-mcp",
+      "description": "MCP server giving Claude Code persistent memory of your codebase via Gemini's 2M-token context. Drop-in upgrade over the abandoned gemini-mcp-tool — SDK-based, Files API + Context Cache (45s → 2s on repeat queries), dynamic model selection.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 236,
+      "score": 35,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "token",
+      "homepage": "https://www.qmediat.io/open-source",
+      "topics": [
+        "anthropic",
+        "claude-code",
+        "context-cache",
+        "files-api",
+        "gemini",
+        "google-genai",
+        "mcp",
+        "model-context-protocol",
+        "typescript"
+      ],
+      "created_at": "2026-04-18T13:40:50Z",
+      "updated_at": "2026-04-19T08:47:32Z",
+      "pushed_at": "2026-04-19T08:47:29Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/qmediat/gemini-code-context-mcp",
+        "website": "https://www.qmediat.io/open-source"
+      },
+      "owner": {
+        "login": "qmediat",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212977902,
+      "name": "hermes-clipper",
+      "full_name": "frostmute/hermes-clipper",
+      "html_url": "https://github.com/frostmute/hermes-clipper",
+      "description": "⚡ Intelligent, agent-driven web ingestion for Obsidian. Powered by Hermes Agent. Features   autonomous research, \"Token Sovereignty\" optimizations (grep sieve/structural indexing), and   a secure local-first bridge. Built for hunters.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 17671,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://frostmute.github.io/hermes-clipper/",
+      "topics": [
+        "agent-skills",
+        "agentic-workflow",
+        "ai-agents",
+        "hermes-agent",
+        "hermes-skill",
+        "knowledge-base",
+        "knowledge-management",
+        "obsidian",
+        "obsidian-plugin",
+        "token-efficiency",
+        "web-clipper"
+      ],
+      "created_at": "2026-04-16T23:30:51Z",
+      "updated_at": "2026-04-19T08:46:01Z",
+      "pushed_at": "2026-04-19T08:45:56Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/frostmute/hermes-clipper",
+        "website": "https://frostmute.github.io/hermes-clipper/"
+      },
+      "owner": {
+        "login": "frostmute",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202043190,
+      "name": "git-courer",
+      "full_name": "Alejandro-M-P/git-courer",
+      "html_url": "https://github.com/Alejandro-M-P/git-courer",
+      "description": "MCP server for Git with local Ollama — zero tokens for git operations",
+      "language": "Go",
+      "stars": 11,
+      "forks": 1,
+      "size_kb": 6760,
+      "score": 20,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Go",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-05T14:19:28Z",
+      "updated_at": "2026-04-19T08:44:59Z",
+      "pushed_at": "2026-04-19T08:52:40Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Alejandro-M-P/git-courer",
+        "website": null
+      },
+      "owner": {
+        "login": "Alejandro-M-P",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212910163,
+      "name": "mnem",
+      "full_name": "Project-Mnemos/mnem",
+      "html_url": "https://github.com/Project-Mnemos/mnem",
+      "description": "Versioned, content-addressed knowledge graph for AI agent memory. Rust core, Python + MCP + HTTP surfaces, sub-ms retrieval under a token budget.",
+      "language": "Rust",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 940,
+      "score": 36,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://mnemos.ai",
+      "topics": [
+        "agent-memory",
+        "ai",
+        "ai-agents",
+        "bm25",
+        "content-addressed-storage",
+        "database",
+        "embeddable",
+        "git",
+        "graph-database",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "memory",
+        "prolly-tree",
+        "rag",
+        "retrieval",
+        "rust",
+        "vector-search",
+        "version-control",
+        "wasm"
+      ],
+      "created_at": "2026-04-16T21:18:01Z",
+      "updated_at": "2026-04-19T08:32:28Z",
+      "pushed_at": "2026-04-19T08:32:24Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Project-Mnemos/mnem",
+        "website": "https://mnemos.ai"
+      },
+      "owner": {
+        "login": "Project-Mnemos",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207941518,
+      "name": "ntk",
+      "full_name": "VALRAW-ALL/ntk",
+      "html_url": "https://github.com/VALRAW-ALL/ntk",
+      "description": "Neural Token Killer - semantic compression proxy for Claude Code (Rust)",
+      "language": "Rust",
+      "stars": 3,
+      "forks": 1,
+      "size_kb": 9325,
+      "score": 36,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://ntk.valraw.com",
+      "topics": [
+        "claude",
+        "claude-code",
+        "cli",
+        "compression",
+        "developer-tools",
+        "llm",
+        "neural-token-killer",
+        "ntk",
+        "ollama",
+        "phi3",
+        "rust",
+        "tokenizer"
+      ],
+      "created_at": "2026-04-11T15:59:02Z",
+      "updated_at": "2026-04-19T08:24:07Z",
+      "pushed_at": "2026-04-19T08:24:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/VALRAW-ALL/ntk",
+        "website": "https://ntk.valraw.com"
+      },
+      "owner": {
+        "login": "VALRAW-ALL",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1141385141,
+      "name": "dexhrestha.github.io",
+      "full_name": "dexhrestha/dexhrestha.github.io",
+      "html_url": "https://github.com/dexhrestha/dexhrestha.github.io",
+      "description": "dexhrestha,github,io",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 541,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "dex",
+      "homepage": "https://dipeshrestha.vercel.app",
+      "topics": [],
+      "created_at": "2026-01-24T19:00:53Z",
+      "updated_at": "2026-04-19T07:57:58Z",
+      "pushed_at": "2026-04-19T07:57:54Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dexhrestha/dexhrestha.github.io",
+        "website": "https://dipeshrestha.vercel.app"
+      },
+      "owner": {
+        "login": "dexhrestha",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214736086,
+      "name": "dexter-jp",
+      "full_name": "rollinirenic365/dexter-jp",
+      "html_url": "https://github.com/rollinirenic365/dexter-jp",
+      "description": "Analyze Japanese stocks with an autonomous AI agent that plans research, pulls EDINET and J-Quants data, verifies findings, and writes reports",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2564,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [
+        "ai-agent",
+        "bun",
+        "claude-code",
+        "dcf-valuation",
+        "edinet",
+        "financial-analysis",
+        "japanese-stocks",
+        "jquants",
+        "langchain",
+        "mcp",
+        "monte-carlo-simulation",
+        "screening",
+        "stock-analysis",
+        "technical-analysis",
+        "typescript"
+      ],
+      "created_at": "2026-04-19T01:21:19Z",
+      "updated_at": "2026-04-19T06:54:10Z",
+      "pushed_at": "2026-04-19T06:54:06Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rollinirenic365/dexter-jp",
+        "website": null
+      },
+      "owner": {
+        "login": "rollinirenic365",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1200181229,
+      "name": "Pseudo-Parallel",
+      "full_name": "EduardoDSarno/Pseudo-Parallel",
+      "html_url": "https://github.com/EduardoDSarno/Pseudo-Parallel",
+      "description": "Attempt to build Low-Latency DEX Aggregator Engine in Rust",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 10788,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-03T05:54:21Z",
+      "updated_at": "2026-04-18T18:38:10Z",
+      "pushed_at": "2026-04-18T18:38:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/EduardoDSarno/Pseudo-Parallel",
+        "website": null
+      },
+      "owner": {
+        "login": "EduardoDSarno",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214203983,
+      "name": "House_Of_Dextra_CoDesign",
+      "full_name": "An-Axolotl/House_Of_Dextra_CoDesign",
+      "html_url": "https://github.com/An-Axolotl/House_Of_Dextra_CoDesign",
+      "description": "House of Dextra: Cross-Embodied Co-Design For Dexterous Hands - A co-design framework for zero shot generation, pre-trained cross embodied policies, and sim-to-real deployment on modular robot hand platform.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1381837,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-18T08:52:11Z",
+      "updated_at": "2026-04-18T09:55:18Z",
+      "pushed_at": "2026-04-18T09:55:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/An-Axolotl/House_Of_Dextra_CoDesign",
+        "website": null
+      },
+      "owner": {
+        "login": "An-Axolotl",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1213467601,
+      "name": "shadow-app",
+      "full_name": "tonyq-org/shadow-app",
+      "html_url": "https://github.com/tonyq-org/shadow-app",
+      "description": "Open-source digital credential wallet (React Native) - Verifiable Credentials / OID4VCI / OID4VP",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 436,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-17T12:13:18Z",
+      "updated_at": "2026-04-19T08:29:50Z",
+      "pushed_at": "2026-04-19T08:29:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tonyq-org/shadow-app",
+        "website": null
+      },
+      "owner": {
+        "login": "tonyq-org",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209322768,
+      "name": "copewallet",
+      "full_name": "luci-kefs/copewallet",
+      "html_url": "https://github.com/luci-kefs/copewallet",
+      "description": "Cope Wallet — Aethilm Protocol",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 797,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://copewallet.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-13T10:04:51Z",
+      "updated_at": "2026-04-19T08:22:31Z",
+      "pushed_at": "2026-04-19T08:22:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/luci-kefs/copewallet",
+        "website": "https://copewallet.vercel.app"
+      },
+      "owner": {
+        "login": "luci-kefs",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1204969222,
+      "name": "talak-web3",
+      "full_name": "talak-web3/talak-web3",
+      "html_url": "https://github.com/talak-web3/talak-web3",
+      "description": "security-first Web3 authentication and backend toolkit built for production applications that need wallet login, session management, RBAC, MFA, OAuth, SIWE, and enterprise-grade backend security without sacrificing developer experience.",
+      "language": "TypeScript",
+      "stars": 5,
+      "forks": 3,
+      "size_kb": 1206,
+      "score": 30,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "",
+      "topics": [
+        "account-abstraction",
+        "oauth",
+        "rpc",
+        "siwe",
+        "web3"
+      ],
+      "created_at": "2026-04-08T14:04:43Z",
+      "updated_at": "2026-04-19T08:03:36Z",
+      "pushed_at": "2026-04-19T08:03:32Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/talak-web3/talak-web3",
+        "website": null
+      },
+      "owner": {
+        "login": "talak-web3",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214276227,
+      "name": "agent-face",
+      "full_name": "joyboy-sats/agent-face",
+      "html_url": "https://github.com/joyboy-sats/agent-face",
+      "description": "AgentFace is an open-source robot avatar system that maps seeds, wallet addresses, or stable identifiers to deterministic, configurable SVG avatars.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 1,
+      "size_kb": 336,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://agent-face.ch4.app/",
+      "topics": [],
+      "created_at": "2026-04-18T10:56:41Z",
+      "updated_at": "2026-04-19T07:28:57Z",
+      "pushed_at": "2026-04-19T07:28:53Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/joyboy-sats/agent-face",
+        "website": "https://agent-face.ch4.app/"
+      },
+      "owner": {
+        "login": "joyboy-sats",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1194699041,
+      "name": "setup-sui-cli",
+      "full_name": "CommandOSSLabs/setup-sui-cli",
+      "html_url": "https://github.com/CommandOSSLabs/setup-sui-cli",
+      "description": "GitHub Action to install a specific Sui CLI version and configure a deployer wallet for a target network.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 367,
+      "score": 35,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://github.com/marketplace/actions/setup-sui-cli",
+      "topics": [
+        "github-action",
+        "sui"
+      ],
+      "created_at": "2026-03-28T17:41:46Z",
+      "updated_at": "2026-04-19T04:35:45Z",
+      "pushed_at": "2026-04-19T04:35:41Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/CommandOSSLabs/setup-sui-cli",
+        "website": "https://github.com/marketplace/actions/setup-sui-cli"
+      },
+      "owner": {
+        "login": "CommandOSSLabs",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214740108,
+      "name": "Lumina",
+      "full_name": "ItsJuniorDias/Lumina",
+      "html_url": "https://github.com/ItsJuniorDias/Lumina",
+      "description": "wallet crypto ",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1653,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-19T01:32:36Z",
+      "updated_at": "2026-04-19T04:07:56Z",
+      "pushed_at": "2026-04-19T04:07:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ItsJuniorDias/Lumina",
+        "website": null
+      },
+      "owner": {
+        "login": "ItsJuniorDias",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1213865742,
+      "name": "SempreChain",
+      "full_name": "dmtastudios/SempreChain",
+      "html_url": "https://github.com/dmtastudios/SempreChain",
+      "description": "SempreChain is a next-generation blockchain platform designed for security, scalability, and modular extensions. Built in Rust, it features post-quantum cryptographic signatures, programmable contracts with custom and seamless integration paths for enterprise, social, and government applications.",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 8111,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": "https://dmtastudios.substack.com/p/semprechain-0d5",
+      "topics": [],
+      "created_at": "2026-04-17T21:05:00Z",
+      "updated_at": "2026-04-18T23:08:54Z",
+      "pushed_at": "2026-04-18T23:08:50Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dmtastudios/SempreChain",
+        "website": "https://dmtastudios.substack.com/p/semprechain-0d5"
+      },
+      "owner": {
+        "login": "dmtastudios",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-19T09:05:58Z",
+      "last_seen_at": "2026-04-19T09:05:58Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1204207867,
       "name": "asset-tokenization-platform",
