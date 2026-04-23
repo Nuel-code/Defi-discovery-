@@ -1,9 +1,1081 @@
 {
-  "generated_at": "2026-04-22T09:48:37Z",
+  "generated_at": "2026-04-23T09:56:41Z",
   "summary": {
-    "total_count": 322
+    "total_count": 347
   },
   "startups": [
+    {
+      "repo_id": 1177598254,
+      "name": "rangeguard",
+      "full_name": "frxnnk/rangeguard",
+      "html_url": "https://github.com/frxnnk/rangeguard",
+      "description": "RangeGuard — Automated DeFi hedging bot for Uniswap V3 concentrated liquidity. Opens hedge positions on Hyperliquid when price exits range, closes on return.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 7571,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "defi",
+        "hedging",
+        "hyperliquid",
+        "impermanent-loss",
+        "nextjs",
+        "sqlite",
+        "trading-bot",
+        "typescript",
+        "uniswap"
+      ],
+      "created_at": "2026-03-10T07:17:32Z",
+      "updated_at": "2026-04-23T09:07:34Z",
+      "pushed_at": "2026-04-23T08:48:18Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/frxnnk/rangeguard",
+        "website": null
+      },
+      "owner": {
+        "login": "frxnnk",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1218806624,
+      "name": "defidollar-core",
+      "full_name": "paulluque/defidollar-core",
+      "html_url": "https://github.com/paulluque/defidollar-core",
+      "description": "Smart contracts for the DefiDollar ($DUSD) stablecoin.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2346,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "ethereum",
+        "stablecoin"
+      ],
+      "created_at": "2026-04-23T08:30:47Z",
+      "updated_at": "2026-04-23T08:33:42Z",
+      "pushed_at": "2026-04-23T08:33:35Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/paulluque/defidollar-core",
+        "website": null
+      },
+      "owner": {
+        "login": "paulluque",
+        "type": "User"
+      },
+      "license": "BSD-3-Clause",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202496001,
+      "name": "Leviathan-Frontier",
+      "full_name": "LeviathanMatrix/Leviathan-Frontier",
+      "html_url": "https://github.com/LeviathanMatrix/Leviathan-Frontier",
+      "description": "The open execution-control layer for Web4 agents that need policy-bound authority, capital limits, receipts, and reviewable actions.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 12067,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://leviathanmatrix.com/",
+      "topics": [
+        "aep",
+        "agent",
+        "ai",
+        "defi",
+        "finance",
+        "infrastructure",
+        "security",
+        "solana",
+        "transaction",
+        "wallet",
+        "web3",
+        "web4"
+      ],
+      "created_at": "2026-04-06T04:47:17Z",
+      "updated_at": "2026-04-23T06:33:16Z",
+      "pushed_at": "2026-04-23T06:33:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LeviathanMatrix/Leviathan-Frontier",
+        "website": "https://leviathanmatrix.com/"
+      },
+      "owner": {
+        "login": "LeviathanMatrix",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1216368699,
+      "name": "smarts",
+      "full_name": "defifund/smarts",
+      "html_url": "https://github.com/defifund/smarts",
+      "description": "Live docs for every verified smart contract.",
+      "language": "Ruby",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 249,
+      "score": 14,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://smarts.md",
+      "topics": [
+        "blockchain",
+        "defi",
+        "ethereum",
+        "mcp",
+        "mcp-server",
+        "on-chain-data",
+        "smart-contracts",
+        "web3"
+      ],
+      "created_at": "2026-04-20T20:47:41Z",
+      "updated_at": "2026-04-23T05:04:08Z",
+      "pushed_at": "2026-04-23T04:52:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/defifund/smarts",
+        "website": "https://smarts.md"
+      },
+      "owner": {
+        "login": "defifund",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1181292459,
+      "name": "HlOne",
+      "full_name": "Virmage/HlOne",
+      "html_url": "https://github.com/Virmage/HlOne",
+      "description": "HlOne — HyperLiquid trading terminal. Perps, options (via Derive), copy trading, smart-money flow, whale tracking. Open source.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2437,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://hlone.xyz",
+      "topics": [
+        "copy-trading",
+        "crypto",
+        "defi",
+        "derive",
+        "hyperliquid",
+        "options",
+        "perpetuals",
+        "trading",
+        "trading-terminal"
+      ],
+      "created_at": "2026-03-14T00:43:14Z",
+      "updated_at": "2026-04-22T23:55:25Z",
+      "pushed_at": "2026-04-22T23:55:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Virmage/HlOne",
+        "website": "https://hlone.xyz"
+      },
+      "owner": {
+        "login": "Virmage",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214958845,
+      "name": "optivaults-protocol",
+      "full_name": "OptiVaults/optivaults-protocol",
+      "html_url": "https://github.com/OptiVaults/optivaults-protocol",
+      "description": "OptiVaults V1 — non-custodial auto-yield stablecoin vault on Cardano (Aiken PlutusV3). Open-source reference implementation.",
+      "language": "Aiken",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 478,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": "https://optivaults.app",
+      "topics": [
+        "aiken",
+        "cardano",
+        "defi",
+        "open-source",
+        "plutus",
+        "public-goods",
+        "smart-contracts",
+        "stablecoin",
+        "vault",
+        "yield-aggregator"
+      ],
+      "created_at": "2026-04-19T09:33:47Z",
+      "updated_at": "2026-04-22T23:35:59Z",
+      "pushed_at": "2026-04-22T23:35:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/OptiVaults/optivaults-protocol",
+        "website": "https://optivaults.app"
+      },
+      "owner": {
+        "login": "OptiVaults",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1218790746,
+      "name": "btc-arbigrate-trading-bot",
+      "full_name": "meat29/btc-arbigrate-trading-bot",
+      "html_url": "https://github.com/meat29/btc-arbigrate-trading-bot",
+      "description": "Trading bot which exploits price-spreads between cryptocurrency exchanges",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 15542,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": "",
+      "topics": [
+        "arbitrage",
+        "bitcoin",
+        "trading-bot",
+        "trading-strategies"
+      ],
+      "created_at": "2026-04-23T08:11:56Z",
+      "updated_at": "2026-04-23T08:14:01Z",
+      "pushed_at": "2026-04-23T08:13:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/meat29/btc-arbigrate-trading-bot",
+        "website": null
+      },
+      "owner": {
+        "login": "meat29",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1200293983,
+      "name": "JPYC-commerce-mcp",
+      "full_name": "ackey-web/JPYC-commerce-mcp",
+      "html_url": "https://github.com/ackey-web/JPYC-commerce-mcp",
+      "description": "MCP server for AI agent commerce — task evaluation, trust-based negotiation, and JPYC payment execution on Polygon.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 392,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [
+        "agent-commerce",
+        "ai-agents",
+        "claude",
+        "jpyc",
+        "mcp",
+        "model-context-protocol",
+        "polygon",
+        "stablecoin",
+        "trust-score",
+        "web3"
+      ],
+      "created_at": "2026-04-03T08:43:19Z",
+      "updated_at": "2026-04-23T01:05:00Z",
+      "pushed_at": "2026-04-23T01:06:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ackey-web/JPYC-commerce-mcp",
+        "website": null
+      },
+      "owner": {
+        "login": "ackey-web",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212778830,
+      "name": "mcp-server-bananacrystal",
+      "full_name": "BananaCrystal/mcp-server-bananacrystal",
+      "html_url": "https://github.com/BananaCrystal/mcp-server-bananacrystal",
+      "description": "Official MCP server for Agent payment infrastructure for AI agents. MCP server for autonomous stablecoin transfers, currency swaps & agent wallets.  Works with Claude, LangChain, CrewAI. Settled on Hedera. ",
+      "language": "TypeScript",
+      "stars": 4,
+      "forks": 0,
+      "size_kb": 238,
+      "score": 40,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://agents.bananacrystal.com",
+      "topics": [
+        "agent-payments",
+        "agent-wallet",
+        "agentic-commerce",
+        "ai-agents",
+        "ai-native-finance",
+        "autonomous-agents",
+        "claude",
+        "crewai",
+        "hedera",
+        "langchain",
+        "mcp",
+        "model-context-protocol",
+        "stablecoin-payments"
+      ],
+      "created_at": "2026-04-16T18:13:36Z",
+      "updated_at": "2026-04-23T03:49:44Z",
+      "pushed_at": "2026-04-22T19:45:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/BananaCrystal/mcp-server-bananacrystal",
+        "website": "https://agents.bananacrystal.com"
+      },
+      "owner": {
+        "login": "BananaCrystal",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1218239221,
+      "name": "defidollar-core",
+      "full_name": "figure-markets/defidollar-core",
+      "html_url": "https://github.com/figure-markets/defidollar-core",
+      "description": "Smart contracts for the DefiDollar ($DUSD) stablecoin.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2346,
+      "score": 38,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [
+        "ethereum",
+        "stablecoin"
+      ],
+      "created_at": "2026-04-22T17:13:29Z",
+      "updated_at": "2026-04-22T17:19:51Z",
+      "pushed_at": "2026-04-22T17:17:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/figure-markets/defidollar-core",
+        "website": null
+      },
+      "owner": {
+        "login": "figure-markets",
+        "type": "Organization"
+      },
+      "license": "BSD-3-Clause",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1182366375,
+      "name": "toktoken",
+      "full_name": "mauriziofonte/toktoken",
+      "html_url": "https://github.com/mauriziofonte/toktoken",
+      "description": "TokToken is a fast, single-binary C codebase indexer for AI coding agents. Powered by universal-ctags and SQLite FTS5, it provides precise symbol search, dependency tracking, and an MCP server. TokToken reduces LLM context token usage by 88-99% by retrieving exact code symbols instead of reading entire files. Zero runtime dependencies.",
+      "language": "C",
+      "stars": 49,
+      "forks": 8,
+      "size_kb": 3988,
+      "score": 17,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-03-15T12:27:38Z",
+      "updated_at": "2026-04-23T09:53:13Z",
+      "pushed_at": "2026-04-23T09:53:09Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mauriziofonte/toktoken",
+        "website": null
+      },
+      "owner": {
+        "login": "mauriziofonte",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217085503,
+      "name": "soothsayer",
+      "full_name": "ACNoonan/soothsayer",
+      "html_url": "https://github.com/ACNoonan/soothsayer",
+      "description": "Statistically principled secondary price oracle for tokenized equities on Solana — fair value + time-varying confidence interval during closed-market windows.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 207,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-21T14:28:34Z",
+      "updated_at": "2026-04-23T09:28:07Z",
+      "pushed_at": "2026-04-23T09:28:03Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ACNoonan/soothsayer",
+        "website": null
+      },
+      "owner": {
+        "login": "ACNoonan",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1218678016,
+      "name": "recon",
+      "full_name": "lilacchio/recon",
+      "html_url": "https://github.com/lilacchio/recon",
+      "description": "Recon is a Solana alpha agent that argues with itself in public. Every 15 minutes it pulls trending + new-listing tokens from Birdeye, filters anything too illiquid or too old, and for each survivor fires two AI models at the same snapshot in parallel. When the two disagree on direction, or conviction gaps by 20+, a third model arbitrates.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 24001,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-23T05:35:02Z",
+      "updated_at": "2026-04-23T09:26:02Z",
+      "pushed_at": "2026-04-23T09:25:58Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/lilacchio/recon",
+        "website": null
+      },
+      "owner": {
+        "login": "lilacchio",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208625454,
+      "name": "agent-auth",
+      "full_name": "aidanns/agent-auth",
+      "html_url": "https://github.com/aidanns/agent-auth",
+      "description": "Local authorization system for gating AI agent access to host applications with scoped tokens and JIT human approval.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 5294,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://github.com/aidanns/agent-auth#readme",
+      "topics": [
+        "ai-agents",
+        "applescript",
+        "authorization",
+        "cli",
+        "macos",
+        "python",
+        "token-management"
+      ],
+      "created_at": "2026-04-12T14:39:34Z",
+      "updated_at": "2026-04-23T09:18:16Z",
+      "pushed_at": "2026-04-23T09:49:54Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/aidanns/agent-auth",
+        "website": "https://github.com/aidanns/agent-auth#readme"
+      },
+      "owner": {
+        "login": "aidanns",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1141528031,
+      "name": "spectyra",
+      "full_name": "ImMrLucky/spectyra",
+      "html_url": "https://github.com/ImMrLucky/spectyra",
+      "description": "Reduce LLM tokens and save money.",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 4703,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-01-25T01:09:29Z",
+      "updated_at": "2026-04-23T09:17:53Z",
+      "pushed_at": "2026-04-23T09:17:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ImMrLucky/spectyra",
+        "website": null
+      },
+      "owner": {
+        "login": "ImMrLucky",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210644572,
+      "name": "sanccharity",
+      "full_name": "SancCharity/sanccharity",
+      "html_url": "https://github.com/SancCharity/sanccharity",
+      "description": "SancCharity is a BSC-based platform bringing transparency to charitable giving. Donations are tracked on-chain, fund releases require milestone approval by SANC token holders, and charities must meet verified goals before accessing funds — ensuring accountability through community-driven governance.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 581,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-14T16:05:58Z",
+      "updated_at": "2026-04-23T09:17:32Z",
+      "pushed_at": "2026-04-23T09:17:28Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/SancCharity/sanccharity",
+        "website": null
+      },
+      "owner": {
+        "login": "SancCharity",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1208422813,
+      "name": "token-free-openclaw",
+      "full_name": "hyqibot/token-free-openclaw",
+      "html_url": "https://github.com/hyqibot/token-free-openclaw",
+      "description": "永久免 token 费的 openclaw；三个重磅 Skill 大幅提升桌面执行能力；无需安装，开箱即用；支持微信、钉钉等多端接入控制。兼容所有 OpenClaw 技能，并提供更强的 Skill 扩展：接入比openclaw更早发布，在人类生活最复杂的领域实现全自主干活的AlphaHYQi——100% AI 自主决策、自我发现、自我进化（新版计划）",
+      "language": "Python",
+      "stars": 3,
+      "forks": 3,
+      "size_kb": 313089,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://github.com/hyqibot/A-share-Ai/",
+      "topics": [
+        "openclaw",
+        "token",
+        "token-free",
+        "zero-token"
+      ],
+      "created_at": "2026-04-12T08:59:06Z",
+      "updated_at": "2026-04-23T09:35:01Z",
+      "pushed_at": "2026-04-23T09:15:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/hyqibot/token-free-openclaw",
+        "website": "https://github.com/hyqibot/A-share-Ai/"
+      },
+      "owner": {
+        "login": "hyqibot",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217140282,
+      "name": "AiCommit",
+      "full_name": "Vogadero/AiCommit",
+      "html_url": "https://github.com/Vogadero/AiCommit",
+      "description": "AiCommit - 智能 Git Commit 信息生成器：通过 AI 大模型自动生成规范的 Git Commit 信息，支持 OpenAI 兼容协议、多种提交风格、流式响应、Token 用量统计",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1303,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://vogadero.github.io/AiCommit/",
+      "topics": [
+        "ai",
+        "ai-model",
+        "ai-tools",
+        "gitcommit",
+        "typescript"
+      ],
+      "created_at": "2026-04-21T15:28:50Z",
+      "updated_at": "2026-04-23T09:35:21Z",
+      "pushed_at": "2026-04-23T09:10:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Vogadero/AiCommit",
+        "website": "https://vogadero.github.io/AiCommit/"
+      },
+      "owner": {
+        "login": "Vogadero",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1218814603,
+      "name": "claude-widgets",
+      "full_name": "lyfar/claude-widgets",
+      "html_url": "https://github.com/lyfar/claude-widgets",
+      "description": "iPhone home-screen widgets for Claude Code usage. Zero extra tokens. Your Mac, your Tailnet, your data.",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1308,
+      "score": 10,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://claude.egor.lol",
+      "topics": [],
+      "created_at": "2026-04-23T08:39:40Z",
+      "updated_at": "2026-04-23T09:03:58Z",
+      "pushed_at": "2026-04-23T09:03:54Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/lyfar/claude-widgets",
+        "website": "https://claude.egor.lol"
+      },
+      "owner": {
+        "login": "lyfar",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1215583893,
+      "name": "ghosthost",
+      "full_name": "godspede/ghosthost",
+      "html_url": "https://github.com/godspede/ghosthost",
+      "description": "Temporary, tokenized URLs for local files — for coding agents driving your desktop from a remote session.",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4258,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Go",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-20T04:01:51Z",
+      "updated_at": "2026-04-23T09:02:36Z",
+      "pushed_at": "2026-04-23T09:02:31Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/godspede/ghosthost",
+        "website": null
+      },
+      "owner": {
+        "login": "godspede",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217772968,
+      "name": "code-outline",
+      "full_name": "dim-s/code-outline",
+      "html_url": "https://github.com/dim-s/code-outline",
+      "description": "AST-based code outline CLI (C#, Python, TypeScript, Markdown, etc.) for LLM coding agents. Prints class/method signatures with line ranges — no method bodies. Cuts token usage 5–10× vs full-file reads. Works with Claude Code, Cursor, Aider.",
+      "language": "Python",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 216,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai-coding-assistant",
+        "aider",
+        "ast",
+        "claude-code",
+        "cli",
+        "code-navigation",
+        "code-outline",
+        "csharp",
+        "cursor",
+        "developer-tools",
+        "llm",
+        "markdown",
+        "python",
+        "tree-sitter",
+        "typescript"
+      ],
+      "created_at": "2026-04-22T07:50:30Z",
+      "updated_at": "2026-04-23T09:02:11Z",
+      "pushed_at": "2026-04-23T09:02:06Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dim-s/code-outline",
+        "website": null
+      },
+      "owner": {
+        "login": "dim-s",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1218499437,
+      "name": "enhanced-dex-aggregator",
+      "full_name": "samkdgit/enhanced-dex-aggregator",
+      "html_url": "https://github.com/samkdgit/enhanced-dex-aggregator",
+      "description": "Enhanced Dex Aggregator is a small hybrid DApp for comparing token swap quotes across several decentralised exchanges. ",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 711,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "dex",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-23T00:05:11Z",
+      "updated_at": "2026-04-23T01:07:19Z",
+      "pushed_at": "2026-04-23T01:07:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/samkdgit/enhanced-dex-aggregator",
+        "website": null
+      },
+      "owner": {
+        "login": "samkdgit",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212418181,
+      "name": "browser-extension",
+      "full_name": "ecency/browser-extension",
+      "html_url": "https://github.com/ecency/browser-extension",
+      "description": "A wallet browser extension for the Hive blockchain and cryptocurrency",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 25015,
+      "score": 33,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-16T11:05:58Z",
+      "updated_at": "2026-04-23T09:55:14Z",
+      "pushed_at": "2026-04-23T09:53:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ecency/browser-extension",
+        "website": null
+      },
+      "owner": {
+        "login": "ecency",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1185830084,
+      "name": "Arxia",
+      "full_name": "ArxiaLayer1/Arxia",
+      "html_url": "https://github.com/ArxiaLayer1/Arxia",
+      "description": "Offline-first Layer 1 blockchain operating over LoRa, BLE, SMS, and satellite.",
+      "language": "Rust",
+      "stars": 30,
+      "forks": 2,
+      "size_kb": 231,
+      "score": 24,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "⭐ Some traction"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": "",
+      "topics": [
+        "blockchain",
+        "blockchain-protocol",
+        "concensus",
+        "crdt",
+        "cryptocurrency",
+        "ed25519",
+        "esp32",
+        "layer1",
+        "lora",
+        "mesh-network",
+        "meshtastic",
+        "offline-first",
+        "rust",
+        "web3"
+      ],
+      "created_at": "2026-03-19T01:34:33Z",
+      "updated_at": "2026-04-23T04:05:12Z",
+      "pushed_at": "2026-04-23T04:05:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ArxiaLayer1/Arxia",
+        "website": null
+      },
+      "owner": {
+        "login": "ArxiaLayer1",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1218348369,
+      "name": "ComfyUI-LTX2-Microscope",
+      "full_name": "dorpxam/ComfyUI-LTX2-Microscope",
+      "html_url": "https://github.com/dorpxam/ComfyUI-LTX2-Microscope",
+      "description": "48-Layers Latent Previewer for Lightrick's LTX-2 model.",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1320,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://github.com/dorpxam/ComfyUI-LTX2-Microscope",
+      "topics": [],
+      "created_at": "2026-04-22T19:34:48Z",
+      "updated_at": "2026-04-23T07:23:08Z",
+      "pushed_at": "2026-04-23T07:23:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dorpxam/ComfyUI-LTX2-Microscope",
+        "website": "https://github.com/dorpxam/ComfyUI-LTX2-Microscope"
+      },
+      "owner": {
+        "login": "dorpxam",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-23T09:56:41Z",
+      "last_seen_at": "2026-04-23T09:56:41Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1150538025,
       "name": "haiku-mcp-server",
