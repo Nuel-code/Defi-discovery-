@@ -1,9 +1,1890 @@
 {
-  "generated_at": "2026-04-24T09:55:54Z",
+  "generated_at": "2026-04-25T09:08:27Z",
   "summary": {
-    "total_count": 393
+    "total_count": 434
   },
   "startups": [
+    {
+      "repo_id": 1199111607,
+      "name": "lendpay",
+      "full_name": "ntfound-dev/lendpay",
+      "html_url": "https://github.com/ntfound-dev/lendpay",
+      "description": "Lendpay Pay later across every Initia app. LendPay turns on-chain reputation into a credit line for NFT drops, games, and DeFi vaults, unlocking smaller purchases first and expanding access through responsible on-chain activity.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2198,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://lendpay.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-02T03:58:36Z",
+      "updated_at": "2026-04-25T07:57:47Z",
+      "pushed_at": "2026-04-25T07:57:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ntfound-dev/lendpay",
+        "website": "https://lendpay.vercel.app"
+      },
+      "owner": {
+        "login": "ntfound-dev",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219627954,
+      "name": "agtopen",
+      "full_name": "agtopen/agtopen",
+      "html_url": "https://github.com/agtopen/agtopen",
+      "description": "Agentic Open — The Open Protocol for the Autonomous Economy",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 216,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://agtopen.com",
+      "topics": [
+        "agent-framework",
+        "ai-agents",
+        "autonomous-agents",
+        "bun",
+        "decentralized-ai",
+        "defi",
+        "hybrid-compute",
+        "open-protocol",
+        "prediction-market",
+        "sdk",
+        "trading-signals",
+        "typescript",
+        "web3",
+        "zero-knowledge",
+        "zk-proofs"
+      ],
+      "created_at": "2026-04-24T04:10:40Z",
+      "updated_at": "2026-04-25T06:39:25Z",
+      "pushed_at": "2026-04-25T06:39:21Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/agtopen/agtopen",
+        "website": "https://agtopen.com"
+      },
+      "owner": {
+        "login": "agtopen",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1154697581,
+      "name": "Auralis",
+      "full_name": "amshirif/Auralis",
+      "html_url": "https://github.com/amshirif/Auralis",
+      "description": "Security-first Solidity protocol engineering: diamond hosts, ERC-4626/7540 vaults, AMM, multisig, and audit-ready validation.",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1689,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "",
+      "topics": [
+        "defi",
+        "diamond-standard",
+        "erc-4626",
+        "erc-7540",
+        "ethereum",
+        "foundry",
+        "portfolio",
+        "security",
+        "smart-contracts",
+        "solidity"
+      ],
+      "created_at": "2026-02-10T17:19:30Z",
+      "updated_at": "2026-04-25T04:49:41Z",
+      "pushed_at": "2026-04-25T00:10:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/amshirif/Auralis",
+        "website": null
+      },
+      "owner": {
+        "login": "amshirif",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1220343229,
+      "name": "forge-lending",
+      "full_name": "Endure-Network/forge-lending",
+      "html_url": "https://github.com/Endure-Network/forge-lending",
+      "description": "Endure Network lending protocol — Moonwell v2 fork for Bittensor EVM (pooled-collateral, TAO-only)",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 14944,
+      "score": 38,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "bittensor",
+        "compound-v2",
+        "defi",
+        "evm",
+        "foundry",
+        "lending",
+        "moonwell-fork",
+        "solidity"
+      ],
+      "created_at": "2026-04-24T19:56:13Z",
+      "updated_at": "2026-04-24T21:23:20Z",
+      "pushed_at": "2026-04-24T22:02:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Endure-Network/forge-lending",
+        "website": null
+      },
+      "owner": {
+        "login": "Endure-Network",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1220676141,
+      "name": "UpDownWalletMonitor-Poly-Research-Robotics",
+      "full_name": "polyresearchrobotics/UpDownWalletMonitor-Poly-Research-Robotics",
+      "html_url": "https://github.com/polyresearchrobotics/UpDownWalletMonitor-Poly-Research-Robotics",
+      "description": "This application allows you to monitor a polymarket wallets trades in real time accross 5M/15M Crypto Up/Down markets for BTC/ETH/SOL/XRP.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 413,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "btc",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-25T07:19:48Z",
+      "updated_at": "2026-04-25T08:01:59Z",
+      "pushed_at": "2026-04-25T08:01:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/polyresearchrobotics/UpDownWalletMonitor-Poly-Research-Robotics",
+        "website": null
+      },
+      "owner": {
+        "login": "polyresearchrobotics",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1220655638,
+      "name": "PearView",
+      "full_name": "phuchduong/PearView",
+      "html_url": "https://github.com/phuchduong/PearView",
+      "description": "A whimsical financial analytics suite from Happy & Pear that helps you find the 'sweet spot' in investments.",
+      "language": "CSS",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 22792,
+      "score": 13,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": "https://phuchduong.github.io/PearView/",
+      "topics": [
+        "btc",
+        "crypto",
+        "finance",
+        "stocks"
+      ],
+      "created_at": "2026-04-25T06:44:27Z",
+      "updated_at": "2026-04-25T06:59:24Z",
+      "pushed_at": "2026-04-25T06:59:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/phuchduong/PearView",
+        "website": "https://phuchduong.github.io/PearView/"
+      },
+      "owner": {
+        "login": "phuchduong",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219343420,
+      "name": "LiquiFi",
+      "full_name": "0xJonaseb11/LiquiFi",
+      "html_url": "https://github.com/0xJonaseb11/LiquiFi",
+      "description": "A DeFi Lending and Liquidation protocol",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1897,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "lending protocol",
+      "homepage": "https://liquifi-sage.vercel.app",
+      "topics": [
+        "base",
+        "defi",
+        "layerzero",
+        "lending-protocol",
+        "liquidity-pool"
+      ],
+      "created_at": "2026-04-23T19:27:58Z",
+      "updated_at": "2026-04-24T13:28:47Z",
+      "pushed_at": "2026-04-24T13:25:49Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/0xJonaseb11/LiquiFi",
+        "website": "https://liquifi-sage.vercel.app"
+      },
+      "owner": {
+        "login": "0xJonaseb11",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219408983,
+      "name": "solidity-staking-rewards",
+      "full_name": "juwelhossenskrrgtfhpgnlt/solidity-staking-rewards",
+      "html_url": "https://github.com/juwelhossenskrrgtfhpgnlt/solidity-staking-rewards",
+      "description": "Synthetix-style staking rewards contract with Remix deploy flow and Phantom wallet claim interface",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1329,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [
+        "apr",
+        "claim",
+        "compound",
+        "erc20",
+        "ethereum",
+        "hardhat",
+        "phantom",
+        "remix-ide",
+        "rewards",
+        "solidity",
+        "staking",
+        "synthetix"
+      ],
+      "created_at": "2026-04-23T21:06:45Z",
+      "updated_at": "2026-04-25T09:06:08Z",
+      "pushed_at": "2026-04-25T09:06:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/juwelhossenskrrgtfhpgnlt/solidity-staking-rewards",
+        "website": null
+      },
+      "owner": {
+        "login": "juwelhossenskrrgtfhpgnlt",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219850599,
+      "name": "solen-hub",
+      "full_name": "iwbinb/solen-hub",
+      "html_url": "https://github.com/iwbinb/solen-hub",
+      "description": "**A Solen blockchain portal for everyday users** — explorer, staking, transfers, governance, wallet — all in one place.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 836,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": "https://solen-hub.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-24T09:29:37Z",
+      "updated_at": "2026-04-24T09:44:29Z",
+      "pushed_at": "2026-04-24T09:44:18Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/iwbinb/solen-hub",
+        "website": "https://solen-hub.vercel.app"
+      },
+      "owner": {
+        "login": "iwbinb",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219751248,
+      "name": "openabx-frontend",
+      "full_name": "openABX/openabx-frontend",
+      "html_url": "https://github.com/openABX/openabx-frontend",
+      "description": "An open-source UI for the AlphBanX stablecoin protocol on Alephium.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 7166,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://openabx.com/",
+      "topics": [
+        "alephium",
+        "crypto",
+        "smart-contracts"
+      ],
+      "created_at": "2026-04-24T07:23:47Z",
+      "updated_at": "2026-04-25T07:00:27Z",
+      "pushed_at": "2026-04-25T07:00:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/openABX/openabx-frontend",
+        "website": "https://openabx.com/"
+      },
+      "owner": {
+        "login": "openABX",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219407959,
+      "name": "erc4626-vault-contract",
+      "full_name": "shInY-JAVaScriPT/erc4626-vault-contract",
+      "html_url": "https://github.com/shInY-JAVaScriPT/erc4626-vault-contract",
+      "description": "Tokenized vault standard ERC-4626 implementation with Remix deployment and yield strategy hooks",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1239,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "assets",
+        "erc4626",
+        "ethereum",
+        "hardhat",
+        "openzeppelin",
+        "remix-ide",
+        "shares",
+        "solidity",
+        "strategy",
+        "tokenized",
+        "vault",
+        "yield"
+      ],
+      "created_at": "2026-04-23T21:04:56Z",
+      "updated_at": "2026-04-25T09:06:57Z",
+      "pushed_at": "2026-04-25T09:07:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/shInY-JAVaScriPT/erc4626-vault-contract",
+        "website": null
+      },
+      "owner": {
+        "login": "shInY-JAVaScriPT",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219408862,
+      "name": "ethereum-permit-eip2612",
+      "full_name": "dOCtorstrANg3-Lucky/ethereum-permit-eip2612",
+      "html_url": "https://github.com/dOCtorstrANg3-Lucky/ethereum-permit-eip2612",
+      "description": "Implement EIP-2612 permit function for gasless token approvals signed with Phantom wallet",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1229,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "approval",
+        "eip-2612",
+        "eip-712",
+        "erc20",
+        "ethereum",
+        "gasless",
+        "hardhat",
+        "permit",
+        "phantom",
+        "signature",
+        "solidity",
+        "typed-data"
+      ],
+      "created_at": "2026-04-23T21:06:33Z",
+      "updated_at": "2026-04-25T09:07:04Z",
+      "pushed_at": "2026-04-25T09:07:00Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dOCtorstrANg3-Lucky/ethereum-permit-eip2612",
+        "website": null
+      },
+      "owner": {
+        "login": "dOCtorstrANg3-Lucky",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219406401,
+      "name": "erc1155-multi-token-deploy",
+      "full_name": "darkexdkramgbumqbda/erc1155-multi-token-deploy",
+      "html_url": "https://github.com/darkexdkramgbumqbda/erc1155-multi-token-deploy",
+      "description": "Deploy ERC-1155 multi-token contracts from Remix with batch minting and URI management",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1093,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "batch-mint",
+        "deploy",
+        "erc1155",
+        "ethereum",
+        "gaming",
+        "multi-token",
+        "nft",
+        "openzeppelin",
+        "remix-ide",
+        "solidity",
+        "typescript",
+        "uri"
+      ],
+      "created_at": "2026-04-23T21:02:15Z",
+      "updated_at": "2026-04-25T09:07:01Z",
+      "pushed_at": "2026-04-25T09:06:58Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/darkexdkramgbumqbda/erc1155-multi-token-deploy",
+        "website": null
+      },
+      "owner": {
+        "login": "darkexdkramgbumqbda",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219408493,
+      "name": "solidity-dutch-auction",
+      "full_name": "orangegoosevnnfiyjap/solidity-dutch-auction",
+      "html_url": "https://github.com/orangegoosevnnfiyjap/solidity-dutch-auction",
+      "description": "Dutch auction contract for NFT mints and token sales with Remix deployment and price decay curve",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1267,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "dutch-auction",
+        "erc721",
+        "ethereum",
+        "hardhat",
+        "mint",
+        "nft",
+        "openzeppelin",
+        "price-decay",
+        "remix-ide",
+        "solidity",
+        "token-sale"
+      ],
+      "created_at": "2026-04-23T21:05:49Z",
+      "updated_at": "2026-04-25T09:07:00Z",
+      "pushed_at": "2026-04-25T09:06:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/orangegoosevnnfiyjap/solidity-dutch-auction",
+        "website": null
+      },
+      "owner": {
+        "login": "orangegoosevnnfiyjap",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219407781,
+      "name": "phantom-token-transfer-ui",
+      "full_name": "FasTAPiCrazy/phantom-token-transfer-ui",
+      "html_url": "https://github.com/FasTAPiCrazy/phantom-token-transfer-ui",
+      "description": "Simple React UI for transferring ERC-20 tokens using Phantom wallet with balance display",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1265,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "allowance",
+        "approve",
+        "balance",
+        "dapp",
+        "erc20",
+        "ethereum",
+        "ethers-js",
+        "phantom",
+        "react",
+        "transfer",
+        "typescript",
+        "ui"
+      ],
+      "created_at": "2026-04-23T21:04:34Z",
+      "updated_at": "2026-04-25T09:07:05Z",
+      "pushed_at": "2026-04-25T09:07:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/FasTAPiCrazy/phantom-token-transfer-ui",
+        "website": null
+      },
+      "owner": {
+        "login": "FasTAPiCrazy",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219404269,
+      "name": "remix-erc20-deploy-guide",
+      "full_name": "rifTALIEN9/remix-erc20-deploy-guide",
+      "html_url": "https://github.com/rifTALIEN9/remix-erc20-deploy-guide",
+      "description": "Step-by-step ERC-20 token deployment workflow using Remix IDE with Phantom and MetaMask injection",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1232,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "abi",
+        "bytecode",
+        "deploy",
+        "erc20",
+        "ethereum",
+        "hardhat",
+        "injected-provider",
+        "openzeppelin",
+        "phantom",
+        "remix-ide",
+        "solidity",
+        "token"
+      ],
+      "created_at": "2026-04-23T20:58:54Z",
+      "updated_at": "2026-04-25T09:06:59Z",
+      "pushed_at": "2026-04-25T09:06:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rifTALIEN9/remix-erc20-deploy-guide",
+        "website": null
+      },
+      "owner": {
+        "login": "rifTALIEN9",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1193352554,
+      "name": "Sleep-Token",
+      "full_name": "ShAuRyA-Noodle/Sleep-Token",
+      "html_url": "https://github.com/ShAuRyA-Noodle/Sleep-Token",
+      "description": "-_-",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 403649,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-03-27T06:06:01Z",
+      "updated_at": "2026-04-25T08:53:34Z",
+      "pushed_at": "2026-04-25T08:53:30Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ShAuRyA-Noodle/Sleep-Token",
+        "website": null
+      },
+      "owner": {
+        "login": "ShAuRyA-Noodle",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211085901,
+      "name": "ashlr-plugin",
+      "full_name": "ashlrai/ashlr-plugin",
+      "html_url": "https://github.com/ashlrai/ashlr-plugin",
+      "description": "Open-source Claude Code plugin — token-efficient Read/Grep/Edit via @ashlr/core-efficiency. MIT.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 1,
+      "size_kb": 5235,
+      "score": 36,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://plugin.ashlr.ai/",
+      "topics": [
+        "anthropic",
+        "ashlrcode",
+        "bun",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "mcp",
+        "mcp-server",
+        "token-efficiency",
+        "typescript"
+      ],
+      "created_at": "2026-04-15T03:49:59Z",
+      "updated_at": "2026-04-25T08:44:23Z",
+      "pushed_at": "2026-04-25T08:44:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ashlrai/ashlr-plugin",
+        "website": "https://plugin.ashlr.ai/"
+      },
+      "owner": {
+        "login": "ashlrai",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1194099157,
+      "name": "phantom-secrets",
+      "full_name": "ashlrai/phantom-secrets",
+      "html_url": "https://github.com/ashlrai/phantom-secrets",
+      "description": "Prevent AI agents from leaking your API keys. Phantom token proxy + MCP server. 27 commands, 10 tools. v0.4.0",
+      "language": "Rust",
+      "stars": 6,
+      "forks": 1,
+      "size_kb": 11473,
+      "score": 39,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://phm.dev/",
+      "topics": [
+        "ai",
+        "ai-safety",
+        "api-keys",
+        "api-security",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "encryption",
+        "env-files",
+        "mcp",
+        "mcp-server",
+        "phantom",
+        "proxy",
+        "rust",
+        "secrets-management",
+        "security",
+        "token-proxy",
+        "windsurf"
+      ],
+      "created_at": "2026-03-27T23:18:47Z",
+      "updated_at": "2026-04-25T08:38:44Z",
+      "pushed_at": "2026-04-25T08:38:39Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ashlrai/phantom-secrets",
+        "website": "https://phm.dev/"
+      },
+      "owner": {
+        "login": "ashlrai",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212078961,
+      "name": "openagent",
+      "full_name": "ask-sol/openagent",
+      "html_url": "https://github.com/ask-sol/openagent",
+      "description": "Open-source agentic coding CLI for your terminal. Multi-provider (OpenAI, Anthropic, Gemini, Mistral, Groq, DeepSeek, xAI, Ollama, OpenRouter), token-efficient, with web search, MCP server  support, local session resume, and built-in Reddit/X posting.",
+      "language": "TypeScript",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 690,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "token",
+      "homepage": "https://ask-sol.github.io/openagent/",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai-agent",
+        "ai-cli",
+        "byok",
+        "claude-code-alternative",
+        "claude-max",
+        "cli",
+        "coding-assistant",
+        "developer-tools",
+        "ink",
+        "llm",
+        "mcp",
+        "multi-provider",
+        "ollama",
+        "open-source",
+        "openrouter",
+        "terminal-ui",
+        "typescript"
+      ],
+      "created_at": "2026-04-16T03:24:46Z",
+      "updated_at": "2026-04-25T08:55:14Z",
+      "pushed_at": "2026-04-25T08:35:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ask-sol/openagent",
+        "website": "https://ask-sol.github.io/openagent/"
+      },
+      "owner": {
+        "login": "ask-sol",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1211092498,
+      "name": "UsageMeter",
+      "full_name": "Smileslove/UsageMeter",
+      "html_url": "https://github.com/Smileslove/UsageMeter",
+      "description": "A lightweight menu bar app for monitoring LLM API usage (Claude Code supported currently) — real-time tracking of token consumption, request counts and quota remaining. 一款轻量级菜单栏应用，用于监控大模型接口使用情况（目前支持 Claude Code） —— 实时追踪token消耗、请求次数及配额余量。",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1839,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-15T04:02:39Z",
+      "updated_at": "2026-04-25T08:30:46Z",
+      "pushed_at": "2026-04-25T08:30:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Smileslove/UsageMeter",
+        "website": null
+      },
+      "owner": {
+        "login": "Smileslove",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1177871919,
+      "name": "HASHI",
+      "full_name": "Bazza1982/HASHI",
+      "html_url": "https://github.com/Bazza1982/HASHI",
+      "description": "A vibe-coded, privacy-first OpenClaw alternative for your AI agents. Control Gemini, Claude, and Codex via WhatsApp, Telegram, or Web without ever sharing your tokens.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 4478,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-03-10T13:09:33Z",
+      "updated_at": "2026-04-25T08:13:28Z",
+      "pushed_at": "2026-04-25T08:13:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Bazza1982/HASHI",
+        "website": null
+      },
+      "owner": {
+        "login": "Bazza1982",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1202254221,
+      "name": "claude-code-skills",
+      "full_name": "mtberlin2023/claude-code-skills",
+      "html_url": "https://github.com/mtberlin2023/claude-code-skills",
+      "description": "Reusable Claude Code skills —   statusline, token optimization, frontend quality, UI/UX intelligence",
+      "language": "Python",
+      "stars": 4,
+      "forks": 0,
+      "size_kb": 596,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "token",
+      "homepage": "https://supermark.live",
+      "topics": [],
+      "created_at": "2026-04-05T19:57:30Z",
+      "updated_at": "2026-04-25T08:13:11Z",
+      "pushed_at": "2026-04-25T08:13:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mtberlin2023/claude-code-skills",
+        "website": "https://supermark.live"
+      },
+      "owner": {
+        "login": "mtberlin2023",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1220473489,
+      "name": "PokeDex",
+      "full_name": "LuizManto/PokeDex",
+      "html_url": "https://github.com/LuizManto/PokeDex",
+      "description": "Site em React e Js com api, um site simples como atividade para faculdade",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4695,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-25T00:02:19Z",
+      "updated_at": "2026-04-25T00:06:08Z",
+      "pushed_at": "2026-04-25T01:20:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LuizManto/PokeDex",
+        "website": null
+      },
+      "owner": {
+        "login": "LuizManto",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217311966,
+      "name": "animal-dex",
+      "full_name": "LNA-DEV/animal-dex",
+      "html_url": "https://github.com/LNA-DEV/animal-dex",
+      "description": "Photography pokedex like website",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 8603,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://dex.lna-dev.net",
+      "topics": [
+        "photography",
+        "pokedex",
+        "wildlife",
+        "wildlifephotography"
+      ],
+      "created_at": "2026-04-21T19:00:34Z",
+      "updated_at": "2026-04-24T18:25:41Z",
+      "pushed_at": "2026-04-24T18:25:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LNA-DEV/animal-dex",
+        "website": "https://dex.lna-dev.net"
+      },
+      "owner": {
+        "login": "LNA-DEV",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1201243286,
+      "name": "Surge",
+      "full_name": "SurgeDetect/Surge",
+      "html_url": "https://github.com/SurgeDetect/Surge",
+      "description": "Volume spike detector for Solana. Finds tokens with unusual DEX volume and uses Claude to classify organic vs manipulation.",
+      "language": "TypeScript",
+      "stars": 24,
+      "forks": 0,
+      "size_kb": 212,
+      "score": 24,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "⭐ Some traction"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [
+        "ai-agent",
+        "bun",
+        "claude",
+        "on-chain",
+        "solana",
+        "token-signals",
+        "typescript",
+        "volume-analysis"
+      ],
+      "created_at": "2026-04-04T12:09:12Z",
+      "updated_at": "2026-04-24T17:57:36Z",
+      "pushed_at": "2026-04-24T17:57:31Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/SurgeDetect/Surge",
+        "website": null
+      },
+      "owner": {
+        "login": "SurgeDetect",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1192999239,
+      "name": "dexalot-sdk-python",
+      "full_name": "Dexalot/dexalot-sdk-python",
+      "html_url": "https://github.com/Dexalot/dexalot-sdk-python",
+      "description": "Python SDK to simplify and standardize integration with Dexalot.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 529,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "dex",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-03-26T19:16:27Z",
+      "updated_at": "2026-04-24T14:33:47Z",
+      "pushed_at": "2026-04-24T14:33:50Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Dexalot/dexalot-sdk-python",
+        "website": null
+      },
+      "owner": {
+        "login": "Dexalot",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219404494,
+      "name": "phantom-ethereum-signer",
+      "full_name": "silverlionsbkyemgpw/phantom-ethereum-signer",
+      "html_url": "https://github.com/silverlionsbkyemgpw/phantom-ethereum-signer",
+      "description": "Sign Ethereum transactions and typed data (EIP-712) using Phantom wallet browser extension",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1108,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "dapp",
+        "eip-712",
+        "ethereum",
+        "ethers-js",
+        "phantom",
+        "provider",
+        "signature",
+        "signing",
+        "typed-data",
+        "typescript",
+        "wallet",
+        "web3"
+      ],
+      "created_at": "2026-04-23T20:59:15Z",
+      "updated_at": "2026-04-25T09:07:39Z",
+      "pushed_at": "2026-04-25T09:07:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/silverlionsbkyemgpw/phantom-ethereum-signer",
+        "website": null
+      },
+      "owner": {
+        "login": "silverlionsbkyemgpw",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219408390,
+      "name": "ethereum-multisig-ui",
+      "full_name": "blackfishnjmsmvvrw/ethereum-multisig-ui",
+      "html_url": "https://github.com/blackfishnjmsmvvrw/ethereum-multisig-ui",
+      "description": "Web interface for managing Gnosis Safe multisig wallets with Phantom wallet signing support",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1332,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "dapp",
+        "ethereum",
+        "execute",
+        "gnosis-safe",
+        "multisig",
+        "owner",
+        "phantom",
+        "proposal",
+        "react",
+        "threshold",
+        "typescript",
+        "web3"
+      ],
+      "created_at": "2026-04-23T21:05:38Z",
+      "updated_at": "2026-04-25T09:07:47Z",
+      "pushed_at": "2026-04-25T09:07:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/blackfishnjmsmvvrw/ethereum-multisig-ui",
+        "website": null
+      },
+      "owner": {
+        "login": "blackfishnjmsmvvrw",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219409102,
+      "name": "phantom-eth-balance-widget",
+      "full_name": "silverswanmsiualcxp/phantom-eth-balance-widget",
+      "html_url": "https://github.com/silverswanmsiualcxp/phantom-eth-balance-widget",
+      "description": "Embeddable React widget displaying Ethereum and ERC-20 balances for connected Phantom wallet",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1176,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "balance",
+        "dapp",
+        "display",
+        "embed",
+        "erc20",
+        "ethereum",
+        "ethers-js",
+        "multicall",
+        "phantom",
+        "react",
+        "typescript",
+        "widget"
+      ],
+      "created_at": "2026-04-23T21:06:56Z",
+      "updated_at": "2026-04-25T09:07:23Z",
+      "pushed_at": "2026-04-25T09:07:44Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/silverswanmsiualcxp/phantom-eth-balance-widget",
+        "website": null
+      },
+      "owner": {
+        "login": "silverswanmsiualcxp",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219408059,
+      "name": "phantom-deep-link-handler",
+      "full_name": "a70MiC-HEat48/phantom-deep-link-handler",
+      "html_url": "https://github.com/a70MiC-HEat48/phantom-deep-link-handler",
+      "description": "Handle Phantom wallet deep links for mobile Ethereum dApp connections and transaction signing",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1336,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "android",
+        "dapp",
+        "deep-link",
+        "ethereum",
+        "ios",
+        "mobile",
+        "phantom",
+        "redirect",
+        "signing",
+        "typescript",
+        "universal-link",
+        "web3"
+      ],
+      "created_at": "2026-04-23T21:05:06Z",
+      "updated_at": "2026-04-25T09:07:47Z",
+      "pushed_at": "2026-04-25T09:07:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/a70MiC-HEat48/phantom-deep-link-handler",
+        "website": null
+      },
+      "owner": {
+        "login": "a70MiC-HEat48",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219405388,
+      "name": "contract-interaction-ui",
+      "full_name": "silverleopardjmjwkuffsgp/contract-interaction-ui",
+      "html_url": "https://github.com/silverleopardjmjwkuffsgp/contract-interaction-ui",
+      "description": "Generic React UI for interacting with any deployed Ethereum contract using ABI and Phantom wallet",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1201,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "abi",
+        "contract-interaction",
+        "dynamic-ui",
+        "ethereum",
+        "ethers-js",
+        "form",
+        "phantom",
+        "react",
+        "read",
+        "typescript",
+        "web3",
+        "write"
+      ],
+      "created_at": "2026-04-23T21:00:40Z",
+      "updated_at": "2026-04-25T09:07:26Z",
+      "pushed_at": "2026-04-25T09:07:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/silverleopardjmjwkuffsgp/contract-interaction-ui",
+        "website": null
+      },
+      "owner": {
+        "login": "silverleopardjmjwkuffsgp",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219405585,
+      "name": "phantom-batch-transaction",
+      "full_name": "zapsnaxzvhlbvwtr/phantom-batch-transaction",
+      "html_url": "https://github.com/zapsnaxzvhlbvwtr/phantom-batch-transaction",
+      "description": "Send multiple Ethereum transactions in sequence using Phantom wallet with nonce management",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1236,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "async",
+        "batch",
+        "dapp",
+        "ethereum",
+        "ethers-js",
+        "gas",
+        "nonce",
+        "phantom",
+        "queue",
+        "transaction",
+        "typescript",
+        "web3"
+      ],
+      "created_at": "2026-04-23T21:01:00Z",
+      "updated_at": "2026-04-25T09:07:39Z",
+      "pushed_at": "2026-04-25T09:07:34Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/zapsnaxzvhlbvwtr/phantom-batch-transaction",
+        "website": null
+      },
+      "owner": {
+        "login": "zapsnaxzvhlbvwtr",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219406716,
+      "name": "dapp-wallet-modal",
+      "full_name": "darkfrothlazydweqn/dapp-wallet-modal",
+      "html_url": "https://github.com/darkfrothlazydweqn/dapp-wallet-modal",
+      "description": "Plug-and-play wallet connection modal supporting Phantom, MetaMask and Rainbow on Ethereum",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1164,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "connect",
+        "dapp",
+        "ethereum",
+        "metamask",
+        "phantom",
+        "rainbow",
+        "rainbowkit",
+        "react",
+        "typescript",
+        "ui",
+        "wallet-modal",
+        "web3modal"
+      ],
+      "created_at": "2026-04-23T21:02:47Z",
+      "updated_at": "2026-04-25T09:07:46Z",
+      "pushed_at": "2026-04-25T09:07:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/darkfrothlazydweqn/dapp-wallet-modal",
+        "website": null
+      },
+      "owner": {
+        "login": "darkfrothlazydweqn",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219407384,
+      "name": "ethereum-signature-auth",
+      "full_name": "novanaiijlnyczppwmfrd/ethereum-signature-auth",
+      "html_url": "https://github.com/novanaiijlnyczppwmfrd/ethereum-signature-auth",
+      "description": "Passwordless authentication using Ethereum wallet signatures with Phantom and JWT session management",
+      "language": "Solidity",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1322,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "authentication",
+        "eip-4361",
+        "ethereum",
+        "express",
+        "jwt",
+        "login",
+        "nodejs",
+        "phantom",
+        "session",
+        "signature",
+        "siwe",
+        "web3"
+      ],
+      "created_at": "2026-04-23T21:03:52Z",
+      "updated_at": "2026-04-25T09:07:33Z",
+      "pushed_at": "2026-04-25T09:07:29Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/novanaiijlnyczppwmfrd/ethereum-signature-auth",
+        "website": null
+      },
+      "owner": {
+        "login": "novanaiijlnyczppwmfrd",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217703696,
+      "name": "Ability-Wallet",
+      "full_name": "RFOF-NETWORK/Ability-Wallet",
+      "html_url": "https://github.com/RFOF-NETWORK/Ability-Wallet",
+      "description": "InterBOxSpiderWeb.NET PRVPNRFAI.py 2025 - 2029",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 920,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://rfof-network.github.io/Ability-Wallet/",
+      "topics": [],
+      "created_at": "2026-04-22T06:17:48Z",
+      "updated_at": "2026-04-25T08:44:26Z",
+      "pushed_at": "2026-04-25T08:44:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/RFOF-NETWORK/Ability-Wallet",
+        "website": "https://rfof-network.github.io/Ability-Wallet/"
+      },
+      "owner": {
+        "login": "RFOF-NETWORK",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217729032,
+      "name": "CoSINT",
+      "full_name": "Prestonbalconied467/CoSINT",
+      "html_url": "https://github.com/Prestonbalconied467/CoSINT",
+      "description": "Investigate entities with AI-assisted OSINT scans, profile checks, and cross-correlation across email, domain, IP, username, phone, person, media, and wallet.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1073,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "cli",
+        "github-config",
+        "information-gathering",
+        "intelligence-gathering",
+        "investigator",
+        "osint",
+        "osint-reconnaissance",
+        "osint-tool",
+        "python",
+        "tool"
+      ],
+      "created_at": "2026-04-22T06:52:06Z",
+      "updated_at": "2026-04-25T08:32:48Z",
+      "pushed_at": "2026-04-25T08:32:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Prestonbalconied467/CoSINT",
+        "website": null
+      },
+      "owner": {
+        "login": "Prestonbalconied467",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1220415134,
+      "name": "pay",
+      "full_name": "agentscore/pay",
+      "html_url": "https://github.com/agentscore/pay",
+      "description": "CLI wallet for one-shell-command agent payments across x402 (Base, Solana) and MPP (Tempo)",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 242,
+      "score": 35,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://agentscore.sh",
+      "topics": [
+        "agentic-payments",
+        "agentscore",
+        "ai-agent",
+        "base",
+        "claude",
+        "cli",
+        "eip-3009",
+        "mpp",
+        "solana",
+        "spl-token",
+        "tempo",
+        "usdc",
+        "wallet",
+        "x402"
+      ],
+      "created_at": "2026-04-24T21:57:58Z",
+      "updated_at": "2026-04-25T08:11:07Z",
+      "pushed_at": "2026-04-25T08:11:03Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/agentscore/pay",
+        "website": "https://agentscore.sh"
+      },
+      "owner": {
+        "login": "agentscore",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1148960705,
+      "name": "my-wallet",
+      "full_name": "antonis-zisis/my-wallet",
+      "html_url": "https://github.com/antonis-zisis/my-wallet",
+      "description": "A full-stack Wallet application to help with budgeting, built with React and Express.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 741,
+      "score": 12,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://my-wallet.antoniszisis.com",
+      "topics": [
+        "express",
+        "graphql",
+        "postgres",
+        "prisma",
+        "react",
+        "recharts",
+        "vite"
+      ],
+      "created_at": "2026-02-03T15:08:57Z",
+      "updated_at": "2026-04-25T07:51:11Z",
+      "pushed_at": "2026-04-25T07:51:08Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/antonis-zisis/my-wallet",
+        "website": "https://my-wallet.antoniszisis.com"
+      },
+      "owner": {
+        "login": "antonis-zisis",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1220608389,
+      "name": "nusawallet-ai",
+      "full_name": "nusawallet/nusawallet-ai",
+      "html_url": "https://github.com/nusawallet/nusawallet-ai",
+      "description": "NusaWallet is an AI-powered multi-currency wallet prototype designed to optimize cross-border transactions for freelancers and SMEs",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 348,
+      "score": 32,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://nusawallet-ai.vercel.app",
+      "topics": [],
+      "created_at": "2026-04-25T05:10:35Z",
+      "updated_at": "2026-04-25T07:01:37Z",
+      "pushed_at": "2026-04-25T07:01:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/nusawallet/nusawallet-ai",
+        "website": "https://nusawallet-ai.vercel.app"
+      },
+      "owner": {
+        "login": "nusawallet",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1214036526,
+      "name": "agent-orchestration-kit",
+      "full_name": "Lab-Cubes/agent-orchestration-kit",
+      "html_url": "https://github.com/Lab-Cubes/agent-orchestration-kit",
+      "description": "Agent orchestration kit — NOP reference implementation for multi-agent task dispatch. Runtime-agnostic at the protocol layer. Apache 2.0.",
+      "language": "Shell",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 485,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://github.com/Lab-Cubes/agent-orchestration-kit#readme",
+      "topics": [
+        "agent-orchestration",
+        "ai-agents",
+        "claude-code",
+        "mailbox-protocol",
+        "multi-agent",
+        "nop-protocol",
+        "nps"
+      ],
+      "created_at": "2026-04-18T03:32:36Z",
+      "updated_at": "2026-04-25T06:46:12Z",
+      "pushed_at": "2026-04-25T06:46:16Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Lab-Cubes/agent-orchestration-kit",
+        "website": "https://github.com/Lab-Cubes/agent-orchestration-kit#readme"
+      },
+      "owner": {
+        "login": "Lab-Cubes",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-04-25T09:08:27Z",
+      "last_seen_at": "2026-04-25T09:08:27Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1219394214,
       "name": "uniswap-v3-spread-bot",
