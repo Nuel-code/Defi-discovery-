@@ -1,9 +1,966 @@
 {
-  "generated_at": "2026-05-08T09:51:12Z",
+  "generated_at": "2026-05-09T09:43:31Z",
   "summary": {
-    "total_count": 903
+    "total_count": 925
   },
   "startups": [
+    {
+      "repo_id": 1233496944,
+      "name": "civa",
+      "full_name": "edycutjong/civa",
+      "html_url": "https://github.com/edycutjong/civa",
+      "description": "🔐 Civa (CipherVault) — Encrypted OTC Dark Pool for Institutional Crypto Trading on Solana. Encrypt SDK + Ika Custody. Colosseum Frontier 2026.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2929,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://civa.edycu.dev",
+      "topics": [
+        "dark-pool",
+        "defi",
+        "encrypted-trading",
+        "institutional-crypto",
+        "mev-protection",
+        "otc",
+        "privacy",
+        "solana",
+        "zkp"
+      ],
+      "created_at": "2026-05-09T02:57:45Z",
+      "updated_at": "2026-05-09T07:46:06Z",
+      "pushed_at": "2026-05-09T07:46:03Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/edycutjong/civa",
+        "website": "https://civa.edycu.dev"
+      },
+      "owner": {
+        "login": "edycutjong",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1233649193,
+      "name": "SentinelBag",
+      "full_name": "bytemaster333/SentinelBag",
+      "html_url": "https://github.com/bytemaster333/SentinelBag",
+      "description": "Advanced Integrity Engine for Solana tokens. Detects wash-trading, sybil attacks, and inorganic volume using \"Proof of Ecosystem\" heuristics and unique sender analysis.",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 5827,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Go",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "",
+      "topics": [
+        "blockchain-analysis",
+        "defi",
+        "go",
+        "integrity-engine",
+        "security",
+        "solana",
+        "sybil-detection",
+        "wash-trading-detection",
+        "web3"
+      ],
+      "created_at": "2026-05-09T07:27:43Z",
+      "updated_at": "2026-05-09T07:33:21Z",
+      "pushed_at": "2026-05-09T07:29:18Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bytemaster333/SentinelBag",
+        "website": null
+      },
+      "owner": {
+        "login": "bytemaster333",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1233339861,
+      "name": "GeoRevolt",
+      "full_name": "mrZhigach/GeoRevolt",
+      "html_url": "https://github.com/mrZhigach/GeoRevolt",
+      "description": "Decentralized prediction markets on interactive maps (Polymarket-like + WorldMonitor-style)",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 202,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://georevolt.vercel.app",
+      "topics": [
+        "blockchain",
+        "defi",
+        "foundry",
+        "map",
+        "nextjs",
+        "opencode",
+        "polygon",
+        "polymarket",
+        "prediction-markets",
+        "solidity"
+      ],
+      "created_at": "2026-05-08T21:17:09Z",
+      "updated_at": "2026-05-08T22:39:10Z",
+      "pushed_at": "2026-05-08T22:39:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mrZhigach/GeoRevolt",
+        "website": "https://georevolt.vercel.app"
+      },
+      "owner": {
+        "login": "mrZhigach",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1232915486,
+      "name": "velucrum-contracts",
+      "full_name": "jason4185/velucrum-contracts",
+      "html_url": "https://github.com/jason4185/velucrum-contracts",
+      "description": "Smart contracts for Velucrum — confidential DeFi vault using FHE blind lending and auto-compound on Sepolia.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 220,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-08T12:04:06Z",
+      "updated_at": "2026-05-08T22:09:36Z",
+      "pushed_at": "2026-05-08T22:09:32Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jason4185/velucrum-contracts",
+        "website": null
+      },
+      "owner": {
+        "login": "jason4185",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1231767447,
+      "name": "Ante",
+      "full_name": "Cratis/Ante",
+      "html_url": "https://github.com/Cratis/Ante",
+      "description": "Ante (the initial stake in a game) is your SaaS invitation system. Create signed invitations, manage the lobby where invitees register, and coordinate via events.",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 244,
+      "score": 20,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-07T09:10:42Z",
+      "updated_at": "2026-05-08T21:04:13Z",
+      "pushed_at": "2026-05-08T21:04:09Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Cratis/Ante",
+        "website": null
+      },
+      "owner": {
+        "login": "Cratis",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1233110942,
+      "name": "ibitlabs",
+      "full_name": "bbismm/ibitlabs",
+      "html_url": "https://github.com/bbismm/ibitlabs",
+      "description": "Public-record $1,000 → $10,000 automated trading experiment. Built by a founder and an AI as co-builders. Live SOL + ETH paper-mode on Coinbase perpetual futures.",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 354453,
+      "score": 18,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "perpetual futures",
+      "homepage": "https://ibitlabs.com",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "ai-generated-code",
+        "algorithmic-trading",
+        "automated-trading",
+        "bollinger-bands",
+        "claude-code",
+        "coinbase",
+        "crypto",
+        "ethereum",
+        "grid-trading",
+        "mean-reversion",
+        "perpetual-futures",
+        "public-experiment",
+        "python",
+        "quantitative-trading",
+        "social-experiment",
+        "solana",
+        "stochrsi",
+        "trading-bot"
+      ],
+      "created_at": "2026-05-08T15:50:42Z",
+      "updated_at": "2026-05-09T02:39:54Z",
+      "pushed_at": "2026-05-09T02:39:50Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bbismm/ibitlabs",
+        "website": "https://ibitlabs.com"
+      },
+      "owner": {
+        "login": "bbismm",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1233612449,
+      "name": "agentfirewall",
+      "full_name": "goheesheng/agentfirewall",
+      "html_url": "https://github.com/goheesheng/agentfirewall",
+      "description": "Two locks before your agent signs — spend policy + quote-binding (Ed25519) for x402 agents on Solana",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1890,
+      "score": 18,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://github.com/goheesheng/agentfirewall",
+      "topics": [
+        "ai-agents",
+        "bun",
+        "cypherpunk",
+        "ed25519",
+        "hono",
+        "nextjs",
+        "solana",
+        "stablecoin",
+        "typescript",
+        "x402"
+      ],
+      "created_at": "2026-05-09T06:33:09Z",
+      "updated_at": "2026-05-09T09:00:35Z",
+      "pushed_at": "2026-05-09T09:00:31Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/goheesheng/agentfirewall",
+        "website": "https://github.com/goheesheng/agentfirewall"
+      },
+      "owner": {
+        "login": "goheesheng",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1231399686,
+      "name": "pot",
+      "full_name": "winsznx/pot",
+      "html_url": "https://github.com/winsznx/pot",
+      "description": "Stablecoin fundraisers that work everywhere. Onchain pots powered by cUSD on Celo.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 254,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-06T23:34:38Z",
+      "updated_at": "2026-05-08T23:31:00Z",
+      "pushed_at": "2026-05-08T23:30:56Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/winsznx/pot",
+        "website": null
+      },
+      "owner": {
+        "login": "winsznx",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1221777868,
+      "name": "Token-Dashboard",
+      "full_name": "Arylmera/Token-Dashboard",
+      "html_url": "https://github.com/Arylmera/Token-Dashboard",
+      "description": "See where Claude Code is burning tokens",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1636,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-04-26T17:07:50Z",
+      "updated_at": "2026-05-09T09:38:19Z",
+      "pushed_at": "2026-05-09T09:38:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Arylmera/Token-Dashboard",
+        "website": null
+      },
+      "owner": {
+        "login": "Arylmera",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1233222611,
+      "name": "bluprint-platform",
+      "full_name": "bluprint-dev/bluprint-platform",
+      "html_url": "https://github.com/bluprint-dev/bluprint-platform",
+      "description": "🚀 Solana Meme Coin Launchpad | Create tokens in seconds | Secure Token (3 revokes) | Referral system | Live token list",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 14799,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://bluprint-platform.vercel.app",
+      "topics": [],
+      "created_at": "2026-05-08T18:15:29Z",
+      "updated_at": "2026-05-09T09:35:14Z",
+      "pushed_at": "2026-05-09T09:35:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bluprint-dev/bluprint-platform",
+        "website": "https://bluprint-platform.vercel.app"
+      },
+      "owner": {
+        "login": "bluprint-dev",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1231960354,
+      "name": "Atmos",
+      "full_name": "suchit1010/Atmos",
+      "html_url": "https://github.com/suchit1010/Atmos",
+      "description": "Transform real-world carbon reductions into instantly verifiable digital assets (carbon tokens) with privacy and trust. We build a climate MRV (Measurement, Reporting, Verification) stack using satellite imagery, AI, zero-knowledge proofs, and blockchain settlement.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 15417,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-07T13:02:16Z",
+      "updated_at": "2026-05-09T09:34:39Z",
+      "pushed_at": "2026-05-09T09:34:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/suchit1010/Atmos",
+        "website": null
+      },
+      "owner": {
+        "login": "suchit1010",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1232734550,
+      "name": "codeburn",
+      "full_name": "soumyadebroy3/codeburn",
+      "html_url": "https://github.com/soumyadebroy3/codeburn",
+      "description": "See where your AI coding tokens go - by task, tool, model, and project (fork)",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6793,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://github.com/soumyadebroy3/codeburn",
+      "topics": [],
+      "created_at": "2026-05-08T08:06:18Z",
+      "updated_at": "2026-05-09T09:34:26Z",
+      "pushed_at": "2026-05-09T09:34:24Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/soumyadebroy3/codeburn",
+        "website": "https://github.com/soumyadebroy3/codeburn"
+      },
+      "owner": {
+        "login": "soumyadebroy3",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1226022807,
+      "name": "reasoning-core",
+      "full_name": "jakubkrzysztofsikora/reasoning-core",
+      "html_url": "https://github.com/jakubkrzysztofsikora/reasoning-core",
+      "description": "Local sidecar for AI Agents that will save up to 29% less tokens and will fix your LLM-based agent mess before it happens, score its plans against your repo, and block the agent from going off the rails. Runs entirely on your laptop.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1473,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai-agents",
+        "coding",
+        "llm-agent"
+      ],
+      "created_at": "2026-04-30T22:27:00Z",
+      "updated_at": "2026-05-09T09:31:25Z",
+      "pushed_at": "2026-05-09T09:31:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jakubkrzysztofsikora/reasoning-core",
+        "website": null
+      },
+      "owner": {
+        "login": "jakubkrzysztofsikora",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1185841252,
+      "name": "easy-notion-mcp",
+      "full_name": "Grey-Iris/easy-notion-mcp",
+      "html_url": "https://github.com/Grey-Iris/easy-notion-mcp",
+      "description": "Markdown-first Notion MCP server — 26 tools, 92% fewer tokens, full round-trip fidelity",
+      "language": "TypeScript",
+      "stars": 18,
+      "forks": 7,
+      "size_kb": 28044,
+      "score": 38,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "https://www.notion.so/easy-notion-mcp-327be876242f817f9129ff1a5a624814",
+      "topics": [
+        "ai-agents",
+        "claude",
+        "cursor",
+        "llm-tools",
+        "markdown",
+        "mcp",
+        "mcp-server",
+        "notion",
+        "notion-api",
+        "openclaw",
+        "typescript"
+      ],
+      "created_at": "2026-03-19T01:56:22Z",
+      "updated_at": "2026-05-09T09:30:51Z",
+      "pushed_at": "2026-05-09T09:34:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Grey-Iris/easy-notion-mcp",
+        "website": "https://www.notion.so/easy-notion-mcp-327be876242f817f9129ff1a5a624814"
+      },
+      "owner": {
+        "login": "Grey-Iris",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1183477007,
+      "name": "shellgate",
+      "full_name": "matthiastjong/shellgate",
+      "html_url": "https://github.com/matthiastjong/shellgate",
+      "description": "Self hosted secure gateway for AI agents. One token. Full control. Complete audit trail.",
+      "language": "TypeScript",
+      "stars": 13,
+      "forks": 2,
+      "size_kb": 697,
+      "score": 22,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "https://shellgate.ai",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "api-gateway",
+        "open-source",
+        "proxy",
+        "ssh",
+        "ssh-proxy"
+      ],
+      "created_at": "2026-03-16T16:40:14Z",
+      "updated_at": "2026-05-09T09:30:20Z",
+      "pushed_at": "2026-05-09T09:30:16Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/matthiastjong/shellgate",
+        "website": "https://shellgate.ai"
+      },
+      "owner": {
+        "login": "matthiastjong",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1230052287,
+      "name": "stop-wasting-tokens",
+      "full_name": "swt-labs/stop-wasting-tokens",
+      "html_url": "https://github.com/swt-labs/stop-wasting-tokens",
+      "description": "Token-disciplined, methodology-first SDLC for the OpenAI Codex CLI.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2100,
+      "score": 33,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "agents",
+        "cli",
+        "codex",
+        "methodology",
+        "npm",
+        "typescript",
+        "vibe-coding"
+      ],
+      "created_at": "2026-05-05T16:21:35Z",
+      "updated_at": "2026-05-09T09:28:01Z",
+      "pushed_at": "2026-05-09T09:32:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/swt-labs/stop-wasting-tokens",
+        "website": null
+      },
+      "owner": {
+        "login": "swt-labs",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1210404201,
+      "name": "dex-retargeting",
+      "full_name": "Yeelj/dex-retargeting",
+      "html_url": "https://github.com/Yeelj/dex-retargeting",
+      "description": "Various retargeting optimizers to translate human hand motion to robot hand motion. ",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 34144,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://yzqin.github.io/anyteleop/",
+      "topics": [],
+      "created_at": "2026-04-14T11:37:38Z",
+      "updated_at": "2026-05-09T08:00:18Z",
+      "pushed_at": "2026-05-09T08:00:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Yeelj/dex-retargeting",
+        "website": "https://yzqin.github.io/anyteleop/"
+      },
+      "owner": {
+        "login": "Yeelj",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1227348648,
+      "name": "react-native-dapp-browser",
+      "full_name": "nirapod-labs/react-native-dapp-browser",
+      "html_url": "https://github.com/nirapod-labs/react-native-dapp-browser",
+      "description": "Production-grade Dapp browser for Crypto Wallets in React Native",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2127,
+      "score": 30,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "",
+      "topics": [
+        "browser",
+        "crypto",
+        "dapp",
+        "react-native",
+        "secure"
+      ],
+      "created_at": "2026-05-02T15:01:54Z",
+      "updated_at": "2026-05-09T08:55:08Z",
+      "pushed_at": "2026-05-09T08:55:16Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/nirapod-labs/react-native-dapp-browser",
+        "website": null
+      },
+      "owner": {
+        "login": "nirapod-labs",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1177200693,
+      "name": "blobsafe",
+      "full_name": "0xPevita/blobsafe",
+      "html_url": "https://github.com/0xPevita/blobsafe",
+      "description": "Wallet-owned encrypted storage for teams on Shelby Protocol",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 1858,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://blobsafe.vercel.app",
+      "topics": [
+        "aptos",
+        "decentralized-storage",
+        "encryption",
+        "react",
+        "shelby",
+        "storage",
+        "vite",
+        "web3"
+      ],
+      "created_at": "2026-03-09T19:49:21Z",
+      "updated_at": "2026-05-09T08:53:54Z",
+      "pushed_at": "2026-05-09T08:53:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/0xPevita/blobsafe",
+        "website": "https://blobsafe.vercel.app"
+      },
+      "owner": {
+        "login": "0xPevita",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1227938482,
+      "name": "solana-agent-wallet-adapter",
+      "full_name": "mstevens843/solana-agent-wallet-adapter",
+      "html_url": "https://github.com/mstevens843/solana-agent-wallet-adapter",
+      "description": "The only multi-wallet, mobile-native MCP signing bridge for Solana. Routes signing through the user's real installed wallet (Phantom, Solflare, Backpack) via Wallet Standard on web, MWA on Android, deeplinks on iOS. No key custody. Vercel AI SDK tools included.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 155440,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-03T11:23:46Z",
+      "updated_at": "2026-05-09T08:40:01Z",
+      "pushed_at": "2026-05-09T08:39:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mstevens843/solana-agent-wallet-adapter",
+        "website": null
+      },
+      "owner": {
+        "login": "mstevens843",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1233146447,
+      "name": "pangolin",
+      "full_name": "kelvinsinferno/pangolin",
+      "html_url": "https://github.com/kelvinsinferno/pangolin",
+      "description": "Local-first password manager with hardware-assisted security and on-chain durability — PoC",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1540,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": null,
+      "topics": [
+        "agpl",
+        "base-sepolia",
+        "blockchain",
+        "cryptography",
+        "end-to-end-encryption",
+        "local-first",
+        "password-manager",
+        "rust",
+        "security",
+        "self-custody"
+      ],
+      "created_at": "2026-05-08T16:33:53Z",
+      "updated_at": "2026-05-09T03:22:45Z",
+      "pushed_at": "2026-05-09T03:22:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/kelvinsinferno/pangolin",
+        "website": null
+      },
+      "owner": {
+        "login": "kelvinsinferno",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1232613099,
+      "name": "Atlas",
+      "full_name": "Milerius/Atlas",
+      "html_url": "https://github.com/Milerius/Atlas",
+      "description": "A modular Rust blockchain SDK foundation — typed amounts, split registries, provider-neutral signing, concrete instances first.",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 204,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": null,
+      "topics": [
+        "base",
+        "blockchain",
+        "cryptocurrency",
+        "ethereum",
+        "evm",
+        "rust",
+        "sdk",
+        "solana",
+        "web3"
+      ],
+      "created_at": "2026-05-08T05:21:48Z",
+      "updated_at": "2026-05-08T14:27:27Z",
+      "pushed_at": "2026-05-08T15:12:56Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Milerius/Atlas",
+        "website": null
+      },
+      "owner": {
+        "login": "Milerius",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-09T09:43:31Z",
+      "last_seen_at": "2026-05-09T09:43:31Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1228524564,
       "name": "Consilium",
