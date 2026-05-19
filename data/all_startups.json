@@ -1,9 +1,2322 @@
 {
-  "generated_at": "2026-05-18T11:55:48Z",
+  "generated_at": "2026-05-19T11:32:42Z",
   "summary": {
-    "total_count": 1254
+    "total_count": 1311
   },
   "startups": [
+    {
+      "repo_id": 1241783182,
+      "name": "tikr",
+      "full_name": "kryptic-sh/tikr",
+      "html_url": "https://github.com/kryptic-sh/tikr",
+      "description": "Modular market-making engine. Venue-agnostic Rust workspace. Pre-alpha.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 281,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "defi",
+        "hyperliquid",
+        "market-making",
+        "rust",
+        "trading-bot"
+      ],
+      "created_at": "2026-05-17T20:09:26Z",
+      "updated_at": "2026-05-19T11:08:49Z",
+      "pushed_at": "2026-05-19T11:08:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/kryptic-sh/tikr",
+        "website": null
+      },
+      "owner": {
+        "login": "kryptic-sh",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1229621716,
+      "name": "liquidation-wick-detector",
+      "full_name": "ycxjj/liquidation-wick-detector",
+      "html_url": "https://github.com/ycxjj/liquidation-wick-detector",
+      "description": "🛡️ 链上强平风控检测引擎 — 多家主流交易所每日K线插针日报 | 自选币种检测 | 积分系统 | 开源Apache-2.0",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 21384,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://wickdetector.com",
+      "topics": [
+        "crypto",
+        "defi",
+        "insurance",
+        "liquidation",
+        "open-source",
+        "perpetual-contracts",
+        "risk-management",
+        "solana",
+        "trading",
+        "wick-detector"
+      ],
+      "created_at": "2026-05-05T08:19:21Z",
+      "updated_at": "2026-05-19T11:08:49Z",
+      "pushed_at": "2026-05-19T11:08:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ycxjj/liquidation-wick-detector",
+        "website": "https://wickdetector.com"
+      },
+      "owner": {
+        "login": "ycxjj",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1242811968,
+      "name": "flowmemory-uniswap-v4-hooks",
+      "full_name": "FlowmemoryAI/flowmemory-uniswap-v4-hooks",
+      "html_url": "https://github.com/FlowmemoryAI/flowmemory-uniswap-v4-hooks",
+      "description": "Memory-native Uniswap v4 hook primitive: FlowPulse emission boundaries and FMM-0 receipt-bound memory consistency for agent histories.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 386,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "agent-memory",
+        "ai-memory",
+        "base-sepolia",
+        "defi",
+        "ethereum",
+        "flowmemory",
+        "flowpulse",
+        "fmm0",
+        "foundry",
+        "hooks",
+        "memory-model",
+        "memory-native",
+        "runtime-consistency",
+        "solidity",
+        "uniswap-v4"
+      ],
+      "created_at": "2026-05-18T19:26:18Z",
+      "updated_at": "2026-05-19T10:59:57Z",
+      "pushed_at": "2026-05-19T10:59:53Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/FlowmemoryAI/flowmemory-uniswap-v4-hooks",
+        "website": null
+      },
+      "owner": {
+        "login": "FlowmemoryAI",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1238495336,
+      "name": "seneschal-data-api",
+      "full_name": "Rotwang9000/seneschal-data-api",
+      "html_url": "https://github.com/Rotwang9000/seneschal-data-api",
+      "description": "Free, public REST + MCP API exposing real-time DeFi liquidation telemetry (Aave, Morpho, Spark, Compound) and Ethereum block-builder market share. Live at api.seneschal.space and mcp.seneschal.space.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 362,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://docs.seneschal.space",
+      "topics": [],
+      "created_at": "2026-05-14T07:06:05Z",
+      "updated_at": "2026-05-19T10:23:52Z",
+      "pushed_at": "2026-05-19T10:23:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Rotwang9000/seneschal-data-api",
+        "website": "https://docs.seneschal.space"
+      },
+      "owner": {
+        "login": "Rotwang9000",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1170144096,
+      "name": "Pokemon-Global-Server-Definitivo",
+      "full_name": "Leonn190/Pokemon-Global-Server-Definitivo",
+      "html_url": "https://github.com/Leonn190/Pokemon-Global-Server-Definitivo",
+      "description": "Repositorio oficial do fan game Pokemon Global Server, Todas as partes do projeto inteiro estão alocadas aqui",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1881438,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://leonn190.github.io/Pokemon-Global-Server-Definitivo/",
+      "topics": [
+        "client-server",
+        "fan-game",
+        "game",
+        "open-world",
+        "procedural-generation",
+        "pygame",
+        "python",
+        "rpg"
+      ],
+      "created_at": "2026-03-01T19:06:40Z",
+      "updated_at": "2026-05-19T10:17:55Z",
+      "pushed_at": "2026-05-19T10:17:50Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Leonn190/Pokemon-Global-Server-Definitivo",
+        "website": "https://leonn190.github.io/Pokemon-Global-Server-Definitivo/"
+      },
+      "owner": {
+        "login": "Leonn190",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243414928,
+      "name": "permission-scanner",
+      "full_name": "synxautomation/permission-scanner",
+      "html_url": "https://github.com/synxautomation/permission-scanner",
+      "description": "Scans a DeFi protocol, or any smart contract system, for permissioned functions",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1010,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T10:15:55Z",
+      "updated_at": "2026-05-19T10:16:39Z",
+      "pushed_at": "2026-05-19T10:16:28Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/synxautomation/permission-scanner",
+        "website": null
+      },
+      "owner": {
+        "login": "synxautomation",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243410068,
+      "name": "DeFi-Cross-Rollup-Arbitrage-v2",
+      "full_name": "jiayizha-umich/DeFi-Cross-Rollup-Arbitrage-v2",
+      "html_url": "https://github.com/jiayizha-umich/DeFi-Cross-Rollup-Arbitrage-v2",
+      "description": "DeFi Cross Rollup Arbitrage simulation and detection",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1476,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T10:10:17Z",
+      "updated_at": "2026-05-19T10:26:18Z",
+      "pushed_at": "2026-05-19T10:15:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jiayizha-umich/DeFi-Cross-Rollup-Arbitrage-v2",
+        "website": null
+      },
+      "owner": {
+        "login": "jiayizha-umich",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1242635853,
+      "name": "C4KE-Protocol",
+      "full_name": "C4KE-Labs/C4KE-Protocol",
+      "html_url": "https://github.com/C4KE-Labs/C4KE-Protocol",
+      "description": "DeFi Lab · PancakeSwap V4 Hook-native protocols on BNB Smart Chain",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1381,
+      "score": 38,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-05-18T15:55:14Z",
+      "updated_at": "2026-05-19T10:04:06Z",
+      "pushed_at": "2026-05-19T10:04:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/C4KE-Labs/C4KE-Protocol",
+        "website": null
+      },
+      "owner": {
+        "login": "C4KE-Labs",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243404185,
+      "name": "permission-scanner",
+      "full_name": "abrar-khan-1/permission-scanner",
+      "html_url": "https://github.com/abrar-khan-1/permission-scanner",
+      "description": "Scans a DeFi protocol, or any smart contract system, for permissioned functions",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1010,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T10:03:33Z",
+      "updated_at": "2026-05-19T10:04:10Z",
+      "pushed_at": "2026-05-19T10:04:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/abrar-khan-1/permission-scanner",
+        "website": null
+      },
+      "owner": {
+        "login": "abrar-khan-1",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243396411,
+      "name": "permission-scanner",
+      "full_name": "NicolasRunningman/permission-scanner",
+      "html_url": "https://github.com/NicolasRunningman/permission-scanner",
+      "description": "Scans a DeFi protocol, or any smart contract system, for permissioned functions",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1010,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:54:26Z",
+      "updated_at": "2026-05-19T09:55:02Z",
+      "pushed_at": "2026-05-19T09:54:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/NicolasRunningman/permission-scanner",
+        "website": null
+      },
+      "owner": {
+        "login": "NicolasRunningman",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243392957,
+      "name": "permission-scanner",
+      "full_name": "Hx-Hochanadel-Steve42/permission-scanner",
+      "html_url": "https://github.com/Hx-Hochanadel-Steve42/permission-scanner",
+      "description": "Scans a DeFi protocol, or any smart contract system, for permissioned functions",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1011,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:50:44Z",
+      "updated_at": "2026-05-19T09:51:19Z",
+      "pushed_at": "2026-05-19T09:51:12Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Hx-Hochanadel-Steve42/permission-scanner",
+        "website": null
+      },
+      "owner": {
+        "login": "Hx-Hochanadel-Steve42",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243357149,
+      "name": "permission-scanner",
+      "full_name": "Rickyonekenobi/permission-scanner",
+      "html_url": "https://github.com/Rickyonekenobi/permission-scanner",
+      "description": "Scans a DeFi protocol, or any smart contract system, for permissioned functions",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1010,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:11:20Z",
+      "updated_at": "2026-05-19T09:11:56Z",
+      "pushed_at": "2026-05-19T09:11:49Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Rickyonekenobi/permission-scanner",
+        "website": null
+      },
+      "owner": {
+        "login": "Rickyonekenobi",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243354223,
+      "name": "permission-scanner",
+      "full_name": "gardenia0111213/permission-scanner",
+      "html_url": "https://github.com/gardenia0111213/permission-scanner",
+      "description": "Scans a DeFi protocol, or any smart contract system, for permissioned functions",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1010,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:08:09Z",
+      "updated_at": "2026-05-19T09:08:44Z",
+      "pushed_at": "2026-05-19T09:08:38Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/gardenia0111213/permission-scanner",
+        "website": null
+      },
+      "owner": {
+        "login": "gardenia0111213",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1227546225,
+      "name": "aurum",
+      "full_name": "DanyunderCrypto/aurum",
+      "html_url": "https://github.com/DanyunderCrypto/aurum",
+      "description": "DeFi Ghost Tracker — AAVE monitor",
+      "language": "HTML",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 3623,
+      "score": 13,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://danyundercrypto.github.io/aurum/",
+      "topics": [],
+      "created_at": "2026-05-02T20:47:39Z",
+      "updated_at": "2026-05-19T08:08:46Z",
+      "pushed_at": "2026-05-19T08:08:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DanyunderCrypto/aurum",
+        "website": "https://danyundercrypto.github.io/aurum/"
+      },
+      "owner": {
+        "login": "DanyunderCrypto",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1234012674,
+      "name": "lua-dag-consensus",
+      "full_name": "scriptkid23/lua-dag-consensus",
+      "html_url": "https://github.com/scriptkid23/lua-dag-consensus",
+      "description": "A project implementing a Directed Acyclic Graph (DAG) based blockchain consensus mechanism.",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1517,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rollup",
+      "homepage": "",
+      "topics": [
+        "blockchain",
+        "consensus",
+        "rollup"
+      ],
+      "created_at": "2026-05-09T16:29:33Z",
+      "updated_at": "2026-05-19T08:48:27Z",
+      "pushed_at": "2026-05-19T08:48:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/scriptkid23/lua-dag-consensus",
+        "website": null
+      },
+      "owner": {
+        "login": "scriptkid23",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1199038315,
+      "name": "configar",
+      "full_name": "rocmaz/configar",
+      "html_url": "https://github.com/rocmaz/configar",
+      "description": "Shareable configuration packages for ESLint, Jest, Rollup, TypeScript, Prettier, and commitlint.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 852,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rollup",
+      "homepage": "",
+      "topics": [
+        "commitlint",
+        "configuration-package",
+        "eslint",
+        "jest",
+        "monorepo",
+        "npm",
+        "presets",
+        "prettier",
+        "rollup",
+        "typescript"
+      ],
+      "created_at": "2026-04-02T02:05:32Z",
+      "updated_at": "2026-05-15T06:07:32Z",
+      "pushed_at": "2026-05-18T17:26:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rocmaz/configar",
+        "website": null
+      },
+      "owner": {
+        "login": "rocmaz",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1227427945,
+      "name": "JanuScope",
+      "full_name": "giancarloerra/JanuScope",
+      "html_url": "https://github.com/giancarloerra/JanuScope",
+      "description": "Local-first MCP policy proxy. Tool-block, SQL-mutation gate, PII redact, audit, rate-limit, OpenTelemetry, vault secrets, first-use quarantine, schema pre-inject. No hosted gateway. One YAML Lens wraps any MCP, 20 included (Postgres, MySQL, MongoDB, GitHub, Stripe, Snowflake, etc.). 84% fewer tokens, ~3x faster, holds PII leaks. AGPL or commercial.",
+      "language": "TypeScript",
+      "stars": 15,
+      "forks": 4,
+      "size_kb": 3679,
+      "score": 23,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai",
+        "anthropic",
+        "audit-log",
+        "claude",
+        "claude-code",
+        "github",
+        "guardrails",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "mongodb",
+        "policy-proxy",
+        "postgres",
+        "proxy",
+        "rate-limit",
+        "redaction",
+        "security",
+        "sql-injection",
+        "stripe"
+      ],
+      "created_at": "2026-05-02T17:07:41Z",
+      "updated_at": "2026-05-19T11:29:43Z",
+      "pushed_at": "2026-05-19T11:29:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/giancarloerra/JanuScope",
+        "website": null
+      },
+      "owner": {
+        "login": "giancarloerra",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1223257809,
+      "name": "cdoc2-auth-server",
+      "full_name": "open-eid/cdoc2-auth-server",
+      "html_url": "https://github.com/open-eid/cdoc2-auth-server",
+      "description": "CDOC2 infrastructure component responsible for creating session tokens in the MID/SID authentication usecase",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2360,
+      "score": 24,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-28T06:41:21Z",
+      "updated_at": "2026-05-19T11:22:53Z",
+      "pushed_at": "2026-05-19T11:22:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/open-eid/cdoc2-auth-server",
+        "website": null
+      },
+      "owner": {
+        "login": "open-eid",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1228566726,
+      "name": "PlausiDen-Forge",
+      "full_name": "thepictishbeast/PlausiDen-Forge",
+      "html_url": "https://github.com/thepictishbeast/PlausiDen-Forge",
+      "description": "Unified frontend builder — Loom design tokens + CMS content + Crawler audits + strict-mode build pipeline. SkillShots used as the PoC surface.",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1711,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-04T06:37:46Z",
+      "updated_at": "2026-05-19T11:21:50Z",
+      "pushed_at": "2026-05-19T11:21:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/thepictishbeast/PlausiDen-Forge",
+        "website": null
+      },
+      "owner": {
+        "login": "thepictishbeast",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1173863380,
+      "name": "Kronn",
+      "full_name": "DocRoms/Kronn",
+      "html_url": "https://github.com/DocRoms/Kronn",
+      "description": " Self-hosted control plane for AI coding agents (Claude Code, Codex, Gemini, Ollama). Shared MCPs, reusable workflows, AI audit that makes any repo AI-friendly. Engineering, not prompting : smaller prompts, fewer hallucinations, lower token bill.",
+      "language": "Rust",
+      "stars": 12,
+      "forks": 0,
+      "size_kb": 16021,
+      "score": 28,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools",
+        "ai-tools",
+        "claude-code",
+        "code-audit",
+        "codex",
+        "developer-tools",
+        "developer-tools-ai-agent",
+        "gemini",
+        "llm-tooling",
+        "model-context-protocol",
+        "ollama",
+        "prompt-engineering-tool",
+        "react",
+        "rust",
+        "tech-debt",
+        "workflow-automation",
+        "workflow-orchestration"
+      ],
+      "created_at": "2026-03-05T20:40:56Z",
+      "updated_at": "2026-05-19T11:17:10Z",
+      "pushed_at": "2026-05-19T11:17:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DocRoms/Kronn",
+        "website": null
+      },
+      "owner": {
+        "login": "DocRoms",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1236302693,
+      "name": "LLMHallucinationProbing",
+      "full_name": "C715543139/LLMHallucinationProbing",
+      "html_url": "https://github.com/C715543139/LLMHallucinationProbing",
+      "description": "一个基于大语言模型内部状态的幻觉检测课程项目，对比生成概率方法与隐藏层探测方法，并分析不同层和不同 token 位置中的真实性信号。",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 18610,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-05-12T06:06:04Z",
+      "updated_at": "2026-05-19T11:15:52Z",
+      "pushed_at": "2026-05-19T11:15:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/C715543139/LLMHallucinationProbing",
+        "website": null
+      },
+      "owner": {
+        "login": "C715543139",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1236721457,
+      "name": "zt-identity-verification-benchmark",
+      "full_name": "khudolii/zt-identity-verification-benchmark",
+      "html_url": "https://github.com/khudolii/zt-identity-verification-benchmark",
+      "description": "Experimental benchmark comparing Token Introspection, short-lived JWT, and DID/VC-based identity verification for Zero Trust in multi-cloud environments. Measures latency (p50/p95/p99), throughput, and failover behavior across Oracle Cloud and GCP using k6",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1702,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-12T14:06:47Z",
+      "updated_at": "2026-05-19T11:15:39Z",
+      "pushed_at": "2026-05-19T11:15:35Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/khudolii/zt-identity-verification-benchmark",
+        "website": null
+      },
+      "owner": {
+        "login": "khudolii",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1241351405,
+      "name": "tool-tax",
+      "full_name": "SihyeonJeon/tool-tax",
+      "html_url": "https://github.com/SihyeonJeon/tool-tax",
+      "description": "Measure the hidden token bill of MCP and agent tool catalogs.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 1,
+      "size_kb": 1073,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://pypi.org/project/tool-tax/",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "cli",
+        "context-engineering",
+        "github-actions",
+        "mcp",
+        "mcp-client",
+        "mcp-proxy",
+        "openapi",
+        "progressive-disclosure",
+        "token-budget",
+        "token-optimization",
+        "tool-calling"
+      ],
+      "created_at": "2026-05-17T09:22:42Z",
+      "updated_at": "2026-05-19T11:15:06Z",
+      "pushed_at": "2026-05-19T11:15:16Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/SihyeonJeon/tool-tax",
+        "website": "https://pypi.org/project/tool-tax/"
+      },
+      "owner": {
+        "login": "SihyeonJeon",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1227599352,
+      "name": "fa-auth-m8",
+      "full_name": "mano8/fa-auth-m8",
+      "html_url": "https://github.com/mano8/fa-auth-m8",
+      "description": "Self-contained FastAPI authentication microservice — JWT (HS256/RS256/ES256), Google OAuth2 + PKCE, API keys with rate limiting, and Redis-backed token revocation. Drop into any Docker Compose project.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1510,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "authentication-backend",
+        "docker",
+        "docker-compose",
+        "fastapi",
+        "microservices",
+        "python"
+      ],
+      "created_at": "2026-05-02T22:53:17Z",
+      "updated_at": "2026-05-19T11:09:45Z",
+      "pushed_at": "2026-05-19T11:10:19Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mano8/fa-auth-m8",
+        "website": null
+      },
+      "owner": {
+        "login": "mano8",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1221987584,
+      "name": "PlausiDen-Loom",
+      "full_name": "thepictishbeast/PlausiDen-Loom",
+      "html_url": "https://github.com/thepictishbeast/PlausiDen-Loom",
+      "description": "Design-system-as-code: typed tokens, constrained components, lint + audit CLIs. Doctrine-driven UI that any AI agent can ship without babysitting.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1579,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-26T23:42:06Z",
+      "updated_at": "2026-05-19T10:59:41Z",
+      "pushed_at": "2026-05-19T10:59:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/thepictishbeast/PlausiDen-Loom",
+        "website": null
+      },
+      "owner": {
+        "login": "thepictishbeast",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1166111604,
+      "name": "ilo",
+      "full_name": "ilo-lang/ilo",
+      "html_url": "https://github.com/ilo-lang/ilo",
+      "description": "ilo - the token-minimal programming language AI agents write",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6669,
+      "score": 36,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://ilo-lang.ai",
+      "topics": [
+        "ai",
+        "compiler",
+        "interpreter",
+        "language",
+        "programming-language",
+        "rust"
+      ],
+      "created_at": "2026-02-24T22:18:24Z",
+      "updated_at": "2026-05-19T10:41:18Z",
+      "pushed_at": "2026-05-19T10:41:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ilo-lang/ilo",
+        "website": "https://ilo-lang.ai"
+      },
+      "owner": {
+        "login": "ilo-lang",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1239562734,
+      "name": "context-bonsai",
+      "full_name": "mrwogu/context-bonsai",
+      "html_url": "https://github.com/mrwogu/context-bonsai",
+      "description": "Library that compresses massive CI/system logs into dense, AI-ready error context, reducing LLM input tokens and filtering noise with streaming-safe parsing.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4815,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-15T08:01:55Z",
+      "updated_at": "2026-05-19T10:40:47Z",
+      "pushed_at": "2026-05-19T10:41:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mrwogu/context-bonsai",
+        "website": null
+      },
+      "owner": {
+        "login": "mrwogu",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1242868237,
+      "name": "NXA-Coin",
+      "full_name": "NXA-Coin/NXA-Coin",
+      "html_url": "https://github.com/NXA-Coin/NXA-Coin",
+      "description": "NXA-Coin (NXA) — utility token of the Nxvana AI ecosystem on Solana. Public metadata + branding assets.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1670,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-18T20:43:38Z",
+      "updated_at": "2026-05-19T10:20:30Z",
+      "pushed_at": "2026-05-19T10:20:26Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/NXA-Coin/NXA-Coin",
+        "website": null
+      },
+      "owner": {
+        "login": "NXA-Coin",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1239665104,
+      "name": "Public-DeepPool",
+      "full_name": "BiyoTech/Public-DeepPool",
+      "html_url": "https://github.com/BiyoTech/Public-DeepPool",
+      "description": "AI Fusion Gateway & Token Governance",
+      "language": "Vue",
+      "stars": 6,
+      "forks": 0,
+      "size_kb": 169036,
+      "score": 18,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://deeppool.tech",
+      "topics": [
+        "ai-gateway",
+        "ai-governance",
+        "ai-guardrails",
+        "llm-evaluation",
+        "llm-router"
+      ],
+      "created_at": "2026-05-15T10:12:13Z",
+      "updated_at": "2026-05-19T10:16:02Z",
+      "pushed_at": "2026-05-19T10:20:19Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/BiyoTech/Public-DeepPool",
+        "website": "https://deeppool.tech"
+      },
+      "owner": {
+        "login": "BiyoTech",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1232512858,
+      "name": "AiPlus",
+      "full_name": "izhiwen/AiPlus",
+      "html_url": "https://github.com/izhiwen/AiPlus",
+      "description": "Local-first agent-orchestration CLI for Codex / Claude Code / OpenCode. 6 Rust modules — Compact-Reminder saves tokens on long sessions, Agent-Key auto-injects API keys so you don't re-config every session, Agent-Memory survives /compact — fix 7 coordination failures. Opt-in AiEconLab for econ research. v0.5.15 macOS/Linux/Windows binaries.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6490,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://github.com/izhiwen/AiPlus",
+      "topics": [
+        "agent-orchestration",
+        "ai-agents",
+        "aiplus",
+        "claude-code",
+        "cli",
+        "codex",
+        "handoff",
+        "multi-agent",
+        "opencode",
+        "rust",
+        "workflow"
+      ],
+      "created_at": "2026-05-08T02:19:48Z",
+      "updated_at": "2026-05-19T10:13:12Z",
+      "pushed_at": "2026-05-19T10:13:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/izhiwen/AiPlus",
+        "website": "https://github.com/izhiwen/AiPlus"
+      },
+      "owner": {
+        "login": "izhiwen",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1219777448,
+      "name": "openclaw-browser-bridge",
+      "full_name": "alexandre-leng/openclaw-browser-bridge",
+      "html_url": "https://github.com/alexandre-leng/openclaw-browser-bridge",
+      "description": "The high-fidelity browser control layer for AI Agents. 10x Token Efficiency ! Dom First. Precise, Undetectable, and Production-ready.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4435,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "agentic-ai",
+        "browser-automation",
+        "hermes-agent",
+        "openclaw",
+        "playwright",
+        "stealth-browser"
+      ],
+      "created_at": "2026-04-24T07:54:48Z",
+      "updated_at": "2026-05-19T10:13:06Z",
+      "pushed_at": "2026-05-19T10:13:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/alexandre-leng/openclaw-browser-bridge",
+        "website": null
+      },
+      "owner": {
+        "login": "alexandre-leng",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243418110,
+      "name": "perp-dex-toolkit",
+      "full_name": "Thelastcodecom/perp-dex-toolkit",
+      "html_url": "https://github.com/Thelastcodecom/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T10:19:45Z",
+      "updated_at": "2026-05-19T10:19:58Z",
+      "pushed_at": "2026-05-19T10:19:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Thelastcodecom/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "Thelastcodecom",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243401757,
+      "name": "perp-dex-toolkit",
+      "full_name": "hasan-103/perp-dex-toolkit",
+      "html_url": "https://github.com/hasan-103/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T10:00:40Z",
+      "updated_at": "2026-05-19T10:00:53Z",
+      "pushed_at": "2026-05-19T10:00:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/hasan-103/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "hasan-103",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243397917,
+      "name": "perp-dex-toolkit",
+      "full_name": "perd80281-bod/perp-dex-toolkit",
+      "html_url": "https://github.com/perd80281-bod/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:56:08Z",
+      "updated_at": "2026-05-19T09:56:20Z",
+      "pushed_at": "2026-05-19T09:56:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/perd80281-bod/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "perd80281-bod",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243392419,
+      "name": "perp-dex-toolkit",
+      "full_name": "kapoupa87587/perp-dex-toolkit",
+      "html_url": "https://github.com/kapoupa87587/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:50:07Z",
+      "updated_at": "2026-05-19T09:50:21Z",
+      "pushed_at": "2026-05-19T09:50:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/kapoupa87587/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "kapoupa87587",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243388823,
+      "name": "perp-dex-toolkit",
+      "full_name": "tenokunagaa/perp-dex-toolkit",
+      "html_url": "https://github.com/tenokunagaa/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:46:15Z",
+      "updated_at": "2026-05-19T09:46:28Z",
+      "pushed_at": "2026-05-19T09:46:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tenokunagaa/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "tenokunagaa",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243361616,
+      "name": "perp-dex-toolkit",
+      "full_name": "keepitclean1/perp-dex-toolkit",
+      "html_url": "https://github.com/keepitclean1/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:16:11Z",
+      "updated_at": "2026-05-19T09:16:31Z",
+      "pushed_at": "2026-05-19T09:16:19Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/keepitclean1/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "keepitclean1",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243355562,
+      "name": "perp-dex-toolkit",
+      "full_name": "chakour524/perp-dex-toolkit",
+      "html_url": "https://github.com/chakour524/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:09:37Z",
+      "updated_at": "2026-05-19T09:09:50Z",
+      "pushed_at": "2026-05-19T09:09:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/chakour524/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "chakour524",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243347214,
+      "name": "perp-dex-toolkit",
+      "full_name": "davidmota1982-hub/perp-dex-toolkit",
+      "html_url": "https://github.com/davidmota1982-hub/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:00:29Z",
+      "updated_at": "2026-05-19T09:00:45Z",
+      "pushed_at": "2026-05-19T09:00:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/davidmota1982-hub/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "davidmota1982-hub",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243232202,
+      "name": "perp-dex-toolkit",
+      "full_name": "eugeniodam/perp-dex-toolkit",
+      "html_url": "https://github.com/eugeniodam/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T06:50:44Z",
+      "updated_at": "2026-05-19T06:50:55Z",
+      "pushed_at": "2026-05-19T06:50:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/eugeniodam/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "eugeniodam",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243228981,
+      "name": "perp-dex-toolkit",
+      "full_name": "sugmyfragrance/perp-dex-toolkit",
+      "html_url": "https://github.com/sugmyfragrance/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T06:47:53Z",
+      "updated_at": "2026-05-19T06:48:05Z",
+      "pushed_at": "2026-05-19T06:48:00Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/sugmyfragrance/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "sugmyfragrance",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243220940,
+      "name": "perp-dex-toolkit",
+      "full_name": "tohktake/perp-dex-toolkit",
+      "html_url": "https://github.com/tohktake/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T06:40:43Z",
+      "updated_at": "2026-05-19T06:40:55Z",
+      "pushed_at": "2026-05-19T06:40:50Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tohktake/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "tohktake",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243213871,
+      "name": "perp-dex-toolkit",
+      "full_name": "DeebaixSolution/perp-dex-toolkit",
+      "html_url": "https://github.com/DeebaixSolution/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T06:34:32Z",
+      "updated_at": "2026-05-19T06:34:43Z",
+      "pushed_at": "2026-05-19T06:34:39Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DeebaixSolution/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "DeebaixSolution",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243211358,
+      "name": "perp-dex-toolkit",
+      "full_name": "m4ulan4marzuki28/perp-dex-toolkit",
+      "html_url": "https://github.com/m4ulan4marzuki28/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T06:32:13Z",
+      "updated_at": "2026-05-19T06:32:28Z",
+      "pushed_at": "2026-05-19T06:32:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/m4ulan4marzuki28/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "m4ulan4marzuki28",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243210921,
+      "name": "perp-dex-toolkit",
+      "full_name": "MDudkiewicz/perp-dex-toolkit",
+      "html_url": "https://github.com/MDudkiewicz/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T06:31:44Z",
+      "updated_at": "2026-05-19T06:31:56Z",
+      "pushed_at": "2026-05-19T06:31:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/MDudkiewicz/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "MDudkiewicz",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243204924,
+      "name": "perp-dex-toolkit",
+      "full_name": "jp864/perp-dex-toolkit",
+      "html_url": "https://github.com/jp864/perp-dex-toolkit",
+      "description": "🚀 Build and deploy a multi-exchange trading bot with ease, optimizing your trading strategies across platforms like EdgeX and Backpack.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1974,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T06:24:07Z",
+      "updated_at": "2026-05-19T06:24:18Z",
+      "pushed_at": "2026-05-19T06:24:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jp864/perp-dex-toolkit",
+        "website": null
+      },
+      "owner": {
+        "login": "jp864",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243397489,
+      "name": "hermes",
+      "full_name": "raunet234/hermes",
+      "html_url": "https://github.com/raunet234/hermes",
+      "description": "Hermes is the **connective tissue** between a Gemini AI Agent and the Hedera hashgraph. It collapses the exchange, the wallet, and the portfolio tracker into one local CLI tool that an AI agent drives through **CLI tool use — not MCP**. Your agent doesn't write swap code. It calls fixed tools every time. One valid execution path per operation.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1596,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:55:39Z",
+      "updated_at": "2026-05-19T11:08:16Z",
+      "pushed_at": "2026-05-19T11:08:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/raunet234/hermes",
+        "website": null
+      },
+      "owner": {
+        "login": "raunet234",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1242890053,
+      "name": "mpc",
+      "full_name": "zzci/mpc",
+      "html_url": "https://github.com/zzci/mpc",
+      "description": "TSS MPC threshold-signature self-custody co-managed wallet kernel",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1126,
+      "score": 30,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Go",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-18T21:17:44Z",
+      "updated_at": "2026-05-19T11:06:57Z",
+      "pushed_at": "2026-05-19T11:06:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/zzci/mpc",
+        "website": null
+      },
+      "owner": {
+        "login": "zzci",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1230750341,
+      "name": "AscendEx.jsx",
+      "full_name": "Slain03/AscendEx.jsx",
+      "html_url": "https://github.com/Slain03/AscendEx.jsx",
+      "description": "Lesotho's 1st Web3 Wallet",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 138218,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-06T09:31:50Z",
+      "updated_at": "2026-05-19T10:55:05Z",
+      "pushed_at": "2026-05-19T10:55:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Slain03/AscendEx.jsx",
+        "website": null
+      },
+      "owner": {
+        "login": "Slain03",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243407447,
+      "name": "fourtrader-mcp",
+      "full_name": "DCPSayed/fourtrader-mcp",
+      "html_url": "https://github.com/DCPSayed/fourtrader-mcp",
+      "description": "🚀 Trade Four.meme tokens on BNB Chain with a powerful MCP server, offering real-time data and wallet management for seamless integration and transactions.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1970,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T10:07:13Z",
+      "updated_at": "2026-05-19T10:07:33Z",
+      "pushed_at": "2026-05-19T10:07:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DCPSayed/fourtrader-mcp",
+        "website": null
+      },
+      "owner": {
+        "login": "DCPSayed",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243397439,
+      "name": "fourtrader-mcp",
+      "full_name": "NicolasRunningman/fourtrader-mcp",
+      "html_url": "https://github.com/NicolasRunningman/fourtrader-mcp",
+      "description": "🚀 Trade Four.meme tokens on BNB Chain with a powerful MCP server, offering real-time data and wallet management for seamless integration and transactions.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1969,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:55:35Z",
+      "updated_at": "2026-05-19T09:55:55Z",
+      "pushed_at": "2026-05-19T09:55:50Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/NicolasRunningman/fourtrader-mcp",
+        "website": null
+      },
+      "owner": {
+        "login": "NicolasRunningman",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243356879,
+      "name": "fourtrader-mcp",
+      "full_name": "Rickyonekenobi/fourtrader-mcp",
+      "html_url": "https://github.com/Rickyonekenobi/fourtrader-mcp",
+      "description": "🚀 Trade Four.meme tokens on BNB Chain with a powerful MCP server, offering real-time data and wallet management for seamless integration and transactions.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1969,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:11:02Z",
+      "updated_at": "2026-05-19T09:11:23Z",
+      "pushed_at": "2026-05-19T09:11:17Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Rickyonekenobi/fourtrader-mcp",
+        "website": null
+      },
+      "owner": {
+        "login": "Rickyonekenobi",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243355124,
+      "name": "fourtrader-mcp",
+      "full_name": "chakour524/fourtrader-mcp",
+      "html_url": "https://github.com/chakour524/fourtrader-mcp",
+      "description": "🚀 Trade Four.meme tokens on BNB Chain with a powerful MCP server, offering real-time data and wallet management for seamless integration and transactions.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1969,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T09:09:07Z",
+      "updated_at": "2026-05-19T09:09:26Z",
+      "pushed_at": "2026-05-19T09:09:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/chakour524/fourtrader-mcp",
+        "website": null
+      },
+      "owner": {
+        "login": "chakour524",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243346471,
+      "name": "fourtrader-mcp",
+      "full_name": "Nifty-Shrimp/fourtrader-mcp",
+      "html_url": "https://github.com/Nifty-Shrimp/fourtrader-mcp",
+      "description": "🚀 Trade Four.meme tokens on BNB Chain with a powerful MCP server, offering real-time data and wallet management for seamless integration and transactions.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1969,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-19T08:59:44Z",
+      "updated_at": "2026-05-19T09:00:01Z",
+      "pushed_at": "2026-05-19T08:59:56Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Nifty-Shrimp/fourtrader-mcp",
+        "website": null
+      },
+      "owner": {
+        "login": "Nifty-Shrimp",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1205249099,
+      "name": "celiums-memory",
+      "full_name": "terrizoaguimor/celiums-memory",
+      "html_url": "https://github.com/terrizoaguimor/celiums-memory",
+      "description": "Open-source cognitive engine for AI agents — persistent memory, a first-person journal, a four-layer ethics engine, and a per-user biological clock, over MCP. Apache-2.0.",
+      "language": "TypeScript",
+      "stars": 12,
+      "forks": 0,
+      "size_kb": 74804,
+      "score": 29,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://celiums.ai",
+      "topics": [
+        "ai",
+        "ai-memory",
+        "artificial-intelligence",
+        "circadian-rhythm",
+        "claude-code",
+        "cognitive-architecture",
+        "cursor",
+        "developer-tools",
+        "emotional-ai",
+        "knowledge-engine",
+        "mcp",
+        "memory",
+        "model-context-protocol",
+        "neuroscience",
+        "open-source",
+        "opencore",
+        "persistent-memory",
+        "personality",
+        "typescript",
+        "vscode"
+      ],
+      "created_at": "2026-04-08T19:30:39Z",
+      "updated_at": "2026-05-19T05:27:02Z",
+      "pushed_at": "2026-05-19T05:26:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/terrizoaguimor/celiums-memory",
+        "website": "https://celiums.ai"
+      },
+      "owner": {
+        "login": "terrizoaguimor",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1221748105,
+      "name": "nps-daemons",
+      "full_name": "labacacia/nps-daemons",
+      "html_url": "https://github.com/labacacia/nps-daemons",
+      "description": "Reference deployment binaries for the Neural Protocol Suite — npsd, nps-runner, nps-gateway, nps-registry. Layer-1 (host-local) and Layer-2 (network entry) daemons of the standard NPS topology.",
+      "language": "C#",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 204,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://github.com/labacacia/NPS-Release",
+      "topics": [],
+      "created_at": "2026-04-26T16:23:21Z",
+      "updated_at": "2026-05-18T23:36:09Z",
+      "pushed_at": "2026-05-18T23:36:06Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/labacacia/nps-daemons",
+        "website": "https://github.com/labacacia/NPS-Release"
+      },
+      "owner": {
+        "login": "labacacia",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1242519769,
+      "name": "term-project",
+      "full_name": "c-ozd/term-project",
+      "html_url": "https://github.com/c-ozd/term-project",
+      "description": "Multi-layer RAG with cross-domain knowledge isolation for Dota 2 and League of Legends wikis. MSc study, 2026.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3681,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-18T13:55:23Z",
+      "updated_at": "2026-05-18T14:02:17Z",
+      "pushed_at": "2026-05-18T14:00:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/c-ozd/term-project",
+        "website": null
+      },
+      "owner": {
+        "login": "c-ozd",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-19T11:32:42Z",
+      "last_seen_at": "2026-05-19T11:32:42Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1215923378,
       "name": "polypaper-bot",
