@@ -1,9 +1,1586 @@
 {
-  "generated_at": "2026-05-28T11:52:16Z",
+  "generated_at": "2026-05-29T11:41:09Z",
   "summary": {
-    "total_count": 1595
+    "total_count": 1630
   },
   "startups": [
+    {
+      "repo_id": 1173453020,
+      "name": "damn-vulnerable-defi-ctf",
+      "full_name": "ander-deran-arteaga/damn-vulnerable-defi-ctf",
+      "html_url": "https://github.com/ander-deran-arteaga/damn-vulnerable-defi-ctf",
+      "description": "DamnVulnDeFi CTF",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 17750,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-03-05T11:35:21Z",
+      "updated_at": "2026-05-29T10:46:16Z",
+      "pushed_at": "2026-05-29T10:46:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ander-deran-arteaga/damn-vulnerable-defi-ctf",
+        "website": null
+      },
+      "owner": {
+        "login": "ander-deran-arteaga",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1232299001,
+      "name": "p2p_architecture",
+      "full_name": "Hedgents/p2p_architecture",
+      "html_url": "https://github.com/Hedgents/p2p_architecture",
+      "description": "Peer-to-peer mesh transport for autonomous DeFi agents — powers the Hedgents institutional treasury fleet",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 203,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Rust"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-07T19:43:22Z",
+      "updated_at": "2026-05-29T10:33:37Z",
+      "pushed_at": "2026-05-29T10:33:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Hedgents/p2p_architecture",
+        "website": null
+      },
+      "owner": {
+        "login": "Hedgents",
+        "type": "Organization"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1246776178,
+      "name": "polymarket-autopilot",
+      "full_name": "counterfactual5/polymarket-autopilot",
+      "html_url": "https://github.com/counterfactual5/polymarket-autopilot",
+      "description": "Polymarket prediction market trading client and market data fetcher — pure Python, zero dependencies",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 444,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "binary-options",
+        "clob",
+        "defi",
+        "polymarket",
+        "prediction-market",
+        "python",
+        "sdk",
+        "trading",
+        "web3"
+      ],
+      "created_at": "2026-05-22T14:41:13Z",
+      "updated_at": "2026-05-29T09:24:10Z",
+      "pushed_at": "2026-05-29T09:24:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/counterfactual5/polymarket-autopilot",
+        "website": null
+      },
+      "owner": {
+        "login": "counterfactual5",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1246794282,
+      "name": "hyperliquid-autopilot",
+      "full_name": "counterfactual5/hyperliquid-autopilot",
+      "html_url": "https://github.com/counterfactual5/hyperliquid-autopilot",
+      "description": "Hyperliquid perpetual futures trading toolkit — quotes, orders, leverage, and position management in Python",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 529,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "defi",
+        "dex",
+        "futures",
+        "hyperliquid",
+        "perp",
+        "python",
+        "sdk",
+        "trading",
+        "web3"
+      ],
+      "created_at": "2026-05-22T15:02:44Z",
+      "updated_at": "2026-05-29T09:24:07Z",
+      "pushed_at": "2026-05-29T09:24:03Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/counterfactual5/hyperliquid-autopilot",
+        "website": null
+      },
+      "owner": {
+        "login": "counterfactual5",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1190453845,
+      "name": "GBLIN_WEBAPP",
+      "full_name": "gblinproject/GBLIN_WEBAPP",
+      "html_url": "https://github.com/gblinproject/GBLIN_WEBAPP",
+      "description": "GBLIN_WEBAPP",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 396482,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://gblin.digital",
+      "topics": [
+        "ai-agents",
+        "base-mainnet",
+        "defi",
+        "mcp",
+        "nextjs",
+        "treasury",
+        "typescript",
+        "x402"
+      ],
+      "created_at": "2026-03-24T09:49:17Z",
+      "updated_at": "2026-05-29T09:07:03Z",
+      "pushed_at": "2026-05-29T09:06:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/gblinproject/GBLIN_WEBAPP",
+        "website": "https://gblin.digital"
+      },
+      "owner": {
+        "login": "gblinproject",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1227215670,
+      "name": "cryprice",
+      "full_name": "adrassad/cryprice",
+      "html_url": "https://github.com/adrassad/cryprice",
+      "description": "Multi-chain DeFi risk monitoring infrastructure: Aave Health Factor, portfolio visibility, Telegram alerts, and read-only wallet intelligence.",
+      "language": "Dart",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 9013,
+      "score": 18,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://cryprice.dev",
+      "topics": [
+        "aave",
+        "blockchain",
+        "defi",
+        "flutter",
+        "health-factor",
+        "nodejs",
+        "portfolio-tracker",
+        "postgresql",
+        "redis",
+        "risk-monitoring",
+        "telegram-bot",
+        "wallet-monitoring",
+        "web3"
+      ],
+      "created_at": "2026-05-02T11:23:20Z",
+      "updated_at": "2026-05-29T08:21:15Z",
+      "pushed_at": "2026-05-29T08:21:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/adrassad/cryprice",
+        "website": "https://cryprice.dev"
+      },
+      "owner": {
+        "login": "adrassad",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1240554112,
+      "name": "SynArc",
+      "full_name": "kellycryptos/SynArc",
+      "html_url": "https://github.com/kellycryptos/SynArc",
+      "description": "Programmable coordination infrastructure for the emerging agentic economy. Enabling humans & AI agents to launch, fund, and govern initiatives via USDC-native tools on Arc.",
+      "language": "TypeScript",
+      "stars": 9,
+      "forks": 0,
+      "size_kb": 6855,
+      "score": 32,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://www.synarcdao.xyz/",
+      "topics": [
+        "agentic-economy",
+        "arc-network",
+        "circle",
+        "dao",
+        "defi",
+        "governance",
+        "stablecoin",
+        "usdc",
+        "web3"
+      ],
+      "created_at": "2026-05-16T09:20:33Z",
+      "updated_at": "2026-05-29T07:55:13Z",
+      "pushed_at": "2026-05-29T07:55:08Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/kellycryptos/SynArc",
+        "website": "https://www.synarcdao.xyz/"
+      },
+      "owner": {
+        "login": "kellycryptos",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217857273,
+      "name": "phoenix-nft-staking",
+      "full_name": "Behodler/phoenix-nft-staking",
+      "html_url": "https://github.com/Behodler/phoenix-nft-staking",
+      "description": "Staking module for Liquidity NFT",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 261,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Solidity"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-22T09:35:13Z",
+      "updated_at": "2026-05-29T00:36:42Z",
+      "pushed_at": "2026-05-29T00:36:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Behodler/phoenix-nft-staking",
+        "website": null
+      },
+      "owner": {
+        "login": "Behodler",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1247697152,
+      "name": "Aurex",
+      "full_name": "Aurex-Onchain/Aurex",
+      "html_url": "https://github.com/Aurex-Onchain/Aurex",
+      "description": "Aurex turns Uniswap V4 Hooks into an open signal marketplace on X Layer — publishers stake AUREX to push on-chain risk/alpha scores, the Hook converts every swap into a dynamic-fee + publisher revenue-share event, and a self-hosted MCP Advisor lets any AI client (Claude / Cursor / OpenClaw) consume and publish signals from one wallet.",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 1536,
+      "score": 44,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": "https://web-sigma-virid-60.vercel.app/",
+      "topics": [
+        "hackathon",
+        "uniswap",
+        "uniswap-v4",
+        "xlayer"
+      ],
+      "created_at": "2026-05-23T16:54:13Z",
+      "updated_at": "2026-05-28T20:07:45Z",
+      "pushed_at": "2026-05-28T20:06:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Aurex-Onchain/Aurex",
+        "website": "https://web-sigma-virid-60.vercel.app/"
+      },
+      "owner": {
+        "login": "Aurex-Onchain",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1252639511,
+      "name": "DeeLance",
+      "full_name": "lazyKid64/DeeLance",
+      "html_url": "https://github.com/lazyKid64/DeeLance",
+      "description": "A project made for Stack2deep hackathon, it is a decentralized freelance internship platform built on Ethereum — companies stake ETH, freelancers deliver, smart contracts govern payouts, slashing & voting.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 14699,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": "https://dee-lance-five.vercel.app",
+      "topics": [],
+      "created_at": "2026-05-28T18:13:15Z",
+      "updated_at": "2026-05-28T19:33:46Z",
+      "pushed_at": "2026-05-28T19:33:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/lazyKid64/DeeLance",
+        "website": "https://dee-lance-five.vercel.app"
+      },
+      "owner": {
+        "login": "lazyKid64",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1249427355,
+      "name": "pufferpilot-imtoken",
+      "full_name": "LIN0304/pufferpilot-imtoken",
+      "html_url": "https://github.com/LIN0304/pufferpilot-imtoken",
+      "description": "PufferPilot: safety-first AI intent-to-stake wallet mini app for Puffer and imToken",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 226,
+      "score": 12,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "staking",
+      "homepage": "https://pufferpilot-imtoken.vercel.app",
+      "topics": [],
+      "created_at": "2026-05-25T17:30:38Z",
+      "updated_at": "2026-05-28T17:52:16Z",
+      "pushed_at": "2026-05-28T17:52:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LIN0304/pufferpilot-imtoken",
+        "website": "https://pufferpilot-imtoken.vercel.app"
+      },
+      "owner": {
+        "login": "LIN0304",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1251027061,
+      "name": "fractal-indexer-oneclick",
+      "full_name": "utxo-pizza/fractal-indexer-oneclick",
+      "html_url": "https://github.com/utxo-pizza/fractal-indexer-oneclick",
+      "description": "One-click official Fractal indexer stack deployment for existing Fractald nodes",
+      "language": "Shell",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 228,
+      "score": 11,
+      "reasons": [
+        "📜 Licensed"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [
+        "docker-compose",
+        "fractal-bitcoin",
+        "indexer",
+        "ops",
+        "staking"
+      ],
+      "created_at": "2026-05-27T07:15:59Z",
+      "updated_at": "2026-05-28T16:43:24Z",
+      "pushed_at": "2026-05-27T10:52:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/utxo-pizza/fractal-indexer-oneclick",
+        "website": null
+      },
+      "owner": {
+        "login": "utxo-pizza",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1244599441,
+      "name": "TRADING-BOT",
+      "full_name": "nazmiefearmutcu/TRADING-BOT",
+      "html_url": "https://github.com/nazmiefearmutcu/TRADING-BOT",
+      "description": "Crypto perpetual-futures bot that needs 15 indicators across 12 timeframes to agree before placing an order. Paper-mode by default. macOS + Windows distributions.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2822,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "perpetual futures",
+      "homepage": null,
+      "topics": [
+        "algorithmic-trading",
+        "binance",
+        "cryptocurrency",
+        "fastapi",
+        "futures",
+        "python",
+        "technical-analysis",
+        "tkinter",
+        "trading-bot"
+      ],
+      "created_at": "2026-05-20T12:19:19Z",
+      "updated_at": "2026-05-28T15:24:56Z",
+      "pushed_at": "2026-05-29T11:26:12Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/nazmiefearmutcu/TRADING-BOT",
+        "website": null
+      },
+      "owner": {
+        "login": "nazmiefearmutcu",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1246263304,
+      "name": "XPayLabs",
+      "full_name": "yan253319066/XPayLabs",
+      "html_url": "https://github.com/yan253319066/XPayLabs",
+      "description": "Self-hosted crypto payment gateway supporting TRON (TRC20), EVM chains, and SUI. Accept USDT/USDC payments with zero gateway fees, fully non-custodial, white-label ready. Deploy via Docker. 自托管加密支付网关，支持 TRON（TRC20）、EVM 链和 SUI。零网关费接受 USDT/USDC 支付，完全非托管，支持白标。Docker 一键部署。",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 524,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://www.xpaylabs.com/",
+      "topics": [
+        "blockchain",
+        "crypto",
+        "docker",
+        "docker-compose",
+        "ethereum",
+        "evm",
+        "java",
+        "kubernetes",
+        "non-custodial",
+        "payment-gateway",
+        "payments",
+        "self-hosted",
+        "sol",
+        "springboot",
+        "stablecoin",
+        "sui",
+        "tron",
+        "usdc",
+        "usdt",
+        "webhooks"
+      ],
+      "created_at": "2026-05-22T03:03:45Z",
+      "updated_at": "2026-05-29T11:20:20Z",
+      "pushed_at": "2026-05-29T11:20:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/yan253319066/XPayLabs",
+        "website": "https://www.xpaylabs.com/"
+      },
+      "owner": {
+        "login": "yan253319066",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1251361350,
+      "name": "openway",
+      "full_name": "philaturo/openway",
+      "html_url": "https://github.com/philaturo/openway",
+      "description": "An open-source, non-custodial B2B routing protocol that automates trustless cross-border settlements and atomic stablecoin payouts across African mobile money networks.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 293,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-27T13:57:55Z",
+      "updated_at": "2026-05-29T06:42:17Z",
+      "pushed_at": "2026-05-29T06:42:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/philaturo/openway",
+        "website": null
+      },
+      "owner": {
+        "login": "philaturo",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1207870605,
+      "name": "FundWise",
+      "full_name": "Fund-labs/FundWise",
+      "html_url": "https://github.com/Fund-labs/FundWise",
+      "description": "Settle fast with stables",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 6411,
+      "score": 44,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://fundwise.fun",
+      "topics": [
+        "expense-management",
+        "solana",
+        "stablecoin"
+      ],
+      "created_at": "2026-04-11T14:13:57Z",
+      "updated_at": "2026-05-28T17:57:15Z",
+      "pushed_at": "2026-05-28T15:48:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Fund-labs/FundWise",
+        "website": "https://fundwise.fun"
+      },
+      "owner": {
+        "login": "Fund-labs",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1217501512,
+      "name": "thisismyurl-login-support",
+      "full_name": "thisismyurl/thisismyurl-login-support",
+      "html_url": "https://github.com/thisismyurl/thisismyurl-login-support",
+      "description": "Harden WordPress login security with custom slugs, rate limiting, recovery tokens, and Site Health integration.",
+      "language": "PHP",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2465,
+      "score": 10,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://thisismyurl.com/thisismyurl-login-support/",
+      "topics": [
+        "brute-force-protection",
+        "login-security",
+        "rate-limiting",
+        "security",
+        "site-health",
+        "wordpress",
+        "wordpress-plugin",
+        "wordpress-security"
+      ],
+      "created_at": "2026-04-22T00:28:49Z",
+      "updated_at": "2026-05-29T11:35:33Z",
+      "pushed_at": "2026-05-29T11:35:31Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/thisismyurl/thisismyurl-login-support",
+        "website": "https://thisismyurl.com/thisismyurl-login-support/"
+      },
+      "owner": {
+        "login": "thisismyurl",
+        "type": "User"
+      },
+      "license": "GPL-2.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1240373148,
+      "name": "possession",
+      "full_name": "bugsyhewitt/possession",
+      "html_url": "https://github.com/bugsyhewitt/possession",
+      "description": "Possession takes a valid authenticated request and wears its skin under other identities, roles, stripped auth, and corrupted tokens to see what still opens. It exposes weak access control—dragging IDORs, privilege escalation, and auth bypasses out of the dark.",
+      "language": "Go",
+      "stars": 6,
+      "forks": 0,
+      "size_kb": 564,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Go"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-16T04:09:14Z",
+      "updated_at": "2026-05-29T11:22:50Z",
+      "pushed_at": "2026-05-29T11:22:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bugsyhewitt/possession",
+        "website": null
+      },
+      "owner": {
+        "login": "bugsyhewitt",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1224944682,
+      "name": "codesight",
+      "full_name": "n1crack/codesight",
+      "html_url": "https://github.com/n1crack/codesight",
+      "description": "A free, offline desktop app that turns your .git directories into deterministic metrics, heuristic insights, and graph-aware structural views — no GitHub account, no API tokens, no network calls.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1786,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://codesight.ozdemir.be",
+      "topics": [
+        "analyzer",
+        "git",
+        "github-config",
+        "insights"
+      ],
+      "created_at": "2026-04-29T19:40:25Z",
+      "updated_at": "2026-05-29T11:39:05Z",
+      "pushed_at": "2026-05-29T11:07:39Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/n1crack/codesight",
+        "website": "https://codesight.ozdemir.be"
+      },
+      "owner": {
+        "login": "n1crack",
+        "type": "User"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1250499194,
+      "name": "thesis",
+      "full_name": "thesisAI1/thesis",
+      "html_url": "https://github.com/thesisAI1/thesis",
+      "description": "AI committee that reads token theses on X, trades on Base, and pays thesis authors 25% of every winning trade. Another 25% buys back & burns $THESIS.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 927,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://thesisonbase.com/",
+      "topics": [
+        "ai-agent",
+        "ai-agents",
+        "ai-tools",
+        "base",
+        "claude",
+        "llm"
+      ],
+      "created_at": "2026-05-26T17:36:02Z",
+      "updated_at": "2026-05-29T11:02:26Z",
+      "pushed_at": "2026-05-29T11:02:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/thesisAI1/thesis",
+        "website": "https://thesisonbase.com/"
+      },
+      "owner": {
+        "login": "thesisAI1",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1247460523,
+      "name": "Rug-Pull-Scam-Token-Early-Warning-System",
+      "full_name": "Stockpotgaul100/Rug-Pull-Scam-Token-Early-Warning-System",
+      "html_url": "https://github.com/Stockpotgaul100/Rug-Pull-Scam-Token-Early-Warning-System",
+      "description": "Detect smart contract risks and identify potential rug pulls on Ethereum, BSC, Polygon, and Arbitrum.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1391,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "analysis",
+        "arbitrum",
+        "bitcoin",
+        "blockchain-security-solutions",
+        "bnb",
+        "chains",
+        "cryptocurrency",
+        "defi-security",
+        "honeypot-detector",
+        "nft",
+        "polygon",
+        "pull",
+        "python",
+        "rug-pull",
+        "smart-contract-audit",
+        "token",
+        "token-analysis",
+        "web3"
+      ],
+      "created_at": "2026-05-23T10:52:03Z",
+      "updated_at": "2026-05-29T10:53:06Z",
+      "pushed_at": "2026-05-29T10:53:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Stockpotgaul100/Rug-Pull-Scam-Token-Early-Warning-System",
+        "website": null
+      },
+      "owner": {
+        "login": "Stockpotgaul100",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1246291333,
+      "name": "open-agent-tools-coder",
+      "full_name": "ogdbea4120/open-agent-tools-coder",
+      "html_url": "https://github.com/ogdbea4120/open-agent-tools-coder",
+      "description": "Index local Python source code to enable efficient, self-hosted AI tool-calling without expensive model tokens.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2142,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "bolt",
+        "cluely",
+        "devin",
+        "ffmpeg",
+        "github-copilot",
+        "leaked-code",
+        "lovable",
+        "openai",
+        "python",
+        "remotion",
+        "replit",
+        "stable-diffusion",
+        "trae-ide",
+        "video-generation",
+        "video-production"
+      ],
+      "created_at": "2026-05-22T03:53:08Z",
+      "updated_at": "2026-05-29T10:52:02Z",
+      "pushed_at": "2026-05-29T10:51:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ogdbea4120/open-agent-tools-coder",
+        "website": null
+      },
+      "owner": {
+        "login": "ogdbea4120",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1246130543,
+      "name": "OmniSIFT",
+      "full_name": "jainist-caracara911/OmniSIFT",
+      "html_url": "https://github.com/jainist-caracara911/OmniSIFT",
+      "description": "Compress tokens using modality-asymmetric techniques to improve the efficiency of omni-modal large language models.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 5031,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "bookmarks",
+        "categorization",
+        "chrome-extension",
+        "claude-code",
+        "codex",
+        "commands",
+        "dark",
+        "deepseek",
+        "firefox",
+        "firefox-extension",
+        "gemini",
+        "gemini-cli",
+        "history",
+        "javascript",
+        "mcp",
+        "omnisearch",
+        "openai",
+        "productivity",
+        "raycast",
+        "spotlight"
+      ],
+      "created_at": "2026-05-21T22:48:33Z",
+      "updated_at": "2026-05-29T10:51:47Z",
+      "pushed_at": "2026-05-29T10:51:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jainist-caracara911/OmniSIFT",
+        "website": null
+      },
+      "owner": {
+        "login": "jainist-caracara911",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1250891573,
+      "name": "wtcraft",
+      "full_name": "zywkloo/wtcraft",
+      "html_url": "https://github.com/zywkloo/wtcraft",
+      "description": "Get parallel multi-agent coding on $40/month in subscriptions instead of $200/month in API tokens.",
+      "language": "Shell",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 3418,
+      "score": 21,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://www.npmjs.com/package/wtcraft",
+      "topics": [
+        "agent",
+        "claude-code",
+        "codex",
+        "harness-engineering",
+        "skills",
+        "vibe-coding"
+      ],
+      "created_at": "2026-05-27T04:02:34Z",
+      "updated_at": "2026-05-29T10:44:52Z",
+      "pushed_at": "2026-05-29T10:45:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/zywkloo/wtcraft",
+        "website": "https://www.npmjs.com/package/wtcraft"
+      },
+      "owner": {
+        "login": "zywkloo",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1241191520,
+      "name": "dexignation-contracts",
+      "full_name": "DEXignation/dexignation-contracts",
+      "html_url": "https://github.com/DEXignation/dexignation-contracts",
+      "description": "Polygon-based NFT domain smart contracts for DEXignation.",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 301,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "dex",
+      "homepage": "",
+      "topics": [
+        "decentralized-identity",
+        "did",
+        "ethereum",
+        "multichain",
+        "nft",
+        "nft-contract",
+        "polygon",
+        "resolver",
+        "smart-contracts",
+        "solidity",
+        "upgradeable-contracts",
+        "web3",
+        "web3-identity"
+      ],
+      "created_at": "2026-05-17T04:19:12Z",
+      "updated_at": "2026-05-29T11:12:09Z",
+      "pushed_at": "2026-05-29T11:12:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DEXignation/dexignation-contracts",
+        "website": null
+      },
+      "owner": {
+        "login": "DEXignation",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1252506693,
+      "name": "perpolis",
+      "full_name": "Perpolis/perpolis",
+      "html_url": "https://github.com/Perpolis/perpolis",
+      "description": "Meme perpetuals on Solana. Up to 100x leverage on any SPL token. Built on the Perpolator engine.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4429,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://perpolis.xyz",
+      "topics": [
+        "defi",
+        "dex",
+        "meme",
+        "nextjs",
+        "perpetuals",
+        "solana",
+        "trading",
+        "typescript"
+      ],
+      "created_at": "2026-05-28T15:32:54Z",
+      "updated_at": "2026-05-28T19:38:02Z",
+      "pushed_at": "2026-05-28T19:37:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Perpolis/perpolis",
+        "website": "https://perpolis.xyz"
+      },
+      "owner": {
+        "login": "Perpolis",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1223915933,
+      "name": "Kypt-MultiSig-Wallet-Transactions-Tron-Ethereum",
+      "full_name": "ETsCopbskj/Kypt-MultiSig-Wallet-Transactions-Tron-Ethereum",
+      "html_url": "https://github.com/ETsCopbskj/Kypt-MultiSig-Wallet-Transactions-Tron-Ethereum",
+      "description": "MultiSig-Wallet: Secure multi-party transaction execution for Ethereum, Tron, and Bitcoin. Features HD-Wallet service and multisig API support.",
+      "language": "C#",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 203,
+      "score": 28,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "bch-multisig",
+        "bitcoin-cash-wallet",
+        "bitcoin-multisig",
+        "eth-multisig-wallet",
+        "ethereum-multisig",
+        "ethereum-multisig-api",
+        "ethereum-wallet",
+        "hd-wallet",
+        "multi-signature-api",
+        "multisig-api",
+        "multisig-contract",
+        "multisig-transactions",
+        "multisig-vault",
+        "multisig-wallet",
+        "secure-multisig",
+        "shared-wallet",
+        "tron-multisig",
+        "tron-multisig-api",
+        "tron-network",
+        "tron-wallet-api"
+      ],
+      "created_at": "2026-04-28T19:28:12Z",
+      "updated_at": "2026-05-29T09:42:13Z",
+      "pushed_at": "2026-05-29T09:42:08Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ETsCopbskj/Kypt-MultiSig-Wallet-Transactions-Tron-Ethereum",
+        "website": null
+      },
+      "owner": {
+        "login": "ETsCopbskj",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1253111436,
+      "name": "qchain",
+      "full_name": "sildl/qchain",
+      "html_url": "https://github.com/sildl/qchain",
+      "description": "A post-quantum, privacy-focused research blockchain prototype built in Rust and Python. Features Dilithium signatures, hand-rolled zk-STARKs, and a real-time web dashboard.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 757,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-29T06:54:41Z",
+      "updated_at": "2026-05-29T11:20:39Z",
+      "pushed_at": "2026-05-29T11:20:35Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/sildl/qchain",
+        "website": null
+      },
+      "owner": {
+        "login": "sildl",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1240398039,
+      "name": "openhttpa-rs",
+      "full_name": "OpenHTTPA/openhttpa-rs",
+      "html_url": "https://github.com/OpenHTTPA/openhttpa-rs",
+      "description": "A Rust implementation of OpenHTTPA, establishing a novel paradigm for high-assurance confidential computing by enforcing cryptographic termination directly within hardware-isolated environments.",
+      "language": "Rust",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 2278,
+      "score": 44,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": "https://openhttpa.org",
+      "topics": [
+        "a2a-protocol",
+        "blockchain",
+        "confidential-computing",
+        "cryptography",
+        "distributed-computing",
+        "fips-140-3",
+        "grpc",
+        "hardware-enclaves",
+        "http",
+        "llm-agent-framework",
+        "mcp",
+        "memory-caching",
+        "plugins",
+        "quantam-resistant",
+        "quic",
+        "rust",
+        "security",
+        "web3",
+        "websocket",
+        "zero-knowledge"
+      ],
+      "created_at": "2026-05-16T04:58:56Z",
+      "updated_at": "2026-05-29T04:57:40Z",
+      "pushed_at": "2026-05-29T06:20:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/OpenHTTPA/openhttpa-rs",
+        "website": "https://openhttpa.org"
+      },
+      "owner": {
+        "login": "OpenHTTPA",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1252838176,
+      "name": "phi-plasma-core",
+      "full_name": "Prime-007-hash/phi-plasma-core",
+      "html_url": "https://github.com/Prime-007-hash/phi-plasma-core",
+      "description": "Symplectic-Hamiltonian transformer architecture with 2.31× more stable long-context perplexity than vanilla baselines. (q,p) phase-space tokens + Hecke algebra head mixing + Störmer-Verlet leapfrog layers.",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 2278,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://github.com/Prime-007-hash/phi-plasma-core",
+      "topics": [],
+      "created_at": "2026-05-28T23:27:13Z",
+      "updated_at": "2026-05-29T11:17:36Z",
+      "pushed_at": "2026-05-29T07:39:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Prime-007-hash/phi-plasma-core",
+        "website": "https://github.com/Prime-007-hash/phi-plasma-core"
+      },
+      "owner": {
+        "login": "Prime-007-hash",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1252452952,
+      "name": "hyphae-v2",
+      "full_name": "terrizoaguimor/hyphae-v2",
+      "html_url": "https://github.com/terrizoaguimor/hyphae-v2",
+      "description": "A verifiable provenance layer for grounded retrieval: answers are byte-identical quotations over a SHA-256 hash-chained journal, every span auditable to its source, with an external Ed25519 head anchor. No LLM in the cognition path. Rust; preprint + full evaluation included.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3706,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://celiums.ai/hyphae",
+      "topics": [
+        "cognitive-architecture",
+        "ed25519",
+        "grounded-retrieval",
+        "hash-chain",
+        "llm",
+        "preprint",
+        "provenance",
+        "rag",
+        "reproducible-research",
+        "retrieval-augmented-generation",
+        "rust",
+        "tamper-evident",
+        "verbatim-quotation",
+        "verifiable-provenance"
+      ],
+      "created_at": "2026-05-28T14:33:40Z",
+      "updated_at": "2026-05-29T00:24:09Z",
+      "pushed_at": "2026-05-29T00:00:41Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/terrizoaguimor/hyphae-v2",
+        "website": "https://celiums.ai/hyphae"
+      },
+      "owner": {
+        "login": "terrizoaguimor",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1250382411,
+      "name": "azure-databricks-delta-lakehouse",
+      "full_name": "danlevimb/azure-databricks-delta-lakehouse",
+      "html_url": "https://github.com/danlevimb/azure-databricks-delta-lakehouse",
+      "description": "Azure Databricks Delta Lakehouse project using PySpark, Delta Lake, Bronze/Silver/Gold layers, MERGE, SCD Type 2, time travel, and data quality validation.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1444,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-26T15:17:52Z",
+      "updated_at": "2026-05-28T20:53:43Z",
+      "pushed_at": "2026-05-28T20:53:39Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/danlevimb/azure-databricks-delta-lakehouse",
+        "website": null
+      },
+      "owner": {
+        "login": "danlevimb",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1242940004,
+      "name": "S202",
+      "full_name": "Weigend/S202",
+      "html_url": "https://github.com/Weigend/S202",
+      "description": "Layered Software Architecture Visualization",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 30902,
+      "score": 24,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-18T22:48:38Z",
+      "updated_at": "2026-05-28T21:57:13Z",
+      "pushed_at": "2026-05-28T18:38:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Weigend/S202",
+        "website": null
+      },
+      "owner": {
+        "login": "Weigend",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1252602102,
+      "name": "litvm-tcg-oracle",
+      "full_name": "sailorpepe/litvm-tcg-oracle",
+      "html_url": "https://github.com/sailorpepe/litvm-tcg-oracle",
+      "description": "AI-Powered TCG Price Oracle & Card Grader on LitVM LiteForge — Litecoin Layer 2",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 726,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://www.the-undesirables.com/litvm",
+      "topics": [
+        "ai",
+        "blockchain",
+        "litecoin",
+        "litvm",
+        "oracle",
+        "python",
+        "smart-contracts",
+        "solidity",
+        "tcg",
+        "trading-cards"
+      ],
+      "created_at": "2026-05-28T17:25:46Z",
+      "updated_at": "2026-05-28T17:50:46Z",
+      "pushed_at": "2026-05-28T17:50:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/sailorpepe/litvm-tcg-oracle",
+        "website": "https://www.the-undesirables.com/litvm"
+      },
+      "owner": {
+        "login": "sailorpepe",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1250464874,
+      "name": "Universal-Security-Hub",
+      "full_name": "vikashkumarjha-in/Universal-Security-Hub",
+      "html_url": "https://github.com/vikashkumarjha-in/Universal-Security-Hub",
+      "description": "🌐 An asynchronous, multi-threaded Tkinter dashboard orchestration engine integrating Nmap reconnaissance, Layer-2 wireless driver automation, and localized credential audit frameworks.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1423,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-26T16:53:03Z",
+      "updated_at": "2026-05-28T12:22:20Z",
+      "pushed_at": "2026-05-28T12:22:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/vikashkumarjha-in/Universal-Security-Hub",
+        "website": null
+      },
+      "owner": {
+        "login": "vikashkumarjha-in",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-05-29T11:41:09Z",
+      "last_seen_at": "2026-05-29T11:41:09Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1246690369,
       "name": "uniswap-autopilot",
