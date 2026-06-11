@@ -1,9 +1,1848 @@
 {
-  "generated_at": "2026-06-10T11:49:33Z",
+  "generated_at": "2026-06-11T12:20:04Z",
   "summary": {
-    "total_count": 2077
+    "total_count": 2121
   },
   "startups": [
+    {
+      "repo_id": 1266051376,
+      "name": "w3pi-contracts",
+      "full_name": "W3PI-Protocol/w3pi-contracts",
+      "html_url": "https://github.com/W3PI-Protocol/w3pi-contracts",
+      "description": "Ownerless W3PI BEP-20 protocol contracts on BNB Smart Chain.",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2144,
+      "score": 44,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://w3pi.social",
+      "topics": [
+        "bep20",
+        "bnb-chain",
+        "bsc",
+        "defi",
+        "pancakeswap",
+        "smart-contracts",
+        "solidity",
+        "token",
+        "w3pi",
+        "web3"
+      ],
+      "created_at": "2026-06-11T09:32:27Z",
+      "updated_at": "2026-06-11T11:10:03Z",
+      "pushed_at": "2026-06-11T11:09:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/W3PI-Protocol/w3pi-contracts",
+        "website": "https://w3pi.social"
+      },
+      "owner": {
+        "login": "W3PI-Protocol",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1257676270,
+      "name": "ICAIF_stablecoin-contagion-gnn",
+      "full_name": "nl2992/ICAIF_stablecoin-contagion-gnn",
+      "html_url": "https://github.com/nl2992/ICAIF_stablecoin-contagion-gnn",
+      "description": "Graph-attention networks for predicting cross-asset stablecoin contagion on real minute-level multi-venue data (ICAIF 2026)",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 15708,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "defi",
+        "financial-contagion",
+        "graph-attention-networks",
+        "graph-neural-networks",
+        "reproducible-research",
+        "stablecoins",
+        "systemic-risk"
+      ],
+      "created_at": "2026-06-02T22:54:06Z",
+      "updated_at": "2026-06-11T09:48:42Z",
+      "pushed_at": "2026-06-11T09:48:38Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/nl2992/ICAIF_stablecoin-contagion-gnn",
+        "website": null
+      },
+      "owner": {
+        "login": "nl2992",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1251436086,
+      "name": "ICAIF_stablecoin-contagion-network",
+      "full_name": "nl2992/ICAIF_stablecoin-contagion-network",
+      "html_url": "https://github.com/nl2992/ICAIF_stablecoin-contagion-network",
+      "description": "Provenance-gated analysis of when on-chain Curve flow signals stablecoin stress propagation (ICAIF 2026)",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 53269,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "defi",
+        "financial-contagion",
+        "on-chain-data",
+        "reproducible-research",
+        "stablecoins",
+        "systemic-risk"
+      ],
+      "created_at": "2026-05-27T15:17:51Z",
+      "updated_at": "2026-06-11T09:48:34Z",
+      "pushed_at": "2026-06-11T09:48:29Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/nl2992/ICAIF_stablecoin-contagion-network",
+        "website": null
+      },
+      "owner": {
+        "login": "nl2992",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1237249019,
+      "name": "BondRouter",
+      "full_name": "bong874vu-cyber/BondRouter",
+      "html_url": "https://github.com/bong874vu-cyber/BondRouter",
+      "description": "An institutional-grade treasury operating system designed for corporate entities to manage tokenized yield optimization, execute confidential dark-pool trades, and programmatically distribute corporate revenues",
+      "language": "Vue",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 14890,
+      "score": 18,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://bond-router.vercel.app",
+      "topics": [
+        "arc-network",
+        "cctp",
+        "circle",
+        "defi",
+        "eurc",
+        "rwa",
+        "solidity",
+        "stablecoins",
+        "tokenization",
+        "usdc",
+        "vue",
+        "web3",
+        "zero-knowledge"
+      ],
+      "created_at": "2026-05-13T02:32:19Z",
+      "updated_at": "2026-06-11T09:25:40Z",
+      "pushed_at": "2026-06-11T09:25:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bong874vu-cyber/BondRouter",
+        "website": "https://bond-router.vercel.app"
+      },
+      "owner": {
+        "login": "bong874vu-cyber",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1248938455,
+      "name": "metaflux-client-rust",
+      "full_name": "mtf-exchange/metaflux-client-rust",
+      "html_url": "https://github.com/mtf-exchange/metaflux-client-rust",
+      "description": "Rust SDK for the MetaFlux derivatives L1 — REST + WebSocket, EIP-712 signing, and typed builders for the full signed-action surface (orders, TWAP, margin, vaults, staking, spot/Earn).",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 204,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "defi",
+        "derivatives",
+        "dex",
+        "eip-712",
+        "metaflux",
+        "perpetuals",
+        "rust",
+        "sdk",
+        "trading",
+        "web3"
+      ],
+      "created_at": "2026-05-25T07:34:13Z",
+      "updated_at": "2026-06-11T08:11:44Z",
+      "pushed_at": "2026-06-11T08:10:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mtf-exchange/metaflux-client-rust",
+        "website": null
+      },
+      "owner": {
+        "login": "mtf-exchange",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265456454,
+      "name": "ziros-zirforge-finance",
+      "full_name": "AnubisQuantumCipher/ziros-zirforge-finance",
+      "html_url": "https://github.com/AnubisQuantumCipher/ziros-zirforge-finance",
+      "description": "ZirForge Finance — post-quantum private institutional finance & RegTech subsystem on ZirOS. Artifact-only verification release: ZK proofs, verifier, Compact contracts, evidence, integrity spine.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 7112,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "cryptography",
+        "defi",
+        "groth16",
+        "kyc-aml",
+        "midnight",
+        "plonky3",
+        "poseidon2",
+        "post-quantum",
+        "proof-of-reserves",
+        "regtech",
+        "sanctions-screening",
+        "stark",
+        "zero-knowledge",
+        "zk-proofs"
+      ],
+      "created_at": "2026-06-10T19:44:10Z",
+      "updated_at": "2026-06-11T08:10:54Z",
+      "pushed_at": "2026-06-11T08:10:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/AnubisQuantumCipher/ziros-zirforge-finance",
+        "website": null
+      },
+      "owner": {
+        "login": "AnubisQuantumCipher",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1262543568,
+      "name": "D92-Software-Defined-Network",
+      "full_name": "nnhphong/D92-Software-Defined-Network",
+      "html_url": "https://github.com/nnhphong/D92-Software-Defined-Network",
+      "description": "Building a IPv6-based leaf-spine Data Center fabric",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1337,
+      "score": 12,
+      "reasons": [
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-08T04:55:33Z",
+      "updated_at": "2026-06-11T07:19:37Z",
+      "pushed_at": "2026-06-11T07:19:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/nnhphong/D92-Software-Defined-Network",
+        "website": null
+      },
+      "owner": {
+        "login": "nnhphong",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1248306966,
+      "name": "atrium",
+      "full_name": "Pratiikpy/atrium",
+      "html_url": "https://github.com/Pratiikpy/atrium",
+      "description": "Atrium: unified margin prime brokerage for the EVM. Cross-venue portfolio margin on Arbitrum Sepolia.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 21403,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://useatrium.me",
+      "topics": [
+        "arbitrum",
+        "defi",
+        "ethereum",
+        "portfolio-margin",
+        "prime-brokerage",
+        "rust",
+        "stylus"
+      ],
+      "created_at": "2026-05-24T13:22:55Z",
+      "updated_at": "2026-06-11T05:04:15Z",
+      "pushed_at": "2026-06-11T05:04:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Pratiikpy/atrium",
+        "website": "https://useatrium.me"
+      },
+      "owner": {
+        "login": "Pratiikpy",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1266082001,
+      "name": "preferreds-rotation-engine",
+      "full_name": "davidsanz21/preferreds-rotation-engine",
+      "html_url": "https://github.com/davidsanz21/preferreds-rotation-engine",
+      "description": "Daily quant rotation across BTC-treasury preferreds: OLS signal models, Sharpe-weighted allocation, 35-check QC protocol. Claude skill + Python core.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 243,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo"
+      ],
+      "found_via": "btc",
+      "homepage": "https://www.linkedin.com/in/david-sanz-canal/",
+      "topics": [
+        "bitcoin",
+        "claude-skills",
+        "portfolio",
+        "preferred",
+        "quant",
+        "rebalancer",
+        "shares",
+        "simulation"
+      ],
+      "created_at": "2026-06-11T09:58:34Z",
+      "updated_at": "2026-06-11T11:13:00Z",
+      "pushed_at": "2026-06-11T10:06:44Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/davidsanz21/preferreds-rotation-engine",
+        "website": "https://www.linkedin.com/in/david-sanz-canal/"
+      },
+      "owner": {
+        "login": "davidsanz21",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1264982855,
+      "name": "kronos-btc-trader",
+      "full_name": "eleviacorps/kronos-btc-trader",
+      "html_url": "https://github.com/eleviacorps/kronos-btc-trader",
+      "description": "BTC/USDT trading bot — customized fork of ShiYu's Kronos foundation model with autonomous scalper, live dashboard, agent-mode trading, and paper/real execution.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 9686,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-10T11:02:29Z",
+      "updated_at": "2026-06-11T07:57:11Z",
+      "pushed_at": "2026-06-11T07:56:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/eleviacorps/kronos-btc-trader",
+        "website": null
+      },
+      "owner": {
+        "login": "eleviacorps",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1248507126,
+      "name": "qwik-gold",
+      "full_name": "morotijani/qwik-gold",
+      "html_url": "https://github.com/morotijani/qwik-gold",
+      "description": "An SME project. Handling dual-liquidity - managing a fiat cash capital pool on one side and a physical gold inventory on the other.",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 973,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "liquidity pool",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-24T18:23:41Z",
+      "updated_at": "2026-06-10T14:05:32Z",
+      "pushed_at": "2026-06-10T14:04:40Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/morotijani/qwik-gold",
+        "website": null
+      },
+      "owner": {
+        "login": "morotijani",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265131668,
+      "name": "shire",
+      "full_name": "kikik27/shire",
+      "html_url": "https://github.com/kikik27/shire",
+      "description": "Shire is an AI-powered hiring marketplace where agents find jobs and talents automatically, and CELO staking keeps both sides accountable.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 598,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-10T13:47:44Z",
+      "updated_at": "2026-06-11T09:22:17Z",
+      "pushed_at": "2026-06-11T09:22:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/kikik27/shire",
+        "website": null
+      },
+      "owner": {
+        "login": "kikik27",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265755035,
+      "name": "monetizecomputehackathon",
+      "full_name": "monetizecompute/monetizecomputehackathon",
+      "html_url": "https://github.com/monetizecompute/monetizecomputehackathon",
+      "description": "The agent that pays for its own inference. $5 stake, real Nebius per-token costs, dies at zero. Hunts real bounties to live, thinks smaller as it gets poorer, leaves a will for the next generation.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3474,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": "https://monetizecompute.com",
+      "topics": [
+        "agent-economics",
+        "ai-agents",
+        "composio",
+        "nebius",
+        "openclaw",
+        "ship-builders",
+        "tavily"
+      ],
+      "created_at": "2026-06-11T03:51:53Z",
+      "updated_at": "2026-06-11T04:46:57Z",
+      "pushed_at": "2026-06-11T04:46:53Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/monetizecompute/monetizecomputehackathon",
+        "website": "https://monetizecompute.com"
+      },
+      "owner": {
+        "login": "monetizecompute",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265281447,
+      "name": "stablerails",
+      "full_name": "stablerails/stablerails",
+      "html_url": "https://github.com/stablerails/stablerails",
+      "description": "Self-hosted, non-custodial stablecoin payment software — your keys never touch the server. USDT/TRC-20, AGPL-3.0.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 765,
+      "score": 35,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://stablerails.org",
+      "topics": [],
+      "created_at": "2026-06-10T16:21:41Z",
+      "updated_at": "2026-06-11T05:14:42Z",
+      "pushed_at": "2026-06-11T05:14:39Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/stablerails/stablerails",
+        "website": "https://stablerails.org"
+      },
+      "owner": {
+        "login": "stablerails",
+        "type": "Organization"
+      },
+      "license": "AGPL-3.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1236512646,
+      "name": "opensettle-sdk-go",
+      "full_name": "OpenSettle/opensettle-sdk-go",
+      "html_url": "https://github.com/OpenSettle/opensettle-sdk-go",
+      "description": "Official Go SDK for the OpenSettle API — stablecoin billing on Base, Ethereum, Polygon, Arbitrum, Solana, and Tron.",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 204,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Go",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://opensettle.io",
+      "topics": [
+        "billing",
+        "crypto-payments",
+        "go",
+        "golang",
+        "non-custodial",
+        "opensettle",
+        "payment-api",
+        "payments",
+        "sdk",
+        "stablecoin",
+        "usdc",
+        "usdt",
+        "web3"
+      ],
+      "created_at": "2026-05-12T10:11:20Z",
+      "updated_at": "2026-06-10T15:34:44Z",
+      "pushed_at": "2026-06-10T15:30:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/OpenSettle/opensettle-sdk-go",
+        "website": "https://opensettle.io"
+      },
+      "owner": {
+        "login": "OpenSettle",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1264062498,
+      "name": "sippar-sak-x402",
+      "full_name": "Nuru-AI/sippar-sak-x402",
+      "html_url": "https://github.com/Nuru-AI/sippar-sak-x402",
+      "description": "Solana Agent Kit plugin for cross-chain x402 payments — pay on Solana, settle on Base via Sippar's threshold-signed relay (no bridge, no seed phrase).",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 243,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "bridge cross-chain",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-09T14:22:01Z",
+      "updated_at": "2026-06-10T16:48:16Z",
+      "pushed_at": "2026-06-10T16:47:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Nuru-AI/sippar-sak-x402",
+        "website": null
+      },
+      "owner": {
+        "login": "Nuru-AI",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1251460904,
+      "name": "clear-your-tools",
+      "full_name": "qdrddr/clear-your-tools",
+      "html_url": "https://github.com/qdrddr/clear-your-tools",
+      "description": "Cut input tokens by 30% while preserving LLM focus and pruning irrelevant MCP tools",
+      "language": "Python",
+      "stars": 11,
+      "forks": 2,
+      "size_kb": 19335,
+      "score": 20,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "mcp",
+        "mcp-tools",
+        "proxy-server"
+      ],
+      "created_at": "2026-05-27T15:46:41Z",
+      "updated_at": "2026-06-11T12:18:13Z",
+      "pushed_at": "2026-06-11T12:17:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/qdrddr/clear-your-tools",
+        "website": null
+      },
+      "owner": {
+        "login": "qdrddr",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1261125414,
+      "name": "token-hunger",
+      "full_name": "Desperado/token-hunger",
+      "html_url": "https://github.com/Desperado/token-hunger",
+      "description": "A repository for token-hunger",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 1473,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-06T09:13:18Z",
+      "updated_at": "2026-06-11T12:12:09Z",
+      "pushed_at": "2026-06-11T12:11:35Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Desperado/token-hunger",
+        "website": null
+      },
+      "owner": {
+        "login": "Desperado",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209029218,
+      "name": "memoryops",
+      "full_name": "Quazmoz/memoryops",
+      "html_url": "https://github.com/Quazmoz/memoryops",
+      "description": "Memory Operations Platform for AI agents — ingestion, lifecycle, token-aware retrieval, and control UI",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 15259,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-13T02:55:23Z",
+      "updated_at": "2026-06-11T12:08:47Z",
+      "pushed_at": "2026-06-11T12:07:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Quazmoz/memoryops",
+        "website": null
+      },
+      "owner": {
+        "login": "Quazmoz",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265234003,
+      "name": "tokensaver",
+      "full_name": "maazizit/tokensaver",
+      "html_url": "https://github.com/maazizit/tokensaver",
+      "description": "VS Code extension — TokenSaver dashboard for TokViz AI token compression",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2754,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-10T15:31:23Z",
+      "updated_at": "2026-06-11T12:07:19Z",
+      "pushed_at": "2026-06-11T12:06:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/maazizit/tokensaver",
+        "website": null
+      },
+      "owner": {
+        "login": "maazizit",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1212942717,
+      "name": "TokenSlayer",
+      "full_name": "ajvikram/TokenSlayer",
+      "html_url": "https://github.com/ajvikram/TokenSlayer",
+      "description": "TokenSlayer is a \"token-killing\" VS Code extension designed to eliminate context bloat and the \"orientation tax\" that currently limits AI productivity. Functioning as a Semantic Structural Cache, it acts as a local middleman between your IDE and GitHub Copilot, shifting the AI's focus from reading raw text to understanding structured intent.",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 1595,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-04-16T22:17:06Z",
+      "updated_at": "2026-06-11T12:13:59Z",
+      "pushed_at": "2026-06-11T12:06:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ajvikram/TokenSlayer",
+        "website": null
+      },
+      "owner": {
+        "login": "ajvikram",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1229124312,
+      "name": "tokenix",
+      "full_name": "juninmd/tokenix",
+      "html_url": "https://github.com/juninmd/tokenix",
+      "description": "Local semantic index CLI that reduces LLM token usage 60-90% -- built in Rust, runs 100% offline",
+      "language": "Rust",
+      "stars": 5,
+      "forks": 0,
+      "size_kb": 2151,
+      "score": 21,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai",
+        "ai-tools",
+        "claude-code",
+        "cli",
+        "developer-tools",
+        "embeddings",
+        "ollama",
+        "rust",
+        "semantic-search",
+        "token-optimization"
+      ],
+      "created_at": "2026-05-04T18:14:48Z",
+      "updated_at": "2026-06-11T11:57:44Z",
+      "pushed_at": "2026-06-11T12:01:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/juninmd/tokenix",
+        "website": null
+      },
+      "owner": {
+        "login": "juninmd",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1239180274,
+      "name": "travsr",
+      "full_name": "Travsr-com/travsr",
+      "html_url": "https://github.com/Travsr-com/travsr",
+      "description": "The code graph that lives next to git. Graph-native code intelligence over MCP - 80% fewer tokens, zero structural hallucinations.",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 2206,
+      "score": 36,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://travsr.com",
+      "topics": [
+        "ai",
+        "code-intelligence",
+        "developer-tools",
+        "graph",
+        "mcp",
+        "rust",
+        "static-analysis",
+        "tree-sitter"
+      ],
+      "created_at": "2026-05-14T20:57:48Z",
+      "updated_at": "2026-06-11T11:57:00Z",
+      "pushed_at": "2026-06-11T12:15:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Travsr-com/travsr",
+        "website": "https://travsr.com"
+      },
+      "owner": {
+        "login": "Travsr-com",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1257164704,
+      "name": "authrty-claude-code-analytics",
+      "full_name": "TarekAwwad/authrty-claude-code-analytics",
+      "html_url": "https://github.com/TarekAwwad/authrty-claude-code-analytics",
+      "description": "An analytics tool to explore Claude code usage patterns, errors, and token costs  ",
+      "language": "TypeScript",
+      "stars": 10,
+      "forks": 0,
+      "size_kb": 1583,
+      "score": 20,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-06-02T12:27:27Z",
+      "updated_at": "2026-06-11T11:54:46Z",
+      "pushed_at": "2026-06-11T11:54:40Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/TarekAwwad/authrty-claude-code-analytics",
+        "website": null
+      },
+      "owner": {
+        "login": "TarekAwwad",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1252200026,
+      "name": "WhyNot-telegram-mini-app",
+      "full_name": "itismax0/WhyNot-telegram-mini-app",
+      "html_url": "https://github.com/itismax0/WhyNot-telegram-mini-app",
+      "description": "an ecosystem based on the $WhyNot token",
+      "language": "TypeScript",
+      "stars": 3,
+      "forks": 0,
+      "size_kb": 348,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "token",
+      "homepage": "https://whynotcoin.netlify.app/",
+      "topics": [],
+      "created_at": "2026-05-28T09:33:19Z",
+      "updated_at": "2026-06-11T11:53:00Z",
+      "pushed_at": "2026-06-11T11:52:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/itismax0/WhyNot-telegram-mini-app",
+        "website": "https://whynotcoin.netlify.app/"
+      },
+      "owner": {
+        "login": "itismax0",
+        "type": "User"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1253211136,
+      "name": "tessera",
+      "full_name": "Ritik200238/tessera",
+      "html_url": "https://github.com/Ritik200238/tessera",
+      "description": "AI-protected yield and lending for tokenized stocks on Arbitrum Stylus. Autonomous risk agent monitors positions 24/7.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 9764,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://tessera-web-delta.vercel.app",
+      "topics": [],
+      "created_at": "2026-05-29T08:45:53Z",
+      "updated_at": "2026-06-11T11:48:46Z",
+      "pushed_at": "2026-06-11T11:48:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Ritik200238/tessera",
+        "website": "https://tessera-web-delta.vercel.app"
+      },
+      "owner": {
+        "login": "Ritik200238",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1256931896,
+      "name": "TokenSaver",
+      "full_name": "zhangtao-jayce/TokenSaver",
+      "html_url": "https://github.com/zhangtao-jayce/TokenSaver",
+      "description": "Local-first ROI diagnostics for AI agents. Find wasted context, tool calls, model calls, and routes, then generate repair briefs for coding agents.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 414,
+      "score": 12,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo"
+      ],
+      "found_via": "token",
+      "homepage": "https://pypi.org/project/tokensaver-agent/",
+      "topics": [
+        "ai-agent",
+        "llm",
+        "local-first",
+        "mcp",
+        "observability",
+        "python",
+        "token-optimization"
+      ],
+      "created_at": "2026-06-02T07:58:55Z",
+      "updated_at": "2026-06-11T11:43:50Z",
+      "pushed_at": "2026-06-11T11:43:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/zhangtao-jayce/TokenSaver",
+        "website": "https://pypi.org/project/tokensaver-agent/"
+      },
+      "owner": {
+        "login": "zhangtao-jayce",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1266143905,
+      "name": "worksheet-suite",
+      "full_name": "choiseongmin280-ctrl/worksheet-suite",
+      "html_url": "https://github.com/choiseongmin280-ctrl/worksheet-suite",
+      "description": "A multi-agent Claude Code framework for generating tutoring worksheets - format-locked, token-disciplined, human-checkpointed",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1213,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-11T11:04:32Z",
+      "updated_at": "2026-06-11T11:33:15Z",
+      "pushed_at": "2026-06-11T11:33:11Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/choiseongmin280-ctrl/worksheet-suite",
+        "website": null
+      },
+      "owner": {
+        "login": "choiseongmin280-ctrl",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265556505,
+      "name": "material-ui-multibrand-design-system",
+      "full_name": "tamaravitvitska-uni/material-ui-multibrand-design-system",
+      "html_url": "https://github.com/tamaravitvitska-uni/material-ui-multibrand-design-system",
+      "description": "Multi-brand Material UI design system driven by Figma variables — 6 brands, one token pipeline",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2622,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-10T22:07:10Z",
+      "updated_at": "2026-06-11T11:29:26Z",
+      "pushed_at": "2026-06-11T11:29:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tamaravitvitska-uni/material-ui-multibrand-design-system",
+        "website": null
+      },
+      "owner": {
+        "login": "tamaravitvitska-uni",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1188648421,
+      "name": "context-fabric",
+      "full_name": "VIKAS9793/context-fabric",
+      "html_url": "https://github.com/VIKAS9793/context-fabric",
+      "description": "Context Fabric is an MCP server that automatically captures project state on every git commit, detects when stored context has drifted from codebase reality, and delivers structured, token-budgeted briefings to AI agents — without requiring any developer action.",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 6928,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai-developer-tools",
+        "claude-code",
+        "claude-code-plugin",
+        "context-drift",
+        "cursor-ide",
+        "developer-infrastructure",
+        "mcp",
+        "model-context-protocol-servers",
+        "sqlite",
+        "typescript"
+      ],
+      "created_at": "2026-03-22T11:46:01Z",
+      "updated_at": "2026-06-11T11:21:31Z",
+      "pushed_at": "2026-06-11T11:21:21Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/VIKAS9793/context-fabric",
+        "website": null
+      },
+      "owner": {
+        "login": "VIKAS9793",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1253655802,
+      "name": "openperps",
+      "full_name": "itsbenjiidunn/openperps",
+      "html_url": "https://github.com/itsbenjiidunn/openperps",
+      "description": "Permissionless perps on Solana, built on Percolator. Trade leverage on any token that has a pool",
+      "language": "Rust",
+      "stars": 4,
+      "forks": 0,
+      "size_kb": 12284,
+      "score": 27,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://openperps.fun",
+      "topics": [],
+      "created_at": "2026-05-29T17:26:16Z",
+      "updated_at": "2026-06-11T11:15:58Z",
+      "pushed_at": "2026-06-11T11:15:53Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/itsbenjiidunn/openperps",
+        "website": "https://openperps.fun"
+      },
+      "owner": {
+        "login": "itsbenjiidunn",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265331517,
+      "name": "dex",
+      "full_name": "Mudassir55/dex",
+      "html_url": "https://github.com/Mudassir55/dex",
+      "description": "Clone of crypto currency exchange platform with limited features",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 113658,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://dex-six-delta.vercel.app",
+      "topics": [],
+      "created_at": "2026-06-10T17:16:59Z",
+      "updated_at": "2026-06-11T11:28:25Z",
+      "pushed_at": "2026-06-11T11:28:21Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Mudassir55/dex",
+        "website": "https://dex-six-delta.vercel.app"
+      },
+      "owner": {
+        "login": "Mudassir55",
+        "type": "User"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209915106,
+      "name": "droidsaw",
+      "full_name": "droidsaw/droidsaw",
+      "html_url": "https://github.com/droidsaw/droidsaw",
+      "description": "Pure-Rust Android decompiler and security-audit suite. DEX → Java, Hermes → JavaScript. Cross-layer taint across the React Native bridge. CycloneDX SBOM + OpenVEX. CLI and MCP. Bytecode is not a security layer.",
+      "language": "Rust",
+      "stars": 18,
+      "forks": 1,
+      "size_kb": 922,
+      "score": 46,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "dex",
+      "homepage": "https://droidsaw.com",
+      "topics": [
+        "android",
+        "apk",
+        "cyclonedx",
+        "decompiler",
+        "malware-analysis",
+        "mcp",
+        "mobile-security",
+        "openvex",
+        "reverse-engineering",
+        "rust",
+        "sbom",
+        "security",
+        "static-analysis"
+      ],
+      "created_at": "2026-04-13T23:02:19Z",
+      "updated_at": "2026-06-11T08:11:07Z",
+      "pushed_at": "2026-06-11T08:39:41Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/droidsaw/droidsaw",
+        "website": "https://droidsaw.com"
+      },
+      "owner": {
+        "login": "droidsaw",
+        "type": "Organization"
+      },
+      "license": "BSD-3-Clause",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209860647,
+      "name": "droidsaw-dex",
+      "full_name": "droidsaw/droidsaw-dex",
+      "html_url": "https://github.com/droidsaw/droidsaw-dex",
+      "description": "DEX (Dalvik) decompiler. Parses, builds CFG, SSA via Braun, emits Java. Inverse emit_dex byte-identical on F-Droid (5,767 files). DEX v035–v041. Pure Rust.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1267,
+      "score": 39,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://droidsaw.com",
+      "topics": [
+        "android",
+        "bytecode",
+        "dalvik",
+        "dalvik-bytecode",
+        "decompiler",
+        "dex",
+        "fuzzing",
+        "kani",
+        "mobile-security",
+        "reverse-engineering",
+        "rust",
+        "static-analysis"
+      ],
+      "created_at": "2026-04-13T21:18:30Z",
+      "updated_at": "2026-06-11T08:11:10Z",
+      "pushed_at": "2026-06-11T08:39:30Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/droidsaw/droidsaw-dex",
+        "website": "https://droidsaw.com"
+      },
+      "owner": {
+        "login": "droidsaw",
+        "type": "Organization"
+      },
+      "license": "BSD-3-Clause",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1263864540,
+      "name": "MathDex",
+      "full_name": "wodzuu/MathDex",
+      "html_url": "https://github.com/wodzuu/MathDex",
+      "description": "Pokemon game for teaching mathematics",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2707,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-09T10:38:59Z",
+      "updated_at": "2026-06-11T05:32:34Z",
+      "pushed_at": "2026-06-11T05:32:30Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/wodzuu/MathDex",
+        "website": null
+      },
+      "owner": {
+        "login": "wodzuu",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1239936386,
+      "name": "Nodus-Protocol-Frontend",
+      "full_name": "Nodus-protocol/Nodus-Protocol-Frontend",
+      "html_url": "https://github.com/Nodus-protocol/Nodus-Protocol-Frontend",
+      "description": "Marketing and landing page for the Nodus Protocol AMM DEX — built with Next.js 16 and Tailwind CSS v4",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 1,
+      "size_kb": 316,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-15T15:42:51Z",
+      "updated_at": "2026-06-10T18:12:35Z",
+      "pushed_at": "2026-06-10T18:12:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Nodus-protocol/Nodus-Protocol-Frontend",
+        "website": null
+      },
+      "owner": {
+        "login": "Nodus-protocol",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1243439222,
+      "name": "coti-wallet-plugin",
+      "full_name": "cotitech-io/coti-wallet-plugin",
+      "html_url": "https://github.com/cotitech-io/coti-wallet-plugin",
+      "description": "COTI Wallet Plugin",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 743,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "wallet",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-05-19T10:45:09Z",
+      "updated_at": "2026-06-11T11:44:22Z",
+      "pushed_at": "2026-06-11T11:44:19Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/cotitech-io/coti-wallet-plugin",
+        "website": null
+      },
+      "owner": {
+        "login": "cotitech-io",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1266117172,
+      "name": "ios",
+      "full_name": "tosnetwork/ios",
+      "html_url": "https://github.com/tosnetwork/ios",
+      "description": "ios wallet",
+      "language": "Swift",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4772,
+      "score": 24,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-11T10:35:03Z",
+      "updated_at": "2026-06-11T11:33:52Z",
+      "pushed_at": "2026-06-11T11:33:47Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tosnetwork/ios",
+        "website": null
+      },
+      "owner": {
+        "login": "tosnetwork",
+        "type": "Organization"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1239825952,
+      "name": "agent_wallet",
+      "full_name": "lnbits/agent_wallet",
+      "html_url": "https://github.com/lnbits/agent_wallet",
+      "description": "Lightning wallets for AI agents",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 720,
+      "score": 26,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-15T13:34:36Z",
+      "updated_at": "2026-06-11T11:33:41Z",
+      "pushed_at": "2026-06-11T11:33:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/lnbits/agent_wallet",
+        "website": null
+      },
+      "owner": {
+        "login": "lnbits",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1253804330,
+      "name": "cairn-wallet",
+      "full_name": "InverseAltruism/cairn-wallet",
+      "html_url": "https://github.com/InverseAltruism/cairn-wallet",
+      "description": "Non-custodial browser wallet for Compute Substrate (CSD) - keys stay local, sign-local, use dapps in Cairn, Sign in with CSD.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1842,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://cairn-substrate.com",
+      "topics": [],
+      "created_at": "2026-05-29T20:41:42Z",
+      "updated_at": "2026-06-11T11:06:22Z",
+      "pushed_at": "2026-06-11T11:06:18Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/InverseAltruism/cairn-wallet",
+        "website": "https://cairn-substrate.com"
+      },
+      "owner": {
+        "login": "InverseAltruism",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1262764937,
+      "name": "android",
+      "full_name": "tosnetwork/android",
+      "html_url": "https://github.com/tosnetwork/android",
+      "description": "android wallet for tos",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 6909,
+      "score": 24,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-08T09:50:11Z",
+      "updated_at": "2026-06-11T10:32:23Z",
+      "pushed_at": "2026-06-11T10:32:19Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tosnetwork/android",
+        "website": null
+      },
+      "owner": {
+        "login": "tosnetwork",
+        "type": "Organization"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1264320449,
+      "name": "zclassic",
+      "full_name": "ZclassiC23/zclassic",
+      "html_url": "https://github.com/ZclassiC23/zclassic",
+      "description": "ZClassic full node in one ~15 MB pure-C23 binary — Equihash 200,9 PoW, Sapling shielded transactions, embedded Tor onion service, block explorer, wallet, and an MCP server for AI-native operation",
+      "language": "C",
+      "stars": 5,
+      "forks": 1,
+      "size_kb": 5450,
+      "score": 32,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "",
+      "topics": [
+        "blockchain",
+        "c23",
+        "cryptocurrency",
+        "equihash",
+        "full-node",
+        "mcp",
+        "tor",
+        "zclassic",
+        "zk-snarks"
+      ],
+      "created_at": "2026-06-09T19:20:49Z",
+      "updated_at": "2026-06-11T10:22:04Z",
+      "pushed_at": "2026-06-11T10:21:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ZclassiC23/zclassic",
+        "website": null
+      },
+      "owner": {
+        "login": "ZclassiC23",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1230435080,
+      "name": "TigerAI-Code2n8n-Skill-Pack",
+      "full_name": "MorrisLu-Taipei/TigerAI-Code2n8n-Skill-Pack",
+      "html_url": "https://github.com/MorrisLu-Taipei/TigerAI-Code2n8n-Skill-Pack",
+      "description": "Build enterprise-grade n8n workflows using natural language sticky notes: An AI engine that transforms simple human intent into complete, documented three-layer automation systems.",
+      "language": "JavaScript",
+      "stars": 73,
+      "forks": 18,
+      "size_kb": 13003,
+      "score": 20,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "📦 Substantial codebase",
+        "⭐ Some traction"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-05-06T01:58:42Z",
+      "updated_at": "2026-06-11T07:35:55Z",
+      "pushed_at": "2026-06-11T07:35:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/MorrisLu-Taipei/TigerAI-Code2n8n-Skill-Pack",
+        "website": null
+      },
+      "owner": {
+        "login": "MorrisLu-Taipei",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1265757067,
+      "name": "furx",
+      "full_name": "hernaninverso/furx",
+      "html_url": "https://github.com/hernaninverso/furx",
+      "description": "One layer under every coding agent — unified memory, signed plugins, mobile companion, governance. Apache-2.0.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4491,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://furx.cloud",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "rust",
+        "tauri",
+        "terminal"
+      ],
+      "created_at": "2026-06-11T03:54:58Z",
+      "updated_at": "2026-06-11T04:11:44Z",
+      "pushed_at": "2026-06-11T03:57:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/hernaninverso/furx",
+        "website": "https://furx.cloud"
+      },
+      "owner": {
+        "login": "hernaninverso",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-11T12:20:04Z",
+      "last_seen_at": "2026-06-11T12:20:04Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1264598552,
       "name": "Vantablack",
