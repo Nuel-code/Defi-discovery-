@@ -1,9 +1,1200 @@
 {
-  "generated_at": "2026-06-27T10:22:04Z",
+  "generated_at": "2026-06-28T10:35:29Z",
   "summary": {
-    "total_count": 2695
+    "total_count": 2721
   },
   "startups": [
+    {
+      "repo_id": 1282597105,
+      "name": "mesh",
+      "full_name": "sstiempro/mesh",
+      "html_url": "https://github.com/sstiempro/mesh",
+      "description": "Keyless, honest, self-hosted engine for turning idle compute into safe income — mesh health + auto-protect, real-yield/arbitrage scanner, 100+ EV-ranked zero-capital income concepts, multi-chain wallet. No keys, no custody, anti-mirage.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 644,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "defi",
+        "depin",
+        "keyless",
+        "monitoring",
+        "open-source",
+        "public-goods",
+        "self-hosted",
+        "web3"
+      ],
+      "created_at": "2026-06-28T01:31:45Z",
+      "updated_at": "2026-06-28T07:04:18Z",
+      "pushed_at": "2026-06-28T07:04:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/sstiempro/mesh",
+        "website": null
+      },
+      "owner": {
+        "login": "sstiempro",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1282740430,
+      "name": "concept-definition-stage",
+      "full_name": "Open-MBEE/concept-definition-stage",
+      "html_url": "https://github.com/Open-MBEE/concept-definition-stage",
+      "description": "cds — Concept Definition Stage: docs-as-code RDF vocabulary + facilitation model committing SEBoK/INCOSE Concept Definition canon (Business/Mission Analysis + Stakeholder Needs) to version-controlled RDF; SysML v2 + GtWR/NRM dual-anchored, SHACL-verified, provenance-traced.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 582,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-28T06:24:58Z",
+      "updated_at": "2026-06-28T06:25:08Z",
+      "pushed_at": "2026-06-28T06:25:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Open-MBEE/concept-definition-stage",
+        "website": null
+      },
+      "owner": {
+        "login": "Open-MBEE",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1282289283,
+      "name": "deliverator",
+      "full_name": "erickuhn19/deliverator",
+      "html_url": "https://github.com/erickuhn19/deliverator",
+      "description": "Non-custodial Hyperliquid execution + tracking CLI for autonomous LLM agents. Signs EIP-712 actions with an agent wallet that cannot withdraw funds.",
+      "language": "Go",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 439,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Go",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "defi",
+      "homepage": "https://deliverator.net",
+      "topics": [
+        "cli",
+        "defi",
+        "eip712",
+        "go",
+        "hyperliquid",
+        "llm-agent",
+        "non-custodial",
+        "perpetuals",
+        "prediction-markets",
+        "trading"
+      ],
+      "created_at": "2026-06-27T15:18:43Z",
+      "updated_at": "2026-06-28T01:55:34Z",
+      "pushed_at": "2026-06-28T00:03:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/erickuhn19/deliverator",
+        "website": "https://deliverator.net"
+      },
+      "owner": {
+        "login": "erickuhn19",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1275944196,
+      "name": "gamma-scalper",
+      "full_name": "tfrmma/gamma-scalper",
+      "html_url": "https://github.com/tfrmma/gamma-scalper",
+      "description": "Short gamma scalping on Deribit BTC/ETH options, delta-hedged via perpetuals. Avellaneda-Stoikov pricing with live vol surface, funding-adjusted sizing, and config-driven risk controls. Kill switch on RV spikes, drawdown breaches, and adverse funding. Asyncio stack: market data, strategy, execution, and risk engine running as independent loops.",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 240,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "btc",
+      "homepage": "",
+      "topics": [
+        "asyncio",
+        "avellaneda-stoikov",
+        "black-scholes",
+        "delta-hedging",
+        "deribit",
+        "derivatives",
+        "gamma-scalping",
+        "options",
+        "python",
+        "quantitative-finance",
+        "volatility"
+      ],
+      "created_at": "2026-06-21T10:45:51Z",
+      "updated_at": "2026-06-28T09:18:08Z",
+      "pushed_at": "2026-06-28T09:18:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tfrmma/gamma-scalper",
+        "website": null
+      },
+      "owner": {
+        "login": "tfrmma",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1281108207,
+      "name": "CryptoWhaleWatcher",
+      "full_name": "steliosk98/CryptoWhaleWatcher",
+      "html_url": "https://github.com/steliosk98/CryptoWhaleWatcher",
+      "description": "Free, open-source quant-style dashboard tracking crypto whale movements across BTC, ETH, stablecoins & Solana. Runs on GitHub Pages + Actions with keyless public APIs.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 233,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "btc",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-26T08:23:43Z",
+      "updated_at": "2026-06-28T09:17:10Z",
+      "pushed_at": "2026-06-28T09:17:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/steliosk98/CryptoWhaleWatcher",
+        "website": null
+      },
+      "owner": {
+        "login": "steliosk98",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1274250446,
+      "name": "mindees-blockchain",
+      "full_name": "aashir-athar/mindees-blockchain",
+      "html_url": "https://github.com/aashir-athar/mindees-blockchain",
+      "description": "Mindees (MIND): open-source Proof-of-Stake Layer-1 blockchain & cryptocurrency in Python. Fixed 1,000,000 supply, zero inflation, Casper-FFG finality, staking, slashing, fork choice, P2P networking & wallet. Build a blockchain from scratch. Experimental & unaudited.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 224,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [
+        "bitcoin-alternative",
+        "blockchain",
+        "blockchain-node",
+        "casper-ffg",
+        "consensus",
+        "crypto",
+        "cryptocurrency",
+        "cryptocurrency-wallet",
+        "decentralized",
+        "finality",
+        "fixed-supply",
+        "layer-1",
+        "p2p",
+        "pos",
+        "proof-of-stake",
+        "python",
+        "slashing",
+        "staking",
+        "tokenomics",
+        "web3"
+      ],
+      "created_at": "2026-06-19T10:20:56Z",
+      "updated_at": "2026-06-28T09:30:59Z",
+      "pushed_at": "2026-06-28T09:30:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/aashir-athar/mindees-blockchain",
+        "website": null
+      },
+      "owner": {
+        "login": "aashir-athar",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1282863247,
+      "name": "strait",
+      "full_name": "Esoterics611/strait",
+      "html_url": "https://github.com/Esoterics611/strait",
+      "description": "Crypto-in / crypto-out USDC payment orchestrator. Shadow ledger, state machine, transactional outbox, magic-link auth, admin operator surface. NestJS · TypeScript · PostgreSQL 16.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 309,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [
+        "blockchain",
+        "nestjs",
+        "payments",
+        "postgresql",
+        "stablecoin",
+        "typescript",
+        "usdc",
+        "web3"
+      ],
+      "created_at": "2026-06-28T09:26:05Z",
+      "updated_at": "2026-06-28T09:34:08Z",
+      "pushed_at": "2026-06-28T09:34:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Esoterics611/strait",
+        "website": null
+      },
+      "owner": {
+        "login": "Esoterics611",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1281646557,
+      "name": "PerStream",
+      "full_name": "Donyemiight/PerStream",
+      "html_url": "https://github.com/Donyemiight/PerStream",
+      "description": "Per-second USDC streaming paywall for podcasts, built on Circle Nanopayments + Arc. Every second, paid.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2779,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://flows-receptor-placement-burner.trycloudflare.com",
+      "topics": [
+        "agent-stack",
+        "arc",
+        "circle",
+        "creator-economy",
+        "hackathon",
+        "lepton",
+        "nanopayments",
+        "perstream",
+        "stablecoin",
+        "usdc",
+        "web3",
+        "x402"
+      ],
+      "created_at": "2026-06-26T19:15:02Z",
+      "updated_at": "2026-06-28T07:30:17Z",
+      "pushed_at": "2026-06-28T07:30:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Donyemiight/PerStream",
+        "website": "https://flows-receptor-placement-burner.trycloudflare.com"
+      },
+      "owner": {
+        "login": "Donyemiight",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1282118730,
+      "name": "verdikt-arc",
+      "full_name": "dmustapha/verdikt-arc",
+      "html_url": "https://github.com/dmustapha/verdikt-arc",
+      "description": "Evidence-anchored escrow for agent-to-agent payments on Arc: runs the work, refunds or abstains rather than false-certifying",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3406,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://verdikt-arc-damilolas-projects-fafdf859.vercel.app",
+      "topics": [
+        "agent-payments",
+        "ai-agents",
+        "arc",
+        "circle",
+        "escrow",
+        "nextjs",
+        "solidity",
+        "stablecoin",
+        "usdc",
+        "x402"
+      ],
+      "created_at": "2026-06-27T10:51:11Z",
+      "updated_at": "2026-06-28T06:48:38Z",
+      "pushed_at": "2026-06-28T06:48:34Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dmustapha/verdikt-arc",
+        "website": "https://verdikt-arc-damilolas-projects-fafdf859.vercel.app"
+      },
+      "owner": {
+        "login": "dmustapha",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1270365101,
+      "name": "pacto-connect",
+      "full_name": "PACTO-LAT/pacto-connect",
+      "html_url": "https://github.com/PACTO-LAT/pacto-connect",
+      "description": "Pacto Connect — embeddable SDK + widget to add Pacto P2P stablecoin buy/sell flows to any site (Stripe Checkout-style).",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 8,
+      "size_kb": 279,
+      "score": 29,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-15T16:34:41Z",
+      "updated_at": "2026-06-28T04:03:52Z",
+      "pushed_at": "2026-06-28T04:03:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/PACTO-LAT/pacto-connect",
+        "website": null
+      },
+      "owner": {
+        "login": "PACTO-LAT",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1277828011,
+      "name": "tokenkick",
+      "full_name": "noriworks/tokenkick",
+      "html_url": "https://github.com/noriworks/tokenkick",
+      "description": "Local-first quota window tracker and scheduler for AI coding accounts",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3484,
+      "score": 30,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-23T08:16:43Z",
+      "updated_at": "2026-06-28T10:33:18Z",
+      "pushed_at": "2026-06-28T10:33:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/noriworks/tokenkick",
+        "website": null
+      },
+      "owner": {
+        "login": "noriworks",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1281302551,
+      "name": "AgentMeter",
+      "full_name": "LyleMi/AgentMeter",
+      "html_url": "https://github.com/LyleMi/AgentMeter",
+      "description": "Local-first observability dashboard for coding agent sessions, tracking tokens, costs, timing, and tool usage.",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2947,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Go",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "coding-agent",
+        "cost-tracking",
+        "observability",
+        "token-usage"
+      ],
+      "created_at": "2026-06-26T12:21:04Z",
+      "updated_at": "2026-06-28T10:32:03Z",
+      "pushed_at": "2026-06-28T10:31:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LyleMi/AgentMeter",
+        "website": null
+      },
+      "owner": {
+        "login": "LyleMi",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1277919923,
+      "name": "Sensei",
+      "full_name": "SenseiIssei/Sensei",
+      "html_url": "https://github.com/SenseiIssei/Sensei",
+      "description": "Self-hosted AI workspace with token compression — powered by GLM-5.2. Free, open source, privacy-first. Like folding your thoughts into paper cranes.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 366,
+      "score": 12,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo"
+      ],
+      "found_via": "token",
+      "homepage": "https://github.com/SenseiIssei/Sensei",
+      "topics": [
+        "ai",
+        "docker",
+        "fastapi",
+        "glm",
+        "glm-5",
+        "headroom",
+        "llm",
+        "ollama",
+        "open-source",
+        "privacy",
+        "python",
+        "qt",
+        "react",
+        "self-hosted",
+        "token-compression",
+        "typescript"
+      ],
+      "created_at": "2026-06-23T09:54:46Z",
+      "updated_at": "2026-06-28T10:30:02Z",
+      "pushed_at": "2026-06-28T10:30:00Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/SenseiIssei/Sensei",
+        "website": "https://github.com/SenseiIssei/Sensei"
+      },
+      "owner": {
+        "login": "SenseiIssei",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1203161599,
+      "name": "agentop",
+      "full_name": "mohitmishra786/agentop",
+      "html_url": "https://github.com/mohitmishra786/agentop",
+      "description": "Zero-dependency terminal dashboard for AI coding assistant token usage and cost monitoring",
+      "language": "Go",
+      "stars": 3,
+      "forks": 1,
+      "size_kb": 11416,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Go",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "ai-coding",
+        "cli",
+        "cost-tracking",
+        "dashboard",
+        "developer-tools",
+        "go",
+        "productivity",
+        "terminal"
+      ],
+      "created_at": "2026-04-06T19:29:34Z",
+      "updated_at": "2026-06-28T10:29:27Z",
+      "pushed_at": "2026-06-28T10:29:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mohitmishra786/agentop",
+        "website": null
+      },
+      "owner": {
+        "login": "mohitmishra786",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1263801624,
+      "name": "warden",
+      "full_name": "srjn45/warden",
+      "html_url": "https://github.com/srjn45/warden",
+      "description": "Run a fleet of Claude Code agents from one Go binary — spawn, monitor, and tear them down in isolated git worktrees, track per-agent cost, and see how many tokens you're saving. No database, no SaaS.",
+      "language": "Go",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 7441,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Go",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://srjn45.github.io/warden/",
+      "topics": [
+        "agent-orchestration",
+        "ai-agents",
+        "anthropic",
+        "claude-code",
+        "devtools",
+        "golang",
+        "llm",
+        "llmops",
+        "multi-agent",
+        "tui"
+      ],
+      "created_at": "2026-06-09T09:25:40Z",
+      "updated_at": "2026-06-28T10:14:02Z",
+      "pushed_at": "2026-06-28T10:13:58Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/srjn45/warden",
+        "website": "https://srjn45.github.io/warden/"
+      },
+      "owner": {
+        "login": "srjn45",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1269371029,
+      "name": "veridge",
+      "full_name": "galimar/veridge",
+      "html_url": "https://github.com/galimar/veridge",
+      "description": "The always-fresh, low-token map of a whole project — docs, code (to the symbol, multi-language), decisions — unified in one graph, ranked by PageRank, served to AI and humans. Zero-deps core.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 872,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "ai-agents",
+        "code-graph",
+        "developer-tools",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "pagerank",
+        "python",
+        "repo-map",
+        "static-analysis"
+      ],
+      "created_at": "2026-06-14T16:22:24Z",
+      "updated_at": "2026-06-28T10:12:09Z",
+      "pushed_at": "2026-06-28T10:12:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/galimar/veridge",
+        "website": null
+      },
+      "owner": {
+        "login": "galimar",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1209435723,
+      "name": "shadcn-design-token",
+      "full_name": "tsingshaner/shadcn-design-token",
+      "html_url": "https://github.com/tsingshaner/shadcn-design-token",
+      "description": "A design for shadcn/ui components with more css vars.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 409,
+      "score": 12,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "token",
+      "homepage": "https://tsingshaner.github.io/shadcn-design-token/",
+      "topics": [],
+      "created_at": "2026-04-13T12:30:28Z",
+      "updated_at": "2026-06-28T10:10:04Z",
+      "pushed_at": "2026-06-28T10:10:00Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tsingshaner/shadcn-design-token",
+        "website": "https://tsingshaner.github.io/shadcn-design-token/"
+      },
+      "owner": {
+        "login": "tsingshaner",
+        "type": "User"
+      },
+      "license": "ISC",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1200429306,
+      "name": "VIBE-CODE",
+      "full_name": "kspavankrishna/VIBE-CODE",
+      "html_url": "https://github.com/kspavankrishna/VIBE-CODE",
+      "description": "Production ready code snippets and utilities for LLM systems, token optimization, streaming data and multi language DevOps. Quality 60 to 120 line code. you can immediately fork and use.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 842,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "algorithms",
+        "artificial-intelligence",
+        "artificial-intelligence-algorithms",
+        "bash",
+        "batch-processing",
+        "claude-ai",
+        "devops-tools",
+        "devtools",
+        "go",
+        "llm",
+        "optimized-code",
+        "optimizer",
+        "production-code",
+        "python",
+        "rate-limiting",
+        "rust",
+        "streaming-sy",
+        "token-optimization",
+        "typescript",
+        "vector-search"
+      ],
+      "created_at": "2026-04-03T12:01:20Z",
+      "updated_at": "2026-06-28T09:56:44Z",
+      "pushed_at": "2026-06-28T09:56:40Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/kspavankrishna/VIBE-CODE",
+        "website": null
+      },
+      "owner": {
+        "login": "kspavankrishna",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1248108693,
+      "name": "tokentrace",
+      "full_name": "12122J/tokentrace",
+      "html_url": "https://github.com/12122J/tokentrace",
+      "description": "Automatic session recording for coding agents: transcripts, token cost, and git diffs saved locally.",
+      "language": "JavaScript",
+      "stars": 3,
+      "forks": 1,
+      "size_kb": 1304,
+      "score": 21,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "mcp",
+        "observability",
+        "token-tracking"
+      ],
+      "created_at": "2026-05-24T07:38:38Z",
+      "updated_at": "2026-06-28T09:55:55Z",
+      "pushed_at": "2026-06-28T09:55:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/12122J/tokentrace",
+        "website": null
+      },
+      "owner": {
+        "login": "12122J",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1266922755,
+      "name": "token-diet",
+      "full_name": "KasperChenGH/token-diet",
+      "html_url": "https://github.com/KasperChenGH/token-diet",
+      "description": "Measure, diagnose, and cut LLM token usage in Claude Code agentic workflows — an 8-lever agent + zero-dependency CLI.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2477,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "agentic-workflows",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "cli",
+        "cost-optimization",
+        "llm",
+        "nodejs",
+        "tokens",
+        "zero-dependency"
+      ],
+      "created_at": "2026-06-12T04:24:20Z",
+      "updated_at": "2026-06-28T09:49:31Z",
+      "pushed_at": "2026-06-28T09:49:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/KasperChenGH/token-diet",
+        "website": null
+      },
+      "owner": {
+        "login": "KasperChenGH",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1282842347,
+      "name": "design-system",
+      "full_name": "atruvia/design-system",
+      "html_url": "https://github.com/atruvia/design-system",
+      "description": "Selbst hostbares Marken-Designsystem der Atruvia AG: Design-Tokens, React-UI-Komponenten, Marken-Assets und Richtlinien für die Entwicklung markengerechter Oberflächen.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3845,
+      "score": 30,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "atruvia",
+        "branding",
+        "component-library",
+        "corporate-identity",
+        "css",
+        "design-system",
+        "design-tokens",
+        "fintech",
+        "react",
+        "ui-kit"
+      ],
+      "created_at": "2026-06-28T08:57:45Z",
+      "updated_at": "2026-06-28T09:49:00Z",
+      "pushed_at": "2026-06-28T09:49:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/atruvia/design-system",
+        "website": null
+      },
+      "owner": {
+        "login": "atruvia",
+        "type": "Organization"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1275449626,
+      "name": "LeatTrace",
+      "full_name": "lakshaysoni22/LeatTrace",
+      "html_url": "https://github.com/lakshaysoni22/LeatTrace",
+      "description": "Leat-Trace is a blockchain transaction tracing and AML investigation platform designed to assist cybercrime investigators in analyzing cryptocurrency transactions, profiling wallets, visualizing transaction flows, monitoring suspicious activities, and supporting law enforcement investigations.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 1,
+      "size_kb": 250,
+      "score": 15,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://leattrace.vercel.app",
+      "topics": [],
+      "created_at": "2026-06-20T17:48:35Z",
+      "updated_at": "2026-06-28T10:28:47Z",
+      "pushed_at": "2026-06-28T10:28:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/lakshaysoni22/LeatTrace",
+        "website": "https://leattrace.vercel.app"
+      },
+      "owner": {
+        "login": "lakshaysoni22",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1274072553,
+      "name": "dead-man-switch",
+      "full_name": "batscar/dead-man-switch",
+      "html_url": "https://github.com/batscar/dead-man-switch",
+      "description": "THIS IS MY FIRST REAL PROJECT WHERE I AM USING MY SOLIDITY , FOUNDRY , CHAINLINK AND WEB3 WALLET SECURITY SKILLS. ",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 22251,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-19T06:40:59Z",
+      "updated_at": "2026-06-28T08:59:55Z",
+      "pushed_at": "2026-06-28T08:59:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/batscar/dead-man-switch",
+        "website": null
+      },
+      "owner": {
+        "login": "batscar",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1248317495,
+      "name": "absolute-blockchain-ultimate",
+      "full_name": "Gruver87/absolute-blockchain-ultimate",
+      "html_url": "https://github.com/Gruver87/absolute-blockchain-ultimate",
+      "description": "Production-hardened Python blockchain node: L1 core, P2P, REST/JSON-RPC, explorer, PoS-style consensus, ABS tokenomics, Rust bridge profile.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 2765,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": "https://github.com/Gruver87/absolute-blockchain-ultimate#readme",
+      "topics": [
+        "blockchain",
+        "blockchain-node",
+        "devtools",
+        "docker",
+        "evm",
+        "json-rpc",
+        "kubernetes",
+        "l2",
+        "nft",
+        "p2p",
+        "pos",
+        "production-hardening",
+        "python",
+        "rest-api",
+        "rust-bridge",
+        "smart-accounts",
+        "sqlite",
+        "tokenomics",
+        "wasm",
+        "web-explorer"
+      ],
+      "created_at": "2026-05-24T13:39:30Z",
+      "updated_at": "2026-06-27T17:45:04Z",
+      "pushed_at": "2026-06-27T18:09:03Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Gruver87/absolute-blockchain-ultimate",
+        "website": "https://github.com/Gruver87/absolute-blockchain-ultimate#readme"
+      },
+      "owner": {
+        "login": "Gruver87",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1282505944,
+      "name": "witness",
+      "full_name": "mturac/witness",
+      "html_url": "https://github.com/mturac/witness",
+      "description": "Open-source AI agent provenance layer — tamper-evident audit trail for SOC 2, EU AI Act, and GDPR. Self-hosted, SPIFFE-based.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2491,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://github.com/mturac/witness#readme",
+      "topics": [
+        "ai-agents",
+        "audit-log",
+        "compliance",
+        "eu-ai-act",
+        "fastapi",
+        "gdpr",
+        "mcp",
+        "mit-license",
+        "nextjs",
+        "provenance",
+        "self-hosted",
+        "soc2",
+        "spiffe"
+      ],
+      "created_at": "2026-06-27T21:31:50Z",
+      "updated_at": "2026-06-28T06:53:38Z",
+      "pushed_at": "2026-06-28T06:53:34Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mturac/witness",
+        "website": "https://github.com/mturac/witness#readme"
+      },
+      "owner": {
+        "login": "mturac",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1279553538,
+      "name": "Layer-2.0",
+      "full_name": "PavAndrei/Layer-2.0",
+      "html_url": "https://github.com/PavAndrei/Layer-2.0",
+      "description": "Modern streetwear e-commerce app built with the MERN stack.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 19147,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "Likely personal repo",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-06-24T19:50:59Z",
+      "updated_at": "2026-06-28T00:05:27Z",
+      "pushed_at": "2026-06-28T00:05:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/PavAndrei/Layer-2.0",
+        "website": null
+      },
+      "owner": {
+        "login": "PavAndrei",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-06-28T10:35:29Z",
+      "last_seen_at": "2026-06-28T10:35:29Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1267412954,
       "name": "contracts",
