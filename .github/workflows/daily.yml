@@ -63,4 +63,6 @@ jobs:
           fi
 
           git commit -m "Update scout data [skip ci]"
-          git push
+          git pull --rebase origin main
+          git push origin main
+          
