@@ -36,9 +36,9 @@ SENT_REPOS_PATH = f"{DATA_DIR}/sent_repo_ids.json"
 LATEST_RUN_PATH = f"{DATA_DIR}/latest_run.json"
 ALL_STARTUPS_PATH = f"{DATA_DIR}/all_startups.json"
 
-# Tuning
+# Tuning (Adjusted to catch early gems)
 CREATED_DAYS_AGO = 90
-MIN_SCORE_THRESHOLD = 10
+MIN_SCORE_THRESHOLD = 5          # Lowered from 10 to allow high-potential early repos
 SEARCH_PAGE_SIZE = 100
 PER_KEYWORD_LIMIT = 15
 PAGES_PER_KEYWORD = 2
@@ -46,9 +46,9 @@ PAGES_PER_KEYWORD = 2
 # “Unknown gems” constraints
 MAX_STARS = 80
 MAX_FORKS = 40
-MIN_SIZE_KB = 200
-MAX_INACTIVE_DAYS = 21
-REQUIRE_LICENSE = True
+MIN_SIZE_KB = 50                # Lowered from 200 to capture lightweight smart contracts
+MAX_INACTIVE_DAYS = 45          # Relaxed from 21 days
+REQUIRE_LICENSE = False         # Disabled hard filter (early repos rarely license immediately)
 REQUIRE_DESCRIPTION = True
 
 USER_AGENT = "web3-scout-v6"
@@ -150,9 +150,6 @@ def parse_utc(dt_str: Optional[str]) -> Optional[datetime]:
 
 
 def handle_rate_limit(resp: requests.Response) -> bool:
-    """
-    Returns True if we slept due to rate limit and should retry.
-    """
     if resp.status_code not in (403, 429):
         return False
 
@@ -177,7 +174,7 @@ def handle_rate_limit(resp: requests.Response) -> bool:
 
 
 # --------------------------
-# Hard Filters (stop junk early)
+# Hard Filters
 # --------------------------
 def passes_hard_filters(repo: Dict) -> Tuple[bool, str]:
     if repo.get("fork") or repo.get("archived"):
@@ -211,7 +208,7 @@ def passes_hard_filters(repo: Dict) -> Tuple[bool, str]:
 
 
 # --------------------------
-# Scoring (refined)
+# Scoring (Adjusted weights)
 # --------------------------
 def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
     score = 0
@@ -242,7 +239,7 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
         reasons.append("🔗 Has website")
 
     if has_license:
-        score += 8
+        score += 6
         reasons.append("📜 Licensed")
 
     if lang in PRIORITY_LANGUAGES:
@@ -256,17 +253,17 @@ def calculate_quality_score(repo: Dict) -> Tuple[int, List[str]]:
     elif pro_hits == 1:
         score += 3
 
+    # Reduced penalty from -8 to -2 so small early repos aren't crushed
     if owner_type == "User" and stars < 3:
-        score -= 8
-        reasons.append("Likely personal repo")
+        score -= 2
 
-    if size_kb >= 800:
+    if size_kb >= 500:
         score += 4
         reasons.append("📦 Substantial codebase")
 
-    if stars >= 10:
-        score += 2
-        reasons.append("⭐ Some traction")
+    if stars >= 5:
+        score += 3
+        reasons.append("⭐ Traction")
 
     return score, reasons
 
@@ -463,7 +460,7 @@ def send_telegram_card(repo: Dict, score: int, reasons: List[str], keyword: str)
 # Main
 # --------------------------
 def run_scout() -> None:
-    logger.info("--- Starting Web3 Scout v6 (Hard Filters + Persistent Cache + JSON Export + History) ---")
+    logger.info("--- Starting Web3 Scout v6 (Adjusted Thresholds + Preserved Memory) ---")
 
     ensure_data_dirs()
     session = get_github_session()
@@ -508,6 +505,7 @@ def run_scout() -> None:
                     if not rid:
                         continue
 
+                    # Memory preservation check: skips any repo previously pinged
                     if rid in sent_ids:
                         continue
 
