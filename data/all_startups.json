@@ -1,9 +1,3963 @@
 {
-  "generated_at": "2026-10-23T13:23:42Z",
+  "generated_at": "2026-10-24T12:40:25Z",
   "summary": {
-    "total_count": 11275
+    "total_count": 11373
   },
   "startups": [
+    {
+      "repo_id": 1431724768,
+      "name": "ciniki",
+      "full_name": "fohlarbee/ciniki",
+      "html_url": "https://github.com/fohlarbee/ciniki",
+      "description": "Brine: chat-driven DeFi on Solana. An AI agent prepares swaps, staking, lending and automations; you sign in your own wallet.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 190,
+      "score": 18,
+      "reasons": [
+        "🔗 Has website",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": "https://solanon-seven.vercel.app",
+      "topics": [],
+      "created_at": "2026-10-24T01:58:21Z",
+      "updated_at": "2026-10-24T12:27:16Z",
+      "pushed_at": "2026-10-24T12:27:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/fohlarbee/ciniki",
+        "website": "https://solanon-seven.vercel.app"
+      },
+      "owner": {
+        "login": "fohlarbee",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1419574902,
+      "name": "sw-defined-werewolf",
+      "full_name": "098ff/sw-defined-werewolf",
+      "html_url": "https://github.com/098ff/sw-defined-werewolf",
+      "description": "A web-based Multiplayer Werewolf Game (4–6 players) deployed on an on-premises Bare-Metal Kubernetes cluster composed of 5 Raspberry Pi 3 B+ nodes and 1 Notebook VM (Ubuntu Linux) acting as the Control-Plane / Master node.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 277,
+      "score": 7,
+      "reasons": [
+        "🧠 Python"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-14T17:40:03Z",
+      "updated_at": "2026-10-24T12:17:46Z",
+      "pushed_at": "2026-10-24T12:18:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/098ff/sw-defined-werewolf",
+        "website": null
+      },
+      "owner": {
+        "login": "098ff",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432002649,
+      "name": "vault-risk-copilot",
+      "full_name": "dsipetcher/vault-risk-copilot",
+      "html_url": "https://github.com/dsipetcher/vault-risk-copilot",
+      "description": "AI-powered risk copilot for ERC-4626 DeFi vaults",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 216,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T09:05:08Z",
+      "updated_at": "2026-10-24T12:36:07Z",
+      "pushed_at": "2026-10-24T12:36:02Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dsipetcher/vault-risk-copilot",
+        "website": null
+      },
+      "owner": {
+        "login": "dsipetcher",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431443299,
+      "name": "sensor-definitions",
+      "full_name": "DashyNMS/sensor-definitions",
+      "html_url": "https://github.com/DashyNMS/sensor-definitions",
+      "description": "Sensor Definitions to allow conversion from State Value to Readable Value",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 2808,
+      "score": 31,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T19:03:36Z",
+      "updated_at": "2026-10-24T11:47:46Z",
+      "pushed_at": "2026-10-24T11:47:42Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DashyNMS/sensor-definitions",
+        "website": null
+      },
+      "owner": {
+        "login": "DashyNMS",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1389031500,
+      "name": "Flash-DeFi",
+      "full_name": "HansDeploy/Flash-DeFi",
+      "html_url": "https://github.com/HansDeploy/Flash-DeFi",
+      "description": "Intent-based DeFi assistant for Sharia-compliant yield discovery.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 127,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-09-26T10:32:25Z",
+      "updated_at": "2026-10-24T11:47:24Z",
+      "pushed_at": "2026-10-24T11:47:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/HansDeploy/Flash-DeFi",
+        "website": null
+      },
+      "owner": {
+        "login": "HansDeploy",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432109236,
+      "name": "cashgate-x402-defi-evidence",
+      "full_name": "livastic-vm3-primary-tmp-260920/cashgate-x402-defi-evidence",
+      "html_url": "https://github.com/livastic-vm3-primary-tmp-260920/cashgate-x402-defi-evidence",
+      "description": "CashGate: Agent-Native DeFi x402 payment quote and Base Circle USDC receipt evidence desk. Read-only, no custody.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 367,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T11:24:09Z",
+      "updated_at": "2026-10-24T11:24:20Z",
+      "pushed_at": "2026-10-24T11:24:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/livastic-vm3-primary-tmp-260920/cashgate-x402-defi-evidence",
+        "website": null
+      },
+      "owner": {
+        "login": "livastic-vm3-primary-tmp-260920",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431722690,
+      "name": "langchain-swap-gate",
+      "full_name": "rezearcher/langchain-swap-gate",
+      "html_url": "https://github.com/rezearcher/langchain-swap-gate",
+      "description": "LangChain.js pre-trade token-safety tool for Base trading agents: honeypot/sellability/admin-control + liquidity-vs-size via Grey Ridge /gate/swap, paid inline with x402 USDC. Call before every swap.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 96,
+      "score": 12,
+      "reasons": [
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "base",
+        "defi",
+        "langchain",
+        "langchainjs",
+        "mcp",
+        "swap-gate",
+        "token-safety",
+        "trading-agent",
+        "x402"
+      ],
+      "created_at": "2026-10-24T01:54:19Z",
+      "updated_at": "2026-10-24T11:19:29Z",
+      "pushed_at": "2026-10-24T11:19:26Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rezearcher/langchain-swap-gate",
+        "website": null
+      },
+      "owner": {
+        "login": "rezearcher",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431722794,
+      "name": "vercel-ai-swap-gate",
+      "full_name": "rezearcher/vercel-ai-swap-gate",
+      "html_url": "https://github.com/rezearcher/vercel-ai-swap-gate",
+      "description": "Vercel AI SDK pre-trade token-safety tool for Base trading agents: honeypot/sellability/admin-control + liquidity-vs-size via Grey Ridge /gate/swap, paid inline with x402 USDC. Call before every swap.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 95,
+      "score": 12,
+      "reasons": [
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "ai-sdk",
+        "base",
+        "defi",
+        "mcp",
+        "swap-gate",
+        "token-safety",
+        "trading-agent",
+        "vercel-ai-sdk",
+        "x402"
+      ],
+      "created_at": "2026-10-24T01:54:30Z",
+      "updated_at": "2026-10-24T11:19:28Z",
+      "pushed_at": "2026-10-24T11:19:25Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rezearcher/vercel-ai-swap-gate",
+        "website": null
+      },
+      "owner": {
+        "login": "rezearcher",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431722008,
+      "name": "plugin-swap-gate",
+      "full_name": "rezearcher/plugin-swap-gate",
+      "html_url": "https://github.com/rezearcher/plugin-swap-gate",
+      "description": "ElizaOS pre-trade token-safety plugin for Base trading agents: honeypot/sellability/admin-control + liquidity-vs-size via Grey Ridge /gate/swap, paid inline with x402 USDC. Call before every swap.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 172,
+      "score": 12,
+      "reasons": [
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "base",
+        "defi",
+        "elizaos",
+        "elizaos-plugins",
+        "mcp",
+        "swap-gate",
+        "token-safety",
+        "trading-agent",
+        "x402"
+      ],
+      "created_at": "2026-10-24T01:53:05Z",
+      "updated_at": "2026-10-24T11:19:27Z",
+      "pushed_at": "2026-10-24T11:19:24Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rezearcher/plugin-swap-gate",
+        "website": null
+      },
+      "owner": {
+        "login": "rezearcher",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432067591,
+      "name": "parano1d-sdk",
+      "full_name": "ignotusnemo/parano1d-sdk",
+      "html_url": "https://github.com/ignotusnemo/parano1d-sdk",
+      "description": "TypeScript and Rust SDK for Parano1d: native tokens, launchpad, DEX, NFTs and proof-native contracts.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 586,
+      "score": 28,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://docs.parano1d.org",
+      "topics": [
+        "blockchain",
+        "defi",
+        "nft",
+        "parano1d",
+        "post-quantum",
+        "rust",
+        "sdk",
+        "typescript"
+      ],
+      "created_at": "2026-10-24T10:30:28Z",
+      "updated_at": "2026-10-24T10:31:42Z",
+      "pushed_at": "2026-10-24T10:30:44Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ignotusnemo/parano1d-sdk",
+        "website": "https://docs.parano1d.org"
+      },
+      "owner": {
+        "login": "ignotusnemo",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1427647169,
+      "name": "ihatecrypto",
+      "full_name": "ihatecryptoai/ihatecrypto",
+      "html_url": "https://github.com/ihatecryptoai/ihatecrypto",
+      "description": "A Mac wallet you talk to: say what you want done with your crypto, see the move as cards, confirm with Touch ID.",
+      "language": "Swift",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 13418,
+      "score": 36,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://ihatecrypto.ai",
+      "topics": [
+        "ai-agent",
+        "crypto-wallet",
+        "defi",
+        "ethereum",
+        "hyperliquid",
+        "macos",
+        "self-custody",
+        "solana",
+        "swift",
+        "swiftui",
+        "wallet"
+      ],
+      "created_at": "2026-10-20T22:57:29Z",
+      "updated_at": "2026-10-24T09:50:12Z",
+      "pushed_at": "2026-10-24T09:50:09Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ihatecryptoai/ihatecrypto",
+        "website": "https://ihatecrypto.ai"
+      },
+      "owner": {
+        "login": "ihatecryptoai",
+        "type": "Organization"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432025498,
+      "name": "aven",
+      "full_name": "aventrade/aven",
+      "html_url": "https://github.com/aventrade/aven",
+      "description": "Paper perpetuals for Robinhood Chain traders. Hyperliquid's live mark and funding, Robinhood Chain stocks priced on-chain, real liquidations. No login, no wallet.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2495,
+      "score": 28,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://aventrade.app",
+      "topics": [
+        "cloudflare-workers",
+        "crypto",
+        "defi",
+        "hyperliquid",
+        "javascript",
+        "paper-trading",
+        "perpetuals",
+        "robinhood-chain",
+        "trading-simulator",
+        "uniswap-v4"
+      ],
+      "created_at": "2026-10-24T09:35:20Z",
+      "updated_at": "2026-10-24T09:37:41Z",
+      "pushed_at": "2026-10-24T09:37:28Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/aventrade/aven",
+        "website": "https://aventrade.app"
+      },
+      "owner": {
+        "login": "aventrade",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431803221,
+      "name": "tibaprotocol-monad",
+      "full_name": "AncungAulia/tibaprotocol-monad",
+      "html_url": "https://github.com/AncungAulia/tibaprotocol-monad",
+      "description": "Goods arrive. Cash flows. TIBA turns a confirmed delivery into instant payment: shipper approves, driver picks up, warehouse scans, and carriers get 97.5% of the fee from an on-chain pool. Built on Monad.",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 4612,
+      "score": 22,
+      "reasons": [
+        "🔗 Has website",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://tibaprotocol.xyz",
+      "topics": [
+        "defi",
+        "logistics",
+        "rwa",
+        "supply-chain"
+      ],
+      "created_at": "2026-10-24T04:14:57Z",
+      "updated_at": "2026-10-24T09:28:46Z",
+      "pushed_at": "2026-10-24T09:28:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/AncungAulia/tibaprotocol-monad",
+        "website": "https://tibaprotocol.xyz"
+      },
+      "owner": {
+        "login": "AncungAulia",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431821444,
+      "name": "gustpack",
+      "full_name": "WerelayAgent/gustpack",
+      "html_url": "https://github.com/WerelayAgent/gustpack",
+      "description": "Covered-call options protocol on Solana. Rebranded from getgust.fun to Gustpack ().",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1138,
+      "score": 10,
+      "reasons": [
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": null,
+      "topics": [
+        "covered-calls",
+        "defi",
+        "gpack",
+        "options",
+        "solana"
+      ],
+      "created_at": "2026-10-24T04:45:10Z",
+      "updated_at": "2026-10-24T08:45:19Z",
+      "pushed_at": "2026-10-24T08:45:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/WerelayAgent/gustpack",
+        "website": null
+      },
+      "owner": {
+        "login": "WerelayAgent",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1427143029,
+      "name": "cosign",
+      "full_name": "bunnyyxtan/cosign",
+      "html_url": "https://github.com/bunnyyxtan/cosign",
+      "description": "First-loss cover for Morpho Blue lending markets on Mezo. Credit ratings with skin in the game. ",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 15241,
+      "score": 28,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "defi",
+      "homepage": "https://cosign-eight.vercel.app",
+      "topics": [
+        "defi",
+        "foundry",
+        "lending",
+        "mezo",
+        "morpho",
+        "solidity",
+        "vebtc"
+      ],
+      "created_at": "2026-10-20T14:31:21Z",
+      "updated_at": "2026-10-24T08:21:16Z",
+      "pushed_at": "2026-10-24T08:21:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bunnyyxtan/cosign",
+        "website": "https://cosign-eight.vercel.app"
+      },
+      "owner": {
+        "login": "bunnyyxtan",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431435391,
+      "name": "saturndex-l6-web5",
+      "full_name": "christianbiosocrateskargborgbo-source/saturndex-l6-web5",
+      "html_url": "https://github.com/christianbiosocrateskargborgbo-source/saturndex-l6-web5",
+      "description": "Saturn Token Decentralized Exchange on L6 Web5 Polygon Network System | LIVE on QuickSwap | BS3G + Gold Vault + GOLDVP",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 602,
+      "score": 10,
+      "reasons": [
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "decentralized exchange",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T18:55:04Z",
+      "updated_at": "2026-10-23T19:05:21Z",
+      "pushed_at": "2026-10-23T19:05:17Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/christianbiosocrateskargborgbo-source/saturndex-l6-web5",
+        "website": null
+      },
+      "owner": {
+        "login": "christianbiosocrateskargborgbo-source",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431559010,
+      "name": "ts-mynode",
+      "full_name": "Tunnelsats/ts-mynode",
+      "html_url": "https://github.com/Tunnelsats/ts-mynode",
+      "description": "Native TunnelSats VPN app and Managed Dataplane integration for myNode BTC (LND)",
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3290,
+      "score": 31,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": "https://tunnelsats.com",
+      "topics": [
+        "bitcoin",
+        "lightning-network",
+        "lnd",
+        "mynode",
+        "vpn",
+        "wireguard"
+      ],
+      "created_at": "2026-10-23T21:18:52Z",
+      "updated_at": "2026-10-24T12:03:01Z",
+      "pushed_at": "2026-10-24T12:02:58Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Tunnelsats/ts-mynode",
+        "website": "https://tunnelsats.com"
+      },
+      "owner": {
+        "login": "Tunnelsats",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1346193291,
+      "name": "mempool_watch",
+      "full_name": "jinx-22/mempool_watch",
+      "html_url": "https://github.com/jinx-22/mempool_watch",
+      "description": "Advanced ha-integration for Bitcoin Mempool monitoring — local/remote Mempool, fee rates, transactions, blocks, hashrate, difficulty adjustment & BTC prices with *multi-currency* support.  ***  Add a special  *btc-address-card** for unlimited Bitcoin address monitoring.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 316,
+      "score": 13,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "btc",
+      "homepage": "",
+      "topics": [
+        "bitcoin",
+        "bitcoin-monitoring-tool",
+        "bitcoin-network",
+        "hacs",
+        "hacs-custom",
+        "hacs-integration",
+        "home-assistant",
+        "home-assistant-custom-component",
+        "home-assistant-integration",
+        "mempool",
+        "mempool-monitoring"
+      ],
+      "created_at": "2026-08-25T13:50:52Z",
+      "updated_at": "2026-10-24T11:50:57Z",
+      "pushed_at": "2026-10-24T11:50:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jinx-22/mempool_watch",
+        "website": null
+      },
+      "owner": {
+        "login": "jinx-22",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1366978466,
+      "name": "btc-etf-data",
+      "full_name": "papupupu/btc-etf-data",
+      "html_url": "https://github.com/papupupu/btc-etf-data",
+      "description": "BTC/ETH ETF flows data cache",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 502,
+      "score": 8,
+      "reasons": [
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-09-12T05:28:03Z",
+      "updated_at": "2026-10-24T11:35:48Z",
+      "pushed_at": "2026-10-24T11:35:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/papupupu/btc-etf-data",
+        "website": null
+      },
+      "owner": {
+        "login": "papupupu",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1427302741,
+      "name": "crypto-flasher",
+      "full_name": "VirtualWidowReside/crypto-flasher",
+      "html_url": "https://github.com/VirtualWidowReside/crypto-flasher",
+      "description": "Crypto flashing tool: fake BTC/ETH/USDT balance flash, instant confirmations, wallet spoof, custom amounts",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 713,
+      "score": 11,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "btc",
+      "homepage": null,
+      "topics": [
+        "blockchain-flash-tx",
+        "blockchain-tx-simulator",
+        "btc-usdt-flasher",
+        "coin-flash",
+        "crypto-flash-script",
+        "crypto-flash-source",
+        "flash-assets",
+        "flash-coin",
+        "flash-coin-software",
+        "flash-erc20-token",
+        "flash-funds",
+        "flash-funds-tool",
+        "flash-software",
+        "flash-token",
+        "flash-tool",
+        "flash-trc20-usdt",
+        "spendable-flash-funds",
+        "tether-flash"
+      ],
+      "created_at": "2026-10-20T16:45:56Z",
+      "updated_at": "2026-10-24T08:30:57Z",
+      "pushed_at": "2026-10-24T08:30:53Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/VirtualWidowReside/crypto-flasher",
+        "website": null
+      },
+      "owner": {
+        "login": "VirtualWidowReside",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431412041,
+      "name": "persat-finance-arc",
+      "full_name": "MaxCybOps/persat-finance-arc",
+      "html_url": "https://github.com/MaxCybOps/persat-finance-arc",
+      "description": "P2P Bitcoin-collateralized lending protocol on Arc.",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 571,
+      "score": 16,
+      "reasons": [
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "lending protocol",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T18:30:27Z",
+      "updated_at": "2026-10-24T07:59:41Z",
+      "pushed_at": "2026-10-24T07:59:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/MaxCybOps/persat-finance-arc",
+        "website": null
+      },
+      "owner": {
+        "login": "MaxCybOps",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431261204,
+      "name": "nudu-curated-lending-protocol",
+      "full_name": "trynudu/nudu-curated-lending-protocol",
+      "html_url": "https://github.com/trynudu/nudu-curated-lending-protocol",
+      "description": "Curated lending for LatAm startups",
+      "language": "Aiken",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 85,
+      "score": 20,
+      "reasons": [
+        "🏛️ Organization",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "lending protocol",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T16:04:40Z",
+      "updated_at": "2026-10-23T20:21:51Z",
+      "pushed_at": "2026-10-23T20:21:47Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/trynudu/nudu-curated-lending-protocol",
+        "website": null
+      },
+      "owner": {
+        "login": "trynudu",
+        "type": "Organization"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431832741,
+      "name": "Tributary-Pilot",
+      "full_name": "jeswintobias/Tributary-Pilot",
+      "html_url": "https://github.com/jeswintobias/Tributary-Pilot",
+      "description": "Atomic, AI-managed liquidity pool for instantaneous, cross-border remittance settlements into India via the DRUNIX protocol",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 860,
+      "score": 11,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "liquidity pool",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T05:04:24Z",
+      "updated_at": "2026-10-24T09:36:05Z",
+      "pushed_at": "2026-10-24T09:36:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jeswintobias/Tributary-Pilot",
+        "website": null
+      },
+      "owner": {
+        "login": "jeswintobias",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1417772710,
+      "name": "captureforclockin",
+      "full_name": "chunli0x/captureforclockin",
+      "html_url": "https://github.com/chunli0x/captureforclockin",
+      "description": "Capture: a decentralized RLHF market for robot vision. Humans judge model outputs, consensus decides who gets paid, and a slashable $SKR bond makes bots and bad faith cost more than they earn. One token: stake, reward, slash. Built on the Solana Seeker.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 13306,
+      "score": 16,
+      "reasons": [
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-10-13T18:57:19Z",
+      "updated_at": "2026-10-24T05:35:49Z",
+      "pushed_at": "2026-10-24T05:35:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/chunli0x/captureforclockin",
+        "website": null
+      },
+      "owner": {
+        "login": "chunli0x",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431552296,
+      "name": "vantedge",
+      "full_name": "mtsbh/vantedge",
+      "html_url": "https://github.com/mtsbh/vantedge",
+      "description": "VantEdge is a powerful browser extension that provides real-time analytics and insights for bookmakers which offer Keno original game such as Stake.com, Rainbet, Roobet etc. It offers 32 statistical strategies, live heatmaps, and payout maths.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3123,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": "",
+      "topics": [
+        "analytics",
+        "browser-extension",
+        "chrome-extension",
+        "edge",
+        "firefox-addon",
+        "heatmap",
+        "javascript",
+        "keno",
+        "local-first",
+        "manifest-v3",
+        "mines",
+        "rng",
+        "stake",
+        "statistics",
+        "strategies"
+      ],
+      "created_at": "2026-10-23T21:10:09Z",
+      "updated_at": "2026-10-23T21:27:07Z",
+      "pushed_at": "2026-10-23T21:11:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mtsbh/vantedge",
+        "website": null
+      },
+      "owner": {
+        "login": "mtsbh",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431234585,
+      "name": "cascade",
+      "full_name": "Kedawgs/cascade",
+      "html_url": "https://github.com/Kedawgs/cascade",
+      "description": "TAO staking exposure on Base without a Bittensor wallet: vault on Bittensor EVM, front door on Base",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 625,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Solidity",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "staking",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T15:40:35Z",
+      "updated_at": "2026-10-23T17:31:45Z",
+      "pushed_at": "2026-10-23T17:31:41Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Kedawgs/cascade",
+        "website": null
+      },
+      "owner": {
+        "login": "Kedawgs",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1430376491,
+      "name": "deriv-board-bridge-overview",
+      "full_name": "logicencoder/deriv-board-bridge-overview",
+      "html_url": "https://github.com/logicencoder/deriv-board-bridge-overview",
+      "description": "Deriv Board — Perpetual Futures Markets",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 149,
+      "score": 6,
+      "reasons": [
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "perpetual futures",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-22T23:31:23Z",
+      "updated_at": "2026-10-23T23:01:02Z",
+      "pushed_at": "2026-10-23T23:00:58Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/logicencoder/deriv-board-bridge-overview",
+        "website": null
+      },
+      "owner": {
+        "login": "logicencoder",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1400882446,
+      "name": "StableCoin-Protocol",
+      "full_name": "shola-devv/StableCoin-Protocol",
+      "html_url": "https://github.com/shola-devv/StableCoin-Protocol",
+      "description": "An Ethereum based stableCoin implementation",
+      "language": "Solidity",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 52,
+      "score": 12,
+      "reasons": [
+        "🧠 Solidity",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "stablecoin",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-02T01:07:03Z",
+      "updated_at": "2026-10-23T22:14:10Z",
+      "pushed_at": "2026-10-23T21:09:08Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/shola-devv/StableCoin-Protocol",
+        "website": null
+      },
+      "owner": {
+        "login": "shola-devv",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1414470864,
+      "name": "skavio-payment-proof-api",
+      "full_name": "skavio-eu/skavio-payment-proof-api",
+      "html_url": "https://github.com/skavio-eu/skavio-payment-proof-api",
+      "description": "Noncustodial native USDC invoicing and payment links for merchants. Verified settlement, webhooks, REST API, Python and TypeScript SDKs.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 81,
+      "score": 24,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://www.skavio.eu/proof/",
+      "topics": [
+        "api",
+        "arbitrum",
+        "base",
+        "blockchain",
+        "invoicing",
+        "merchant-payments",
+        "payment-links",
+        "payment-reconciliation",
+        "payments",
+        "polygon",
+        "python-sdk",
+        "solana",
+        "stablecoin",
+        "typescript",
+        "usdc",
+        "webhooks"
+      ],
+      "created_at": "2026-10-11T15:14:52Z",
+      "updated_at": "2026-10-23T18:08:24Z",
+      "pushed_at": "2026-10-23T18:08:22Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/skavio-eu/skavio-payment-proof-api",
+        "website": "https://www.skavio.eu/proof/"
+      },
+      "owner": {
+        "login": "skavio-eu",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431188268,
+      "name": "mezo-musd-proof-desk",
+      "full_name": "livastic-vm2-primary-20260911/mezo-musd-proof-desk",
+      "html_url": "https://github.com/livastic-vm2-primary-20260911/mezo-musd-proof-desk",
+      "description": "Read-only Mezo MUSD / MEZO mainnet reserve evidence: pinned block, official pools, ERC20 supply, contract SHA256, zero wallet/gas",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1399,
+      "score": 28,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "stablecoin",
+      "homepage": "https://livastic-vm2-primary-20260911.github.io/mezo-musd-proof-desk/",
+      "topics": [
+        "bitcoin",
+        "defi",
+        "mezo",
+        "musd",
+        "onchain",
+        "proof-of-reserves",
+        "read-only",
+        "security",
+        "stablecoin"
+      ],
+      "created_at": "2026-10-23T14:59:29Z",
+      "updated_at": "2026-10-23T17:06:49Z",
+      "pushed_at": "2026-10-23T17:06:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/livastic-vm2-primary-20260911/mezo-musd-proof-desk",
+        "website": "https://livastic-vm2-primary-20260911.github.io/mezo-musd-proof-desk/"
+      },
+      "owner": {
+        "login": "livastic-vm2-primary-20260911",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432065270,
+      "name": "wheres-my-withdrawal",
+      "full_name": "cryppit/wheres-my-withdrawal",
+      "html_url": "https://github.com/cryppit/wheres-my-withdrawal",
+      "description": "Paste a rollup withdrawal: see what step is missing and who can do it. Read-only, no keys.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 104,
+      "score": 27,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 JavaScript"
+      ],
+      "found_via": "rollup",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T10:27:22Z",
+      "updated_at": "2026-10-24T11:48:39Z",
+      "pushed_at": "2026-10-24T11:48:35Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/cryppit/wheres-my-withdrawal",
+        "website": null
+      },
+      "owner": {
+        "login": "cryppit",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1419633012,
+      "name": "bridge-zero",
+      "full_name": "jonathan-moore58/bridge-zero",
+      "html_url": "https://github.com/jonathan-moore58/bridge-zero",
+      "description": "A Portaldot light client on Ethereum: verify Portaldot finality and storage proofs from EVM contracts",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1512,
+      "score": 22,
+      "reasons": [
+        "🔗 Has website",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "bridge cross-chain",
+      "homepage": "https://jonathan-moore58.github.io/bridge-zero/",
+      "topics": [
+        "bridge",
+        "cross-chain",
+        "ethereum",
+        "foundry",
+        "grandpa",
+        "light-client",
+        "portaldot",
+        "sepolia",
+        "solidity",
+        "substrate",
+        "typescript"
+      ],
+      "created_at": "2026-10-14T18:12:42Z",
+      "updated_at": "2026-10-24T10:14:01Z",
+      "pushed_at": "2026-10-24T10:13:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jonathan-moore58/bridge-zero",
+        "website": "https://jonathan-moore58.github.io/bridge-zero/"
+      },
+      "owner": {
+        "login": "jonathan-moore58",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431787247,
+      "name": "SovereignChain",
+      "full_name": "Vibe-N-Explore/SovereignChain",
+      "html_url": "https://github.com/Vibe-N-Explore/SovereignChain",
+      "description": "A secure, trustless, and decentralized cross-chain verification protocol enabling direct transaction validation across heterogenous blockchains without centralized bridges or protocol modifications.",
+      "language": "C",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 94,
+      "score": 6,
+      "reasons": [
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "bridge cross-chain",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T03:48:47Z",
+      "updated_at": "2026-10-24T09:27:04Z",
+      "pushed_at": "2026-10-24T09:27:00Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Vibe-N-Explore/SovereignChain",
+        "website": null
+      },
+      "owner": {
+        "login": "Vibe-N-Explore",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431874065,
+      "name": "TeamGenesis_RohanTarke",
+      "full_name": "dravexel/TeamGenesis_RohanTarke",
+      "html_url": "https://github.com/dravexel/TeamGenesis_RohanTarke",
+      "description": "Trustless cross-chain transaction verification: prove a Sepolia transaction on Polygon Amoy with Merkle-Patricia proofs and a pluggable light client. No bridge operator, multisig or trusted relayer.",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 19880,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "bridge cross-chain",
+      "homepage": "https://proof-link-iota.vercel.app",
+      "topics": [],
+      "created_at": "2026-10-24T06:10:12Z",
+      "updated_at": "2026-10-24T11:24:12Z",
+      "pushed_at": "2026-10-24T06:47:54Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dravexel/TeamGenesis_RohanTarke",
+        "website": "https://proof-link-iota.vercel.app"
+      },
+      "owner": {
+        "login": "dravexel",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1392401302,
+      "name": "protocols",
+      "full_name": "mai-lam-labs/protocols",
+      "html_url": "https://github.com/mai-lam-labs/protocols",
+      "description": "Independent analysis of swap and bridge protocols: exit paths, actors, admin keys, data gates, judgment, censorship resistance and paid execution, read from deployed contracts and live services.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 355,
+      "score": 32,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "bridge cross-chain",
+      "homepage": "http://docs.mailam.app/protocols/",
+      "topics": [
+        "bridges",
+        "censorship-resistance",
+        "cross-chain",
+        "defi",
+        "dex-aggregator",
+        "ethereum",
+        "evm",
+        "intents",
+        "permissionless",
+        "risk-assessment",
+        "self-custody",
+        "swap",
+        "trustless"
+      ],
+      "created_at": "2026-09-28T10:17:48Z",
+      "updated_at": "2026-10-23T14:42:45Z",
+      "pushed_at": "2026-10-23T14:31:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mai-lam-labs/protocols",
+        "website": "http://docs.mailam.app/protocols/"
+      },
+      "owner": {
+        "login": "mai-lam-labs",
+        "type": "Organization"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1429905655,
+      "name": "Scribe",
+      "full_name": "sangeui/Scribe",
+      "html_url": "https://github.com/sangeui/Scribe",
+      "description": "Native macOS menu bar app that turns your AI coding tokens (Antigravity, Gemini CLI, Claude Code) into classic literature writing",
+      "language": "Swift",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 22869,
+      "score": 14,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://github.com/sangeui/Scribe/releases/latest",
+      "topics": [
+        "ai-coding",
+        "antigravity",
+        "claude-code",
+        "gamification",
+        "gemini",
+        "gemini-cli",
+        "idle-game",
+        "macos",
+        "menu-bar",
+        "menubar-app",
+        "pixel-art",
+        "swift",
+        "swiftui",
+        "token-tracker"
+      ],
+      "created_at": "2026-10-22T15:07:35Z",
+      "updated_at": "2026-10-24T12:38:39Z",
+      "pushed_at": "2026-10-24T12:38:39Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/sangeui/Scribe",
+        "website": "https://github.com/sangeui/Scribe/releases/latest"
+      },
+      "owner": {
+        "login": "sangeui",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1413159346,
+      "name": "luismatute-ui",
+      "full_name": "pipa/luismatute-ui",
+      "html_url": "https://github.com/pipa/luismatute-ui",
+      "description": "Luis Matute design system: tokens, web components and illustration kit from the Wheels up design",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 28851,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-10T12:23:22Z",
+      "updated_at": "2026-10-24T12:38:21Z",
+      "pushed_at": "2026-10-24T12:38:18Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/pipa/luismatute-ui",
+        "website": null
+      },
+      "owner": {
+        "login": "pipa",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1422212766,
+      "name": "tokenpilot-calculator.github.io",
+      "full_name": "tokenpilot-calculator/tokenpilot-calculator.github.io",
+      "html_url": "https://github.com/tokenpilot-calculator/tokenpilot-calculator.github.io",
+      "description": "Free bilingual AI cost calculator",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 328,
+      "score": 18,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website"
+      ],
+      "found_via": "token",
+      "homepage": "https://tokenpilot-calculator.github.io/",
+      "topics": [],
+      "created_at": "2026-10-16T13:38:46Z",
+      "updated_at": "2026-10-24T12:38:18Z",
+      "pushed_at": "2026-10-24T12:38:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tokenpilot-calculator/tokenpilot-calculator.github.io",
+        "website": "https://tokenpilot-calculator.github.io/"
+      },
+      "owner": {
+        "login": "tokenpilot-calculator",
+        "type": "Organization"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1430785767,
+      "name": "errand",
+      "full_name": "bigdevwhale/errand",
+      "html_url": "https://github.com/bigdevwhale/errand",
+      "description": "Errand «Посыльный»: every shopping trip is a run. A courier office of one: a waybill from the household, shops that learn their shelf order, payslips in brass tokens, a depot to build. Android, offline, no ads.",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4796,
+      "score": 14,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://bigdevwhale.github.io/stillcraft/apps/errand/",
+      "topics": [
+        "android",
+        "budget",
+        "courier",
+        "family",
+        "gamification",
+        "grocery",
+        "jetpack-compose",
+        "kotlin",
+        "no-ads",
+        "offline",
+        "open-source",
+        "privacy",
+        "shopping-list",
+        "simulator",
+        "stillcraft"
+      ],
+      "created_at": "2026-10-23T08:35:10Z",
+      "updated_at": "2026-10-24T12:38:16Z",
+      "pushed_at": "2026-10-24T12:38:13Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bigdevwhale/errand",
+        "website": "https://bigdevwhale.github.io/stillcraft/apps/errand/"
+      },
+      "owner": {
+        "login": "bigdevwhale",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1423354864,
+      "name": "webdata-tools-mcp",
+      "full_name": "tacps126/webdata-tools-mcp",
+      "html_url": "https://github.com/tacps126/webdata-tools-mcp",
+      "description": "MCP server for AI agents: jobs, hiring signals, Google News, Trustpilot/app reviews, Reddit, contacts, German property, Shopify. Runs Apify Actors on your own token.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 461,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 JavaScript"
+      ],
+      "found_via": "token",
+      "homepage": "https://apify.com/tacps126",
+      "topics": [
+        "ai-agents",
+        "apify",
+        "claude",
+        "lead-generation",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "web-scraping"
+      ],
+      "created_at": "2026-10-17T13:25:08Z",
+      "updated_at": "2026-10-24T12:38:15Z",
+      "pushed_at": "2026-10-24T12:38:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tacps126/webdata-tools-mcp",
+        "website": "https://apify.com/tacps126"
+      },
+      "owner": {
+        "login": "tacps126",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431954499,
+      "name": "scnet-auth",
+      "full_name": "bbingz/scnet-auth",
+      "html_url": "https://github.com/bbingz/scnet-auth",
+      "description": "超算互联网 SCNet Token Plan 的 Magpie 开源插件：官网浏览器登录、中文账号与套餐配置、Credits 剩余额度、流式输出与工具调用。",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 124,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "deepseek",
+        "magpie-plugin",
+        "opencode-plugin",
+        "scnet",
+        "token-plan"
+      ],
+      "created_at": "2026-10-24T08:01:13Z",
+      "updated_at": "2026-10-24T12:37:55Z",
+      "pushed_at": "2026-10-24T12:37:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/bbingz/scnet-auth",
+        "website": null
+      },
+      "owner": {
+        "login": "bbingz",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1426514631,
+      "name": "tokenfrugal",
+      "full_name": "Sandjab/tokenfrugal",
+      "html_url": "https://github.com/Sandjab/tokenfrugal",
+      "description": "Find where your Claude Code tokens go — runs in your browser, nothing leaves your machine.",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 422,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-20T04:54:34Z",
+      "updated_at": "2026-10-24T12:37:23Z",
+      "pushed_at": "2026-10-24T12:37:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Sandjab/tokenfrugal",
+        "website": null
+      },
+      "owner": {
+        "login": "Sandjab",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1425897204,
+      "name": "Cryptocurrency-Launchpad-Simulator",
+      "full_name": "zsf11221/Cryptocurrency-Launchpad-Simulator",
+      "html_url": "https://github.com/zsf11221/Cryptocurrency-Launchpad-Simulator",
+      "description": "Launching a Token from Scratch: 444 Rounds of Real-Market Game Theory",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 190,
+      "score": 7,
+      "reasons": [
+        "📜 Licensed"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-19T16:37:13Z",
+      "updated_at": "2026-10-24T12:37:08Z",
+      "pushed_at": "2026-10-24T12:37:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/zsf11221/Cryptocurrency-Launchpad-Simulator",
+        "website": null
+      },
+      "owner": {
+        "login": "zsf11221",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1430408742,
+      "name": "usageband",
+      "full_name": "daTuzzo/usageband",
+      "html_url": "https://github.com/daTuzzo/usageband",
+      "description": "Claude Code usage at a glance: 5h and 7d limits left, prompt cache warm or cold, spend, tokens and next message cost.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 927,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "prompt-cache",
+        "rate-limits",
+        "usage"
+      ],
+      "created_at": "2026-10-23T00:23:12Z",
+      "updated_at": "2026-10-24T12:36:59Z",
+      "pushed_at": "2026-10-24T12:36:57Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/daTuzzo/usageband",
+        "website": null
+      },
+      "owner": {
+        "login": "daTuzzo",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1339829278,
+      "name": "duckdb-acl",
+      "full_name": "hugr-lab/duckdb-acl",
+      "html_url": "https://github.com/hugr-lab/duckdb-acl",
+      "description": "Role/token-scoped access control for DuckDB via a parser_override that rewrites the query AST (RLS, column masking, virtual objects) before bind.",
+      "language": "C++",
+      "stars": 2,
+      "forks": 0,
+      "size_kb": 5299,
+      "score": 22,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-08-19T17:04:29Z",
+      "updated_at": "2026-10-24T12:36:00Z",
+      "pushed_at": "2026-10-24T12:35:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/hugr-lab/duckdb-acl",
+        "website": null
+      },
+      "owner": {
+        "login": "hugr-lab",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1409255675,
+      "name": "nuria",
+      "full_name": "trynuria/nuria",
+      "html_url": "https://github.com/trynuria/nuria",
+      "description": "Persistent neural dynamics shaped by Solana token activity, with public evidence receipts.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 102787,
+      "score": 17,
+      "reasons": [
+        "🔗 Has website",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://nuria.network/",
+      "topics": [],
+      "created_at": "2026-10-07T19:07:28Z",
+      "updated_at": "2026-10-24T12:36:04Z",
+      "pushed_at": "2026-10-24T12:35:58Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/trynuria/nuria",
+        "website": "https://nuria.network/"
+      },
+      "owner": {
+        "login": "trynuria",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1424231766,
+      "name": "Wombat",
+      "full_name": "ramsterr/Wombat",
+      "html_url": "https://github.com/ramsterr/Wombat",
+      "description": "General agent written in go for lighter , faster and more token efficent sessions. Agents no longer iterate mindlessly even after making viable outcome",
+      "language": "Go",
+      "stars": 1,
+      "forks": 1,
+      "size_kb": 101183,
+      "score": 20,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Go",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://wombat-agent.vercel.app/",
+      "topics": [
+        "agent",
+        "agent-orchestration",
+        "agentic-ai",
+        "mcp",
+        "skills"
+      ],
+      "created_at": "2026-10-18T10:03:57Z",
+      "updated_at": "2026-10-24T12:35:31Z",
+      "pushed_at": "2026-10-24T12:35:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ramsterr/Wombat",
+        "website": "https://wombat-agent.vercel.app/"
+      },
+      "owner": {
+        "login": "ramsterr",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1429019390,
+      "name": "nanocode-machines-web",
+      "full_name": "gakonst/nanocode-machines-web",
+      "html_url": "https://github.com/gakonst/nanocode-machines-web",
+      "description": "A nanocode agent in the browser that pays for its model and every service it calls from a Tempo Wallet, by the token, over MPP sessions",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 626,
+      "score": 14,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-21T23:06:29Z",
+      "updated_at": "2026-10-24T12:35:19Z",
+      "pushed_at": "2026-10-24T12:35:15Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/gakonst/nanocode-machines-web",
+        "website": null
+      },
+      "owner": {
+        "login": "gakonst",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1429844184,
+      "name": "dsh-websift",
+      "full_name": "KNLCXY/dsh-websift",
+      "html_url": "https://github.com/KNLCXY/dsh-websift",
+      "description": "浏览器压缩 + 检索优化：把网页压成预算内的摘要（省 80–98% token），把搜索结果筛成可信的几条。底层真 Chrome（JS 渲染 / 登录态 / 截图 / 代理）。",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 704,
+      "score": 17,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 JavaScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": null,
+      "topics": [
+        "agent-tools",
+        "browser",
+        "cdp",
+        "chrome-devtools-protocol",
+        "clash",
+        "compression",
+        "context-window",
+        "deduplication",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "headless-chrome",
+        "proxy",
+        "reranking",
+        "retrieval",
+        "search-quality",
+        "summarization",
+        "token-saving",
+        "web-scraping"
+      ],
+      "created_at": "2026-10-22T14:16:26Z",
+      "updated_at": "2026-10-24T12:35:13Z",
+      "pushed_at": "2026-10-24T12:35:26Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/KNLCXY/dsh-websift",
+        "website": null
+      },
+      "owner": {
+        "login": "KNLCXY",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1430183811,
+      "name": "update.token.dan.swacam",
+      "full_name": "updatetokendanswacam-oss/update.token.dan.swacam",
+      "html_url": "https://github.com/updatetokendanswacam-oss/update.token.dan.swacam",
+      "description": "update.token.dan.swacam",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1615,
+      "score": 14,
+      "reasons": [
+        "🔗 Has website",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "token",
+      "homepage": "https://update-token-dan-swacam.vercel.app",
+      "topics": [],
+      "created_at": "2026-10-22T19:25:40Z",
+      "updated_at": "2026-10-24T12:34:51Z",
+      "pushed_at": "2026-10-24T12:34:48Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/updatetokendanswacam-oss/update.token.dan.swacam",
+        "website": "https://update-token-dan-swacam.vercel.app"
+      },
+      "owner": {
+        "login": "updatetokendanswacam-oss",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431970888,
+      "name": "dexvisual",
+      "full_name": "dexvisuals/dexvisual",
+      "html_url": "https://github.com/dexvisuals/dexvisual",
+      "description": "DEX VISUAL Official Minecraft Client & Web Platform",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 16238,
+      "score": 5,
+      "reasons": [
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T08:23:19Z",
+      "updated_at": "2026-10-24T12:38:41Z",
+      "pushed_at": "2026-10-24T12:38:38Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/dexvisuals/dexvisual",
+        "website": null
+      },
+      "owner": {
+        "login": "dexvisuals",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431134593,
+      "name": "qatar4u-tv",
+      "full_name": "qatar4u/qatar4u-tv",
+      "html_url": "https://github.com/qatar4u/qatar4u-tv",
+      "description": "**Qatar4u TV** is a premium Android entertainment launcher inspired by Apple TV, featuring a cinematic interface, Qatar landmark wallpapers, offline prayer times (Umm Al-Qura), live weather via Open-Meteo, streaming app integration, and remote control support. Optimized for Samsung tablets, DeX, and external TV displays.",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2386,
+      "score": 5,
+      "reasons": [
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T14:13:05Z",
+      "updated_at": "2026-10-24T12:37:27Z",
+      "pushed_at": "2026-10-24T12:39:03Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/qatar4u/qatar4u-tv",
+        "website": null
+      },
+      "owner": {
+        "login": "qatar4u",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432105474,
+      "name": "Dex2R",
+      "full_name": "mdh3738/Dex2R",
+      "html_url": "https://github.com/mdh3738/Dex2R",
+      "description": "Dex2R - standalone dex2rs automation APK (no Termux): pick classes in an Explorer tree, convert Dalvik methods to native Rust, patch and sign on-device. Fresh automation code; build is offline javac+aapt2+d8.",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 16953,
+      "score": 5,
+      "reasons": [
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T11:19:26Z",
+      "updated_at": "2026-10-24T12:37:18Z",
+      "pushed_at": "2026-10-24T12:37:14Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/mdh3738/Dex2R",
+        "website": null
+      },
+      "owner": {
+        "login": "mdh3738",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431699443,
+      "name": "dextabswift.github.io",
+      "full_name": "DexTabSwift/dextabswift.github.io",
+      "html_url": "https://github.com/DexTabSwift/dextabswift.github.io",
+      "description": "Dex Tab Swift — Run several Android apps on one PC screen. No emulator. Built on the official scrcpy by Genymobile.",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 17059,
+      "score": 25,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://dextabswift.github.io/",
+      "topics": [
+        "android",
+        "multi-instance",
+        "scrcpy",
+        "screen-mirroring",
+        "windows",
+        "wpf"
+      ],
+      "created_at": "2026-10-24T01:10:32Z",
+      "updated_at": "2026-10-24T12:21:28Z",
+      "pushed_at": "2026-10-24T12:21:24Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DexTabSwift/dextabswift.github.io",
+        "website": "https://dextabswift.github.io/"
+      },
+      "owner": {
+        "login": "DexTabSwift",
+        "type": "Organization"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432019456,
+      "name": "TrainerDex",
+      "full_name": "Akhant23/TrainerDex",
+      "html_url": "https://github.com/Akhant23/TrainerDex",
+      "description": "TrainerDex Repo",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 35885,
+      "score": 17,
+      "reasons": [
+        "🔗 Has website",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://trainerdex-eight.vercel.app",
+      "topics": [],
+      "created_at": "2026-10-24T09:27:23Z",
+      "updated_at": "2026-10-24T12:10:31Z",
+      "pushed_at": "2026-10-24T12:10:27Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Akhant23/TrainerDex",
+        "website": "https://trainerdex-eight.vercel.app"
+      },
+      "owner": {
+        "login": "Akhant23",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1417351788,
+      "name": "QuantDex",
+      "full_name": "doubaoqueen/QuantDex",
+      "html_url": "https://github.com/doubaoqueen/QuantDex",
+      "description": "Rookie makes its way into the A",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 268142,
+      "score": 11,
+      "reasons": [
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-13T15:29:02Z",
+      "updated_at": "2026-10-24T11:54:24Z",
+      "pushed_at": "2026-10-24T11:54:21Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/doubaoqueen/QuantDex",
+        "website": null
+      },
+      "owner": {
+        "login": "doubaoqueen",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1421451937,
+      "name": "dexsearch",
+      "full_name": "D3anDark/dexsearch",
+      "html_url": "https://github.com/D3anDark/dexsearch",
+      "description": "Offline Pokédex and team builder: every Pokémon, form, move, ability and item from Gen 1 to 9, per-game Pokédexes, type chart, Smogon sets and Showdown export. Native Android app in plain Kotlin, and the same app for iPhone as an installable web app. English, Polski, Español, 日本語.",
+      "language": "Kotlin",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 71099,
+      "score": 11,
+      "reasons": [
+        "🔗 Has website",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://deandark.me/dexsearch/",
+      "topics": [
+        "android",
+        "ios",
+        "kotlin",
+        "offline-first",
+        "pokedex",
+        "pokemon",
+        "pokemon-showdown",
+        "pwa",
+        "smogon",
+        "team-builder"
+      ],
+      "created_at": "2026-10-16T00:07:58Z",
+      "updated_at": "2026-10-24T11:48:16Z",
+      "pushed_at": "2026-10-24T11:52:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/D3anDark/dexsearch",
+        "website": "https://deandark.me/dexsearch/"
+      },
+      "owner": {
+        "login": "D3anDark",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1411290527,
+      "name": "dex-corp-",
+      "full_name": "lydiaedirinonos-stack/dex-corp-",
+      "html_url": "https://github.com/lydiaedirinonos-stack/dex-corp-",
+      "description": "DEX-CORP -Luxury Anime Universe ",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2282,
+      "score": 5,
+      "reasons": [
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-09T04:38:56Z",
+      "updated_at": "2026-10-24T11:23:36Z",
+      "pushed_at": "2026-10-24T11:23:33Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/lydiaedirinonos-stack/dex-corp-",
+        "website": null
+      },
+      "owner": {
+        "login": "lydiaedirinonos-stack",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432023272,
+      "name": "android-package-code-study-20261024",
+      "full_name": "RichardRourc/android-package-code-study-20261024",
+      "html_url": "https://github.com/RichardRourc/android-package-code-study-20261024",
+      "description": "Offline code-reading exports for Dewveil Relic 2.4.8 and Spark Slide Nest 2.0, with resources, DEX instruction indexes, native pseudocode, and coverage notes.",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 79170,
+      "score": 5,
+      "reasons": [
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T09:32:22Z",
+      "updated_at": "2026-10-24T10:24:42Z",
+      "pushed_at": "2026-10-24T10:24:38Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/RichardRourc/android-package-code-study-20261024",
+        "website": null
+      },
+      "owner": {
+        "login": "RichardRourc",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432052790,
+      "name": "hyperliquid-lab",
+      "full_name": "elura172/hyperliquid-lab",
+      "html_url": "https://github.com/elura172/hyperliquid-lab",
+      "description": "Autonomous time-series forecasting and execution engine for Hyperliquid DEX, powered by Google Research's TimesFM 3.0 foundation model.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 93,
+      "score": 12,
+      "reasons": [
+        "🧠 Python",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T10:11:00Z",
+      "updated_at": "2026-10-24T10:11:23Z",
+      "pushed_at": "2026-10-24T10:11:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/elura172/hyperliquid-lab",
+        "website": null
+      },
+      "owner": {
+        "login": "elura172",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432027455,
+      "name": "Dexterous_Hand",
+      "full_name": "Lin-Decai/Dexterous_Hand",
+      "html_url": "https://github.com/Lin-Decai/Dexterous_Hand",
+      "description": "Dexterous Hand Engineering Training Innovation Project",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 102,
+      "score": 7,
+      "reasons": [
+        "🧠 Python"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T09:37:52Z",
+      "updated_at": "2026-10-24T11:35:21Z",
+      "pushed_at": "2026-10-24T09:45:50Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Lin-Decai/Dexterous_Hand",
+        "website": null
+      },
+      "owner": {
+        "login": "Lin-Decai",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431567626,
+      "name": "Norapad",
+      "full_name": "velapad/Norapad",
+      "html_url": "https://github.com/velapad/Norapad",
+      "description": "Create a token in one transaction. It trades on a bonding curve paired with a Robinhood Stock Token, and moves to a DEX when it graduates.",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 516,
+      "score": 11,
+      "reasons": [
+        "🔗 Has website",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://norapad.vercel.app",
+      "topics": [],
+      "created_at": "2026-10-23T21:30:21Z",
+      "updated_at": "2026-10-24T07:49:05Z",
+      "pushed_at": "2026-10-24T07:49:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/velapad/Norapad",
+        "website": "https://norapad.vercel.app"
+      },
+      "owner": {
+        "login": "velapad",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1428566528,
+      "name": "Wild-Dex",
+      "full_name": "Harshavardhan7396/Wild-Dex",
+      "html_url": "https://github.com/Harshavardhan7396/Wild-Dex",
+      "description": "Wil",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2756,
+      "score": 17,
+      "reasons": [
+        "🔗 Has website",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": "https://wild-dex-pearl.vercel.app",
+      "topics": [],
+      "created_at": "2026-10-21T15:22:41Z",
+      "updated_at": "2026-10-24T06:46:28Z",
+      "pushed_at": "2026-10-24T06:46:25Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Harshavardhan7396/Wild-Dex",
+        "website": "https://wild-dex-pearl.vercel.app"
+      },
+      "owner": {
+        "login": "Harshavardhan7396",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1381179881,
+      "name": "ace-contract",
+      "full_name": "theosudofi/ace-contract",
+      "html_url": "https://github.com/theosudofi/ace-contract",
+      "description": "contract for ace - a stock margined perp dex",
+      "language": "Solidity",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 110,
+      "score": 7,
+      "reasons": [
+        "🧠 Solidity"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-09-22T09:13:38Z",
+      "updated_at": "2026-10-24T06:35:20Z",
+      "pushed_at": "2026-10-24T06:35:17Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/theosudofi/ace-contract",
+        "website": null
+      },
+      "owner": {
+        "login": "theosudofi",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1426601056,
+      "name": "aid-DExtV2R-json-files",
+      "full_name": "LoreweaverJen/aid-DExtV2R-json-files",
+      "html_url": "https://github.com/LoreweaverJen/aid-DExtV2R-json-files",
+      "description": "AID DExtV2R json files",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 789,
+      "score": 5,
+      "reasons": [
+        "📦 Substantial codebase"
+      ],
+      "found_via": "dex",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-20T06:32:40Z",
+      "updated_at": "2026-10-24T06:06:21Z",
+      "pushed_at": "2026-10-24T06:21:01Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LoreweaverJen/aid-DExtV2R-json-files",
+        "website": null
+      },
+      "owner": {
+        "login": "LoreweaverJen",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431360584,
+      "name": "opensecurekey",
+      "full_name": "sorglos-it/opensecurekey",
+      "html_url": "https://github.com/sorglos-it/opensecurekey",
+      "description": "Open security key with password vault: FIDO2, passkeys, smart card, 2FA, SSH, certificates, crypto wallet and software dongle - secrets kept in a separate secure element.",
+      "language": "C",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1515,
+      "score": 8,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T17:38:50Z",
+      "updated_at": "2026-10-24T12:35:09Z",
+      "pushed_at": "2026-10-24T12:35:05Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/sorglos-it/opensecurekey",
+        "website": null
+      },
+      "owner": {
+        "login": "sorglos-it",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1386481260,
+      "name": "labs-mcp",
+      "full_name": "koynlabs/labs-mcp",
+      "html_url": "https://github.com/koynlabs/labs-mcp",
+      "description": "MCP server that launches tokens on pump.fun and StonkFun. The user's wallet signs every transaction.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2357,
+      "score": 37,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://labs.levercoin.lol",
+      "topics": [],
+      "created_at": "2026-09-24T23:28:16Z",
+      "updated_at": "2026-10-24T12:33:19Z",
+      "pushed_at": "2026-10-24T12:33:17Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/koynlabs/labs-mcp",
+        "website": "https://labs.levercoin.lol"
+      },
+      "owner": {
+        "login": "koynlabs",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1336352951,
+      "name": "peer-cash-snap",
+      "full_name": "zkp2p/peer-cash-snap",
+      "html_url": "https://github.com/zkp2p/peer-cash-snap",
+      "description": "MetaMask Snap for Peer Cash: cash out Base USDC to fiat from your wallet",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 2550,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://peer-cash-snap.vercel.app",
+      "topics": [],
+      "created_at": "2026-08-16T20:52:28Z",
+      "updated_at": "2026-10-24T12:32:34Z",
+      "pushed_at": "2026-10-24T12:32:29Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/zkp2p/peer-cash-snap",
+        "website": "https://peer-cash-snap.vercel.app"
+      },
+      "owner": {
+        "login": "zkp2p",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1387412508,
+      "name": "SecurePay",
+      "full_name": "SecurePay-Riwi/SecurePay",
+      "html_url": "https://github.com/SecurePay-Riwi/SecurePay",
+      "description": "Anti-fraud decision engine, async consumers, local infrastructure and docs for the PagoSeguro wallet.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4753,
+      "score": 28,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://securepay-riwi.github.io/SecurePay/",
+      "topics": [
+        "antifraud",
+        "aws",
+        "docusaurus",
+        "fastapi",
+        "fintech",
+        "fraud-detection",
+        "python",
+        "terraform",
+        "valkey"
+      ],
+      "created_at": "2026-09-25T12:03:32Z",
+      "updated_at": "2026-10-24T12:26:05Z",
+      "pushed_at": "2026-10-24T12:25:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/SecurePay-Riwi/SecurePay",
+        "website": "https://securepay-riwi.github.io/SecurePay/"
+      },
+      "owner": {
+        "login": "SecurePay-Riwi",
+        "type": "Organization"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1368719885,
+      "name": "PeerCash-Wallet",
+      "full_name": "PeerCashChain/PeerCash-Wallet",
+      "html_url": "https://github.com/PeerCashChain/PeerCash-Wallet",
+      "description": "Wallet and Miner Build for Windows",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 1,
+      "size_kb": 2640,
+      "score": 22,
+      "reasons": [
+        "🏛️ Organization",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-09-13T18:15:06Z",
+      "updated_at": "2026-10-24T12:24:12Z",
+      "pushed_at": "2026-10-24T12:24:08Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/PeerCashChain/PeerCash-Wallet",
+        "website": null
+      },
+      "owner": {
+        "login": "PeerCashChain",
+        "type": "Organization"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1406856064,
+      "name": "china-town-mobile",
+      "full_name": "shamsakhawaja11/china-town-mobile",
+      "html_url": "https://github.com/shamsakhawaja11/china-town-mobile",
+      "description": "React Native frontend for China Town — a full-stack restaurant platform featuring real-time orders, smart discovery, digital wallet, and AI-based fake review detection.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 643,
+      "score": 8,
+      "reasons": [
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "",
+      "topics": [
+        "nestjs-backend",
+        "postgresql",
+        "prisma",
+        "reactnative",
+        "typescript"
+      ],
+      "created_at": "2026-10-06T07:05:23Z",
+      "updated_at": "2026-10-24T12:23:47Z",
+      "pushed_at": "2026-10-24T12:23:43Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/shamsakhawaja11/china-town-mobile",
+        "website": null
+      },
+      "owner": {
+        "login": "shamsakhawaja11",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1318405837,
+      "name": "ldk-wallet",
+      "full_name": "LitecoinDevKit/ldk-wallet",
+      "html_url": "https://github.com/LitecoinDevKit/ldk-wallet",
+      "description": "Rust product reference for Litecoin Dev Kit. Desktop wallet v0.4.6 for macOS Apple Silicon and Linux x86_64. Prototype; not independently audited.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 5151,
+      "score": 28,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "🧠 Rust",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://litecoindevkit.com",
+      "topics": [],
+      "created_at": "2026-07-31T13:57:52Z",
+      "updated_at": "2026-10-24T12:19:44Z",
+      "pushed_at": "2026-10-24T12:19:41Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/LitecoinDevKit/ldk-wallet",
+        "website": "https://litecoindevkit.com"
+      },
+      "owner": {
+        "login": "LitecoinDevKit",
+        "type": "Organization"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1426126696,
+      "name": "rimBaud",
+      "full_name": "rimbaud-io/rimBaud",
+      "html_url": "https://github.com/rimbaud-io/rimBaud",
+      "description": "rimBaud is one wire to sequence them all. Trading, like making music with a live sequencer. An open screen and wire for a fleet of bots: see each hunter, its side, and its knobs, then wire a coin, a wallet, a controller, and a bias. The engine underneath can change. Apache-2.0. Build hunters, connectors, and the wire with us now. https://rimbaud.io",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1425,
+      "score": 17,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-19T20:16:20Z",
+      "updated_at": "2026-10-24T12:19:06Z",
+      "pushed_at": "2026-10-24T12:18:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/rimbaud-io/rimBaud",
+        "website": null
+      },
+      "owner": {
+        "login": "rimbaud-io",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1414416005,
+      "name": "ResFinance",
+      "full_name": "haseebshaik00/ResFinance",
+      "html_url": "https://github.com/haseebshaik00/ResFinance",
+      "description": "AI-powered finance platform built on ResilientDB, integrating personal finance, bill splitting, ML-driven crypto investments, blockchain wallets, and smart contracts.",
+      "language": "Python",
+      "stars": 2,
+      "forks": 1,
+      "size_kb": 967,
+      "score": 22,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-11T14:17:50Z",
+      "updated_at": "2026-10-24T12:17:24Z",
+      "pushed_at": "2026-10-24T12:17:20Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/haseebshaik00/ResFinance",
+        "website": null
+      },
+      "owner": {
+        "login": "haseebshaik00",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1378725535,
+      "name": "haptix-mobile-app",
+      "full_name": "ritesh59697/haptix-mobile-app",
+      "html_url": "https://github.com/ritesh59697/haptix-mobile-app",
+      "description": "Haptix: Next-Gen Passkey Smart Wallet for Solana Mobile",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 101880,
+      "score": 23,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://haptix-passkeys.vercel.app",
+      "topics": [],
+      "created_at": "2026-09-20T19:54:49Z",
+      "updated_at": "2026-10-24T12:16:48Z",
+      "pushed_at": "2026-10-24T12:16:44Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ritesh59697/haptix-mobile-app",
+        "website": "https://haptix-passkeys.vercel.app"
+      },
+      "owner": {
+        "login": "ritesh59697",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432042605,
+      "name": "NFT-Tracker",
+      "full_name": "blackjack009/NFT-Tracker",
+      "html_url": "https://github.com/blackjack009/NFT-Tracker",
+      "description": "Telegram bot for real-time NFT mint tracking across EVM chains — cluster alerts, in-chat review, 1-tx bridge + mint, multi-wallet keystore, gas & risk controls.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 64,
+      "score": 18,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "arbitrum",
+        "base",
+        "bridge",
+        "evm",
+        "grammy",
+        "nft",
+        "telegram-bot",
+        "typescript",
+        "viem"
+      ],
+      "created_at": "2026-10-24T09:57:32Z",
+      "updated_at": "2026-10-24T12:15:21Z",
+      "pushed_at": "2026-10-24T12:15:17Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/blackjack009/NFT-Tracker",
+        "website": null
+      },
+      "owner": {
+        "login": "blackjack009",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1423522062,
+      "name": "privacy-scan",
+      "full_name": "Nymrasi/privacy-scan",
+      "html_url": "https://github.com/Nymrasi/privacy-scan",
+      "description": "The engine behind the Nymra Privacy Score, with every rule and the score formula in the open",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1053,
+      "score": 42,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://nymra.si",
+      "topics": [
+        "blockchain-privacy",
+        "ethereum",
+        "evm",
+        "nymra",
+        "onchain-analysis",
+        "privacy",
+        "wallet"
+      ],
+      "created_at": "2026-10-17T16:26:12Z",
+      "updated_at": "2026-10-24T12:14:34Z",
+      "pushed_at": "2026-10-24T12:14:30Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Nymrasi/privacy-scan",
+        "website": "https://nymra.si"
+      },
+      "owner": {
+        "login": "Nymrasi",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1339164410,
+      "name": "c4rds",
+      "full_name": "ar3ac/c4rds",
+      "html_url": "https://github.com/ar3ac/c4rds",
+      "description": "Native, privacy-focused, offline-first Android loyalty cards & barcode wallet built with Jetpack Compose & ZXing.",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 1512,
+      "score": 14,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": "https://c4rds.app",
+      "topics": [
+        "android",
+        "barcode-scanner",
+        "f-droid",
+        "jetpack-compose",
+        "kotlin",
+        "loyalty-cards",
+        "material3",
+        "offline-first",
+        "zxing"
+      ],
+      "created_at": "2026-08-19T06:10:10Z",
+      "updated_at": "2026-10-24T12:07:59Z",
+      "pushed_at": "2026-10-24T12:07:55Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/ar3ac/c4rds",
+        "website": "https://c4rds.app"
+      },
+      "owner": {
+        "login": "ar3ac",
+        "type": "User"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1413376287,
+      "name": "kilowallet-ios",
+      "full_name": "Kilombino/kilowallet-ios",
+      "html_url": "https://github.com/Kilombino/kilowallet-ios",
+      "description": "Kilowallet for iOS: self-custodial wallet for Bitcoin on the BLAKE2b proof-of-work chain (XBT). Kotlin Multiplatform + Compose.",
+      "language": "Kotlin",
+      "stars": 0,
+      "forks": 1,
+      "size_kb": 1895,
+      "score": 11,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-10T15:51:50Z",
+      "updated_at": "2026-10-24T11:57:26Z",
+      "pushed_at": "2026-10-24T11:57:25Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Kilombino/kilowallet-ios",
+        "website": null
+      },
+      "owner": {
+        "login": "Kilombino",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1414439207,
+      "name": "gas-clock",
+      "full_name": "hkkdling-sketch/gas-clock",
+      "html_url": "https://github.com/hkkdling-sketch/gas-clock",
+      "description": "When is Ethereum gas cheapest? A static site built from 7 days of on-chain base fee data — no wallet, no signup, no API keys.",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 83,
+      "score": 12,
+      "reasons": [
+        "📜 Licensed",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "wallet",
+      "homepage": null,
+      "topics": [
+        "blockchain",
+        "crypto",
+        "ethereum",
+        "gas",
+        "static-site",
+        "web3"
+      ],
+      "created_at": "2026-10-11T14:41:56Z",
+      "updated_at": "2026-10-24T11:55:27Z",
+      "pushed_at": "2026-10-24T11:55:23Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/hkkdling-sketch/gas-clock",
+        "website": null
+      },
+      "owner": {
+        "login": "hkkdling-sketch",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432045880,
+      "name": "siworld",
+      "full_name": "siworld-labs/siworld",
+      "html_url": "https://github.com/siworld-labs/siworld",
+      "description": "Shielded payment protocol with fixed-capacity blocks, post-quantum note encryption, and recursive STARK verification.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 991,
+      "score": 22,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": null,
+      "topics": [
+        "blockchain",
+        "cryptography",
+        "post-quantum-cryptography",
+        "privacy",
+        "rust",
+        "stark",
+        "zero-knowledge"
+      ],
+      "created_at": "2026-10-24T10:01:53Z",
+      "updated_at": "2026-10-24T10:03:38Z",
+      "pushed_at": "2026-10-24T10:04:56Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/siworld-labs/siworld",
+        "website": null
+      },
+      "owner": {
+        "login": "siworld-labs",
+        "type": "User"
+      },
+      "license": "GPL-3.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431817446,
+      "name": "vintage",
+      "full_name": "Samuel-Chuku/vintage",
+      "html_url": "https://github.com/Samuel-Chuku/vintage",
+      "description": "Proof of age for private money: prove shielded Zcash coins existed before a hack, a cutoff or any block.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 492,
+      "score": 19,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Rust"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": "https://usevintage.site",
+      "topics": [
+        "blockchain",
+        "compliance",
+        "cryptocurrency",
+        "privacy",
+        "rust",
+        "zcash",
+        "zero-knowledge"
+      ],
+      "created_at": "2026-10-24T04:38:23Z",
+      "updated_at": "2026-10-24T09:00:08Z",
+      "pushed_at": "2026-10-24T09:00:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Samuel-Chuku/vintage",
+        "website": "https://usevintage.site"
+      },
+      "owner": {
+        "login": "Samuel-Chuku",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431184389,
+      "name": "proof-gated-escrow",
+      "full_name": "charlie-hk/proof-gated-escrow",
+      "html_url": "https://github.com/charlie-hk/proof-gated-escrow",
+      "description": "Deterministic Rust verifier that gates on-chain escrow release. Pure verification core, Solidity escrow, Node.js backend.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 3186,
+      "score": 16,
+      "reasons": [
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "rust blockchain",
+      "homepage": "",
+      "topics": [
+        "blockchain",
+        "cryptography",
+        "escrow",
+        "ethereum",
+        "evm",
+        "hardhat",
+        "nodejs",
+        "rust",
+        "smart-contracts",
+        "solidity",
+        "verification",
+        "web3"
+      ],
+      "created_at": "2026-10-23T14:56:09Z",
+      "updated_at": "2026-10-23T17:24:26Z",
+      "pushed_at": "2026-10-23T17:18:32Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/charlie-hk/proof-gated-escrow",
+        "website": null
+      },
+      "owner": {
+        "login": "charlie-hk",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432109936,
+      "name": "R2SI",
+      "full_name": "manifoldai-research/R2SI",
+      "html_url": "https://github.com/manifoldai-research/R2SI",
+      "description": "R2SI is a two-layer robot agent. The inner Robot Agent acts. The outer Recursion Agent improves it — revising Skills and training the reactive model, round after round.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 4019,
+      "score": 31,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T11:25:11Z",
+      "updated_at": "2026-10-24T11:50:11Z",
+      "pushed_at": "2026-10-24T11:50:04Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/manifoldai-research/R2SI",
+        "website": null
+      },
+      "owner": {
+        "login": "manifoldai-research",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1429505611,
+      "name": "llm-cost-quality-fabric",
+      "full_name": "DmitryLyubaev/llm-cost-quality-fabric",
+      "html_url": "https://github.com/DmitryLyubaev/llm-cost-quality-fabric",
+      "description": "LLM cost and quality on a Microsoft Fabric lakehouse: medallion layers, a Type 2 deployment dimension, and measured answers from a real Azure AI portfolio.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 519,
+      "score": 8,
+      "reasons": [
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-22T09:13:29Z",
+      "updated_at": "2026-10-24T11:38:40Z",
+      "pushed_at": "2026-10-24T11:38:36Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/DmitryLyubaev/llm-cost-quality-fabric",
+        "website": null
+      },
+      "owner": {
+        "login": "DmitryLyubaev",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431941948,
+      "name": "AL71-CustomFirmware",
+      "full_name": "goyamamoto/AL71-CustomFirmware",
+      "html_url": "https://github.com/goyamamoto/AL71-CustomFirmware",
+      "description": "YUNZII AL71 (SinoWealth SH68F90) open-source firmware: smk port with USB / Bluetooth / 2.4 GHz, VIA with layer-tap and mouse keys, the backlight effects, a US-JIS mode and IME keys for typing a US keyboard on a Japanese-layout host",
+      "language": "C",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 679,
+      "score": 8,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [
+        "al71",
+        "keyboard-firmware",
+        "sh68f90",
+        "sinowealth",
+        "smk",
+        "us-jis",
+        "via",
+        "yunzii"
+      ],
+      "created_at": "2026-10-24T07:44:09Z",
+      "updated_at": "2026-10-24T11:31:23Z",
+      "pushed_at": "2026-10-24T11:31:26Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/goyamamoto/AL71-CustomFirmware",
+        "website": null
+      },
+      "owner": {
+        "login": "goyamamoto",
+        "type": "User"
+      },
+      "license": "GPL-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1432114404,
+      "name": "clip2psd",
+      "full_name": "meigo/clip2psd",
+      "html_url": "https://github.com/meigo/clip2psd",
+      "description": "Convert Clip Studio Paint .clip files to layered PSD in your browser — groups, blend modes, clipping and masks kept. Nothing uploaded.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 52,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://clip2psd.meigo.workers.dev/",
+      "topics": [
+        "browser",
+        "client-side",
+        "clip-studio-paint",
+        "cloudflare-workers",
+        "converter",
+        "csp",
+        "photoshop",
+        "psd",
+        "sqlite",
+        "svelte",
+        "wasm"
+      ],
+      "created_at": "2026-10-24T11:31:03Z",
+      "updated_at": "2026-10-24T11:31:14Z",
+      "pushed_at": "2026-10-24T11:31:10Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/meigo/clip2psd",
+        "website": "https://clip2psd.meigo.workers.dev/"
+      },
+      "owner": {
+        "login": "meigo",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1430207324,
+      "name": "snapdragon778g-llama-cpp-opencl-bench",
+      "full_name": "vovaxa55/snapdragon778g-llama-cpp-opencl-bench",
+      "html_url": "https://github.com/vovaxa55/snapdragon778g-llama-cpp-opencl-bench",
+      "description": "llama.cpp on Snapdragon 778G and 8 Gen 2: CPU vs Adreno (OpenCL) benchmark — GPU offload is slower at every layer count",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 60,
+      "score": 16,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://huggingface.co/datasets/vovaxa44/snapdragon778g-llama-cpp-opencl-bench",
+      "topics": [
+        "adreno",
+        "adreno-740",
+        "android",
+        "benchmark",
+        "ggml",
+        "llama-cpp",
+        "llm-inference",
+        "oneplus-11",
+        "opencl",
+        "qualcomm",
+        "snapdragon-778g",
+        "snapdragon-8-gen-2",
+        "termux",
+        "thermal-throttling"
+      ],
+      "created_at": "2026-10-22T19:50:02Z",
+      "updated_at": "2026-10-24T11:09:55Z",
+      "pushed_at": "2026-10-24T11:00:26Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/vovaxa55/snapdragon778g-llama-cpp-opencl-bench",
+        "website": "https://huggingface.co/datasets/vovaxa44/snapdragon778g-llama-cpp-opencl-bench"
+      },
+      "owner": {
+        "login": "vovaxa55",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1350714050,
+      "name": "ai231_exercises",
+      "full_name": "jvportugal/ai231_exercises",
+      "html_url": "https://github.com/jvportugal/ai231_exercises",
+      "description": "Machine exercises for AI 231 - ME1: 3-layer CNN for MNIST using einops/einsum",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 60727,
+      "score": 8,
+      "reasons": [
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-08-29T15:53:58Z",
+      "updated_at": "2026-10-24T09:41:36Z",
+      "pushed_at": "2026-10-24T09:41:32Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/jvportugal/ai231_exercises",
+        "website": null
+      },
+      "owner": {
+        "login": "jvportugal",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431959442,
+      "name": "ros2-chain-aware-scheduling",
+      "full_name": "HarrisonChih/ros2-chain-aware-scheduling",
+      "html_url": "https://github.com/HarrisonChih/ros2-chain-aware-scheduling",
+      "description": "Executor-layer overload scheduling for ROS 2: tracks chain jobs and stage activations, turns end-to-end chain deadlines into stage-level intermediate deadlines via EWMA cost estimation, and early-drops infeasible instances at contended shared stages to protect critical chains. No kernel / DDS-RMW / app changes. HPCC 2026 artifact.",
+      "language": "C++",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 139,
+      "score": 7,
+      "reasons": [
+        "📜 Licensed"
+      ],
+      "found_via": "layer 2",
+      "homepage": "",
+      "topics": [
+        "autonomous-driving",
+        "deadline-scheduling",
+        "real-time-systems",
+        "ros2",
+        "ros2-humble",
+        "scheduling"
+      ],
+      "created_at": "2026-10-24T08:07:44Z",
+      "updated_at": "2026-10-24T08:17:21Z",
+      "pushed_at": "2026-10-24T08:09:59Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/HarrisonChih/ros2-chain-aware-scheduling",
+        "website": null
+      },
+      "owner": {
+        "login": "HarrisonChih",
+        "type": "User"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431823385,
+      "name": "lv-know-core",
+      "full_name": "southingchina/lv-know-core",
+      "html_url": "https://github.com/southingchina/lv-know-core",
+      "description": "可追溯知识库加工核心：来源母卡、稳定 ID、结构合同、增量依赖、阶段校验和可选 Dify 同步，附合成测试。 | A traceable knowledge-processing Python core: source records, stable IDs, structured contracts, Layer-2 cards, candidate knowledge, incremental dependencies, stage gates and evidence-based acceptance.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 160,
+      "score": 10,
+      "reasons": [
+        "📜 Licensed",
+        "🧠 Python"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-24T04:48:35Z",
+      "updated_at": "2026-10-24T05:09:42Z",
+      "pushed_at": "2026-10-24T05:09:38Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/southingchina/lv-know-core",
+        "website": null
+      },
+      "owner": {
+        "login": "southingchina",
+        "type": "User"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431772593,
+      "name": "ESP32_Micromouse_PCB_KICAD",
+      "full_name": "JulioxTito/ESP32_Micromouse_PCB_KICAD",
+      "html_url": "https://github.com/JulioxTito/ESP32_Micromouse_PCB_KICAD",
+      "description": "Custom 2-layer PCB designed in KiCad for an autonomous Micromouse robot. Integrates an ESP32-S3 microcontroller, USB-C 5V to 3.3V power regulation, dual I2C distance sensor breakouts, and a motor driver interface.",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 823,
+      "score": 5,
+      "reasons": [
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "",
+      "topics": [],
+      "created_at": "2026-10-24T03:23:17Z",
+      "updated_at": "2026-10-24T04:12:25Z",
+      "pushed_at": "2026-10-24T04:08:45Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/JulioxTito/ESP32_Micromouse_PCB_KICAD",
+        "website": null
+      },
+      "owner": {
+        "login": "JulioxTito",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1414593810,
+      "name": "Blender-Sculpt-Extended",
+      "full_name": "Brunoarmeni86/Blender-Sculpt-Extended",
+      "html_url": "https://github.com/Brunoarmeni86/Blender-Sculpt-Extended",
+      "description": "Blender 5.2.3 custom build for Multires sculpting, Sculpt Layers and dense meshes",
+      "language": "C++",
+      "stars": 2,
+      "forks": 1,
+      "size_kb": 1197328,
+      "score": 14,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://github.com/Brunoarmeni86/Blender-Sculpt-Extended/releases/tag/sculpt-extended-5.2.3-preserve-layers-fix-20261023-preview",
+      "topics": [],
+      "created_at": "2026-10-11T17:24:09Z",
+      "updated_at": "2026-10-24T07:36:12Z",
+      "pushed_at": "2026-10-24T10:16:07Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Brunoarmeni86/Blender-Sculpt-Extended",
+        "website": "https://github.com/Brunoarmeni86/Blender-Sculpt-Extended/releases/tag/sculpt-extended-5.2.3-preserve-layers-fix-20261023-preview"
+      },
+      "owner": {
+        "login": "Brunoarmeni86",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1421838672,
+      "name": "NeuronSpark",
+      "full_name": "Brain2nd/NeuronSpark",
+      "html_url": "https://github.com/Brain2nd/NeuronSpark",
+      "description": "Spiking language model built from neuron models: dendritic neuron layers with selective state-space membrane dynamics and hippocampal memory layers. Lower loss than Transformer, Mamba-2 and RWKV-7 at every size (200M-1.3B) in a controlled comparison, and 1.3x the single-stream decoding speed of a same-size Transformer served by vLLM.",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "size_kb": 1815,
+      "score": 23,
+      "reasons": [
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://arxiv.org/abs/2603.16148",
+      "topics": [
+        "associative-memory",
+        "brain-inspired",
+        "cuda",
+        "dendritic-computation",
+        "efficient-inference",
+        "gpu-kernels",
+        "hippocampus",
+        "language-model",
+        "llm",
+        "nvidia-blackwell",
+        "product-key-memory",
+        "pytorch",
+        "spiking-neural-networks",
+        "state-space-models",
+        "triton"
+      ],
+      "created_at": "2026-10-16T08:00:14Z",
+      "updated_at": "2026-10-24T01:49:04Z",
+      "pushed_at": "2026-10-24T01:49:00Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/Brain2nd/NeuronSpark",
+        "website": "https://arxiv.org/abs/2603.16148"
+      },
+      "owner": {
+        "login": "Brain2nd",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1421359537,
+      "name": "tpt-hands",
+      "full_name": "tpt-solutions/tpt-hands",
+      "html_url": "https://github.com/tpt-solutions/tpt-hands",
+      "description": "Peripheral nervous system for the TPT robotics ecosystem. A hardware-agnostic Rust SDK, embedded edge firmware (ESP32/STM32) and protocol layer that connects tpt-cerebrum, tpt-soma and tpt-chrysalis to self-healing, morphing end-effectors, with a formally verified, signed power handshake. MIT OR Apache-2.0.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 108,
+      "score": 32,
+      "reasons": [
+        "🏛️ Organization",
+        "📜 Licensed",
+        "🧠 Rust",
+        "🧩 DeFi/protocol signals"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-15T21:49:51Z",
+      "updated_at": "2026-10-24T00:29:42Z",
+      "pushed_at": "2026-10-24T00:29:37Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/tpt-solutions/tpt-hands",
+        "website": null
+      },
+      "owner": {
+        "login": "tpt-solutions",
+        "type": "Organization"
+      },
+      "license": "Apache-2.0",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1429911369,
+      "name": "WireLayer",
+      "full_name": "WireCore/WireLayer",
+      "html_url": "https://github.com/WireCore/WireLayer",
+      "description": "Component library for Vue, React, React Native and HTML – one look, one API, WCAG 2.2 AA",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 16633,
+      "score": 34,
+      "reasons": [
+        "🏛️ Organization",
+        "🔗 Has website",
+        "📜 Licensed",
+        "🧠 TypeScript",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": "https://wirecore.github.io/WireLayer/",
+      "topics": [
+        "accessibility",
+        "design-system",
+        "react",
+        "react-native",
+        "reactjs",
+        "tailwind",
+        "tailwindcss",
+        "typescript",
+        "vue",
+        "vuejs"
+      ],
+      "created_at": "2026-10-22T15:12:31Z",
+      "updated_at": "2026-10-23T23:05:55Z",
+      "pushed_at": "2026-10-23T23:05:51Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/WireCore/WireLayer",
+        "website": "https://wirecore.github.io/WireLayer/"
+      },
+      "owner": {
+        "login": "WireCore",
+        "type": "Organization"
+      },
+      "license": "MIT",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431357884,
+      "name": "v2g_safe_rl_paper",
+      "full_name": "burhanbarakli/v2g_safe_rl_paper",
+      "html_url": "https://github.com/burhanbarakli/v2g_safe_rl_paper",
+      "description": "Attention-based safe RL with a feasibility-preserving safety layer for size-agnostic V2G charging control (code, analysis, manuscript)",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 46794,
+      "score": 8,
+      "reasons": [
+        "🧠 Python",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [],
+      "created_at": "2026-10-23T17:36:03Z",
+      "updated_at": "2026-10-23T22:38:51Z",
+      "pushed_at": "2026-10-23T22:38:46Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/burhanbarakli/v2g_safe_rl_paper",
+        "website": null
+      },
+      "owner": {
+        "login": "burhanbarakli",
+        "type": "User"
+      },
+      "license": null,
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
+    {
+      "repo_id": 1431472364,
+      "name": "ETS2-ATS-VR-Controls",
+      "full_name": "JRDevo/ETS2-ATS-VR-Controls",
+      "html_url": "https://github.com/JRDevo/ETS2-ATS-VR-Controls",
+      "description": "Use your VR controllers as keyboard and mouse in Euro Truck Simulator 2 / American Truck Simulator: button mapping, stick + air mouse, an in-headset menu and a full on-screen keyboard. Unofficial fan mod (OpenXR API layer).",
+      "language": "C++",
+      "stars": 0,
+      "forks": 0,
+      "size_kb": 2647,
+      "score": 8,
+      "reasons": [
+        "📜 Licensed",
+        "📦 Substantial codebase"
+      ],
+      "found_via": "layer 2",
+      "homepage": null,
+      "topics": [
+        "american-truck-simulator",
+        "ats",
+        "ets2",
+        "euro-truck-simulator-2",
+        "keyboard-mouse",
+        "mod",
+        "openxr",
+        "openxr-api-layer",
+        "quest-3",
+        "scs-software",
+        "truck-simulator",
+        "virtual-keyboard",
+        "virtual-reality",
+        "vr",
+        "vr-controllers"
+      ],
+      "created_at": "2026-10-23T19:36:32Z",
+      "updated_at": "2026-10-23T21:21:56Z",
+      "pushed_at": "2026-10-23T21:21:52Z",
+      "telegram_sent": true,
+      "links": {
+        "github": "https://github.com/JRDevo/ETS2-ATS-VR-Controls",
+        "website": null
+      },
+      "owner": {
+        "login": "JRDevo",
+        "type": "User"
+      },
+      "license": "NOASSERTION",
+      "first_seen_at": "2026-10-24T12:40:25Z",
+      "last_seen_at": "2026-10-24T12:40:25Z",
+      "seen_count": 1
+    },
     {
       "repo_id": 1375964733,
       "name": "Repositorio_Definitivo_PA__-Lucas_Junior-",
